@@ -563,6 +563,9 @@ def main():
     # Command: status
     subparsers.add_parser("status", help="Show library health and metrics")
 
+    # Command: check
+    subparsers.add_parser("check", help="Run self-check test on catalog, search, and packaging")
+
     args = parser.parse_args()
 
     if not args.command:
@@ -603,6 +606,37 @@ def main():
             print("  Categories:")
             for c, cnt in data.get("categories", {}).items():
                 print(f"    - {c:<12}: {cnt}")
+
+    elif args.command == "check":
+        print("[*] Running SkillHub self-check...")
+        assert CATALOG_FILE.exists(), f"catalog.json not found at {CATALOG_FILE}"
+        with open(CATALOG_FILE, "r", encoding="utf-8") as f:
+            data = json.load(f)
+        skills = data.get("skills", {})
+        assert len(skills) > 0, "Catalog contains 0 skills"
+        print("  [+] Catalog check: OK")
+
+        first_skill = next(iter(skills.values()))
+        q = first_skill["name"][:4]
+        matches = [s for s in skills.values() if q.lower() in s["name"].lower()]
+        assert len(matches) > 0, f"Search failed for keyword '{q}'"
+        print("  [+] Search index check: OK")
+
+        test_sandbox = ROOT_DIR / "_test_sandbox"
+        try:
+            mgr.install(first_skill["name"], target_dir=test_sandbox)
+            installed_file = test_sandbox / first_skill["name"] / "SKILL.md"
+            assert installed_file.exists(), f"Installed file missing at {installed_file}"
+
+            with open(installed_file, "r", encoding="utf-8") as f:
+                content = f.read()
+            assert content.startswith("---"), "Installed SKILL.md missing YAML frontmatter"
+            print("  [+] Workspace install & packaging check: OK")
+        finally:
+            if test_sandbox.exists():
+                shutil.rmtree(test_sandbox)
+
+        print("\n[+] All self-checks passed successfully.")
 
 
 if __name__ == "__main__":

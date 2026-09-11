@@ -69,6 +69,12 @@ To equip a workspace with all skills in a domain:
 python skillhub.py install-category api -t ./my-api-audit/.agents/skills
 ```
 
+### 7. Self-Check Verification
+Verify catalog validity, search indexing, and packaging integrity:
+```bash
+python skillhub.py check
+```
+
 ---
 
 ## Automated Synchronization
