@@ -379,7 +379,7 @@ class SkillHarvester:
 
         self._save_catalog()
         print("\n" + "=" * 60)
-        print(f"[✓] Harvest Complete!")
+        print(f"[+] Harvest Complete!")
         print(f"    Added:   {added_count}")
         print(f"    Updated: {updated_count}")
         print(f"    Skipped: {skipped_count} (identical)")
@@ -423,7 +423,7 @@ class SkillManager:
                 desc = item.get("description", "No description").replace("\n", " ")
                 if len(desc) > 80:
                     desc = desc[:77] + "..."
-                print(f"  • {item['name']:<28} - {desc}")
+                print(f"  - {item['name']:<28} - {desc}")
             return
 
         print(f"\nAvailable Categories (Total Skills: {len(skills)}):")
@@ -505,7 +505,7 @@ class SkillManager:
         dest_file = dest_skill_dir / "SKILL.md"
 
         shutil.copyfile(source_path, dest_file)
-        print(f"[✓] Installed '{skill['name']}' to: {dest_file}")
+        print(f"[+] Installed '{skill['name']}' to: {dest_file}")
 
     def install_category(self, category: str, target_dir: Optional[Path] = None, is_global: bool = False):
         cat = category.lower()
@@ -517,7 +517,7 @@ class SkillManager:
         print(f"[*] Installing {len(matching)} skills from category '{cat}'...")
         for s in matching:
             self.install(s["name"], target_dir=target_dir, is_global=is_global)
-        print(f"[✓] Completed installing category '{cat}'.")
+        print(f"[+] Completed installing category '{cat}'.")
 
 
 # ==============================================================================
