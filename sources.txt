@@ -5,12 +5,27 @@
 # Primary harvested collection
 S1N6H/Bug-Bounty-Skills
 
-# Upstream offensive & bounty skill repositories
+# Web, API & Bug Bounty Methodology
 0x002132/skills-bugbounty
 Gabson0x/bountyforge
-SnailSploit/Claude-Red
-elementalsouls/Claude-OSINT
+elementalsouls/Claude-BugHunter
 Aetherdz/huntpack
 murraywu/Bug-Bounty-Skills
+
+# Offensive Security, Red Teaming & OSINT
+SnailSploit/Claude-Red
+elementalsouls/Claude-OSINT
 vigilantshield/Claude-HunterKit
 akashrpatil/awesome-offensive-security-skills
+
+# Active Directory & Infrastructure Security
+ADScanPro/Claude-AD
+
+# ICS / OT & Industrial Control Systems Security
+Masriyan/Claude-Code-CyberSecurity-Skill
+
+# Comprehensive Cybersecurity Skills
+mukul975/Anthropic-Cybersecurity-Skills
+
+# AI Agent Security & Skill Auditing
+NVIDIA/SkillSpector

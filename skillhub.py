@@ -45,6 +45,18 @@ REQUEST_TIMEOUT = 30
 
 # Domain categorization rules (order: specific domains first)
 CATEGORY_RULES: List[Tuple[str, List[str]]] = [
+    ("ad", [
+        "active-directory", "kerberos", "adcs", "bloodhound", "mimikatz",
+        "pass-the-hash", "gpo", "dcsync", "ntds", "ldap-injection", "golden-ticket"
+    ]),
+    ("ics-ot", [
+        "scada", "ics", "modbus", "plc", "dnp3", "industrial", "ot-security",
+        "opc-ua", "bacnet"
+    ]),
+    ("ai-security", [
+        "prompt-injection", "jailbreak", "skill-inspector", "guardrail",
+        "model-security", "ai-security", "adversarial"
+    ]),
     ("mobile", [
         "apk", "ipa", "android", "ios", "frida", "deeplink", "reverse-apk",
         "mobile", "mobile-audit"
@@ -62,8 +74,7 @@ CATEGORY_RULES: List[Tuple[str, List[str]]] = [
         "evidence", "writeup", "poc-template", "reporting"
     ]),
     ("network", [
-        "smb", "vpn", "ntlm", "active-directory", "kerberos", "ldap", "ssh",
-        "snmp", "pivoting", "tunneling", "network"
+        "smb", "vpn", "ntlm", "ssh", "snmp", "pivoting", "tunneling", "network"
     ]),
     ("logic", [
         "business-logic", "race-condition", "payment", "coupon", "workflow",
@@ -183,22 +194,27 @@ def classify_category(name: str, desc: str, body: str) -> str:
     desc_lower = desc.lower()
     body_snippet = body[:1500].lower()
 
+    def has_kw(kw: str, target: str, is_slug: bool = False) -> bool:
+        if is_slug:
+            return bool(re.search(r"(?:^|[-_])" + re.escape(kw) + r"(?:$|[-_])", target))
+        return bool(re.search(r"\b" + re.escape(kw) + r"\b", target))
+
     # Pass 1: Strict name slug match (highest confidence)
     for category, keywords in CATEGORY_RULES:
         for kw in keywords:
-            if kw in name_lower:
+            if has_kw(kw, name_lower, is_slug=True):
                 return category
 
     # Pass 2: Frontmatter description match
     for category, keywords in CATEGORY_RULES:
         for kw in keywords:
-            if kw in desc_lower:
+            if has_kw(kw, desc_lower):
                 return category
 
     # Pass 3: Body snippet match
     for category, keywords in CATEGORY_RULES:
         for kw in keywords:
-            if kw in body_snippet:
+            if has_kw(kw, body_snippet):
                 return category
 
     return "general"
@@ -519,6 +535,209 @@ class SkillManager:
             self.install(s["name"], target_dir=target_dir, is_global=is_global)
         print(f"[+] Completed installing category '{cat}'.")
 
+    def list_packs(self):
+        print("\nAvailable Starter Packs:")
+        print("-" * 75)
+        for key, pack in STARTER_PACKS.items():
+            print(f"  {key:<12} : {pack['title']}")
+            print(f"               {pack['description']}")
+            print(f"               Skills: {', '.join(pack['skills'])}\n")
+        print("Usage: python skillhub.py pack <name> [-t <target_directory>]")
+
+    def install_pack(self, pack_name: str, target_dir: Optional[Path] = None, is_global: bool = False):
+        pack_key = pack_name.lower()
+        if pack_key not in STARTER_PACKS:
+            print(f"[!] Unknown pack '{pack_name}'. Available packs: {', '.join(STARTER_PACKS.keys())}")
+            return
+
+        pack = STARTER_PACKS[pack_key]
+        print(f"[*] Installing Starter Pack: {pack['title']} ({len(pack['skills'])} skills)...")
+        installed_count = 0
+        for s_name in pack["skills"]:
+            if s_name in self.catalog.get("skills", {}):
+                self.install(s_name, target_dir=target_dir, is_global=is_global)
+                installed_count += 1
+            else:
+                matches = [s for s in self.catalog.get("skills", {}).keys() if s_name in s or s in s_name]
+                if matches:
+                    self.install(matches[0], target_dir=target_dir, is_global=is_global)
+                    installed_count += 1
+                else:
+                    print(f"  [-] Note: Skill '{s_name}' not yet synced in local catalog. Run 'skillhub sync'.")
+
+        print(f"[+] Pack '{pack_key}' installed ({installed_count} skills ready).")
+
+    def generate_prompt(self, target_name: str):
+        target = target_name.lower()
+        if target in STARTER_PACKS:
+            pack = STARTER_PACKS[target]
+            skills_included = pack["skills"]
+            print("\n" + "=" * 70)
+            print(f"Agent Prompt for Starter Pack: {pack['title']}")
+            print("=" * 70)
+            print("Copy and paste this into your AI Agent:\n")
+            prompt_text = (
+                f"You are an authorized application security auditor performing a security assessment.\n"
+                f"You have been equipped with the following methodology skill checklists:\n"
+                + "\n".join([f"- {s}" for s in skills_included]) + "\n\n"
+                f"Target Scope / Endpoints:\n"
+                f"[Paste URLs, API documentation, or code files here]\n\n"
+                f"Instructions:\n"
+                f"1. Systematically review the scope against each checklist.\n"
+                f"2. Detail potential attack paths, state transitions, and authorization checks.\n"
+                f"3. Provide realistic reproduction steps and CVSS severity ratings for any findings.\n"
+                f"4. Focus on critical logic flaws and input validation boundaries."
+            )
+            print(prompt_text)
+            print("=" * 70 + "\n")
+            return
+
+        clean_name = sanitize_skill_name(target)
+        skill = self.catalog.get("skills", {}).get(clean_name)
+        if not skill:
+            print(f"[!] Skill or pack '{target_name}' not found.")
+            return
+
+        print("\n" + "=" * 70)
+        print(f"Agent Prompt for Skill: {skill['name']} ({skill.get('category', 'general')})")
+        print("=" * 70)
+        print("Copy and paste this into your AI Agent:\n")
+        desc = skill.get("description", "Security checklist methodology.")
+        prompt_text = (
+            f"You are an authorized security specialist evaluating application security.\n"
+            f"Apply the methodology defined in the '{skill['name']}' skill:\n\n"
+            f"Overview: {desc}\n\n"
+            f"Target Details:\n"
+            f"[Paste target endpoint, source code, or request/response here]\n\n"
+            f"Execution Steps:\n"
+            f"1. Analyze all inputs and parameters according to the {skill['name']} checklist.\n"
+            f"2. Identify potential filter bypasses, misconfigurations, or edge cases.\n"
+            f"3. Report findings with clear impact analysis and remediation advice."
+        )
+        print(prompt_text)
+        print("=" * 70 + "\n")
+
+    def interactive_menu(self):
+        while True:
+            total = len(self.catalog.get("skills", {}))
+            print("\n" + "=" * 60)
+            print(f"SkillHub - Security Agent Skills Manager ({total} skills indexed)")
+            print("=" * 60)
+            print("1. Install a Starter Pack (beginner, web, api, recon, ad, ai-sec)")
+            print("2. Search skills by keyword")
+            print("3. Browse categories & skills")
+            print("4. Generate Agent Prompt for a skill or pack")
+            print("5. Run self-check diagnostic")
+            print("6. Synchronize library from sources.txt")
+            print("0. Exit")
+            print("-" * 60)
+
+            try:
+                choice = input("Select an option [0-6]: ").strip()
+            except (KeyboardInterrupt, EOFError):
+                print("\nExiting.")
+                break
+
+            if choice == "1":
+                self.list_packs()
+                p_name = input("Enter pack name to install [e.g. beginner, web, api]: ").strip()
+                if p_name:
+                    target = input("Target directory [Press Enter for ./.agents/skills]: ").strip()
+                    target_path = Path(target) if target else None
+                    self.install_pack(p_name, target_dir=target_path)
+            elif choice == "2":
+                q = input("Search keyword (e.g. sqli, burp, oauth): ").strip()
+                if q:
+                    self.search(q)
+            elif choice == "3":
+                self.list_categories()
+                cat = input("\nEnter category to inspect (or press Enter to return): ").strip()
+                if cat:
+                    self.list_categories(selected_category=cat)
+            elif choice == "4":
+                tgt = input("Enter skill or pack name (e.g. web, offensive-api-abuse): ").strip()
+                if tgt:
+                    self.generate_prompt(tgt)
+            elif choice == "5":
+                run_self_check()
+            elif choice == "6":
+                harvester = SkillHarvester()
+                harvester.harvest_all()
+                self.catalog = self._load()
+            elif choice in ("0", "exit", "quit", "q"):
+                print("Goodbye.")
+                break
+            else:
+                print("[!] Invalid selection. Please choose 0 to 6.")
+
+
+# Pre-defined Starter Packs
+STARTER_PACKS: Dict[str, Dict[str, Any]] = {
+    "beginner": {
+        "title": "Beginner Essentials",
+        "description": "Fundamental methodologies for newcomers in bug bounty and security assessments.",
+        "skills": ["bug-bounty-burp-guide", "offensive-api-abuse", "elite-report-writing", "bb-local-toolkit"]
+    },
+    "web": {
+        "title": "Web Application Security",
+        "description": "OWASP Top 10 vulnerabilities, code review, Burp Suite workflows, and input abuse.",
+        "skills": ["bug-bounty-burp-guide", "bug-bounty-code-review", "offensive-api-abuse"]
+    },
+    "api": {
+        "title": "API & Microservices Security",
+        "description": "REST, GraphQL, authentication bypass, and logic abuse workflows.",
+        "skills": ["offensive-api-abuse", "apk-redteam-pipeline"]
+    },
+    "recon": {
+        "title": "Recon & Asset Discovery",
+        "description": "OSINT, subdomain discovery, and attack surface enumeration.",
+        "skills": ["bb-local-toolkit", "run-claude-osint", "cloud-saas-exposure"]
+    },
+    "ad": {
+        "title": "Active Directory & Enterprise Infrastructure",
+        "description": "Kerberos, BloodHound, privilege escalation, and domain security.",
+        "skills": ["offensive-active-directory"]
+    },
+    "ai-sec": {
+        "title": "AI Agent & Prompt Security",
+        "description": "Prompt injection analysis, skill vetting, and agent defense.",
+        "skills": ["ai-01-prompt-injection", "skill-inspector"]
+    }
+}
+
+
+def run_self_check():
+    print("[*] Running SkillHub self-check...")
+    assert CATALOG_FILE.exists(), f"catalog.json not found at {CATALOG_FILE}"
+    with open(CATALOG_FILE, "r", encoding="utf-8") as f:
+        data = json.load(f)
+    skills = data.get("skills", {})
+    assert len(skills) > 0, "Catalog contains 0 skills"
+    print("  [+] Catalog check: OK")
+
+    first_skill = next(iter(skills.values()))
+    q = first_skill["name"][:4]
+    matches = [s for s in skills.values() if q.lower() in s["name"].lower()]
+    assert len(matches) > 0, f"Search failed for keyword '{q}'"
+    print("  [+] Search index check: OK")
+
+    mgr = SkillManager()
+    test_sandbox = ROOT_DIR / "_test_sandbox"
+    try:
+        mgr.install(first_skill["name"], target_dir=test_sandbox)
+        installed_file = test_sandbox / first_skill["name"] / "SKILL.md"
+        assert installed_file.exists(), f"Installed file missing at {installed_file}"
+
+        with open(installed_file, "r", encoding="utf-8") as f:
+            content = f.read()
+        assert content.startswith("---"), "Installed SKILL.md missing YAML frontmatter"
+        print("  [+] Workspace install & packaging check: OK")
+    finally:
+        if test_sandbox.exists():
+            shutil.rmtree(test_sandbox)
+
+    print("\n[+] All self-checks passed successfully.")
+
 
 # ==============================================================================
 # CLI Entrypoint
@@ -539,6 +758,16 @@ def main():
     # Command: list
     list_p = subparsers.add_parser("list", help="List available categories or skills")
     list_p.add_argument("-c", "--category", type=str, help="Filter by specific category")
+
+    # Command: pack
+    pack_p = subparsers.add_parser("pack", help="Install a pre-configured Starter Pack (beginner, web, api, recon, ad, ai-sec)")
+    pack_p.add_argument("name", type=str, nargs="?", help="Pack name (leave empty to list all packs)")
+    pack_p.add_argument("-t", "--target", type=Path, help="Target directory (default: ./.agents/skills)")
+    pack_p.add_argument("-g", "--global", dest="is_global", action="store_true", help="Install into global ~/.gemini config")
+
+    # Command: prompt
+    prompt_p = subparsers.add_parser("prompt", help="Generate ready-to-use Agent prompt for a skill or pack")
+    prompt_p.add_argument("target", type=str, help="Skill name or pack name (e.g. offensive-api-abuse, web)")
 
     # Command: search
     search_p = subparsers.add_parser("search", help="Search skills by keyword")
@@ -567,12 +796,12 @@ def main():
     subparsers.add_parser("check", help="Run self-check test on catalog, search, and packaging")
 
     args = parser.parse_args()
+    mgr = SkillManager()
 
     if not args.command:
-        parser.print_help()
+        # Fall back to interactive guided menu for ease of use
+        mgr.interactive_menu()
         sys.exit(0)
-
-    mgr = SkillManager()
 
     if args.command == "sync":
         harvester = SkillHarvester(sources_path=args.sources)
@@ -580,6 +809,15 @@ def main():
 
     elif args.command == "list":
         mgr.list_categories(selected_category=args.category)
+
+    elif args.command == "pack":
+        if not args.name:
+            mgr.list_packs()
+        else:
+            mgr.install_pack(args.name, target_dir=args.target, is_global=args.is_global)
+
+    elif args.command == "prompt":
+        mgr.generate_prompt(args.target)
 
     elif args.command == "search":
         mgr.search(args.query)
@@ -608,35 +846,7 @@ def main():
                 print(f"    - {c:<12}: {cnt}")
 
     elif args.command == "check":
-        print("[*] Running SkillHub self-check...")
-        assert CATALOG_FILE.exists(), f"catalog.json not found at {CATALOG_FILE}"
-        with open(CATALOG_FILE, "r", encoding="utf-8") as f:
-            data = json.load(f)
-        skills = data.get("skills", {})
-        assert len(skills) > 0, "Catalog contains 0 skills"
-        print("  [+] Catalog check: OK")
-
-        first_skill = next(iter(skills.values()))
-        q = first_skill["name"][:4]
-        matches = [s for s in skills.values() if q.lower() in s["name"].lower()]
-        assert len(matches) > 0, f"Search failed for keyword '{q}'"
-        print("  [+] Search index check: OK")
-
-        test_sandbox = ROOT_DIR / "_test_sandbox"
-        try:
-            mgr.install(first_skill["name"], target_dir=test_sandbox)
-            installed_file = test_sandbox / first_skill["name"] / "SKILL.md"
-            assert installed_file.exists(), f"Installed file missing at {installed_file}"
-
-            with open(installed_file, "r", encoding="utf-8") as f:
-                content = f.read()
-            assert content.startswith("---"), "Installed SKILL.md missing YAML frontmatter"
-            print("  [+] Workspace install & packaging check: OK")
-        finally:
-            if test_sandbox.exists():
-                shutil.rmtree(test_sandbox)
-
-        print("\n[+] All self-checks passed successfully.")
+        run_self_check()
 
 
 if __name__ == "__main__":

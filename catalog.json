@@ -1,18 +1,20 @@
 {
-  "last_synced": "2026-09-11T17:08:19.903659+00:00",
-  "total_skills": 21,
+  "last_synced": "2026-09-11T18:58:26.763743+00:00",
+  "total_skills": 52,
   "categories": {
     "mobile": 1,
-    "recon": 8,
-    "logic": 1,
-    "network": 2,
-    "api": 1,
+    "recon": 10,
+    "logic": 3,
+    "ad": 7,
+    "ai-security": 5,
+    "api": 4,
     "router": 1,
+    "reporting": 9,
     "web": 2,
+    "network": 3,
     "bugbounty": 1,
-    "ai-security": 1,
-    "cloud": 1,
-    "reporting": 2
+    "general": 5,
+    "cloud": 1
   },
   "skills": {
     "apk-redteam-pipeline": {
@@ -20,27 +22,27 @@
       "category": "mobile",
       "description": "End-to-end Android APK red-team pipeline \u2014 automated APK acquisition (Play Store + apkpure + apkmirror fallback), jadx decompilation, secret/URL/JWT/Firebase grep, pinned-cert extraction, exported-component enumeration, Frida runtime instrumentation templates, intent-injection probes. Built from an ",
       "relative_path": "library/mobile/apk-redteam-pipeline/SKILL.md",
-      "source": "0x002132/skills-bugbounty/apk-redteam-pipeline/SKILL.md",
+      "source": "elementalsouls/Claude-BugHunter/skills/apk-redteam-pipeline/SKILL.md",
       "sha256": "402c191f641f4ba06cdc05201ee9df49d329b259e547b038a25ce3bbeafc862b",
-      "updated_at": "2026-09-11T17:08:04.118800+00:00"
+      "updated_at": "2026-09-11T18:57:57.808430+00:00"
     },
     "bb-local-toolkit": {
       "name": "bb-local-toolkit",
       "category": "recon",
-      "description": "Complete bug bounty workflow \u2014 recon (subdomain enumeration, asset discovery, fingerprinting, HackerOne scope, source code audit), pre-hunt learning (disclosed reports, tech stack research, mind maps, threat modeling), vulnerability hunting (IDOR, SSRF, XSS, auth bypass, CSRF, race conditions, SQLi,",
+      "description": "Local-tooling companion to the bug-bounty orchestrator \u2014 carries the SAME complete bug-bounty workflow, but reach for THIS variant when you also need to resolve where tools, wordlists, and clones are installed on the local machine (jhaddix, SecLists, trufflehog, ffuf, dalfox, ghauri); for pure orche",
       "relative_path": "library/recon/bb-local-toolkit/SKILL.md",
-      "source": "0x002132/skills-bugbounty/bb-local-toolkit/SKILL.md",
-      "sha256": "4104e18efd75d8c23d01039b25e85b522a34b49f547700e932a5b15209a4c4ab",
-      "updated_at": "2026-09-11T17:08:04.452108+00:00"
+      "source": "elementalsouls/Claude-BugHunter/skills/bb-local-toolkit/SKILL.md",
+      "sha256": "f85ddbd6ddca6e4e884a3dc923c7f2eda215659bc19e0793c75da9f20f14c7fe",
+      "updated_at": "2026-09-11T18:57:58.057647+00:00"
     },
     "bb-methodology": {
       "name": "bb-methodology",
       "category": "logic",
       "description": "Use at the START of any bug bounty hunting session, when switching targets, or when feeling lost about what to do next. Master orchestrator that combines the 5-phase non-linear hunting workflow with the critical thinking framework (developer psychology, anomaly detection, What-If experiments). Route",
       "relative_path": "library/logic/bb-methodology/SKILL.md",
-      "source": "0x002132/skills-bugbounty/bb-methodology/SKILL.md",
-      "sha256": "437537867336bf6bbe2532e19c234b292d25730b332e4dd4a2f6f078efee7c28",
-      "updated_at": "2026-09-11T17:08:04.716624+00:00"
+      "source": "elementalsouls/Claude-BugHunter/skills/bb-methodology/SKILL.md",
+      "sha256": "687af8873d8300652b7563320f45f7337138b5359eb77318f2031a0cbcce138c",
+      "updated_at": "2026-09-11T18:57:58.327854+00:00"
     },
     "bountyforge": {
       "name": "bountyforge",
@@ -49,25 +51,25 @@
       "relative_path": "library/recon/bountyforge/SKILL.md",
       "source": "Gabson0x/bountyforge/SKILL.md",
       "sha256": "44a3afedc84cf3e6d2e7119f96f15ec90f82dea381cd87ed4716378a30d07a59",
-      "updated_at": "2026-09-11T17:08:06.379545+00:00"
+      "updated_at": "2026-09-11T18:57:55.990732+00:00"
     },
     "offensive-active-directory": {
       "name": "offensive-active-directory",
-      "category": "network",
+      "category": "ad",
       "description": "Active Directory attack methodology for internal network red team engagements. Covers reconnaissance (BloodHound, PowerView, ADExplorer), credential abuse (Kerberoasting, ASREProasting, NTLM relay, LLMNR/NBT-NS poisoning), privilege escalation (ACL abuse, GPO abuse, unconstrained/constrained delegat",
-      "relative_path": "library/network/offensive-active-directory/SKILL.md",
+      "relative_path": "library/ad/offensive-active-directory/SKILL.md",
       "source": "SnailSploit/Claude-Red/Skills/active-directory/offensive-active-directory/SKILL.md",
       "sha256": "00e5b7cea50d450daf515cd0e541d3eb659347bb39f04caf0d88a470ca9a4c19",
-      "updated_at": "2026-09-11T17:08:07.998680+00:00"
+      "updated_at": "2026-09-11T18:58:06.101748+00:00"
     },
     "offensive-ai-security": {
       "name": "offensive-ai-security",
-      "category": "recon",
-      "description": "When this skill is active:\n1. Load and apply the full methodology below as your operational checklist\n2. Follow steps in order unless the user specifies otherwise\n3. For each technique, consider applicability to the current target/context\n4. Track which checklist items have been completed\n5. Suggest",
-      "relative_path": "library/recon/offensive-ai-security/SKILL.md",
+      "category": "ai-security",
+      "description": "When this skill is active: 1. Load and apply the full methodology below as your operational checklist 2. Follow steps in order unless the user specifies otherwise 3. For each technique, consider applicability to the current target/context 4. Track which checklist items have been completed 5. Suggest",
+      "relative_path": "library/ai-security/offensive-ai-security/SKILL.md",
       "source": "SnailSploit/Claude-Red/Skills/ai/offensive-ai-security/SKILL.md",
       "sha256": "345b920695dabd22392ee623512df78a8862dd30cde507a02c2d31f9139f2595",
-      "updated_at": "2026-09-11T17:08:08.334405+00:00"
+      "updated_at": "2026-09-11T18:58:06.446491+00:00"
     },
     "offensive-api-abuse": {
       "name": "offensive-api-abuse",
@@ -76,25 +78,25 @@
       "relative_path": "library/api/offensive-api-abuse/SKILL.md",
       "source": "SnailSploit/Claude-Red/Skills/api/offensive-api-abuse/SKILL.md",
       "sha256": "42cd1e419aea0b2e5a3e97c1bad3b6503fac9bf9d14a769d7eb65da5486f755a",
-      "updated_at": "2026-09-11T17:08:08.559086+00:00"
+      "updated_at": "2026-09-11T18:58:06.692517+00:00"
     },
     "run-claude-osint": {
       "name": "run-claude-osint",
       "category": "recon",
-      "description": "Build, validate, and run the claude-osint skills repo \u2014 check SKILL.md frontmatter, run the secret_scan.py and h1_reference.py helpers, run sync-skill-content.sh, run the smoke test. Use when asked to run, build, test, validate, or smoke-test claude-osint or its OSINT skills/scripts.",
+      "description": "Build, validate, and run the claude-osint skills repo \u2014 check SKILL.md frontmatter, run the secretscan.py and h1reference.py helpers, run sync-skill-content.sh, run the smoke test. Use when asked to run, build, test, validate, or smoke-test claude-osint or its OSINT skills/scripts.",
       "relative_path": "library/recon/run-claude-osint/SKILL.md",
       "source": "elementalsouls/Claude-OSINT/.claude/skills/run-claude-osint/SKILL.md",
       "sha256": "0b30d03ae84cef6c36646502d2a636d91eccb3a3dad163c139a37b0de93e6c38",
-      "updated_at": "2026-09-11T17:08:10.132451+00:00"
+      "updated_at": "2026-09-11T18:58:08.617204+00:00"
     },
     "readme": {
       "name": "readme",
-      "category": "recon",
-      "description": "The skill collection, organized by pipeline stage:",
-      "relative_path": "library/recon/readme/SKILL.md",
-      "source": "Aetherdz/huntpack/skills/README.md",
-      "sha256": "074e05eac0c0442d8d2c968d10eeca70cb5cb56e61d3b45cbd191d7064599f44",
-      "updated_at": "2026-09-11T17:08:12.493131+00:00"
+      "category": "ai-security",
+      "description": "EXCLUSIVE \u2014 No other skill collection covers AI security at this depth.",
+      "relative_path": "library/ai-security/readme/SKILL.md",
+      "source": "akashrpatil/awesome-offensive-security-skills/skills/ai-red-teaming/README.md",
+      "sha256": "7661fbefaf5aac2530ca2f69c805077bdbb2d6f48f850bb856ebee7a0a6cb2fe",
+      "updated_at": "2026-09-11T18:58:15.144210+00:00"
     },
     "cloud-saas-exposure": {
       "name": "cloud-saas-exposure",
@@ -103,52 +105,52 @@
       "relative_path": "library/recon/cloud-saas-exposure/SKILL.md",
       "source": "elementalsouls/Claude-OSINT/skills/cloud-saas-exposure/SKILL.md",
       "sha256": "487e949cd74ef72cdd219b894175b27ec9104eb5c4cadbb1a567b38db5d92547",
-      "updated_at": "2026-09-11T17:08:10.649253+00:00"
+      "updated_at": "2026-09-11T18:58:09.107234+00:00"
     },
     "router": {
       "name": "router",
       "category": "router",
-      "description": ">",
+      "description": "",
       "relative_path": "library/router/router/SKILL.md",
       "source": "Aetherdz/huntpack/router/SKILL.md",
       "sha256": "3a02670f04282e5d462f83490b5462daf130293b4060d68acef5ffc70dbef3e5",
-      "updated_at": "2026-09-11T17:08:12.284737+00:00"
+      "updated_at": "2026-09-11T18:58:00.763088+00:00"
     },
     "domain-scoped-hunting": {
       "name": "domain-scoped-hunting",
-      "category": "recon",
+      "category": "reporting",
       "description": "Discipline layer for ANY vuln hunt \u2014 the part our knowledge skills lack. Load AFTER you have selected a specific vuln domain (SQLi, IDOR, SSRF, business logic...). Forces: Domain declaration \u2192 Boundaries \u2192 Pivot Hints (where to go when blocked) \u2192 Exit Evidence (positive needs verified proof; negativ",
-      "relative_path": "library/recon/domain-scoped-hunting/SKILL.md",
+      "relative_path": "library/reporting/domain-scoped-hunting/SKILL.md",
       "source": "Aetherdz/huntpack/skills/discipline/domain-scoped-hunting/SKILL.md",
       "sha256": "c891cea92dad9cf28e2a703c644d100b55849e7b509adef158c247df49ce6c65",
-      "updated_at": "2026-09-11T17:08:12.718369+00:00"
+      "updated_at": "2026-09-11T18:58:01.225440+00:00"
     },
     "bug-bounty-burp-guide": {
       "name": "bug-bounty-burp-guide",
       "category": "web",
-      "description": "**\u6765\u6e90**: Bug Bounty \u8bfe\u7a0b\u5b66\u4e60\u63d0\u53d6\n**\u7248\u672c**: 1.0\n**\u521b\u5efa\u65f6\u95f4**: 2026-04-02",
+      "description": "\u6765\u6e90: Bug Bounty \u8bfe\u7a0b\u5b66\u4e60\u63d0\u53d6 \u7248\u672c: 1.0 \u521b\u5efa\u65f6\u95f4: 2026-04-02",
       "relative_path": "library/web/bug-bounty-burp-guide/SKILL.md",
       "source": "murraywu/Bug-Bounty-Skills/Bug-Bounty-Burp-Guide/SKILL.md",
       "sha256": "1872f641f335d7645dcdecc533fb9fad00d53295c7c2595092dc48a54d5da65a",
-      "updated_at": "2026-09-11T17:08:14.119666+00:00"
+      "updated_at": "2026-09-11T18:58:03.310322+00:00"
     },
     "bug-bounty-code-review": {
       "name": "bug-bounty-code-review",
       "category": "web",
-      "description": "**\u6765\u6e90**: Bug Bounty \u8bfe\u7a0b\u5b66\u4e60\u63d0\u53d6\n**\u7248\u672c**: 1.0\n**\u521b\u5efa\u65f6\u95f4**: 2026-04-02",
+      "description": "\u6765\u6e90: Bug Bounty \u8bfe\u7a0b\u5b66\u4e60\u63d0\u53d6 \u7248\u672c: 1.0 \u521b\u5efa\u65f6\u95f4: 2026-04-02",
       "relative_path": "library/web/bug-bounty-code-review/SKILL.md",
       "source": "murraywu/Bug-Bounty-Skills/Bug-Bounty-Code-Review/SKILL.md",
       "sha256": "ea34e4474675c231d24be2ac81f3316747c27246477afb98d749af677768fad8",
-      "updated_at": "2026-09-11T17:08:14.362284+00:00"
+      "updated_at": "2026-09-11T18:58:03.591235+00:00"
     },
     "bug-bounty-learning-guide": {
       "name": "bug-bounty-learning-guide",
       "category": "network",
-      "description": "**\u6765\u6e90**: Bug Bounty \u8bfe\u7a0b\u5b66\u4e60\u63d0\u53d6\n**\u7248\u672c**: 1.0\n**\u521b\u5efa\u65f6\u95f4**: 2026-04-02",
+      "description": "\u6765\u6e90: Bug Bounty \u8bfe\u7a0b\u5b66\u4e60\u63d0\u53d6 \u7248\u672c: 1.0 \u521b\u5efa\u65f6\u95f4: 2026-04-02",
       "relative_path": "library/network/bug-bounty-learning-guide/SKILL.md",
       "source": "murraywu/Bug-Bounty-Skills/Bug-Bounty-Learning-Guide/SKILL.md",
       "sha256": "f01dfae7878a0717084865ca6deb5fe0551075298e4e5dd3af6e5691ea0bbc7f",
-      "updated_at": "2026-09-11T17:08:14.611401+00:00"
+      "updated_at": "2026-09-11T18:58:03.810788+00:00"
     },
     "claude-hunterkit-orchestrator": {
       "name": "claude-hunterkit-orchestrator",
@@ -157,7 +159,7 @@
       "relative_path": "library/recon/claude-hunterkit-orchestrator/SKILL.md",
       "source": "vigilantshield/Claude-HunterKit/.commandcode/skills/hunterkit-orchestrator/SKILL.md",
       "sha256": "6bbf9e4ffec14ec6cb456a26b0d80183cff2af0d11d5c7db3b180bacd3f41fd0",
-      "updated_at": "2026-09-11T17:08:16.633137+00:00"
+      "updated_at": "2026-09-11T18:58:11.389741+00:00"
     },
     "01": {
       "name": "01",
@@ -166,7 +168,7 @@
       "relative_path": "library/bugbounty/01/SKILL.md",
       "source": "vigilantshield/Claude-HunterKit/bugbounty/bugbounty-master/SKILL.md",
       "sha256": "79ee5a207b8ce7dc823621bd3496b05db7ad9d38fbc1238a23cd90e927331dc4",
-      "updated_at": "2026-09-11T17:08:17.165918+00:00"
+      "updated_at": "2026-09-11T18:58:11.703640+00:00"
     },
     "ai-01-prompt-injection": {
       "name": "ai-01-prompt-injection",
@@ -175,34 +177,313 @@
       "relative_path": "library/ai-security/ai-01-prompt-injection/SKILL.md",
       "source": "vigilantshield/Claude-HunterKit/skills/ai/ai-01-prompt-injection/SKILL.md",
       "sha256": "b17adb38c680ca5837f12499a7b814ed4283b7bee8c3eb938dc27add7bf89f5f",
-      "updated_at": "2026-09-11T17:08:17.406250+00:00"
+      "updated_at": "2026-09-11T18:58:11.884772+00:00"
     },
     "creator": {
       "name": "creator",
-      "category": "cloud",
+      "category": "general",
       "description": "Create new skills, modify and improve existing skills, and measure skill performance. Use when users want to create a skill from scratch, edit, or optimize an existing skill, run evals to test a skill, benchmark skill performance with variance analysis, or optimize a skill's description for better t",
-      "relative_path": "library/cloud/creator/SKILL.md",
+      "relative_path": "library/general/creator/SKILL.md",
       "source": "akashrpatil/awesome-offensive-security-skills/skill-creator/SKILL.md",
       "sha256": "dcd4803e61e913e6fc27294184cd3a71f09f5e924ff20c8a9a20173e7b3c2bcf",
-      "updated_at": "2026-09-11T17:08:19.412710+00:00"
+      "updated_at": "2026-09-11T18:58:14.305835+00:00"
     },
     "elite-chaining-strategy": {
       "name": "elite-chaining-strategy",
       "category": "reporting",
-      "description": "> **Core Principle**: A single finding is a $500 report. A chained exploit is a $50,000 report.\n> The top 1% of hunters spend 40+ hours on a single target, understanding it better than\n> the developers who built it. They automate discovery, not exploitation.",
+      "description": "Core Principle: A single finding is a $500 report. A chained exploit is a $50,000 report. The top 1% of hunters spend 40+ hours on a single target, understanding it better than the developers who built it. They automate discovery, not exploitation.",
       "relative_path": "library/reporting/elite-chaining-strategy/SKILL.md",
       "source": "akashrpatil/awesome-offensive-security-skills/skills/_shared/references/elite-chaining-strategy.md",
       "sha256": "5e544df16b95b5973b89f3a6486526f43abe2cb1f6393d8c5eabc22b7cda776a",
-      "updated_at": "2026-09-11T17:08:19.634130+00:00"
+      "updated_at": "2026-09-11T18:58:14.568942+00:00"
     },
     "elite-report-writing": {
       "name": "elite-report-writing",
       "category": "reporting",
-      "description": "> **\"The difference between a $500 and $50,000 report is the quality of the writeup.\"**\n> \u2014 Vickie Li, Bug Bounty Bootcamp",
+      "description": "\"The difference between a $500 and $50,000 report is the quality of the writeup.\" \u2014 Vickie Li, Bug Bounty Bootcamp",
       "relative_path": "library/reporting/elite-report-writing/SKILL.md",
       "source": "akashrpatil/awesome-offensive-security-skills/skills/_shared/references/elite-report-writing.md",
       "sha256": "25fa955b584ef55acd843af464445cd729858556a7749d5388d6858a04a95950",
-      "updated_at": "2026-09-11T17:08:19.853361+00:00"
+      "updated_at": "2026-09-11T18:58:14.790725+00:00"
+    },
+    "bug-bounty": {
+      "name": "bug-bounty",
+      "category": "recon",
+      "description": "Complete bug bounty workflow \u2014 recon (subdomain enumeration, asset discovery, fingerprinting, HackerOne scope, source code audit), pre-hunt learning (disclosed reports, tech stack research, mind maps, threat modeling), vulnerability hunting (IDOR, SSRF, XSS, auth bypass, CSRF, race conditions, SQLi,",
+      "relative_path": "library/recon/bug-bounty/SKILL.md",
+      "source": "elementalsouls/Claude-BugHunter/skills/bug-bounty/SKILL.md",
+      "sha256": "585e1f621a21bf003a7547959c5979ecaead357558b36f6c1407fd1215b2a140",
+      "updated_at": "2026-09-11T18:57:58.582405+00:00"
+    },
+    "bugcrowd-reporting": {
+      "name": "bugcrowd-reporting",
+      "category": "reporting",
+      "description": "Bugcrowd-specific reporting tactics complementing report-writing: VRT category search-and-fallback strategy when no exact match exists, manual severity override when VRT defaults underrate impact, severity-request paragraph as first body section, OOS-clause rebuttal templates (rate limiting on auth-",
+      "relative_path": "library/reporting/bugcrowd-reporting/SKILL.md",
+      "source": "elementalsouls/Claude-BugHunter/skills/bugcrowd-reporting/SKILL.md",
+      "sha256": "4db20c5b8a67d97849207627c3f01919c74574121fec5be4edf205ed78e165a3",
+      "updated_at": "2026-09-11T18:57:59.219420+00:00"
+    },
+    "api-security": {
+      "name": "api-security",
+      "category": "api",
+      "description": "REST/OAuth/JWT API security \u2014 each pattern has SIGNAL \u2192 TEST \u2192 CONFIRM \u2192 KILL + response-driven next actions + sibling endpoint analysis. NOT for GraphQL depth (use a dedicated GraphQL skill) or general web vulns (use web2-vuln-classes).",
+      "relative_path": "library/api/api-security/SKILL.md",
+      "source": "Aetherdz/huntpack/skills/hunting/api-security/SKILL.md",
+      "sha256": "8e31e27706169eac59bac19241acff225c8ad158f1fb00d36ab29b32e69816ef",
+      "updated_at": "2026-09-11T18:58:01.456471+00:00"
+    },
+    "bff-testing": {
+      "name": "bff-testing",
+      "category": "cloud",
+      "description": "| Attack | Signal | Test | Confirm | |--------|--------|------|---------| | Operation name mismatch | x-operation-name header | Send query with \"operationName\":\"adminOp\" | BFF doesn't validate | | Unauthenticated mutations | BFF proxy | curl -X POST /bff/graphql -d '{\"query\":\"mutation{deleteUser(id:",
+      "relative_path": "library/cloud/bff-testing/SKILL.md",
+      "source": "Aetherdz/huntpack/skills/hunting/api-security/reference/bff-testing.md",
+      "sha256": "cce1decd3cfe83bbc31e0146839e46fdb5a0dbd6026c45498f72ab7582d9c60b",
+      "updated_at": "2026-09-11T18:58:01.697011+00:00"
+    },
+    "bug-bounty-recon": {
+      "name": "bug-bounty-recon",
+      "category": "recon",
+      "description": "\u6765\u6e90: Bug Bounty \u8bfe\u7a0b\u5b66\u4e60\u63d0\u53d6 \u7248\u672c: 1.0 \u521b\u5efa\u65f6\u95f4: 2026-04-02",
+      "relative_path": "library/recon/bug-bounty-recon/SKILL.md",
+      "source": "murraywu/Bug-Bounty-Skills/Bug-Bounty-Recon/SKILL.md",
+      "sha256": "f67ece98563c79cd57706941597511304eed8eb3737976530068b0919acf346d",
+      "updated_at": "2026-09-11T18:58:04.002191+00:00"
+    },
+    "bug-bounty-report-generator": {
+      "name": "bug-bounty-report-generator",
+      "category": "reporting",
+      "description": "\u6765\u6e90: Bug Bounty \u8bfe\u7a0b\u5b66\u4e60\u63d0\u53d6 \u7248\u672c: 1.0 \u521b\u5efa\u65f6\u95f4: 2026-04-02",
+      "relative_path": "library/reporting/bug-bounty-report-generator/SKILL.md",
+      "source": "murraywu/Bug-Bounty-Skills/Bug-Bounty-Report-Generator/SKILL.md",
+      "sha256": "d307bb8b829895a509cec74893c76c383fdaad644dae04ed61d217d7c2750e69",
+      "updated_at": "2026-09-11T18:58:04.207732+00:00"
+    },
+    "offensive-api-security": {
+      "name": "offensive-api-security",
+      "category": "api",
+      "description": "Comprehensive API security testing methodology covering REST, gRPC, and WebSocket attack surfaces. Addresses the full OWASP API Security Top 10 2023 including BOLA/IDOR, broken authentication, excessive data exposure, rate limiting bypass, BFLA, mass assignment, SSRF, and security misconfiguration. ",
+      "relative_path": "library/api/offensive-api-security/SKILL.md",
+      "source": "SnailSploit/Claude-Red/Skills/api/offensive-api-security/SKILL.md",
+      "sha256": "c76a14cfc2e427d64b769445de5d6ef233c10188c2aeee1ce3dc1631b8b1cd23",
+      "updated_at": "2026-09-11T18:58:06.963774+00:00"
+    },
+    "offensive-jwt": {
+      "name": "offensive-jwt",
+      "category": "api",
+      "description": "JWT attack methodology for penetration testers. Covers algorithm confusion (alg:none, RS256\u2192HS256), weak HMAC secret brute force, kid parameter injection (SQLi, path traversal), jku/x5u/jwk header injection, JWKS cache poisoning, JWS/JWE confusion, timing attacks, and mobile JWT storage extraction. ",
+      "relative_path": "library/api/offensive-jwt/SKILL.md",
+      "source": "SnailSploit/Claude-Red/Skills/auth/offensive-jwt/SKILL.md",
+      "sha256": "f4062ca66c1241fbeb772e1671d0d86d3683e27f33744fee6723b13a934a3fb9",
+      "updated_at": "2026-09-11T18:58:07.173285+00:00"
+    },
+    "continuous-exposure-monitoring": {
+      "name": "continuous-exposure-monitoring",
+      "category": "recon",
+      "description": "Turns one-shot external recon into a continuous monitoring program. Covers the scheduled re-scan-and-diff loop (baseline snapshot - interval sleep - re-scan - asset/finding delta - threshold-gated webhook alert), the scan-to-scan diff engine (new/removed/changed assets by a tracked-attribute table, ",
+      "relative_path": "library/recon/continuous-exposure-monitoring/SKILL.md",
+      "source": "elementalsouls/Claude-OSINT/skills/continuous-exposure-monitoring/SKILL.md",
+      "sha256": "fbf370d7c5fc907830c8bf0f68fa9e27059394b5430738338d1b67d4622f62ee",
+      "updated_at": "2026-09-11T18:58:09.625321+00:00"
+    },
+    "ai-02-llm-enum-recon": {
+      "name": "ai-02-llm-enum-recon",
+      "category": "ai-security",
+      "description": "LLM endpoint reconnaissance: model API discovery, inference endpoint probing, vector store identification, embedding API detection, and model metadata extraction.",
+      "relative_path": "library/ai-security/ai-02-llm-enum-recon/SKILL.md",
+      "source": "vigilantshield/Claude-HunterKit/skills/ai/ai-02-llm-enum-recon/SKILL.md",
+      "sha256": "a6cd16b51c533b2af94b06308dd33d6e124bab2997dd51fe61e9333e7c25a967",
+      "updated_at": "2026-09-11T18:58:12.099459+00:00"
+    },
+    "ai-03-prompt-injection": {
+      "name": "ai-03-prompt-injection",
+      "category": "ai-security",
+      "description": "Advanced jailbreaking: roleplay personas (DAN, AIM), encoding obfuscation, multi-turn conditioning, context window reset, and model-specific jailbreak chains.",
+      "relative_path": "library/ai-security/ai-03-prompt-injection/SKILL.md",
+      "source": "vigilantshield/Claude-HunterKit/skills/ai/ai-03-prompt-injection/SKILL.md",
+      "sha256": "5e64ff0cdf8a20d286ed5920226edca61d0b7508deeaf3f56a818d4d265dff7b",
+      "updated_at": "2026-09-11T18:58:12.308028+00:00"
+    },
+    "real-world-bounties": {
+      "name": "real-world-bounties",
+      "category": "reporting",
+      "description": "These are verified, publicly disclosed bounties. Use them to calibrate severity assessments and understand what pays \u2014 and why.",
+      "relative_path": "library/reporting/real-world-bounties/SKILL.md",
+      "source": "akashrpatil/awesome-offensive-security-skills/skills/_shared/references/real-world-bounties.md",
+      "sha256": "1be7f8d2ca4115d9042175238828db518e9755974bf29135608b0aa17d4d285f",
+      "updated_at": "2026-09-11T18:58:14.970821+00:00"
+    },
+    "acl-abuse": {
+      "name": "acl-abuse",
+      "category": "ad",
+      "description": "Abusing Active Directory object ACLs (DACL/ownership) for privilege escalation and lateral movement (GenericAll, GenericWrite, WriteDACL, WriteOwner, AddMember, ForceChangePassword, and replication rights via DS-Replication-Get-Changes-All). Use when BloodHound CE shows an outbound control edge from",
+      "relative_path": "library/ad/acl-abuse/SKILL.md",
+      "source": "ADScanPro/Claude-AD/skills/acl-abuse/SKILL.md",
+      "sha256": "4a11b6b130a8594719c5d452230cff46c96f5f3c0d7e53bd1c8492bbce352f8d",
+      "updated_at": "2026-09-11T18:58:16.686151+00:00"
+    },
+    "ad-environment-constraints": {
+      "name": "ad-environment-constraints",
+      "category": "ad",
+      "description": "",
+      "relative_path": "library/ad/ad-environment-constraints/SKILL.md",
+      "source": "ADScanPro/Claude-AD/skills/ad-environment-constraints/SKILL.md",
+      "sha256": "01eb4571ec91aaadf0fe1b228035438ecb1ad21383e8f7e24c39f3b5f68b83d2",
+      "updated_at": "2026-09-11T18:58:16.929546+00:00"
+    },
+    "ad-methodology": {
+      "name": "ad-methodology",
+      "category": "ad",
+      "description": "",
+      "relative_path": "library/ad/ad-methodology/SKILL.md",
+      "source": "ADScanPro/Claude-AD/skills/ad-methodology/SKILL.md",
+      "sha256": "e4b0fb59cc507e54252d63e7943d983c4b0d046c3849418c0ae5df445b32569c",
+      "updated_at": "2026-09-11T18:58:17.193780+00:00"
+    },
+    "ad-opsec-telemetry": {
+      "name": "ad-opsec-telemetry",
+      "category": "ad",
+      "description": "",
+      "relative_path": "library/ad/ad-opsec-telemetry/SKILL.md",
+      "source": "ADScanPro/Claude-AD/skills/ad-opsec-telemetry/SKILL.md",
+      "sha256": "36afc489d1be4b96be604e4871c57f768e1e4c6ef1d8da5f087d09aa51f6be0b",
+      "updated_at": "2026-09-11T18:58:17.428870+00:00"
+    },
+    "adcs-attacks": {
+      "name": "adcs-attacks",
+      "category": "ad",
+      "description": "Active Directory Certificate Services (AD CS) escalation techniques ESC1 through ESC17, driven by hand with Certipy (ly4k). Use when the target runs a Certificate Authority and you want to find vulnerable certificate templates or CA misconfigurations, request a certificate that impersonates a privil",
+      "relative_path": "library/ad/adcs-attacks/SKILL.md",
+      "source": "ADScanPro/Claude-AD/skills/adcs-attacks/SKILL.md",
+      "sha256": "90b420e2bcf383109cf92d97805778caaa7362fdb3e46bab8c5dac2be6aa5813",
+      "updated_at": "2026-09-11T18:58:17.624089+00:00"
+    },
+    "reconnaissance-osint-automation": {
+      "name": "reconnaissance-osint-automation",
+      "category": "recon",
+      "description": "Passive and active reconnaissance, subdomain enumeration, DNS analysis, technology fingerprinting, and OSINT data correlation for authorized security assessments",
+      "relative_path": "library/recon/reconnaissance-osint-automation/SKILL.md",
+      "source": "Masriyan/Claude-Code-CyberSecurity-Skill/skills/01-recon-osint/SKILL.md",
+      "sha256": "6be50d69bedc379159cb2eb285e1c45eed17b2d4e85bee994aee2ac03daae90d",
+      "updated_at": "2026-09-11T18:58:20.126135+00:00"
+    },
+    "example-usage": {
+      "name": "example-usage",
+      "category": "network",
+      "description": "bash python scripts/dependencyauditor.py -p ./my-python-project -o audit.json",
+      "relative_path": "library/network/example-usage/SKILL.md",
+      "source": "Masriyan/Claude-Code-CyberSecurity-Skill/skills/02-vulnerability-scanner/examples/example_usage.md",
+      "sha256": "e226bd15ab0c96789b1af6ba502e576507c0352270923ef9c78d832e8a3fc1ea",
+      "updated_at": "2026-09-11T18:58:20.720144+00:00"
+    },
+    "vulnerability-scanning-assessment": {
+      "name": "vulnerability-scanning-assessment",
+      "category": "reporting",
+      "description": "Dependency auditing, CVE detection, configuration security review, CVSS scoring, and prioritized vulnerability reporting",
+      "relative_path": "library/reporting/vulnerability-scanning-assessment/SKILL.md",
+      "source": "Masriyan/Claude-Code-CyberSecurity-Skill/skills/02-vulnerability-scanner/SKILL.md",
+      "sha256": "3bbcfbf4b2790a95d0010581d625510ebf595caeb76843431e12a0f364a427be",
+      "updated_at": "2026-09-11T18:58:20.501272+00:00"
+    },
+    "exploit-development-payload-engineering": {
+      "name": "exploit-development-payload-engineering",
+      "category": "logic",
+      "description": "Proof-of-concept development, payload crafting, shellcode analysis, and exploitation technique research for authorized security testing",
+      "relative_path": "library/logic/exploit-development-payload-engineering/SKILL.md",
+      "source": "Masriyan/Claude-Code-CyberSecurity-Skill/skills/03-exploit-development/SKILL.md",
+      "sha256": "86d44c89722f431ab0151b8e6b4b47a23de2f2b704b628eecf4b07c27e8adc68",
+      "updated_at": "2026-09-11T18:58:20.968692+00:00"
+    },
+    "improve-existing-skill": {
+      "name": "improve-existing-skill",
+      "category": "general",
+      "description": "",
+      "relative_path": "library/general/improve-existing-skill/SKILL.md",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills/.github/ISSUE_TEMPLATE/improve-skill.md",
+      "sha256": "b68fc6f08e9512288645e30e5cdb0571835285183c6df348f0a9b5edc1af6f10",
+      "updated_at": "2026-09-11T18:58:22.897381+00:00"
+    },
+    "add-new-skill": {
+      "name": "add-new-skill",
+      "category": "recon",
+      "description": "",
+      "relative_path": "library/recon/add-new-skill/SKILL.md",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills/.github/ISSUE_TEMPLATE/new-skill.md",
+      "sha256": "5b3d75b28587e5d8d5128502b146f1213eeb10bb26c98e0f6539458a4297783b",
+      "updated_at": "2026-09-11T18:58:23.100468+00:00"
+    },
+    "abusing-dpapi-for-credential-access": {
+      "name": "abusing-dpapi-for-credential-access",
+      "category": "ad",
+      "description": "Extract and decrypt Windows DPAPI-protected secrets (Credential Manager, browser logins/cookies, Wi-Fi credentials, KeePass keys) online or offline using SharpDPAPI, SharpChrome, Mimikatz, or Impacket's dpapi.py, including domain-wide decryption via the DPAPI backup key. Use during authorized red-te",
+      "relative_path": "library/ad/abusing-dpapi-for-credential-access/SKILL.md",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills/skills/abusing-dpapi-for-credential-access/SKILL.md",
+      "sha256": "e62c6659059f8cdbd2e204597b4e762d860bb579a1ba6e5946c3042bfb24d44a",
+      "updated_at": "2026-09-11T18:58:23.294619+00:00"
+    },
+    "api-reference": {
+      "name": "api-reference",
+      "category": "reporting",
+      "description": "| Command | Purpose | Example | |---------|---------|---------| | triage | Auto-run credentials, vaults, rdg, certificates | SharpDPAPI.exe triage /unprotect | | masterkeys | Decrypt user master keys (GUID:SHA1 output) | SharpDPAPI.exe masterkeys /password:Pass | | credentials | Decrypt Credential M",
+      "relative_path": "library/reporting/api-reference/SKILL.md",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills/skills/abusing-dpapi-for-credential-access/references/api-reference.md",
+      "sha256": "40914c529a8877aa397db6e0e6fb43a0c08beb5ff13a4a8502510ef8de7e2e72",
+      "updated_at": "2026-09-11T18:58:23.476664+00:00"
+    },
+    "standards": {
+      "name": "standards",
+      "category": "network",
+      "description": "| ID | Name | Rationale | |----|------|-----------| | DE.CM-01 | Networks and network services are monitored to find potentially adverse events | DPAPI abuse generates detectable signals (MS-BKRP backup-key RPC to the DC, Protect/Credentials folder access, LSASS access) that monitoring must surface.",
+      "relative_path": "library/network/standards/SKILL.md",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills/skills/abusing-dpapi-for-credential-access/references/standards.md",
+      "sha256": "d2d181bde16ae874f0504c9728bdb47a959681a511b5d3eb4d003da460c75a34",
+      "updated_at": "2026-09-11T18:58:23.704102+00:00"
+    },
+    "inspector": {
+      "name": "inspector",
+      "category": "reporting",
+      "description": "Review AI agent skills before installation using NVIDIA SkillSpector and source-aware semantic review. Use when asked whether a skill or downloaded skill folder is safe, trustworthy, installable, over-permissioned, or malicious.",
+      "relative_path": "library/reporting/inspector/SKILL.md",
+      "source": "NVIDIA/SkillSpector/skills/skill-inspector/SKILL.md",
+      "sha256": "89ab1550769752ffbad782ee63fee3c345d546bded672adaac5fd03d2941aa84",
+      "updated_at": "2026-09-11T18:58:25.571737+00:00"
+    },
+    "chef-assistant": {
+      "name": "chef-assistant",
+      "category": "logic",
+      "description": "Use when cooking or planning meals, troubleshooting recipes, learning culinary techniques",
+      "relative_path": "library/logic/chef-assistant/SKILL.md",
+      "source": "NVIDIA/SkillSpector/tests/fixtures/malicious_skill/SKILL.md",
+      "sha256": "2c81411e289f087868c94563cdfab4740af3af1a73e6d3437b034285d61a9041",
+      "updated_at": "2026-09-11T18:58:25.984322+00:00"
+    },
+    "code-formatter": {
+      "name": "code-formatter",
+      "category": "general",
+      "description": "Formats Python code using the black formatter",
+      "relative_path": "library/general/code-formatter/SKILL.md",
+      "source": "NVIDIA/SkillSpector/tests/fixtures/mcp_clean_skill/SKILL.md",
+      "sha256": "e128baaf75dbffee54e004c34ed294073e1ca17366fe854c949a3bc4fcd42578",
+      "updated_at": "2026-09-11T18:58:26.224108+00:00"
+    },
+    "friendly-greeter": {
+      "name": "friendly-greeter",
+      "category": "general",
+      "description": "A friendly greeting skill that says hello to users",
+      "relative_path": "library/general/friendly-greeter/SKILL.md",
+      "source": "NVIDIA/SkillSpector/tests/fixtures/mcp_mismatched_skill/SKILL.md",
+      "sha256": "4f197e2b9fb503c7e16ea67ad62e0b9e960d6b8b4ae866b385cffcc90807e24e",
+      "updated_at": "2026-09-11T18:58:26.473410+00:00"
+    },
+    "over-privileged-helper": {
+      "name": "over-privileged-helper",
+      "category": "general",
+      "description": "A simple file reader utility",
+      "relative_path": "library/general/over-privileged-helper/SKILL.md",
+      "source": "NVIDIA/SkillSpector/tests/fixtures/mcp_overprivileged_skill/SKILL.md",
+      "sha256": "7aa71c52caff7163c677b68a904a672456750c25cedfe11ecf38ad2b2b7daf07",
+      "updated_at": "2026-09-11T18:58:26.712637+00:00"
     }
   }
 }
