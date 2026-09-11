@@ -124,6 +124,28 @@ python skillhub.py sync
 
 ---
 
+## 🏆 Credits & Upstream Sources
+
+SkillHub indexes, formats, and packages work created by open-source security researchers and the AI agent engineering community. **Full credit goes to the original authors of each respective skill.**
+
+| Repository | Focus & Contribution | Author / Maintainer |
+|---|---|---|
+| [S1N6H/Bug-Bounty-Skills](https://github.com/S1N6H/Bug-Bounty-Skills) | Harvester pipeline inspiration and aggregated bug bounty skill collection | [@S1N6H](https://github.com/S1N6H) |
+| [0x002132/skills-bugbounty](https://github.com/0x002132/skills-bugbounty) | Core vulnerability hunting checklists (SQLi, SSRF, OAuth, Cloud IAM, SAML) | [@0x002132](https://github.com/0x002132) |
+| [Gabson0x/bountyforge](https://github.com/Gabson0x/bountyforge) | Bug bounty checklists, smart contract audit methodology, and logic flaws | [@Gabson0x](https://github.com/Gabson0x) |
+| [SnailSploit/Claude-Red](https://github.com/SnailSploit/Claude-Red) | Offensive security, API abuse, and red-teaming skill sets | [@SnailSploit](https://github.com/SnailSploit) |
+| [elementalsouls/Claude-OSINT](https://github.com/elementalsouls/Claude-OSINT) | Open Source Intelligence (OSINT), asset discovery, and recon workflows | [@elementalsouls](https://github.com/elementalsouls) |
+| [Aetherdz/huntpack](https://github.com/Aetherdz/huntpack) | Targeted vulnerability hunt packs and attack signals | [@Aetherdz](https://github.com/Aetherdz) |
+| [murraywu/Bug-Bounty-Skills](https://github.com/murraywu/Bug-Bounty-Skills) | Bug bounty tool guides (Burp Suite, code review, methodology) | [@murraywu](https://github.com/murraywu) |
+| [vigilantshield/Claude-HunterKit](https://github.com/vigilantshield/Claude-HunterKit) | Offensive security checklists & hunter kit orchestrators | [@vigilantshield](https://github.com/vigilantshield) |
+| [akashrpatil/awesome-offensive-security-skills](https://github.com/akashrpatil/awesome-offensive-security-skills) | Curated directory of offensive security agent skills | [@akashrpatil](https://github.com/akashrpatil) |
+| [anthropics/skills](https://github.com/anthropics/skills) | The official Agent Skills specification and standard directory structure | [Anthropic](https://github.com/anthropics) |
+| [alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills) | Foundational open-source Claude skills collection | [@alirezarezvani](https://github.com/alirezarezvani) |
+
+> ⭐ **Support Upstream Authors**: If a specific skill helped you discover a bug or improve an assessment, please visit and star the original upstream repository!
+
+---
+
 ## ⚖️ Ethical & Authorized Use Only
 
 The skills collected and managed by this tool provide methodology checklists and workflows intended exclusively for **authorized security evaluations, bug bounty programs operating under safe harbor, and defensive security hardening**. 
