@@ -1,0 +1,16 @@
+# Bug Bounty & Security Agent Skills Sources
+# Format: owner/repo
+# Lines starting with # are ignored.
+
+# Primary harvested collection
+S1N6H/Bug-Bounty-Skills
+
+# Upstream offensive & bounty skill repositories
+0x002132/skills-bugbounty
+Gabson0x/bountyforge
+SnailSploit/Claude-Red
+elementalsouls/Claude-OSINT
+Aetherdz/huntpack
+murraywu/Bug-Bounty-Skills
+vigilantshield/Claude-HunterKit
+akashrpatil/awesome-offensive-security-skills

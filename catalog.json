@@ -1,0 +1,208 @@
+{
+  "last_synced": "2026-09-11T17:08:19.903659+00:00",
+  "total_skills": 21,
+  "categories": {
+    "mobile": 1,
+    "recon": 8,
+    "logic": 1,
+    "network": 2,
+    "api": 1,
+    "router": 1,
+    "web": 2,
+    "bugbounty": 1,
+    "ai-security": 1,
+    "cloud": 1,
+    "reporting": 2
+  },
+  "skills": {
+    "apk-redteam-pipeline": {
+      "name": "apk-redteam-pipeline",
+      "category": "mobile",
+      "description": "End-to-end Android APK red-team pipeline \u2014 automated APK acquisition (Play Store + apkpure + apkmirror fallback), jadx decompilation, secret/URL/JWT/Firebase grep, pinned-cert extraction, exported-component enumeration, Frida runtime instrumentation templates, intent-injection probes. Built from an ",
+      "relative_path": "library/mobile/apk-redteam-pipeline/SKILL.md",
+      "source": "0x002132/skills-bugbounty/apk-redteam-pipeline/SKILL.md",
+      "sha256": "402c191f641f4ba06cdc05201ee9df49d329b259e547b038a25ce3bbeafc862b",
+      "updated_at": "2026-09-11T17:08:04.118800+00:00"
+    },
+    "bb-local-toolkit": {
+      "name": "bb-local-toolkit",
+      "category": "recon",
+      "description": "Complete bug bounty workflow \u2014 recon (subdomain enumeration, asset discovery, fingerprinting, HackerOne scope, source code audit), pre-hunt learning (disclosed reports, tech stack research, mind maps, threat modeling), vulnerability hunting (IDOR, SSRF, XSS, auth bypass, CSRF, race conditions, SQLi,",
+      "relative_path": "library/recon/bb-local-toolkit/SKILL.md",
+      "source": "0x002132/skills-bugbounty/bb-local-toolkit/SKILL.md",
+      "sha256": "4104e18efd75d8c23d01039b25e85b522a34b49f547700e932a5b15209a4c4ab",
+      "updated_at": "2026-09-11T17:08:04.452108+00:00"
+    },
+    "bb-methodology": {
+      "name": "bb-methodology",
+      "category": "logic",
+      "description": "Use at the START of any bug bounty hunting session, when switching targets, or when feeling lost about what to do next. Master orchestrator that combines the 5-phase non-linear hunting workflow with the critical thinking framework (developer psychology, anomaly detection, What-If experiments). Route",
+      "relative_path": "library/logic/bb-methodology/SKILL.md",
+      "source": "0x002132/skills-bugbounty/bb-methodology/SKILL.md",
+      "sha256": "437537867336bf6bbe2532e19c234b292d25730b332e4dd4a2f6f078efee7c28",
+      "updated_at": "2026-09-11T17:08:04.716624+00:00"
+    },
+    "bountyforge": {
+      "name": "bountyforge",
+      "category": "recon",
+      "description": "All-round bug bounty skill covering smart contract audits (EVM/Solidity, Move/Aptos, Solana, TRON), web/API security, CI/CD pipeline attacks, LLM/AI security, and professional report generation for HackerOne, Bugcrowd, Intigriti, and Immunefi. Full pipeline \u2014 recon, pre-hunt learning from disclosed ",
+      "relative_path": "library/recon/bountyforge/SKILL.md",
+      "source": "Gabson0x/bountyforge/SKILL.md",
+      "sha256": "44a3afedc84cf3e6d2e7119f96f15ec90f82dea381cd87ed4716378a30d07a59",
+      "updated_at": "2026-09-11T17:08:06.379545+00:00"
+    },
+    "offensive-active-directory": {
+      "name": "offensive-active-directory",
+      "category": "network",
+      "description": "Active Directory attack methodology for internal network red team engagements. Covers reconnaissance (BloodHound, PowerView, ADExplorer), credential abuse (Kerberoasting, ASREProasting, NTLM relay, LLMNR/NBT-NS poisoning), privilege escalation (ACL abuse, GPO abuse, unconstrained/constrained delegat",
+      "relative_path": "library/network/offensive-active-directory/SKILL.md",
+      "source": "SnailSploit/Claude-Red/Skills/active-directory/offensive-active-directory/SKILL.md",
+      "sha256": "00e5b7cea50d450daf515cd0e541d3eb659347bb39f04caf0d88a470ca9a4c19",
+      "updated_at": "2026-09-11T17:08:07.998680+00:00"
+    },
+    "offensive-ai-security": {
+      "name": "offensive-ai-security",
+      "category": "recon",
+      "description": "When this skill is active:\n1. Load and apply the full methodology below as your operational checklist\n2. Follow steps in order unless the user specifies otherwise\n3. For each technique, consider applicability to the current target/context\n4. Track which checklist items have been completed\n5. Suggest",
+      "relative_path": "library/recon/offensive-ai-security/SKILL.md",
+      "source": "SnailSploit/Claude-Red/Skills/ai/offensive-ai-security/SKILL.md",
+      "sha256": "345b920695dabd22392ee623512df78a8862dd30cde507a02c2d31f9139f2595",
+      "updated_at": "2026-09-11T17:08:08.334405+00:00"
+    },
+    "offensive-api-abuse": {
+      "name": "offensive-api-abuse",
+      "category": "api",
+      "description": "Advanced API exploitation methodology focused on business logic abuse and sophisticated attack patterns that bypass traditional security controls. Covers business logic bypass through API call chaining and workflow manipulation. Addresses GraphQL-specific attacks including batching for credential br",
+      "relative_path": "library/api/offensive-api-abuse/SKILL.md",
+      "source": "SnailSploit/Claude-Red/Skills/api/offensive-api-abuse/SKILL.md",
+      "sha256": "42cd1e419aea0b2e5a3e97c1bad3b6503fac9bf9d14a769d7eb65da5486f755a",
+      "updated_at": "2026-09-11T17:08:08.559086+00:00"
+    },
+    "run-claude-osint": {
+      "name": "run-claude-osint",
+      "category": "recon",
+      "description": "Build, validate, and run the claude-osint skills repo \u2014 check SKILL.md frontmatter, run the secret_scan.py and h1_reference.py helpers, run sync-skill-content.sh, run the smoke test. Use when asked to run, build, test, validate, or smoke-test claude-osint or its OSINT skills/scripts.",
+      "relative_path": "library/recon/run-claude-osint/SKILL.md",
+      "source": "elementalsouls/Claude-OSINT/.claude/skills/run-claude-osint/SKILL.md",
+      "sha256": "0b30d03ae84cef6c36646502d2a636d91eccb3a3dad163c139a37b0de93e6c38",
+      "updated_at": "2026-09-11T17:08:10.132451+00:00"
+    },
+    "readme": {
+      "name": "readme",
+      "category": "recon",
+      "description": "The skill collection, organized by pipeline stage:",
+      "relative_path": "library/recon/readme/SKILL.md",
+      "source": "Aetherdz/huntpack/skills/README.md",
+      "sha256": "074e05eac0c0442d8d2c968d10eeca70cb5cb56e61d3b45cbd191d7064599f44",
+      "updated_at": "2026-09-11T17:08:12.493131+00:00"
+    },
+    "cloud-saas-exposure": {
+      "name": "cloud-saas-exposure",
+      "category": "recon",
+      "description": "Organization-grade cloud and supply-chain attack-surface discovery: S3/GCS/Azure Blob bucket discovery via observed-name mining (CNAME/cert-SAN/Wayback) and bounded two-class permutation (6 prefixes x 15 suffixes on trusted tokens, bounded target-bound expansion on subdomain stems), existence (HEAD/",
+      "relative_path": "library/recon/cloud-saas-exposure/SKILL.md",
+      "source": "elementalsouls/Claude-OSINT/skills/cloud-saas-exposure/SKILL.md",
+      "sha256": "487e949cd74ef72cdd219b894175b27ec9104eb5c4cadbb1a567b38db5d92547",
+      "updated_at": "2026-09-11T17:08:10.649253+00:00"
+    },
+    "router": {
+      "name": "router",
+      "category": "router",
+      "description": ">",
+      "relative_path": "library/router/router/SKILL.md",
+      "source": "Aetherdz/huntpack/router/SKILL.md",
+      "sha256": "3a02670f04282e5d462f83490b5462daf130293b4060d68acef5ffc70dbef3e5",
+      "updated_at": "2026-09-11T17:08:12.284737+00:00"
+    },
+    "domain-scoped-hunting": {
+      "name": "domain-scoped-hunting",
+      "category": "recon",
+      "description": "Discipline layer for ANY vuln hunt \u2014 the part our knowledge skills lack. Load AFTER you have selected a specific vuln domain (SQLi, IDOR, SSRF, business logic...). Forces: Domain declaration \u2192 Boundaries \u2192 Pivot Hints (where to go when blocked) \u2192 Exit Evidence (positive needs verified proof; negativ",
+      "relative_path": "library/recon/domain-scoped-hunting/SKILL.md",
+      "source": "Aetherdz/huntpack/skills/discipline/domain-scoped-hunting/SKILL.md",
+      "sha256": "c891cea92dad9cf28e2a703c644d100b55849e7b509adef158c247df49ce6c65",
+      "updated_at": "2026-09-11T17:08:12.718369+00:00"
+    },
+    "bug-bounty-burp-guide": {
+      "name": "bug-bounty-burp-guide",
+      "category": "web",
+      "description": "**\u6765\u6e90**: Bug Bounty \u8bfe\u7a0b\u5b66\u4e60\u63d0\u53d6\n**\u7248\u672c**: 1.0\n**\u521b\u5efa\u65f6\u95f4**: 2026-04-02",
+      "relative_path": "library/web/bug-bounty-burp-guide/SKILL.md",
+      "source": "murraywu/Bug-Bounty-Skills/Bug-Bounty-Burp-Guide/SKILL.md",
+      "sha256": "1872f641f335d7645dcdecc533fb9fad00d53295c7c2595092dc48a54d5da65a",
+      "updated_at": "2026-09-11T17:08:14.119666+00:00"
+    },
+    "bug-bounty-code-review": {
+      "name": "bug-bounty-code-review",
+      "category": "web",
+      "description": "**\u6765\u6e90**: Bug Bounty \u8bfe\u7a0b\u5b66\u4e60\u63d0\u53d6\n**\u7248\u672c**: 1.0\n**\u521b\u5efa\u65f6\u95f4**: 2026-04-02",
+      "relative_path": "library/web/bug-bounty-code-review/SKILL.md",
+      "source": "murraywu/Bug-Bounty-Skills/Bug-Bounty-Code-Review/SKILL.md",
+      "sha256": "ea34e4474675c231d24be2ac81f3316747c27246477afb98d749af677768fad8",
+      "updated_at": "2026-09-11T17:08:14.362284+00:00"
+    },
+    "bug-bounty-learning-guide": {
+      "name": "bug-bounty-learning-guide",
+      "category": "network",
+      "description": "**\u6765\u6e90**: Bug Bounty \u8bfe\u7a0b\u5b66\u4e60\u63d0\u53d6\n**\u7248\u672c**: 1.0\n**\u521b\u5efa\u65f6\u95f4**: 2026-04-02",
+      "relative_path": "library/network/bug-bounty-learning-guide/SKILL.md",
+      "source": "murraywu/Bug-Bounty-Skills/Bug-Bounty-Learning-Guide/SKILL.md",
+      "sha256": "f01dfae7878a0717084865ca6deb5fe0551075298e4e5dd3af6e5691ea0bbc7f",
+      "updated_at": "2026-09-11T17:08:14.611401+00:00"
+    },
+    "claude-hunterkit-orchestrator": {
+      "name": "claude-hunterkit-orchestrator",
+      "category": "recon",
+      "description": "Master orchestrator for claude-hunterKit \u2014 148 offensive security skills. RED TEAM recon-first pipeline: deep recon \u2192 decision matrix \u2192 targeted exploit \u2192 chain & escalate. 31 escalation paths, 8 stop conditions.",
+      "relative_path": "library/recon/claude-hunterkit-orchestrator/SKILL.md",
+      "source": "vigilantshield/Claude-HunterKit/.commandcode/skills/hunterkit-orchestrator/SKILL.md",
+      "sha256": "6bbf9e4ffec14ec6cb456a26b0d80183cff2af0d11d5c7db3b180bacd3f41fd0",
+      "updated_at": "2026-09-11T17:08:16.633137+00:00"
+    },
+    "01": {
+      "name": "01",
+      "category": "bugbounty",
+      "description": "Complete bug bounty workflow: recon (subdomain enumeration, asset discovery, fingerprinting, HackerOne scope, source code audit), pre-hunt learning (disclosed reports, tech stack research, mind maps, threat modeling), vulnerability hunting (IDOR, SSRF, XSS, auth bypass, CSRF, race conditions, SQLi, ",
+      "relative_path": "library/bugbounty/01/SKILL.md",
+      "source": "vigilantshield/Claude-HunterKit/bugbounty/bugbounty-master/SKILL.md",
+      "sha256": "79ee5a207b8ce7dc823621bd3496b05db7ad9d38fbc1238a23cd90e927331dc4",
+      "updated_at": "2026-09-11T17:08:17.165918+00:00"
+    },
+    "ai-01-prompt-injection": {
+      "name": "ai-01-prompt-injection",
+      "category": "ai-security",
+      "description": "AI prompt injection full offensive methodology: direct/indirect injection, roleplay jailbreaks (DAN, AIM), encoding bypass, Unicode smuggling, multi-turn extraction, model-specific payloads.",
+      "relative_path": "library/ai-security/ai-01-prompt-injection/SKILL.md",
+      "source": "vigilantshield/Claude-HunterKit/skills/ai/ai-01-prompt-injection/SKILL.md",
+      "sha256": "b17adb38c680ca5837f12499a7b814ed4283b7bee8c3eb938dc27add7bf89f5f",
+      "updated_at": "2026-09-11T17:08:17.406250+00:00"
+    },
+    "creator": {
+      "name": "creator",
+      "category": "cloud",
+      "description": "Create new skills, modify and improve existing skills, and measure skill performance. Use when users want to create a skill from scratch, edit, or optimize an existing skill, run evals to test a skill, benchmark skill performance with variance analysis, or optimize a skill's description for better t",
+      "relative_path": "library/cloud/creator/SKILL.md",
+      "source": "akashrpatil/awesome-offensive-security-skills/skill-creator/SKILL.md",
+      "sha256": "dcd4803e61e913e6fc27294184cd3a71f09f5e924ff20c8a9a20173e7b3c2bcf",
+      "updated_at": "2026-09-11T17:08:19.412710+00:00"
+    },
+    "elite-chaining-strategy": {
+      "name": "elite-chaining-strategy",
+      "category": "reporting",
+      "description": "> **Core Principle**: A single finding is a $500 report. A chained exploit is a $50,000 report.\n> The top 1% of hunters spend 40+ hours on a single target, understanding it better than\n> the developers who built it. They automate discovery, not exploitation.",
+      "relative_path": "library/reporting/elite-chaining-strategy/SKILL.md",
+      "source": "akashrpatil/awesome-offensive-security-skills/skills/_shared/references/elite-chaining-strategy.md",
+      "sha256": "5e544df16b95b5973b89f3a6486526f43abe2cb1f6393d8c5eabc22b7cda776a",
+      "updated_at": "2026-09-11T17:08:19.634130+00:00"
+    },
+    "elite-report-writing": {
+      "name": "elite-report-writing",
+      "category": "reporting",
+      "description": "> **\"The difference between a $500 and $50,000 report is the quality of the writeup.\"**\n> \u2014 Vickie Li, Bug Bounty Bootcamp",
+      "relative_path": "library/reporting/elite-report-writing/SKILL.md",
+      "source": "akashrpatil/awesome-offensive-security-skills/skills/_shared/references/elite-report-writing.md",
+      "sha256": "25fa955b584ef55acd843af464445cd729858556a7749d5388d6858a04a95950",
+      "updated_at": "2026-09-11T17:08:19.853361+00:00"
+    }
+  }
+}
