@@ -351,7 +351,10 @@ class SkillHarvester:
                 dest_file = dest_dir / "SKILL.md"
 
                 # Generate clean markdown with standard frontmatter
-                standardized_content = synthesize_frontmatter(skill_slug, desc, category, body)
+                clean_desc = re.sub(r"[*_>#`]", "", desc).replace("\n", " ").strip()
+                clean_desc = re.sub(r"\s+", " ", clean_desc)
+
+                standardized_content = synthesize_frontmatter(skill_slug, clean_desc, category, body)
                 with open(dest_file, "w", encoding="utf-8") as out_f:
                     out_f.write(standardized_content)
 
@@ -359,7 +362,7 @@ class SkillHarvester:
                 self.catalog["skills"][skill_slug] = {
                     "name": skill_slug,
                     "category": category,
-                    "description": desc[:300],
+                    "description": clean_desc[:300],
                     "relative_path": str(dest_file.relative_to(ROOT_DIR)).replace("\\", "/"),
                     "source": f"{repo}/{path}",
                     "sha256": sha,
