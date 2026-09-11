@@ -1,0 +1,123 @@
+================================================================================
+SKILLHUB - QUICK START & BEGINNER CHEAT SHEET
+Repository: https://github.com/abhishek1kr/SkillHub
+================================================================================
+
+SkillHub provides targeted security testing and bug bounty methodology checklists
+directly to your AI agent (Antigravity, Claude Code, ChatGPT, Cursor).
+
+Follow this 3-step workflow whenever you are testing a target website or API.
+
+--------------------------------------------------------------------------------
+1. THE ZERO-EFFORT WAY (INTERACTIVE MENU)
+--------------------------------------------------------------------------------
+If you don't want to remember commands, just run:
+
+    python skillhub.py
+
+This launches a simple numbered menu:
+  1. Install a Starter Pack (beginner, web, api, recon, ad, ai-sec)
+  2. Search skills by keyword
+  3. Browse categories & skills
+  4. Generate Agent Prompt for a skill or pack
+  5. Run self-check diagnostic
+  6. Synchronize library from sources.txt
+  0. Exit
+
+Just type the number and press Enter.
+
+--------------------------------------------------------------------------------
+2. PRE-CONFIGURED STARTER PACKS (ONE-COMMAND SETUP)
+--------------------------------------------------------------------------------
+Instead of picking through 50+ skills, install a curated bundle into your project:
+
+- When just getting started:
+    python skillhub.py pack beginner
+
+- When testing a website (OWASP Top 10, input abuse, code review):
+    python skillhub.py pack web
+
+- When testing an API (REST, GraphQL, JWT abuse, auth bypass):
+    python skillhub.py pack api
+
+- When doing reconnaissance and subdomain discovery:
+    python skillhub.py pack recon
+
+- When auditing Active Directory / Windows domains:
+    python skillhub.py pack ad
+
+- When testing AI agents / LLM prompt injection:
+    python skillhub.py pack ai-sec
+
+What happens: SkillHub creates a standard ./.agents/skills/ folder in your project
+with the exact checklists your AI agent needs.
+
+--------------------------------------------------------------------------------
+3. GENERATING PROMPTS FOR YOUR AI AGENT (THE MAGIC STEP)
+--------------------------------------------------------------------------------
+After installing skills, run this to get the exact prompt to give your AI:
+
+    python skillhub.py prompt web
+    python skillhub.py prompt beginner
+    python skillhub.py prompt offensive-api-abuse
+
+Example Prompt Output:
+--------------------------------------------------------------------------------
+You are an authorized application security auditor performing a security assessment.
+You have been equipped with the following methodology skill checklists:
+- bug-bounty-burp-guide
+- bug-bounty-code-review
+- offensive-api-abuse
+
+Target Scope / Endpoints:
+[Paste URLs, API documentation, or code files here]
+
+Instructions:
+1. Systematically review the scope against each checklist.
+2. Detail potential attack paths, state transitions, and authorization checks.
+3. Provide realistic reproduction steps and CVSS severity ratings for any findings.
+4. Focus on critical logic flaws and input validation boundaries.
+--------------------------------------------------------------------------------
+
+How to use it:
+1. Copy the output text.
+2. Replace [Target Scope / Endpoints] with your target URL, endpoint, or file.
+3. Paste it directly into your AI chat.
+4. The AI immediately follows the professional methodology step-by-step.
+
+--------------------------------------------------------------------------------
+4. SEARCH & INSPECT (WHEN YOU NEED SOMETHING SPECIFIC)
+--------------------------------------------------------------------------------
+Search for vulnerability keywords:
+    python skillhub.py search "jwt"
+    python skillhub.py search "sqli"
+    python skillhub.py search "scada"
+
+View what a skill covers:
+    python skillhub.py info offensive-jwt
+
+Install only that skill:
+    python skillhub.py install offensive-jwt
+
+--------------------------------------------------------------------------------
+5. QUICK REFERENCE CHEAT SHEET
+--------------------------------------------------------------------------------
+Action                                   Command
+--------------------------------------   ---------------------------------------
+Interactive Assistant (no flags)         python skillhub.py
+Install Web Starter Pack                 python skillhub.py pack web
+Install API Starter Pack                 python skillhub.py pack api
+Get AI prompt for Web testing            python skillhub.py prompt web
+Search for a vulnerability keyword       python skillhub.py search "<keyword>"
+Check library health and categories      python skillhub.py status
+Run diagnostic self-check                python skillhub.py check
+
+--------------------------------------------------------------------------------
+6. USING ON KALI LINUX
+--------------------------------------------------------------------------------
+Run this one-line command inside your Kali terminal to install SkillHub globally:
+
+    curl -sSL https://raw.githubusercontent.com/abhishek1kr/SkillHub/main/install.sh | bash
+
+Then you can run "skillhub" from any terminal directory.
+================================================================================
