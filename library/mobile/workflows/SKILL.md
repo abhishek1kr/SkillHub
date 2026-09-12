@@ -1,0 +1,24 @@
+---
+name: workflows
+description: Security testing methodology checklist and instructions.
+category: mobile
+---
+
+# Workflows: Mobile Malware Detection
+
+## Workflow 1: Malware Triage Pipeline
+```
+[Receive sample] --> [Hash & VirusTotal check] --> [Known malware?]
+                                                    /            \
+                                              [Yes: Report]  [No: Continue]
+                                                                   |
+                                              [MobSF static scan] --> [Permission analysis]
+                                                                   |
+                                              [Dynamic execution in sandbox]
+                                              [Network monitoring]
+                                              [Behavior monitoring with Frida]
+                                                                   |
+                                              [Classify malware type]
+                                              [Extract IOCs (domains, IPs, hashes)]
+                                              [Generate report]
+```

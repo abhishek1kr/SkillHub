@@ -1,79 +1,65 @@
 ---
 name: api-reference
-description: | Command | Purpose | Example | |---------|---------|---------| | triage | Auto-run credentials, vaults, rdg, certificates | SharpDPAPI.exe triage /unprotect | | masterkeys | Decrypt user master keys (GUID:SHA1 output) | SharpDPAPI.exe m...
+description: | Library | Version | Purpose | |---------|---------|---------| | scapy | =2.5 | IPv6 packet crafting, NDP analysis, RA capture |
 category: reporting
 ---
 
-# SharpDPAPI / DPAPI — Command Reference
+# API Reference: IPv6 Vulnerability Assessment Agent
 
-## SharpDPAPI User Commands
+## Dependencies
 
-| Command | Purpose | Example |
+| Library | Version | Purpose |
 |---------|---------|---------|
-| `triage` | Auto-run credentials, vaults, rdg, certificates | `SharpDPAPI.exe triage /unprotect` |
-| `masterkeys` | Decrypt user master keys (GUID:SHA1 output) | `SharpDPAPI.exe masterkeys /password:Pass` |
-| `credentials` | Decrypt Credential Manager blobs | `SharpDPAPI.exe credentials /pvk:key.pvk` |
-| `vaults` | Decrypt Credential Vault entries | `SharpDPAPI.exe vaults /pvk:key.pvk` |
-| `rdg` | Decrypt RDCMan.settings RDP passwords | `SharpDPAPI.exe rdg /unprotect` |
-| `keepass` | Decrypt KeePass DPAPI keys | `SharpDPAPI.exe keepass /unprotect` |
-| `certificates` | Decrypt certificate private keys | `SharpDPAPI.exe certificates /unprotect /showall` |
+| scapy | >=2.5 | IPv6 packet crafting, NDP analysis, RA capture |
 
-## SharpDPAPI Machine Commands (require admin/SYSTEM)
+## CLI Usage
 
-| Command | Purpose |
-|---------|---------|
-| `machinemasterkeys` | Decrypt machine master keys (uses DPAPI_SYSTEM LSA secret) |
-| `machinecredentials` | Decrypt machine credential blobs |
-| `machinevaults` | Decrypt machine vault entries |
-| `machinetriage` | Run all machine-scoped triage commands |
+```bash
+sudo python scripts/agent.py \
+  --interface eth0 \
+  --known-routers "fe80::1" "fe80::2" \
+  --output ipv6_report.json
+```
 
-## SharpDPAPI Supporting Commands
+## Functions
 
-| Command | Purpose | Example |
-|---------|---------|---------|
-| `backupkey` | Retrieve domain DPAPI backup key (.pvk) via MS-BKRP | `SharpDPAPI.exe backupkey /server:dc01 /file:key.pvk` |
+### `discover_ipv6_hosts(interface, timeout) -> list`
+Sends ICMPv6 Echo Request to `ff02::1` (all-nodes multicast) and collects replies.
 
-## Common Flags
+### `capture_router_advertisements(interface, timeout) -> list`
+Sniffs ICMPv6 type 134 (Router Advertisements) and extracts prefix info, DNS servers, and flags.
 
-| Flag | Meaning |
-|------|---------|
-| `/unprotect` | Use live `CryptUnprotectData` in current user context (online) |
-| `/password:<pw>` | Decrypt master keys with the user's plaintext password |
-| `/ntlm:<hash>` | Decrypt master keys with the user's NTLM hash |
-| `/pvk:<file>` | Use domain backup private key for decryption |
-| `/mkfile:<file>` | Provide a specific master key file |
-| `/server:<dc>` | Target DC for backupkey retrieval |
-| `/target:<path>` | Target file/folder to decrypt |
-| `/rpc` | Use RPC to request master key decryption from a DC |
-| `/showall` | Show all certificate stores / verbose output |
+### `detect_rogue_ra(ras, known_routers) -> list`
+Compares RA source addresses against a known-router allowlist. Unrecognized sources flagged as rogue.
 
-## SharpChrome Commands
+### `check_ipv6_firewall() -> dict`
+Runs `ip6tables -L -n` to check for IPv6 firewall rules. Empty ruleset is flagged.
 
-| Command | Purpose | Example |
-|---------|---------|---------|
-| `logins` | Decrypt saved browser logins | `SharpChrome.exe logins /unprotect` |
-| `cookies` | Decrypt browser cookies | `SharpChrome.exe cookies /pvk:key.pvk` |
-| `statekeys` | Decrypt the AES app-bound state key | `SharpChrome.exe statekeys /unprotect` |
+### `check_tunnel_protocols(interface, timeout) -> dict`
+Sniffs for Teredo (UDP 3544), 6to4 (IP proto 41), and ISATAP tunnel traffic.
 
-## Impacket dpapi.py (Linux)
+### `generate_assessment(interface, known_routers) -> dict`
+Orchestrates all checks and produces the final assessment report.
 
-| Subcommand | Purpose | Example |
-|------------|---------|---------|
-| `masterkey` | Decrypt a master key file | `impacket-dpapi masterkey -file MK -pvk key.pvk` |
-| `credential` | Decrypt a credential blob | `impacket-dpapi credential -file CRED -key 0x<mk>` |
-| `vault` | Decrypt vault policy/creds | `impacket-dpapi vault -vpol VPOL -vcrd VCRD -key 0x<mk>` |
-| `backupkeys` | Retrieve domain backup keys | `impacket-dpapi backupkeys -t corp.local/admin@dc -pvk out.pvk` |
+## Scapy Layers Used
 
-## Key File Locations
+| Layer | Purpose |
+|-------|---------|
+| `ICMPv6ND_RA` | Router Advertisement parsing |
+| `ICMPv6NDOptPrefixInfo` | Prefix information extraction |
+| `ICMPv6NDOptRDNSS` | DNS server option extraction |
+| `ICMPv6EchoRequest` | Multicast host discovery |
 
-| Path | Contents |
-|------|----------|
-| `%APPDATA%\Microsoft\Protect\<SID>\` | User master keys |
-| `%WINDIR%\System32\Microsoft\Protect\` | Machine master keys |
-| `%LOCALAPPDATA%\Microsoft\Credentials\` | Credential Manager blobs |
-| `%APPDATA%\Microsoft\Vault\` / `%LOCALAPPDATA%\Microsoft\Vault\` | Credential Vault |
+## Output Schema
 
-## External References
-
-- SharpDPAPI README: https://github.com/GhostPack/SharpDPAPI
-- Impacket: https://github.com/fortra/impacket
+```json
+{
+  "interface": "eth0",
+  "ipv6_hosts_discovered": 15,
+  "router_advertisements": [{"src_ip": "fe80::1", "router_lifetime": 1800}],
+  "rogue_ras": [],
+  "firewall_status": {"rules_count": 0},
+  "tunnel_protocols": {"teredo": false},
+  "risk_findings": ["HIGH: No ip6tables rules configured"]
+}
+```
