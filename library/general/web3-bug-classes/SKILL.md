@@ -8,6 +8,8 @@ category: general
 
 10 bug classes. Each one with root cause, vulnerable code, fix, grep patterns, and real paid examples.
 
+See also: [[Vuln Classes]], [[Web3 Audit]], [[Trust Map]], [[A→B Chains]], [[Methodology]]
+
 ---
 
 ## 1. ACCOUNTING STATE DESYNCHRONIZATION

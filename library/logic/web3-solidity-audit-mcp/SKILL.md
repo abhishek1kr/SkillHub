@@ -4,9 +4,11 @@ description: MCP server integrating Slither + Aderyn + SWC patterns into Claude 
 category: logic
 ---
 
-# SKILL 36 — SOLIDITY AUDIT MCP: CLAUDE-NATIVE SMART CONTRACT SCANNER
-> From: github.com/mariano-aguero/solidity-audit-mcp — MCP server plugging Slither + Aderyn + SWC patterns into Claude Code
-> 10 tools. 19 built-in finding explainers. 86 SWC detectors. DeFi + Web3 preset detector packs. CI/CD ready.
+# SOLIDITY AUDIT MCP
+
+Claude-native smart contract scanner with Slither + Aderyn + SWC patterns.
+
+See also: [[Web3 Audit]], [[Smart Contract Audit]], [[Web3 Bug Classes]], [[Methodology]]
 
 ---
 

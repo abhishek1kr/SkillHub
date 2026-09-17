@@ -4,9 +4,11 @@ description: Generate Echidna/Medusa-compatible Solidity fuzz suites from Foundr
 category: reporting
 ---
 
-# Fizz
+# Fizz — Fuzz Suite Generator
 
-Generate a stateful Solidity fuzz suite under `{SUITE_DIR}` (default: `test/fizz/`), with metadata and fuzzer runtime files under `{META_DIR}` (default: `fizz_data/`).
+Generate a stateful Solidity fuzz suite for invariant testing.
+
+See also: [[Web3 Audit]], [[Smart Contract Audit]], [[Methodology]]
 
 Use `Echidna` and `Medusa` for invariant campaigns. Use `Foundry` for compilation, smoke testing, and quick debugging.
 

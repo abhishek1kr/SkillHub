@@ -4,10 +4,11 @@ description: ZKsync Era (Immunefi) completed hunt — 0 findings after exhaustiv
 category: general
 ---
 
-# LIVE HUNT: ZKsync Era (Immunefi) — COMPLETED, 0 FINDINGS
+# LIVE HUNT: ZKsync Era — DEFENSE STUDY
 
-> **Outcome**: 0 submittable findings after 5+ sessions, 22+ agents, 25+ contracts, 25+ attack vectors
-> **Lesson**: This file exists as a DEFENSE STUDY — what a hardened protocol looks like, and when to stop hunting.
+0 findings after exhaustive 5-session audit. Learn what makes a protocol unhuntable.
+
+See also: [[Web3 Audit]], [[Methodology]], [[Web3 Bug Classes]], [[Trust Map]], [[Lead Ledger]]
 
 ---
 

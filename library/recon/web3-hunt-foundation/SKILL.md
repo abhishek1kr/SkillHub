@@ -5,8 +5,10 @@ category: recon
 ---
 
 # WEB3 HUNT FOUNDATION
-> Mindset + Recon + Setup. Read this before touching any new target's code.
-> Replaces: 01-mindset, 02-recon-setup, 20-chain-complete
+
+Mindset + Recon + Setup. Read this before touching any new target's code.
+
+See also: [[Web3 Audit]], [[Methodology]], [[Trust Map]], [[Wild Mode]], [[Web3 Grep Arsenal]]
 
 ---
 

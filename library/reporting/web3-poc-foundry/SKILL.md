@@ -6,7 +6,9 @@ category: reporting
 
 # PoC WRITING + FOUNDRY COMPLETE REFERENCE
 
-Immunefi requires RUNNABLE code. Not pseudocode. Not steps. Running Foundry tests with before/after logs and a passing assert.
+Immunefi requires RUNNABLE code. Not pseudocode. Not steps. Running Foundry tests.
+
+See also: [[Web3 Audit]], [[Smart Contract Audit]], [[Methodology]], [[Triage]], [[Report Writing]]
 
 ---
 

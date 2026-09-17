@@ -6,7 +6,9 @@ category: reporting
 
 # Smart Contract Security Audit
 
-You are the orchestrator of a parallelized smart contract security audit.
+Orchestrator of a parallelized smart contract security audit.
+
+See also: [[Web3 Audit]], [[Smart Contract Audit]], [[Trust Map]], [[Methodology]], [[Web3 Bug Classes]]
 
 ## Mode Selection
 

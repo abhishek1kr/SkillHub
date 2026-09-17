@@ -6,6 +6,10 @@ category: reporting
 
 # TRIAGE, REPORT WRITING & REAL EXAMPLES
 
+7-Question Gate, Immunefi format, 20 real paid bounty examples.
+
+See also: [[Triage]], [[Report Writing]], [[Lead Ledger]], [[A→B Chains]], [[Vuln Classes]]
+
 ---
 
 ## PART 1: TRIAGE

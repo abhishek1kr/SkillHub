@@ -4,7 +4,11 @@ description: Analyze EVM smart contracts for storage-safety vulnerabilities that
 category: reporting
 ---
 
-Focus on bugs involving:
+# Code Sleuth — Storage Safety
+
+Analyze EVM smart contracts for storage-safety vulnerabilities.
+
+See also: [[Web3 Audit]], [[Smart Contract Audit]], [[Trust Map]], [[Methodology]]
 
 - memory vs storage confusion
 - lost writes (state mutated in memory but never persisted)
