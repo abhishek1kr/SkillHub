@@ -168,4 +168,6 @@ When implementing pandas solutions, provide:
 3. Memory/performance considerations if dataset is large
 4. Data validation checks (dtypes, nulls, shapes)
 
+Maintained by [@jeffallan](https://github.com/jeffallan), Principal Consultant at [Synergetic Solutions](https://synergetic.solutions)
+
 [Documentation](https://jeffallan.github.io/claude-skills/skills/data-ml/pandas-pro/)

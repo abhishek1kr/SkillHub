@@ -193,4 +193,6 @@ export default class CounterComponent extends LightningElement {
 </LightningComponentBundle>
 ```
 
+Maintained by [@jeffallan](https://github.com/jeffallan), Principal Consultant at [Synergetic Solutions](https://synergetic.solutions)
+
 [Documentation](https://jeffallan.github.io/claude-skills/skills/platform/salesforce-developer/)

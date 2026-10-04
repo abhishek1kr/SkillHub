@@ -171,4 +171,6 @@ if __name__ == "__main__":
         print("Within SLO threshold — no action required")
 ```
 
+Maintained by [@jeffallan](https://github.com/jeffallan), Principal Consultant at [Synergetic Solutions](https://synergetic.solutions)
+
 [Documentation](https://jeffallan.github.io/claude-skills/skills/devops/sre-engineer/)

@@ -166,4 +166,6 @@ Load detailed guidance based on context:
 - Use string interpolation in logs (use structured fields)
 - Skip correlation IDs in distributed systems
 
+Maintained by [@jeffallan](https://github.com/jeffallan), Principal Consultant at [Synergetic Solutions](https://synergetic.solutions)
+
 [Documentation](https://jeffallan.github.io/claude-skills/skills/devops/monitoring-expert/)
