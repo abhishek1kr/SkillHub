@@ -1,21 +1,21 @@
 {
-  "last_synced": "2026-10-15T09:10:15.542362+00:00",
-  "total_skills": 2041,
+  "last_synced": "2026-10-16T08:59:10.642373+00:00",
+  "total_skills": 2063,
   "categories": {
-    "mobile": 22,
-    "recon": 103,
+    "mobile": 23,
+    "recon": 104,
     "logic": 131,
-    "reporting": 183,
+    "reporting": 199,
     "ad": 44,
-    "ai-security": 42,
+    "ai-security": 43,
     "api": 69,
     "router": 1,
     "web": 73,
-    "network": 97,
+    "network": 98,
     "bugbounty": 1,
     "general": 854,
-    "cloud": 78,
-    "ics-ot": 13,
+    "cloud": 79,
+    "ics-ot": 14,
     "Adversarial ML": 1,
     "Agent Security": 2,
     "GenAI Threats": 1,
@@ -101,7 +101,7 @@
       "relative_path": "library/recon/bb-local-toolkit/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/bb-local-toolkit/SKILL.md",
       "sha256": "f85ddbd6ddca6e4e884a3dc923c7f2eda215659bc19e0793c75da9f20f14c7fe",
-      "updated_at": "2026-10-15T09:05:25.646906+00:00"
+      "updated_at": "2026-10-16T08:56:10.932580+00:00"
     },
     "bb-methodology": {
       "name": "bb-methodology",
@@ -110,7 +110,7 @@
       "relative_path": "library/logic/bb-methodology/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/bb-methodology/SKILL.md",
       "sha256": "687af8873d8300652b7563320f45f7337138b5359eb77318f2031a0cbcce138c",
-      "updated_at": "2026-10-15T09:05:25.825183+00:00"
+      "updated_at": "2026-10-16T08:56:11.066156+00:00"
     },
     "bountyforge": {
       "name": "bountyforge",
@@ -164,7 +164,7 @@
       "relative_path": "library/ad/readme/SKILL.md",
       "source": "akashrpatil/awesome-offensive-security-skills/skills/red-teaming/README.md",
       "sha256": "8f587022e170da99c873d459d5ad296cc0600f27b40e13aa6fce9f117a8f741e",
-      "updated_at": "2026-10-15T09:07:06.998489+00:00"
+      "updated_at": "2026-10-16T08:57:08.205174+00:00"
     },
     "cloud-saas-exposure": {
       "name": "cloud-saas-exposure",
@@ -281,7 +281,7 @@
       "relative_path": "library/recon/bug-bounty/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/bug-bounty/SKILL.md",
       "sha256": "585e1f621a21bf003a7547959c5979ecaead357558b36f6c1407fd1215b2a140",
-      "updated_at": "2026-10-15T09:05:26.028927+00:00"
+      "updated_at": "2026-10-16T08:56:11.187788+00:00"
     },
     "bugcrowd-reporting": {
       "name": "bugcrowd-reporting",
@@ -290,7 +290,7 @@
       "relative_path": "library/reporting/bugcrowd-reporting/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/bugcrowd-reporting/SKILL.md",
       "sha256": "4db20c5b8a67d97849207627c3f01919c74574121fec5be4edf205ed78e165a3",
-      "updated_at": "2026-10-15T09:05:26.198901+00:00"
+      "updated_at": "2026-10-16T08:56:11.321719+00:00"
     },
     "api-security": {
       "name": "api-security",
@@ -443,7 +443,7 @@
       "relative_path": "library/reporting/example-usage/SKILL.md",
       "source": "Masriyan/Claude-Code-CyberSecurity-Skill/skills/22-purple-team/examples/example_usage.md",
       "sha256": "d52a56d1ff6e888afaca22b62f432de9decc030c089738aea1028d4226ac5804",
-      "updated_at": "2026-10-15T09:07:19.203100+00:00"
+      "updated_at": "2026-10-16T08:57:17.234485+00:00"
     },
     "vulnerability-scanning-assessment": {
       "name": "vulnerability-scanning-assessment",
@@ -497,7 +497,7 @@
       "relative_path": "library/general/api-reference/SKILL.md",
       "source": "mukul975/Anthropic-Cybersecurity-Skills/skills/exploiting-nosql-injection-vulnerabilities/references/api-reference.md",
       "sha256": "b64fb56536148231c161ca61ef7f9741f74a591988a7251c30bb3d7c2d2d71d6",
-      "updated_at": "2026-10-15T09:10:10.271280+00:00"
+      "updated_at": "2026-10-16T08:59:06.970678+00:00"
     },
     "standards": {
       "name": "standards",
@@ -506,7 +506,7 @@
       "relative_path": "library/general/standards/SKILL.md",
       "source": "mukul975/Anthropic-Cybersecurity-Skills/skills/exploiting-nosql-injection-vulnerabilities/references/standards.md",
       "sha256": "57b6dfcc5ec60be2f868c33dccab8b9bd4aee5ba2be94b5b12354fce23ed805c",
-      "updated_at": "2026-10-15T09:10:10.450535+00:00"
+      "updated_at": "2026-10-16T08:59:07.093926+00:00"
     },
     "inspector": {
       "name": "inspector",
@@ -514,8 +514,8 @@
       "description": "Review AI agent skills before installation using NVIDIA SkillSpector and source-aware semantic review. Use when asked whether a skill or downloaded skill folder is safe, trustworthy, installable, over-permissioned, or malicious.",
       "relative_path": "library/reporting/inspector/SKILL.md",
       "source": "NVIDIA/SkillSpector/skills/skill-inspector/SKILL.md",
-      "sha256": "89ab1550769752ffbad782ee63fee3c345d546bded672adaac5fd03d2941aa84",
-      "updated_at": "2026-09-11T18:58:25.571737+00:00"
+      "sha256": "1acc220016936ba68f7b9083c19575a8866c9cf74c251d689285a0d9fbe2a067",
+      "updated_at": "2026-10-16T08:59:07.711088+00:00"
     },
     "chef-assistant": {
       "name": "chef-assistant",
@@ -560,7 +560,7 @@
       "relative_path": "library/cloud/cloud-iam-deep/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/cloud-iam-deep/SKILL.md",
       "sha256": "d495d06f40392ac410fadd40e35b0a3acbe921aba99a0a9946ed5b26abc64ea9",
-      "updated_at": "2026-10-15T09:05:26.382821+00:00"
+      "updated_at": "2026-10-16T08:56:11.452840+00:00"
     },
     "enterprise-vpn-attack": {
       "name": "enterprise-vpn-attack",
@@ -569,7 +569,7 @@
       "relative_path": "library/network/enterprise-vpn-attack/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/enterprise-vpn-attack/SKILL.md",
       "sha256": "3efcc1022cf260a396dc3eba60808a6035ff5756fa2628a4dbfbe939eec5ead5",
-      "updated_at": "2026-10-15T09:05:26.573956+00:00"
+      "updated_at": "2026-10-16T08:56:11.596633+00:00"
     },
     "evidence-hygiene": {
       "name": "evidence-hygiene",
@@ -578,7 +578,7 @@
       "relative_path": "library/reporting/evidence-hygiene/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/evidence-hygiene/SKILL.md",
       "sha256": "1200f715875c0d773e4d2e00691b92f06deb676e8ca7dafac0b8be19c168380c",
-      "updated_at": "2026-10-15T09:05:26.755312+00:00"
+      "updated_at": "2026-10-16T08:56:11.726061+00:00"
     },
     "hunt-api-misconfig": {
       "name": "hunt-api-misconfig",
@@ -587,7 +587,7 @@
       "relative_path": "library/api/hunt-api-misconfig/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/hunt-api-misconfig/SKILL.md",
       "sha256": "d27a00337ac1c708ddd7540e8425d6131c61af27cc964f4de3bf845372b6a8cd",
-      "updated_at": "2026-10-15T09:05:26.936976+00:00"
+      "updated_at": "2026-10-16T08:56:11.877109+00:00"
     },
     "hunt-aspnet": {
       "name": "hunt-aspnet",
@@ -605,7 +605,7 @@
       "relative_path": "library/recon/hunt-ato/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/hunt-ato/SKILL.md",
       "sha256": "f2afcab5682c117c77259b1ead3eb746aeefaa70c07c019b581b79ede09c7596",
-      "updated_at": "2026-10-15T09:05:27.266352+00:00"
+      "updated_at": "2026-10-16T08:56:12.064946+00:00"
     },
     "hunt-auth-bypass": {
       "name": "hunt-auth-bypass",
@@ -614,7 +614,7 @@
       "relative_path": "library/api/hunt-auth-bypass/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/hunt-auth-bypass/SKILL.md",
       "sha256": "7d8c2a013969817ceb337ecdb6afd04564727cfb0d9f2c2c86d5141020638e14",
-      "updated_at": "2026-10-15T09:05:27.424862+00:00"
+      "updated_at": "2026-10-16T08:56:12.196154+00:00"
     },
     "hunt-business-logic": {
       "name": "hunt-business-logic",
@@ -623,7 +623,7 @@
       "relative_path": "library/logic/hunt-business-logic/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/hunt-business-logic/SKILL.md",
       "sha256": "c498fee1e663deeebed2332ba9248cadee782b7f65e2b61089623b02fca1ce89",
-      "updated_at": "2026-10-15T09:05:27.830993+00:00"
+      "updated_at": "2026-10-16T08:56:12.416151+00:00"
     },
     "hunt-cache-poison": {
       "name": "hunt-cache-poison",
@@ -632,7 +632,7 @@
       "relative_path": "library/web/hunt-cache-poison/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/hunt-cache-poison/SKILL.md",
       "sha256": "a64dea2f7b69bcfbc6d03c21ca8fa0ddf78bc481ecc6531c9f6064737879f25d",
-      "updated_at": "2026-10-15T09:05:28.023874+00:00"
+      "updated_at": "2026-10-16T08:56:12.538654+00:00"
     },
     "hunt-cloud-misconfig": {
       "name": "hunt-cloud-misconfig",
@@ -641,7 +641,7 @@
       "relative_path": "library/cloud/hunt-cloud-misconfig/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/hunt-cloud-misconfig/SKILL.md",
       "sha256": "dff86dce91a6b5fa95b404cd025a16a5f5d94a1c992bfc275122530cb3b1b54e",
-      "updated_at": "2026-10-15T09:05:28.583361+00:00"
+      "updated_at": "2026-10-16T08:56:12.970419+00:00"
     },
     "hunt-csrf": {
       "name": "hunt-csrf",
@@ -650,7 +650,7 @@
       "relative_path": "library/web/hunt-csrf/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/hunt-csrf/SKILL.md",
       "sha256": "d311dce06a0715587abb25f7a28d946111b55d8439697d75e047f8a5a3cd3e79",
-      "updated_at": "2026-10-15T09:05:29.047832+00:00"
+      "updated_at": "2026-10-16T08:56:13.164478+00:00"
     },
     "hunt-dispatch": {
       "name": "hunt-dispatch",
@@ -659,7 +659,7 @@
       "relative_path": "library/general/hunt-dispatch/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/hunt-dispatch/SKILL.md",
       "sha256": "b582c50d9f36d78d97a5d7eda3d70134e8c03ebfa968afd7119eb4ea476ae5c1",
-      "updated_at": "2026-10-15T09:05:29.368188+00:00"
+      "updated_at": "2026-10-16T08:56:13.387042+00:00"
     },
     "hunt-file-upload": {
       "name": "hunt-file-upload",
@@ -668,7 +668,7 @@
       "relative_path": "library/web/hunt-file-upload/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/hunt-file-upload/SKILL.md",
       "sha256": "2ce6b6bd65376b22d9145997c4639edcc8b8033f646957e3e2c4b915e42eb52c",
-      "updated_at": "2026-10-15T09:05:29.830454+00:00"
+      "updated_at": "2026-10-16T08:56:13.678957+00:00"
     },
     "hunt-graphql": {
       "name": "hunt-graphql",
@@ -677,7 +677,7 @@
       "relative_path": "library/api/hunt-graphql/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/hunt-graphql/SKILL.md",
       "sha256": "5a2d5080566449b85f3e4e7d5a73d9a7465f126ae688ed7dafe9186cb30cb5ca",
-      "updated_at": "2026-10-15T09:05:30.289864+00:00"
+      "updated_at": "2026-10-16T08:56:13.967844+00:00"
     },
     "hunt-http-smuggling": {
       "name": "hunt-http-smuggling",
@@ -686,7 +686,7 @@
       "relative_path": "library/web/hunt-http-smuggling/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/hunt-http-smuggling/SKILL.md",
       "sha256": "9ebd33dbdd534d08df689a4b7fd8a8dcef770d6d0358c0cf22252d2a8cf2da45",
-      "updated_at": "2026-10-15T09:05:31.228895+00:00"
+      "updated_at": "2026-10-16T08:56:14.355069+00:00"
     },
     "hunt-idor": {
       "name": "hunt-idor",
@@ -695,7 +695,7 @@
       "relative_path": "library/api/hunt-idor/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/hunt-idor/SKILL.md",
       "sha256": "c264f8d251a21c88b127bfa831acd819e7363ec1b138bcecbf226dc98b74ed3e",
-      "updated_at": "2026-10-15T09:05:31.422144+00:00"
+      "updated_at": "2026-10-16T08:56:14.508094+00:00"
     },
     "hunt-llm-ai": {
       "name": "hunt-llm-ai",
@@ -704,7 +704,7 @@
       "relative_path": "library/api/hunt-llm-ai/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/hunt-llm-ai/SKILL.md",
       "sha256": "44968fc1b2ff3210e481aafbdf7f160d9a1fcbcce995df1edf0329cbff9b7658",
-      "updated_at": "2026-10-15T09:05:32.519787+00:00"
+      "updated_at": "2026-10-16T08:56:15.006850+00:00"
     },
     "hunt-mfa-bypass": {
       "name": "hunt-mfa-bypass",
@@ -713,7 +713,7 @@
       "relative_path": "library/api/hunt-mfa-bypass/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/hunt-mfa-bypass/SKILL.md",
       "sha256": "453126b12df075d941f5a39552d4b17b623aaa692fe3d87442dae104384aafed",
-      "updated_at": "2026-10-15T09:05:32.715429+00:00"
+      "updated_at": "2026-10-16T08:56:15.171456+00:00"
     },
     "hunt-misc": {
       "name": "hunt-misc",
@@ -722,7 +722,7 @@
       "relative_path": "library/recon/hunt-misc/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/hunt-misc/SKILL.md",
       "sha256": "1da165c46da0cb8c2ef9d4e110cb6b876081619b7d96acad43ff96850d2a029e",
-      "updated_at": "2026-10-15T09:05:32.887413+00:00"
+      "updated_at": "2026-10-16T08:56:15.317679+00:00"
     },
     "hunt-ntlm-info": {
       "name": "hunt-ntlm-info",
@@ -731,7 +731,7 @@
       "relative_path": "library/network/hunt-ntlm-info/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/hunt-ntlm-info/SKILL.md",
       "sha256": "2ebe0e8acfc301a4986ac508cc5e032727e01f0246dff1df8b2073dcae2ea86f",
-      "updated_at": "2026-10-15T09:05:33.476978+00:00"
+      "updated_at": "2026-10-16T08:56:15.664898+00:00"
     },
     "hunt-oauth": {
       "name": "hunt-oauth",
@@ -740,7 +740,7 @@
       "relative_path": "library/api/hunt-oauth/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/hunt-oauth/SKILL.md",
       "sha256": "05ef8cb632293ab8e0ae0399a7e5b08587e2645e778eb51377573cb4023de685",
-      "updated_at": "2026-10-15T09:05:33.666895+00:00"
+      "updated_at": "2026-10-16T08:56:15.784172+00:00"
     },
     "hunt-race-condition": {
       "name": "hunt-race-condition",
@@ -749,7 +749,7 @@
       "relative_path": "library/logic/hunt-race-condition/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/hunt-race-condition/SKILL.md",
       "sha256": "783248a920928a4aaa981c268be436af91a7d6251a29730d729a4f678f83c768",
-      "updated_at": "2026-10-15T09:05:33.998961+00:00"
+      "updated_at": "2026-10-16T08:56:16.011798+00:00"
     },
     "hunt-rce": {
       "name": "hunt-rce",
@@ -758,7 +758,7 @@
       "relative_path": "library/web/hunt-rce/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/hunt-rce/SKILL.md",
       "sha256": "86246654cdbafbadf622e3d3a387f587512412df6e83f13a16db443223601140",
-      "updated_at": "2026-10-15T09:05:34.356227+00:00"
+      "updated_at": "2026-10-16T08:56:16.260005+00:00"
     },
     "hunt-saml": {
       "name": "hunt-saml",
@@ -767,7 +767,7 @@
       "relative_path": "library/api/hunt-saml/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/hunt-saml/SKILL.md",
       "sha256": "37070e08eb1d451408420c76a35cec184b4e9387a404dd512a8a0b7557641f32",
-      "updated_at": "2026-10-15T09:05:34.531942+00:00"
+      "updated_at": "2026-10-16T08:56:16.387107+00:00"
     },
     "hunt-sharepoint": {
       "name": "hunt-sharepoint",
@@ -776,7 +776,7 @@
       "relative_path": "library/web/hunt-sharepoint/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/hunt-sharepoint/SKILL.md",
       "sha256": "6c9a1741da8b328176c42c5673dc54e7dd2ae61dc414dbb40eb7ebad7b253a98",
-      "updated_at": "2026-10-15T09:05:35.059514+00:00"
+      "updated_at": "2026-10-16T08:56:16.686506+00:00"
     },
     "hunt-sqli": {
       "name": "hunt-sqli",
@@ -785,7 +785,7 @@
       "relative_path": "library/web/hunt-sqli/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/hunt-sqli/SKILL.md",
       "sha256": "fc5627c37b1028172413285c322c76d1105ebffbbb5af4e0ca0eaa81811fd7c0",
-      "updated_at": "2026-10-15T09:05:35.737665+00:00"
+      "updated_at": "2026-10-16T08:56:17.041872+00:00"
     },
     "hunt-ssrf": {
       "name": "hunt-ssrf",
@@ -794,7 +794,7 @@
       "relative_path": "library/web/hunt-ssrf/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/hunt-ssrf/SKILL.md",
       "sha256": "e9723e4a78a3a2113efd88b0d49df02f9dded113569964d5b1b6aa2f592df058",
-      "updated_at": "2026-10-15T09:05:35.981341+00:00"
+      "updated_at": "2026-10-16T08:56:17.178458+00:00"
     },
     "hunt-ssti": {
       "name": "hunt-ssti",
@@ -803,7 +803,7 @@
       "relative_path": "library/web/hunt-ssti/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/hunt-ssti/SKILL.md",
       "sha256": "edab65afe43abcd2d0d19f7dde29c91f54fbd8720f66e9161a58a4552f1092af",
-      "updated_at": "2026-10-15T09:05:36.164327+00:00"
+      "updated_at": "2026-10-16T08:56:17.324905+00:00"
     },
     "hunt-subdomain": {
       "name": "hunt-subdomain",
@@ -812,7 +812,7 @@
       "relative_path": "library/recon/hunt-subdomain/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/hunt-subdomain/SKILL.md",
       "sha256": "aac68521ad4a90fa5a21777f2c1c3ac05a1dfc080e066e88b0ce42571f174ca3",
-      "updated_at": "2026-10-15T09:05:36.371538+00:00"
+      "updated_at": "2026-10-16T08:56:17.464854+00:00"
     },
     "hunt-xss": {
       "name": "hunt-xss",
@@ -821,7 +821,7 @@
       "relative_path": "library/web/hunt-xss/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/hunt-xss/SKILL.md",
       "sha256": "fad790ac05164299eff8f2206160d23b79d2508ac930721e3d8835d746443714",
-      "updated_at": "2026-10-15T09:05:36.869085+00:00"
+      "updated_at": "2026-10-16T08:56:17.798082+00:00"
     },
     "hunt-xxe": {
       "name": "hunt-xxe",
@@ -830,7 +830,7 @@
       "relative_path": "library/web/hunt-xxe/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/hunt-xxe/SKILL.md",
       "sha256": "a74b466dfb2220787cd61c65860fa50c914b77c30151f04e63284a565c269069",
-      "updated_at": "2026-10-15T09:05:37.063879+00:00"
+      "updated_at": "2026-10-16T08:56:17.931487+00:00"
     },
     "m365-entra-attack": {
       "name": "m365-entra-attack",
@@ -839,7 +839,7 @@
       "relative_path": "library/cloud/m365-entra-attack/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/m365-entra-attack/SKILL.md",
       "sha256": "8b76a543adc6972925639cda19699f7c5b0c2f1d5d03411aaf81115df6d759ce",
-      "updated_at": "2026-10-15T09:05:37.411652+00:00"
+      "updated_at": "2026-10-16T08:56:18.135680+00:00"
     },
     "meme-coin-audit": {
       "name": "meme-coin-audit",
@@ -848,7 +848,7 @@
       "relative_path": "library/general/meme-coin-audit/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/meme-coin-audit/SKILL.md",
       "sha256": "e73eeb86751ac4578456e2058373cd02e812adcbbaec745c6733c78c2e147055",
-      "updated_at": "2026-10-15T09:05:37.567887+00:00"
+      "updated_at": "2026-10-16T08:56:18.273146+00:00"
     },
     "mid-engagement-ir-detection": {
       "name": "mid-engagement-ir-detection",
@@ -857,7 +857,7 @@
       "relative_path": "library/web/mid-engagement-ir-detection/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/mid-engagement-ir-detection/SKILL.md",
       "sha256": "50179c536601c05b98979e19c9b84132f85930820f77bc600991889f0db9b9f4",
-      "updated_at": "2026-10-15T09:05:37.759306+00:00"
+      "updated_at": "2026-10-16T08:56:18.406859+00:00"
     },
     "offensive-osint": {
       "name": "offensive-osint",
@@ -866,7 +866,7 @@
       "relative_path": "library/recon/offensive-osint/SKILL.md",
       "source": "elementalsouls/Claude-OSINT/skills/offensive-osint/SKILL.md",
       "sha256": "ebe3ef6583a4529bd83e1e2deebe2160edbfea5d88a85b989b26cc45a6d33573",
-      "updated_at": "2026-10-15T09:06:23.872102+00:00"
+      "updated_at": "2026-10-16T08:56:40.584980+00:00"
     },
     "okta-attack": {
       "name": "okta-attack",
@@ -875,7 +875,7 @@
       "relative_path": "library/recon/okta-attack/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/okta-attack/SKILL.md",
       "sha256": "f52a55aca18604292d588fe5144bf1c5fed31e3c084c07cf9c15d90be3d3e589",
-      "updated_at": "2026-10-15T09:05:40.559664+00:00"
+      "updated_at": "2026-10-16T08:56:20.004133+00:00"
     },
     "osint-methodology": {
       "name": "osint-methodology",
@@ -884,7 +884,7 @@
       "relative_path": "library/recon/osint-methodology/SKILL.md",
       "source": "elementalsouls/Claude-OSINT/skills/osint-methodology/SKILL.md",
       "sha256": "4bdb54d71f53ed75ab2dd3dd4db83fd75744ca8dcba84a8e82520cf7a87e603f",
-      "updated_at": "2026-10-15T09:06:24.800911+00:00"
+      "updated_at": "2026-10-16T08:56:41.200354+00:00"
     },
     "redteam-mindset": {
       "name": "redteam-mindset",
@@ -893,7 +893,7 @@
       "relative_path": "library/reporting/redteam-mindset/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/redteam-mindset/SKILL.md",
       "sha256": "bbf42293aedfa03b65cb87d27ec16b811f7acf3d251191db0911e49a2f78dd45",
-      "updated_at": "2026-10-15T09:05:41.398764+00:00"
+      "updated_at": "2026-10-16T08:56:20.479885+00:00"
     },
     "redteam-report-template": {
       "name": "redteam-report-template",
@@ -911,7 +911,7 @@
       "relative_path": "library/reporting/report-writing/SKILL.md",
       "source": "Aetherdz/huntpack/skills/reporting/report-writing/SKILL.md",
       "sha256": "7a8595e5c26ded3f2c8be9f99c30fb4b10996db17c145d41263d5ba8411bb52c",
-      "updated_at": "2026-10-15T09:05:55.779465+00:00"
+      "updated_at": "2026-10-16T08:56:28.966001+00:00"
     },
     "security-arsenal": {
       "name": "security-arsenal",
@@ -920,7 +920,7 @@
       "relative_path": "library/reporting/security-arsenal/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/security-arsenal/SKILL.md",
       "sha256": "c33ecb1a5653501f532b714424aadb1cf8edc5759250b55a58a574b73cb9a0f0",
-      "updated_at": "2026-10-15T09:05:41.905208+00:00"
+      "updated_at": "2026-10-16T08:56:20.818466+00:00"
     },
     "supply-chain-attack-recon": {
       "name": "supply-chain-attack-recon",
@@ -929,7 +929,7 @@
       "relative_path": "library/recon/supply-chain-attack-recon/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/supply-chain-attack-recon/SKILL.md",
       "sha256": "4a63831cf5f775710682c38b7571ae806cd2ca8cd1cae2665359a180f2d8a73d",
-      "updated_at": "2026-10-15T09:05:42.104914+00:00"
+      "updated_at": "2026-10-16T08:56:20.944684+00:00"
     },
     "triage-validation": {
       "name": "triage-validation",
@@ -938,7 +938,7 @@
       "relative_path": "library/reporting/triage-validation/SKILL.md",
       "source": "Aetherdz/huntpack/skills/validation/triage-validation/SKILL.md",
       "sha256": "0882b0d5aad421556199bd6152e7f1ba6fa1a10c7157ae8159c4a02898f9091a",
-      "updated_at": "2026-10-15T09:06:00.755530+00:00"
+      "updated_at": "2026-10-16T08:56:31.614850+00:00"
     },
     "vmware-vcenter-attack": {
       "name": "vmware-vcenter-attack",
@@ -947,7 +947,7 @@
       "relative_path": "library/recon/vmware-vcenter-attack/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/vmware-vcenter-attack/SKILL.md",
       "sha256": "20a51bb02ad3ccf88fb565b367bd52059d2bc3837d2069432657b0aef1228042",
-      "updated_at": "2026-10-15T09:05:42.523364+00:00"
+      "updated_at": "2026-10-16T08:56:21.228247+00:00"
     },
     "web2-recon": {
       "name": "web2-recon",
@@ -956,7 +956,7 @@
       "relative_path": "library/recon/web2-recon/SKILL.md",
       "source": "Aetherdz/huntpack/skills/recon/web2-recon/SKILL.md",
       "sha256": "f007b9f761ebbdca4c47f27cee1cb5ac060be2dc1d8d95908aa812ba26363cc6",
-      "updated_at": "2026-10-15T09:05:52.797305+00:00"
+      "updated_at": "2026-10-16T08:56:27.279203+00:00"
     },
     "business-logic-hunter": {
       "name": "business-logic-hunter",
@@ -974,7 +974,7 @@
       "relative_path": "library/recon/web2-vuln-classes/SKILL.md",
       "source": "Aetherdz/huntpack/skills/hunting/web2-vuln-classes/SKILL.md",
       "sha256": "196e93431d268de7ebfc38779524e7035ff0396695609e188e80c8c8fd80060c",
-      "updated_at": "2026-10-15T09:05:48.853697+00:00"
+      "updated_at": "2026-10-16T08:56:25.067475+00:00"
     },
     "attack-path-builder": {
       "name": "attack-path-builder",
@@ -1091,7 +1091,7 @@
       "relative_path": "library/general/code-reviewer/SKILL.md",
       "source": "NVIDIA/SkillSpector/tests/fixtures/ssd/ssd_clean/SKILL.md",
       "sha256": "e532af5ebc3cde5097af8e455e52cd8df43c71feef3361655de7ea9ac01bb052",
-      "updated_at": "2026-10-15T09:10:15.371689+00:00"
+      "updated_at": "2026-10-16T08:59:10.521583+00:00"
     },
     "cpp-pro": {
       "name": "cpp-pro",
@@ -1144,8 +1144,8 @@
       "description": "Use when building Django web applications or REST APIs with Django REST Framework. Invoke when working with settings.py, models.py, manage.py, or any Django project file. Creates Django models with proper indexes, optimizes ORM queries using selectrelated/prefetchrelated, builds DRF serializers and ",
       "relative_path": "library/api/django-expert/SKILL.md",
       "source": "S1N6H/Bug-Bounty-Skills/skills/Jeffallan-claude-skills-skills-django-expert.md",
-      "sha256": "dafb4a3b85e8e03797084a2abd0ba40ce85bddb077b26ff77173ccf33f6631f8",
-      "updated_at": "2026-10-04T10:29:27.747423+00:00"
+      "sha256": "0107de33b8bfbf91ba64e09be529c9bf176883cfd89c534065eefba17cd631ae",
+      "updated_at": "2026-10-16T08:54:17.565835+00:00"
     },
     "django-storages-s3": {
       "name": "django-storages-s3",
@@ -1180,8 +1180,8 @@
       "description": "Use when building high-performance async Python APIs with FastAPI and Pydantic V2. Invoke to create REST endpoints, define Pydantic models, implement authentication flows, set up async SQLAlchemy database operations, add JWT authentication, build WebSocket endpoints, or generate OpenAPI documentatio",
       "relative_path": "library/api/fastapi-expert/SKILL.md",
       "source": "S1N6H/Bug-Bounty-Skills/skills/Jeffallan-claude-skills-skills-fastapi-expert.md",
-      "sha256": "73514d9672e15c4c655e96e11e88767ce8f6611eb4d3caf2d073ac2d48bce11d",
-      "updated_at": "2026-10-04T10:29:28.577037+00:00"
+      "sha256": "aec3e59f351cdbafe1260dd65bfb23480918d2df1357b7fd7a9b7a32855e08d9",
+      "updated_at": "2026-10-16T08:54:17.900036+00:00"
     },
     "feature-forge": {
       "name": "feature-forge",
@@ -1342,8 +1342,8 @@
       "description": "Creates and configures NestJS modules, controllers, services, DTOs, guards, and interceptors for enterprise-grade TypeScript backend applications. Use when building NestJS REST APIs or GraphQL services, implementing dependency injection, scaffolding modular architecture, adding JWT/Passport authenti",
       "relative_path": "library/api/nestjs-expert/SKILL.md",
       "source": "S1N6H/Bug-Bounty-Skills/skills/Jeffallan-claude-skills-skills-nestjs-expert.md",
-      "sha256": "e0b13912dafcdec13aa18aab2d4a5eb683dcf21db361337f4704c6b9e81f6574",
-      "updated_at": "2026-10-04T10:29:32.863725+00:00"
+      "sha256": "a4b7c8f62b50565afaf44310964311be2f8dc4ede1fc513b884d2bf9b0e78941",
+      "updated_at": "2026-10-16T08:54:19.288654+00:00"
     },
     "nextjs-developer": {
       "name": "nextjs-developer",
@@ -1369,8 +1369,8 @@
       "description": "Use when building PHP applications with modern PHP 8.3+ features, Laravel, or Symfony frameworks. Invokes strict typing, PHPStan level 9, async patterns with Swoole, and PSR standards. Creates controllers, configures middleware, generates migrations, writes PHPUnit/Pest tests, defines typed DTOs and",
       "relative_path": "library/api/php-pro/SKILL.md",
       "source": "S1N6H/Bug-Bounty-Skills/skills/Jeffallan-claude-skills-skills-php-pro.md",
-      "sha256": "125ef5dc1ed8ad13f72e4a21d97edb9527a101dc600e4ade5de9fe673a41e959",
-      "updated_at": "2026-10-04T10:29:33.505723+00:00"
+      "sha256": "8eeb931a5a643cbac0a9a419d856d65cb00bee118360a875e1e18a4e7cac3cdf",
+      "updated_at": "2026-10-16T08:54:19.561466+00:00"
     },
     "playwright-expert": {
       "name": "playwright-expert",
@@ -1378,8 +1378,8 @@
       "description": "Use when writing E2E tests with Playwright, setting up test infrastructure, or debugging flaky browser tests. Invoke to write test scripts, create page objects, configure test fixtures, set up reporters, add CI integration, implement API mocking, or perform visual regression testing. Trigger terms: ",
       "relative_path": "library/logic/playwright-expert/SKILL.md",
       "source": "S1N6H/Bug-Bounty-Skills/skills/Jeffallan-claude-skills-skills-playwright-expert.md",
-      "sha256": "5ab812c48e76f555163f116e76c46df29520cfa94b3ba79bc16d5104e7fff933",
-      "updated_at": "2026-10-04T10:29:33.707172+00:00"
+      "sha256": "d84e24b9d20e910e519a763e4dc7f0744e81497ffcc6b29cf7806dc0c07cca12",
+      "updated_at": "2026-10-16T08:54:19.689335+00:00"
     },
     "postgres-pro": {
       "name": "postgres-pro",
@@ -2621,7 +2621,7 @@
       "relative_path": "library/Web Vulnerabilities/graphql-introspection-abuse/SKILL.md",
       "source": "akashrpatil/awesome-offensive-security-skills/skills/bug-hunting/web-vulnerabilities/graphql-introspection-abuse/SKILL.md",
       "sha256": "9cf842d3640190a35562d5cfd47d87c26be3bbbb15564251dd6d30524dd6a812",
-      "updated_at": "2026-10-15T09:06:57.480431+00:00"
+      "updated_at": "2026-10-16T08:57:01.764453+00:00"
     },
     "jwt-algorithm-confusion": {
       "name": "jwt-algorithm-confusion",
@@ -3827,7 +3827,7 @@
       "relative_path": "library/Evasion/cobalt-strike-malleable-c2/SKILL.md",
       "source": "akashrpatil/awesome-offensive-security-skills/skills/red-teaming/evasion/cobalt-strike-malleable-c2/SKILL.md",
       "sha256": "9b8836b95bf5f950b55532eecce109f46e1d61701b2f27dea8e0dd36ae252096",
-      "updated_at": "2026-10-15T09:07:07.875249+00:00"
+      "updated_at": "2026-10-16T08:57:08.840483+00:00"
     },
     "active-directory-dcsync-attack": {
       "name": "active-directory-dcsync-attack",
@@ -9785,7 +9785,7 @@
       "relative_path": "library/reporting/web3-audit/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/web3-audit/SKILL.md",
       "sha256": "6f29b97b4fc944b8a8b258f73890ab17d5672d85ceedae2a955a825c98c8a06b",
-      "updated_at": "2026-10-15T09:05:42.914312+00:00"
+      "updated_at": "2026-10-16T08:56:21.475153+00:00"
     },
     "bola": {
       "name": "bola",
@@ -9830,7 +9830,7 @@
       "relative_path": "library/general/mass-assignment/SKILL.md",
       "source": "Aetherdz/huntpack/skills/hunting/business-logic-hunter/reference/mass-assignment.md",
       "sha256": "607cfb907e975990385cbc99745767ff04fd0df8283372e1709a9e4c7fdff792",
-      "updated_at": "2026-10-15T09:05:46.977071+00:00"
+      "updated_at": "2026-10-16T08:56:23.951422+00:00"
     },
     "method-override": {
       "name": "method-override",
@@ -12593,7 +12593,7 @@
       "relative_path": "library/reporting/template/SKILL.md",
       "source": "mukul975/Anthropic-Cybersecurity-Skills/skills/exploiting-nosql-injection-vulnerabilities/assets/template.md",
       "sha256": "48cc9b0727608869ec849c15d11e9a671762b79712f34d8c5965eb14586adfbb",
-      "updated_at": "2026-10-15T09:10:10.068289+00:00"
+      "updated_at": "2026-10-16T08:59:06.796679+00:00"
     },
     "acquiring-disk-image-with-dd-and-dcfldd": {
       "name": "acquiring-disk-image-with-dd-and-dcfldd",
@@ -12674,7 +12674,7 @@
       "relative_path": "library/ad/workflows/SKILL.md",
       "source": "mukul975/Anthropic-Cybersecurity-Skills/skills/exploiting-nopac-cve-2021-42278-42287/references/workflows.md",
       "sha256": "9393cf8522354f3f3c15ba618b1ce1c8831d0965662c368bdeff383f8492012e",
-      "updated_at": "2026-10-15T09:10:09.741617+00:00"
+      "updated_at": "2026-10-16T08:59:06.598105+00:00"
     },
     "analyzing-campaign-attribution-evidence": {
       "name": "analyzing-campaign-attribution-evidence",
@@ -12692,7 +12692,7 @@
       "relative_path": "library/recon/phishing/SKILL.md",
       "source": "mukul975/Anthropic-Cybersecurity-Skills/skills/analyzing-typosquatting-domains-with-dnstwist/SKILL.md",
       "sha256": "90c5c1a48f8437bda7244c2c22f4c5e7b41ca22d389d7a0a6b18a50909f69896",
-      "updated_at": "2026-10-15T09:07:50.528119+00:00"
+      "updated_at": "2026-10-16T08:57:37.658741+00:00"
     },
     "analyzing-cloud-storage-access-patterns": {
       "name": "analyzing-cloud-storage-access-patterns",
@@ -12773,7 +12773,7 @@
       "relative_path": "library/general/create-fake-materials-fake-website/SKILL.md",
       "source": "mukul975/Anthropic-Cybersecurity-Skills/skills/detecting-spearphishing-with-email-gateway/SKILL.md",
       "sha256": "3015374924723812858995f549396019c607837a16d22f32115a41323529ca58",
-      "updated_at": "2026-10-15T09:09:45.102287+00:00"
+      "updated_at": "2026-10-16T08:58:51.234689+00:00"
     },
     "analyzing-ethereum-smart-contract-vulnerabilities": {
       "name": "analyzing-ethereum-smart-contract-vulnerabilities",
@@ -12836,7 +12836,7 @@
       "relative_path": "library/network/transfer-of-funds/SKILL.md",
       "source": "mukul975/Anthropic-Cybersecurity-Skills/skills/building-soc-playbook-for-ransomware/SKILL.md",
       "sha256": "06729ad404d2adb5ae856758b1a9c25248c1ddb8236505aa59b52f5a5d99bc26",
-      "updated_at": "2026-10-15T09:08:15.962411+00:00"
+      "updated_at": "2026-10-16T08:57:54.454356+00:00"
     },
     "analyzing-linux-kernel-rootkits": {
       "name": "analyzing-linux-kernel-rootkits",
@@ -13097,7 +13097,7 @@
       "relative_path": "library/reporting/electronic-funds-transfer-wire-transfer/SKILL.md",
       "source": "mukul975/Anthropic-Cybersecurity-Skills/skills/detecting-deepfake-audio-in-vishing-attacks/SKILL.md",
       "sha256": "e8ce6d9cc41ef12caa0f0738f45ccdc24c00012ed3cfdd993f161b6be6367d58",
-      "updated_at": "2026-10-15T09:09:17.849860+00:00"
+      "updated_at": "2026-10-16T08:58:33.958320+00:00"
     },
     "structuring": {
       "name": "structuring",
@@ -13520,7 +13520,7 @@
       "relative_path": "library/reporting/access-with-stolen-session-cookie/SKILL.md",
       "source": "mukul975/Anthropic-Cybersecurity-Skills/skills/executing-phishing-simulation-campaign/SKILL.md",
       "sha256": "b0c885c88def8221a226619ef4a52d02d9500e95865cb8fc9aa6cd62652ca6c8",
-      "updated_at": "2026-10-15T09:09:56.525544+00:00"
+      "updated_at": "2026-10-16T08:58:58.120640+00:00"
     },
     "account-takeover": {
       "name": "account-takeover",
@@ -13538,7 +13538,7 @@
       "relative_path": "library/reporting/building-incident-response-dashboard/SKILL.md",
       "source": "mukul975/Anthropic-Cybersecurity-Skills/skills/building-incident-response-dashboard/SKILL.md",
       "sha256": "0af0957e9bf6fc313fe475849bccab88ac1ddedae19cd9dc57aee0d1cda899b0",
-      "updated_at": "2026-10-15T09:08:07.384819+00:00"
+      "updated_at": "2026-10-16T08:57:48.643487+00:00"
     },
     "building-incident-response-playbook": {
       "name": "building-incident-response-playbook",
@@ -13952,7 +13952,7 @@
       "relative_path": "library/ad/account-takeover-exposed-login-credential/SKILL.md",
       "source": "mukul975/Anthropic-Cybersecurity-Skills/skills/detecting-t1003-credential-dumping-with-edr/SKILL.md",
       "sha256": "8459c9972ba2cac6d747c67fcda8cc687105180a560f1697db75a5f61aaba9af",
-      "updated_at": "2026-10-15T09:09:48.257997+00:00"
+      "updated_at": "2026-10-16T08:58:53.186953+00:00"
     },
     "conducting-post-incident-lessons-learned": {
       "name": "conducting-post-incident-lessons-learned",
@@ -14033,7 +14033,7 @@
       "relative_path": "library/cloud/steal-web-session-cookie/SKILL.md",
       "source": "mukul975/Anthropic-Cybersecurity-Skills/skills/detecting-anomalous-authentication-patterns/SKILL.md",
       "sha256": "9a97dad02e90f0ba15b6b090673d763820e7d4160a50898093a2b8c6d7bd5cbc",
-      "updated_at": "2026-10-15T09:09:03.777494+00:00"
+      "updated_at": "2026-10-16T08:58:25.506533+00:00"
     },
     "adversary-in-the-middle": {
       "name": "adversary-in-the-middle",
@@ -14096,7 +14096,7 @@
       "relative_path": "library/network/configuring-suricata-for-network-monitoring/SKILL.md",
       "source": "mukul975/Anthropic-Cybersecurity-Skills/skills/configuring-suricata-for-network-monitoring/SKILL.md",
       "sha256": "1fbbfe83f93dfabb405cb2e04409b5d8dafad0dfb8b741ab664c8ee059e3c8e4",
-      "updated_at": "2026-10-15T09:08:48.452238+00:00"
+      "updated_at": "2026-10-16T08:58:16.042501+00:00"
     },
     "configuring-tls-1-3-for-secure-communications": {
       "name": "configuring-tls-1-3-for-secure-communications",
@@ -14231,7 +14231,7 @@
       "relative_path": "library/logic/indicator-removal/SKILL.md",
       "source": "mukul975/Anthropic-Cybersecurity-Skills/skills/detecting-ransomware-encryption-behavior/SKILL.md",
       "sha256": "b15452fb51b28cf49053812f8cdd80ee360b1c4b0cd7296a1cbf854cd194aa23",
-      "updated_at": "2026-10-15T09:09:40.782436+00:00"
+      "updated_at": "2026-10-16T08:58:48.322061+00:00"
     },
     "deploying-edr-agent-with-crowdstrike": {
       "name": "deploying-edr-agent-with-crowdstrike",
@@ -14537,7 +14537,7 @@
       "relative_path": "library/network/convert-to-cryptocurrency/SKILL.md",
       "source": "mukul975/Anthropic-Cybersecurity-Skills/skills/detecting-ransomware-precursors-in-network/SKILL.md",
       "sha256": "29925505b82958f5d2b7feac8b6a481c263a93e1ccdbf421019c4d26fe5b8711",
-      "updated_at": "2026-10-15T09:09:41.109336+00:00"
+      "updated_at": "2026-10-16T08:58:48.555081+00:00"
     },
     "detecting-data-and-model-poisoning": {
       "name": "detecting-data-and-model-poisoning",
@@ -16760,7 +16760,7 @@
       "relative_path": "library/general/amm-dex/SKILL.md",
       "source": "Gabson0x/bountyforge/skills/smart-contract-audit/reference/ton/protocols/amm-dex.md",
       "sha256": "32f34667e4d596f8179018b7d85eb168f35fba7c750c08568ec3c580bc44d89e",
-      "updated_at": "2026-10-15T09:05:17.081574+00:00"
+      "updated_at": "2026-10-16T08:56:05.784601+00:00"
     },
     "governance": {
       "name": "governance",
@@ -16769,7 +16769,7 @@
       "relative_path": "library/general/governance/SKILL.md",
       "source": "Gabson0x/bountyforge/skills/smart-contract-audit/reference/solidity/protocols/governance.md",
       "sha256": "9cd512d3858e36074b3f33b5615fe56c294de240dc4f41a0280fde283f43a061",
-      "updated_at": "2026-10-15T09:05:08.974475+00:00"
+      "updated_at": "2026-10-16T08:56:01.010422+00:00"
     },
     "lending": {
       "name": "lending",
@@ -16778,7 +16778,7 @@
       "relative_path": "library/general/lending/SKILL.md",
       "source": "Gabson0x/bountyforge/skills/smart-contract-audit/reference/ton/protocols/lending.md",
       "sha256": "edc9424bba49a11dde309d623a1d7f88510f27977f8f20c90fd7199269bca76d",
-      "updated_at": "2026-10-15T09:05:17.395260+00:00"
+      "updated_at": "2026-10-16T08:56:05.990696+00:00"
     },
     "oracle": {
       "name": "oracle",
@@ -16787,7 +16787,7 @@
       "relative_path": "library/network/oracle/SKILL.md",
       "source": "Gabson0x/bountyforge/skills/smart-contract-audit/reference/ton/protocols/oracle.md",
       "sha256": "7a7ef032609ca1252bb65573d6858d250d3bada5ee73ca0c8c65821851cbf43b",
-      "updated_at": "2026-10-15T09:05:17.597971+00:00"
+      "updated_at": "2026-10-16T08:56:06.110582+00:00"
     },
     "staking": {
       "name": "staking",
@@ -16796,7 +16796,7 @@
       "relative_path": "library/general/staking/SKILL.md",
       "source": "Gabson0x/bountyforge/skills/smart-contract-audit/reference/ton/protocols/staking.md",
       "sha256": "bbc08dfff33c0652b74d572bf733367ef7dfd2b3cda2f2a17e0b777eaed81745",
-      "updated_at": "2026-10-15T09:05:17.783900+00:00"
+      "updated_at": "2026-10-16T08:56:06.231052+00:00"
     },
     "fv-mov-1-cl1-copy-ability-duplication": {
       "name": "fv-mov-1-cl1-copy-ability-duplication",
@@ -18443,7 +18443,7 @@
       "relative_path": "library/logic/order-lookup/SKILL.md",
       "source": "NVIDIA/SkillSpector/tests/fixtures/sqp/sqp2_tool_instructed/SKILL.md",
       "sha256": "d69b65af2416be8993117a52514485d346c9c82cf5ac720e92c31b534574f3c1",
-      "updated_at": "2026-10-15T09:10:13.976678+00:00"
+      "updated_at": "2026-10-16T08:59:09.448430+00:00"
     },
     "error-explainer": {
       "name": "error-explainer",
@@ -18452,7 +18452,205 @@
       "relative_path": "library/general/error-explainer/SKILL.md",
       "source": "NVIDIA/SkillSpector/tests/fixtures/sqp/sqp3_plain_english_override/SKILL.md",
       "sha256": "e5d29dc2e9341ecb679306ac7afa01f40646a7ccc71e594a97211c1d9ec493be",
-      "updated_at": "2026-10-15T09:10:14.750196+00:00"
+      "updated_at": "2026-10-16T08:59:10.046402+00:00"
+    },
+    "01-recon-osint": {
+      "name": "01-recon-osint",
+      "category": "recon",
+      "description": "Passive and active reconnaissance, subdomain enumeration, DNS analysis,",
+      "relative_path": "library/recon/01-recon-osint/SKILL.md",
+      "source": "Masriyan/Claude-Code-CyberSecurity-Skill/skills/01-recon-osint/SKILL.md",
+      "sha256": "05630ac4d8078d057abd8e12f82b1ceddda44c9ab2a816040989d868bce48568",
+      "updated_at": "2026-10-16T08:57:12.193707+00:00"
+    },
+    "02-vulnerability-scanner": {
+      "name": "02-vulnerability-scanner",
+      "category": "reporting",
+      "description": "Dependency auditing, CVE detection, configuration security review, CVSS",
+      "relative_path": "library/reporting/02-vulnerability-scanner/SKILL.md",
+      "source": "Masriyan/Claude-Code-CyberSecurity-Skill/skills/02-vulnerability-scanner/SKILL.md",
+      "sha256": "48e2158766bf064886f53741f95bf6faea1a8b9655b8581f3a05c21335366d76",
+      "updated_at": "2026-10-16T08:57:12.454041+00:00"
+    },
+    "03-exploit-development": {
+      "name": "03-exploit-development",
+      "category": "reporting",
+      "description": "Proof-of-concept development, payload crafting, shellcode analysis, and",
+      "relative_path": "library/reporting/03-exploit-development/SKILL.md",
+      "source": "Masriyan/Claude-Code-CyberSecurity-Skill/skills/03-exploit-development/SKILL.md",
+      "sha256": "8df8a81789626582bb2817b07a23a60d2a6940046bca6359c2eff77e96dc0370",
+      "updated_at": "2026-10-16T08:57:12.675075+00:00"
+    },
+    "04-reverse-engineering": {
+      "name": "04-reverse-engineering",
+      "category": "reporting",
+      "description": "Binary analysis, assembly interpretation, disassembly, decompilation,",
+      "relative_path": "library/reporting/04-reverse-engineering/SKILL.md",
+      "source": "Masriyan/Claude-Code-CyberSecurity-Skill/skills/04-reverse-engineering/SKILL.md",
+      "sha256": "e859ab5f449a96377b32cf1fcb08a398162ee0c3b04e842f5df78179ba709aff",
+      "updated_at": "2026-10-16T08:57:12.902578+00:00"
+    },
+    "05-malware-analysis": {
+      "name": "05-malware-analysis",
+      "category": "reporting",
+      "description": "Static and dynamic malware analysis, YARA rule generation, sandbox configuration,",
+      "relative_path": "library/reporting/05-malware-analysis/SKILL.md",
+      "source": "Masriyan/Claude-Code-CyberSecurity-Skill/skills/05-malware-analysis/SKILL.md",
+      "sha256": "acd49cf53290e33b1b815e46f4125b9fcfcabf861f344487b423335c46bd5eda",
+      "updated_at": "2026-10-16T08:57:13.130543+00:00"
+    },
+    "06-threat-hunting": {
+      "name": "06-threat-hunting",
+      "category": "reporting",
+      "description": "IOC extraction, threat intelligence correlation, MITRE ATT&CK mapping,",
+      "relative_path": "library/reporting/06-threat-hunting/SKILL.md",
+      "source": "Masriyan/Claude-Code-CyberSecurity-Skill/skills/06-threat-hunting/SKILL.md",
+      "sha256": "ccfd9ad40c6dc54ef4c910d213ce2ad78f3fb88b639db5dfb56ee1f3601ab184",
+      "updated_at": "2026-10-16T08:57:13.362278+00:00"
+    },
+    "07-incident-response": {
+      "name": "07-incident-response",
+      "category": "reporting",
+      "description": "IR playbook execution, evidence collection, forensic timeline analysis,",
+      "relative_path": "library/reporting/07-incident-response/SKILL.md",
+      "source": "Masriyan/Claude-Code-CyberSecurity-Skill/skills/07-incident-response/SKILL.md",
+      "sha256": "6b61a65653e7dd8c630170d8b97afdcd6c6b46983dc773f14441e4d43bc07e44",
+      "updated_at": "2026-10-16T08:57:13.589397+00:00"
+    },
+    "08-network-security": {
+      "name": "08-network-security",
+      "category": "network",
+      "description": "Network traffic analysis, PCAP parsing, IDS/IPS rule creation, firewall",
+      "relative_path": "library/network/08-network-security/SKILL.md",
+      "source": "Masriyan/Claude-Code-CyberSecurity-Skill/skills/08-network-security/SKILL.md",
+      "sha256": "ea310f9115eac45f73d664a36821adc170850a0e48fd61c428af5e48fa5cfc10",
+      "updated_at": "2026-10-16T08:57:13.836591+00:00"
+    },
+    "09-web-security": {
+      "name": "09-web-security",
+      "category": "reporting",
+      "description": "OWASP Top 10 testing, injection vulnerability detection, API security",
+      "relative_path": "library/reporting/09-web-security/SKILL.md",
+      "source": "Masriyan/Claude-Code-CyberSecurity-Skill/skills/09-web-security/SKILL.md",
+      "sha256": "ad4a881e6629aaeb33eae05992c16087124eb9ae938f78efdcf8bc65192fff4f",
+      "updated_at": "2026-10-16T08:57:14.074998+00:00"
+    },
+    "10-cloud-security": {
+      "name": "10-cloud-security",
+      "category": "cloud",
+      "description": "AWS/Azure/GCP security auditing, container and Kubernetes hardening,",
+      "relative_path": "library/cloud/10-cloud-security/SKILL.md",
+      "source": "Masriyan/Claude-Code-CyberSecurity-Skill/skills/10-cloud-security/SKILL.md",
+      "sha256": "5e2e03607bc99b06aae6899a609b13bccd88e2692335d49da6ff2b38c4aefffd",
+      "updated_at": "2026-10-16T08:57:14.331058+00:00"
+    },
+    "11-csoc-automation": {
+      "name": "11-csoc-automation",
+      "category": "reporting",
+      "description": "SOC alert triage, incident playbook automation, escalation workflows,",
+      "relative_path": "library/reporting/11-csoc-automation/SKILL.md",
+      "source": "Masriyan/Claude-Code-CyberSecurity-Skill/skills/11-csoc-automation/SKILL.md",
+      "sha256": "200fcfff8b07c19b6ae51a442218acb08655924fb8a4cb72b1242e9f9ada79ec",
+      "updated_at": "2026-10-16T08:57:14.551603+00:00"
+    },
+    "12-log-analysis": {
+      "name": "12-log-analysis",
+      "category": "reporting",
+      "description": "Security log parsing, anomaly detection, SIEM query building, Sigma rule",
+      "relative_path": "library/reporting/12-log-analysis/SKILL.md",
+      "source": "Masriyan/Claude-Code-CyberSecurity-Skill/skills/12-log-analysis/SKILL.md",
+      "sha256": "27e177f71bfd626041ea8cb22df506cf7471c85f2f8964ffeb82a3731e450681",
+      "updated_at": "2026-10-16T08:57:14.778750+00:00"
+    },
+    "13-crypto-analysis": {
+      "name": "13-crypto-analysis",
+      "category": "reporting",
+      "description": "SSL/TLS auditing, cipher suite analysis, hash algorithm identification,",
+      "relative_path": "library/reporting/13-crypto-analysis/SKILL.md",
+      "source": "Masriyan/Claude-Code-CyberSecurity-Skill/skills/13-crypto-analysis/SKILL.md",
+      "sha256": "01c84b14da15e0f15f091320f7b042a00f64ce8f8143e94162d228dae4ddecb0",
+      "updated_at": "2026-10-16T08:57:15.019575+00:00"
+    },
+    "14-red-team-ops": {
+      "name": "14-red-team-ops",
+      "category": "reporting",
+      "description": "Authorized red team engagement planning, C2 architecture design, attack",
+      "relative_path": "library/reporting/14-red-team-ops/SKILL.md",
+      "source": "Masriyan/Claude-Code-CyberSecurity-Skill/skills/14-red-team-ops/SKILL.md",
+      "sha256": "4b6cc64c82fafc05160b8f2e1395274b995253e43b4820173ece48b493cf3f5e",
+      "updated_at": "2026-10-16T08:57:15.268456+00:00"
+    },
+    "15-blue-team-defense": {
+      "name": "15-blue-team-defense",
+      "category": "reporting",
+      "description": "System hardening, detection engineering, security baseline monitoring,",
+      "relative_path": "library/reporting/15-blue-team-defense/SKILL.md",
+      "source": "Masriyan/Claude-Code-CyberSecurity-Skill/skills/15-blue-team-defense/SKILL.md",
+      "sha256": "d446a96aa1b983ab3e1aa829fb351af51eb959e68c6e31caf4ec90850393f342",
+      "updated_at": "2026-10-16T08:57:15.489131+00:00"
+    },
+    "16-ai-llm-security": {
+      "name": "16-ai-llm-security",
+      "category": "ai-security",
+      "description": "LLM and AI application security testing \u2014 prompt injection, jailbreak",
+      "relative_path": "library/ai-security/16-ai-llm-security/SKILL.md",
+      "source": "Masriyan/Claude-Code-CyberSecurity-Skill/skills/16-ai-llm-security/SKILL.md",
+      "sha256": "d5919c86b6e8a8123d5bf963e32a98e0590a8f6d6ccaae79fcf2947a204fa5a5",
+      "updated_at": "2026-10-16T08:57:15.695150+00:00"
+    },
+    "17-mobile-security": {
+      "name": "17-mobile-security",
+      "category": "mobile",
+      "description": "Android and iOS application security testing \u2014 static and dynamic analysis,",
+      "relative_path": "library/mobile/17-mobile-security/SKILL.md",
+      "source": "Masriyan/Claude-Code-CyberSecurity-Skill/skills/17-mobile-security/SKILL.md",
+      "sha256": "3075becd81d24a9d229079bbd3664d0c6ca4a111d59172e5f9d5a795cada7f0e",
+      "updated_at": "2026-10-16T08:57:15.924608+00:00"
+    },
+    "18-ot-ics-security": {
+      "name": "18-ot-ics-security",
+      "category": "ics-ot",
+      "description": "Operational Technology and industrial control system security \u2014 Purdue",
+      "relative_path": "library/ics-ot/18-ot-ics-security/SKILL.md",
+      "source": "Masriyan/Claude-Code-CyberSecurity-Skill/skills/18-ot-ics-security/SKILL.md",
+      "sha256": "908bc22c12232198ae529a166f73efe3c31190b430eb3c82a3210f01bf609c87",
+      "updated_at": "2026-10-16T08:57:16.129113+00:00"
+    },
+    "19-grc-compliance": {
+      "name": "19-grc-compliance",
+      "category": "reporting",
+      "description": "Governance, risk, and compliance \u2014 risk assessment and scoring, control",
+      "relative_path": "library/reporting/19-grc-compliance/SKILL.md",
+      "source": "Masriyan/Claude-Code-CyberSecurity-Skill/skills/19-grc-compliance/SKILL.md",
+      "sha256": "2452b8f2101d0ea76164d0b6e4db6698c33f1cbcc52c5ee0b52a674b7b282bdb",
+      "updated_at": "2026-10-16T08:57:16.360178+00:00"
+    },
+    "20-supply-chain-security": {
+      "name": "20-supply-chain-security",
+      "category": "reporting",
+      "description": "Software supply chain security \u2014 SBOM generation and analysis, dependency",
+      "relative_path": "library/reporting/20-supply-chain-security/SKILL.md",
+      "source": "Masriyan/Claude-Code-CyberSecurity-Skill/skills/20-supply-chain-security/SKILL.md",
+      "sha256": "2d03529628ddf0d8a7cad0051a98dc0c1826dd29b149ea88cdb475dfd5c6cf19",
+      "updated_at": "2026-10-16T08:57:16.579676+00:00"
+    },
+    "21-threat-intelligence": {
+      "name": "21-threat-intelligence",
+      "category": "reporting",
+      "description": "Cyber threat intelligence production \u2014 the intelligence cycle, IOC extraction/normalization/enrichment,",
+      "relative_path": "library/reporting/21-threat-intelligence/SKILL.md",
+      "source": "Masriyan/Claude-Code-CyberSecurity-Skill/skills/21-threat-intelligence/SKILL.md",
+      "sha256": "1e1ad7ee5070d37ad0e02ff8fd5dd33f55f97db367ce2bb501af81de4d12cdf1",
+      "updated_at": "2026-10-16T08:57:16.822055+00:00"
+    },
+    "22-purple-team": {
+      "name": "22-purple-team",
+      "category": "reporting",
+      "description": "Collaborative purple-team operations \u2014 threat-informed adversary emulation",
+      "relative_path": "library/reporting/22-purple-team/SKILL.md",
+      "source": "Masriyan/Claude-Code-CyberSecurity-Skill/skills/22-purple-team/SKILL.md",
+      "sha256": "061acc75b0604a83718068e5108bc86c8c420c2c5416cd2fb2bdc75de95f6109",
+      "updated_at": "2026-10-16T08:57:17.081586+00:00"
     }
   }
 }
