@@ -1,6 +1,6 @@
 ---
 name: cdo-review
-description: /c-level-agents:cdo-review [plan] — Decision-driven Chief Data Officer interrogation of any plan that touches training data, data architecture, data productization, or data team hiring. Use when validating training-data rights before mod...
+description: Use for /c-level-agents:cdo-review, or to challenge a plan touching training-data rights, data architecture or data monetization.
 category: reporting
 ---
 

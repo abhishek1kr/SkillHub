@@ -1,6 +1,6 @@
 ---
 name: ceo-advisor
-description: Executive leadership guidance for strategic decision-making, organizational development, and stakeholder management. Use when planning strategy, preparing board presentations, managing investors, developing organizational culture, making...
+description: Use for CEO-level questions: company strategy, board and investor management, fundraising, org design or culture. Models scenarios with financialscenarioanalyzer.py and strategy with strategyanalyzer.py.
 category: c-level
 ---
 

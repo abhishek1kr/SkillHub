@@ -1,6 +1,6 @@
 ---
 name: c-level-agents
-description: Founder-mode executive team. 13 cs- C-suite agents (CFO, CMO, CRO, CPO, COO, CHRO, CISO, GC, CDO, CAIO, CCO, VPE, Chief of Staff) and 21 /c-level-agents: slash commands for forcing-question office hours, multi-role boardroom deliberation...
+description: Use when the founder wants a virtual executive team or a /c-level-agents command. Lists the 13 C-suite agents and 21 commands and routes multi-role decisions.
 category: c-level
 ---
 
@@ -87,7 +87,7 @@ User question
 - **chief-of-staff** — routing layer the agent orchestrates
 - **board-meeting** — protocol the `/c-level-agents:boardroom` command runs
 - **llm-wiki** — optional persistent memory bridge (see `../../references/llm-wiki-bridge.md`)
-- **executive-mentor** — adversarial `/em:*` commands stack cleanly on top
+- **executive-mentor** — adversarial `/executive-mentor:*` commands stack cleanly on top
 
 ## Design Principles
 
@@ -101,8 +101,7 @@ User question
 
 - [persona-voices.md](../../references/persona-voices.md)
 - [llm-wiki-bridge.md](../../references/llm-wiki-bridge.md)
-- [Parent c-level CLAUDE.md](../../../CLAUDE.md)
-- [Existing executive-mentor sibling](../../../c-level-advisor/executive-mentor/)
+- [Existing executive-mentor sibling](${CLAUDE_PLUGIN_ROOT}/vendor/c-level-advisor/executive-mentor/executive-mentor/SKILL.md)
 
 ---
 

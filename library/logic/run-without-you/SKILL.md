@@ -1,6 +1,6 @@
 ---
 name: run-without-you
-description: Phase 4 of building a Claude Managed Agent — make it run without you. Turn a graded agent into a recurring scheduled deployment (POSIX-cron), an event-driven curl trigger, or confirmed on-demand use, then finalize the versioned roadmap. ...
+description: Use when a graded managed agent should run on a schedule, on an event trigger or on demand ('run it every morning'). Validates cron with cronvalidator.py and builds the deployment with deploymentbuilder.py.
 category: logic
 ---
 

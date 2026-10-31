@@ -1,6 +1,6 @@
 ---
 name: capacity-planner
-description: Use when an ops leader (Director of CX, Head of Support, VP Ops, Head of BizOps, Head of IT ops, Head of Finance ops) is sizing ops capacity, building a headcount plan, modeling utilization risk, planning Q3 capacity or annual support ca...
+description: Use when sizing an ops or support team, building a headcount plan or checking utilization risk. Models queues with Erlang C in capacitymodeler.py, analyzes utilization with utilizationanalyzer.py and orders hires with hiringsequencer.py.
 category: general
 ---
 

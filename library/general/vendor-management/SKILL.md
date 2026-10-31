@@ -1,6 +1,6 @@
 ---
 name: vendor-management
-description: Use when reviewing, scoring, or auditing third-party SaaS / vendor relationships — running a vendor scorecard with industry tuning, tracking SLA compliance with credit-claim flags, classifying third-party risk across 4 risk vectors, prep...
+description: Use when scoring or auditing vendors: scorecards, SLA compliance and service credits, third-party risk tier or a tier-1 vendor review. Runs vendorscorer.py, slacompliancetracker.py and vendorriskclassifier.py.
 category: general
 ---
 

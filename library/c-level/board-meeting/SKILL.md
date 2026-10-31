@@ -1,6 +1,6 @@
 ---
 name: board-meeting
-description: Multi-agent board meeting protocol for strategic decisions. Runs a structured 6-phase deliberation: context loading, independent C-suite contributions (isolated, no cross-pollination), critic analysis, synthesis, founder review, and deci...
+description: Use for /c-level-agents:boardroom or a strategic question that needs a structured multi-executive deliberation. Runs six phases: context, isolated C-suite views, critic, synthesis, founder review and decision.
 category: c-level
 ---
 

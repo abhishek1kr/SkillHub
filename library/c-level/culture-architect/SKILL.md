@@ -1,6 +1,6 @@
 ---
 name: culture-architect
-description: Build, measure, and evolve company culture as operational behavior — not wall posters. Covers mission/vision/values workshops, values-to-behaviors translation, culture code creation, culture health assessment, and cultural rituals by sta...
+description: Use when defining company values, turning them into behaviors, assessing culture health or designing rituals. Treats culture as operating behavior, not posters.
 category: c-level
 ---
 

@@ -1,6 +1,6 @@
 ---
 name: cro-advisor
-description: Revenue leadership for B2B SaaS companies. Revenue forecasting, sales model design, pricing strategy, net revenue retention, and sales team scaling. Use when designing the revenue engine, setting quotas, modeling NRR, evaluating pricing,...
+description: Use for B2B revenue leadership: forecasting, quotas, sales model, NRR and churn, pricing or sales capacity. Forecasts with revenueforecastmodel.py and analyzes churn with churnanalyzer.py.
 category: c-level
 ---
 

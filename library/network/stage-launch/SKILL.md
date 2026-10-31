@@ -1,6 +1,6 @@
 ---
 name: stage-launch
-description: Phase 2 of building a Claude Managed Agent — turn a validated build sheet into exact API payloads and a resumable BYOK curl launch script, then launch (environment → agent → session → kickoff) using the founder's OWN Anthropic key. Use w...
+description: Use when a managed-agent build sheet is ready to launch ('launch it', 'deploy the agent'). Generates and validates API payloads with payloadgenerator.py and payloadvalidator.py and writes a resumable curl script with launchscriptwriter.p...
 category: network
 ---
 

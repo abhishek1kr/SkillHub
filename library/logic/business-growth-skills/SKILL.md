@@ -1,6 +1,6 @@
 ---
 name: business-growth-skills
-description: Router/index for the 4 business & growth skills bundled in this plugin: customer-success-manager (health scoring, churn risk, expansion), sales-engineer (RFP analysis, competitive matrices, PoC planning), revenue-operations (pipeline, fo...
+description: Use when a growth request needs routing between customer-success-manager, sales-engineer, revenue-operations and contract-and-proposal-writer.
 category: logic
 ---
 

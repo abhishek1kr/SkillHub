@@ -1,6 +1,6 @@
 ---
 name: general-counsel-advisor
-description: General Counsel advisory for startups: contract review (MSA, SaaS, NDA, DPA, employment), IP strategy, term sheet decoding, and regulatory landscape mapping. Use when reviewing any contract or term sheet, deciding when to engage outside ...
+description: Use when reviewing a contract or term sheet (MSA, SaaS, NDA, DPA, employment), setting IP strategy or mapping regulatory exposure (HIPAA, GDPR, FDA, fintech). Scans with contractriskscanner.py and termsheetanalyzer.py; not a substitute f...
 category: c-level
 ---
 

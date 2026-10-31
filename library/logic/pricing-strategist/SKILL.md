@@ -1,6 +1,6 @@
 ---
 name: pricing-strategist
-description: Use when designing or revisiting product pricing — selecting a pricing model (subscription seat-based, usage-based, value-based, freemium, or hybrid), running Van Westendorp Price Sensitivity Meter analysis on WTP survey data, or designi...
+description: Use when choosing or revisiting pricing: seat, usage, value-based, freemium or hybrid, Van Westendorp willingness-to-pay analysis, or Good/Better/Best tiers. Runs pricingmodelpicker.py, wtpanalyzer.py and packagingdesigner.py and returns...
 category: logic
 ---
 

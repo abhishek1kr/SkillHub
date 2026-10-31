@@ -1,6 +1,6 @@
 ---
 name: chro-advisor
-description: People leadership for scaling companies. Hiring strategy, compensation design, org structure, culture, and retention. Use when building hiring plans, designing comp frameworks, restructuring teams, managing performance, building culture,...
+description: Use for people strategy: hiring plans, comp bands, org structure, performance or retention. Models hiring with hiringplanmodeler.py and benchmarks pay with compbenchmarker.py.
 category: c-level
 ---
 

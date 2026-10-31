@@ -1,6 +1,6 @@
 ---
 name: chief-ai-officer-advisor
-description: Chief AI Officer advisory for startups: model build-vs-buy decisions (API vs fine-tune vs in-house), AI risk classification under EU AI Act + US state patchwork, AI cost economics (API-to-self-hosted breakeven), and AI team org evolution...
+description: Use for AI strategy decisions: API vs fine-tune vs build, EU AI Act or US state risk classification, when self-hosting pays off, or AI hiring order. Runs modelbuildvsbuycalculator.py, airiskclassifier.py and aicosteconomics.py.
 category: c-level
 ---
 

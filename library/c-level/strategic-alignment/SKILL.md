@@ -1,6 +1,6 @@
 ---
 name: strategic-alignment
-description: Cascades strategy from boardroom to individual contributor. Detects and fixes misalignment between company goals and team execution. Covers strategy articulation, cascade mapping, orphan goal detection, silo identification, communication...
+description: Use when teams pull in different directions, OKRs don't connect or departments optimize locally. Maps the strategy cascade and finds orphan goals and silos with alignmentchecker.py.
 category: c-level
 ---
 

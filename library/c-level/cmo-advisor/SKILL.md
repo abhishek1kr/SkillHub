@@ -1,6 +1,6 @@
 ---
 name: cmo-advisor
-description: Marketing leadership for scaling companies. Brand positioning, growth model design, marketing budget allocation, and marketing org design. Use when designing brand strategy, selecting growth models (PLG vs sales-led vs community-led), al...
+description: Use for marketing leadership decisions: positioning, PLG vs sales-led vs community-led, budget allocation or marketing team design. Simulates growth with growthmodelsimulator.py and budgets with marketingbudgetmodeler.py.
 category: c-level
 ---
 

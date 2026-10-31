@@ -1,6 +1,6 @@
 ---
 name: wrap-up
-description: Close out a launched Claude Managed Agent — recap every primitive the founder now owns, regenerate the single-file overview page, and suggest the next 1-2 upgrades. Use when the user says "wrap up", "close this out", "what do I own now",...
+description: Use when closing out a launched managed agent ('wrap up', 'what do I own now'). Inventories primitives with primitivesinventory.py, regenerates the overview with overviewpage.py and suggests next upgrades with upgradesuggester.py.
 category: logic
 ---
 

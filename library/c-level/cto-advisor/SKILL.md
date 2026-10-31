@@ -1,6 +1,6 @@
 ---
 name: cto-advisor
-description: Technical leadership guidance for engineering teams, architecture decisions, and technology strategy. Use when assessing technical debt, scaling engineering teams, evaluating technologies, making architecture decisions, establishing engi...
+description: Use for CTO-level decisions: tech debt, architecture direction, engineering team scaling, technology evaluation or DORA metrics. Analyzes debt with techdebtanalyzer.py and team growth with teamscalingcalculator.py.
 category: c-level
 ---
 

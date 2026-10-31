@@ -1,6 +1,6 @@
 ---
 name: vpe-advisor
-description: VP of Engineering advisory for startups: delivery throughput (DORA 4 metrics + bottleneck identification), engineering hiring funnel (sourcing → screen → onsite → offer conversion + time-to-fill + pipeline gap), engineering team structur...
+description: Use when delivery is slowing, eng hiring is broken, team structure is unclear or you need to decide when to add an eng manager. Runs deliverythroughputanalyzer.py (DORA), enghiringfunnelcalculator.py and engteamstructuredesigner.py.
 category: c-level
 ---
 

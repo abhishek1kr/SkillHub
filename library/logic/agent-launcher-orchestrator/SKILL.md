@@ -1,6 +1,6 @@
 ---
 name: agent-launcher-orchestrator
-description: Use when a user wants to build, launch, grade, or schedule a Claude Managed Agent (CMA) in their own Anthropic account — "build me an agent", "launch this as a managed agent", "run this on a schedule", "grade my agent against a rubric", ...
+description: Use when someone wants to build, launch, grade or schedule a Claude Managed Agent in their own Anthropic account ('build me an agent', 'run this nightly'). Reads the session goal, routes with goalrouter.py and compiles the loop with loop...
 category: logic
 ---
 

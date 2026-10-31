@@ -1,6 +1,6 @@
 ---
 name: interview
-description: Phase 1 of building a Claude Managed Agent — interview the founder about the one job the agent should do, then produce a build sheet (CMA primitives table + v1/v2 deferrals + eval plan) WITHOUT needing their API key yet. Use when the use...
+description: Use when someone has an agent idea to scope before launch ('help me scope an agent'). Interviews them about the one job and writes a build sheet with buildsheetbuilder.py, checked by primitivesvalidator.py; no API key needed.
 category: reporting
 ---
 

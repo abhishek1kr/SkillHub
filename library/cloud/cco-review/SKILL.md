@@ -1,6 +1,6 @@
 ---
 name: cco-review
-description: /c-level-agents:cco-review [plan] — Retention-obsessed Chief Customer Officer interrogation of any plan that touches customer retention, segmentation, CS team sizing, or CS team hiring. Use when gross retention is slipping, before approv...
+description: Use for /c-level-agents:cco-review, or to challenge a plan touching retention, segmentation or CS headcount.
 category: cloud
 ---
 

@@ -1,6 +1,6 @@
 ---
 name: vpe-review
-description: /c-level-agents:vpe-review [plan] — Throughput-first VP of Engineering interrogation of any plan that touches delivery, eng hiring, team structure, or production discipline. Use when cycle time balloons, DORA metrics slide, or before com...
+description: Use for /c-level-agents:vpe-review, or to challenge a plan touching delivery speed, eng hiring, team structure or on-call.
 category: general
 ---
 

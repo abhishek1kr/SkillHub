@@ -1,5 +1,5 @@
 {
-  "last_synced": "2026-10-30T10:55:04.846659+00:00",
+  "last_synced": "2026-10-31T10:20:53.225305+00:00",
   "total_skills": 2077,
   "categories": {
     "mobile": 23,
@@ -10,10 +10,10 @@
     "ai-security": 43,
     "api": 69,
     "router": 1,
-    "web": 73,
+    "web": 71,
     "network": 98,
     "bugbounty": 1,
-    "general": 869,
+    "general": 871,
     "cloud": 79,
     "ics-ot": 14,
     "Adversarial ML": 1,
@@ -101,7 +101,7 @@
       "relative_path": "library/recon/bb-local-toolkit/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/bb-local-toolkit/SKILL.md",
       "sha256": "f85ddbd6ddca6e4e884a3dc923c7f2eda215659bc19e0793c75da9f20f14c7fe",
-      "updated_at": "2026-10-30T10:50:08.283558+00:00"
+      "updated_at": "2026-10-31T10:18:12.526826+00:00"
     },
     "bb-methodology": {
       "name": "bb-methodology",
@@ -110,7 +110,7 @@
       "relative_path": "library/logic/bb-methodology/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/bb-methodology/SKILL.md",
       "sha256": "687af8873d8300652b7563320f45f7337138b5359eb77318f2031a0cbcce138c",
-      "updated_at": "2026-10-30T10:50:08.453216+00:00"
+      "updated_at": "2026-10-31T10:18:12.631680+00:00"
     },
     "bountyforge": {
       "name": "bountyforge",
@@ -164,7 +164,7 @@
       "relative_path": "library/ad/readme/SKILL.md",
       "source": "akashrpatil/awesome-offensive-security-skills/skills/red-teaming/README.md",
       "sha256": "8f587022e170da99c873d459d5ad296cc0600f27b40e13aa6fce9f117a8f741e",
-      "updated_at": "2026-10-30T10:51:48.479201+00:00"
+      "updated_at": "2026-10-31T10:18:55.882231+00:00"
     },
     "cloud-saas-exposure": {
       "name": "cloud-saas-exposure",
@@ -281,7 +281,7 @@
       "relative_path": "library/recon/bug-bounty/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/bug-bounty/SKILL.md",
       "sha256": "585e1f621a21bf003a7547959c5979ecaead357558b36f6c1407fd1215b2a140",
-      "updated_at": "2026-10-30T10:50:08.622268+00:00"
+      "updated_at": "2026-10-31T10:18:12.747693+00:00"
     },
     "bugcrowd-reporting": {
       "name": "bugcrowd-reporting",
@@ -290,7 +290,7 @@
       "relative_path": "library/reporting/bugcrowd-reporting/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/bugcrowd-reporting/SKILL.md",
       "sha256": "4db20c5b8a67d97849207627c3f01919c74574121fec5be4edf205ed78e165a3",
-      "updated_at": "2026-10-30T10:50:08.783956+00:00"
+      "updated_at": "2026-10-31T10:18:12.849988+00:00"
     },
     "api-security": {
       "name": "api-security",
@@ -443,7 +443,7 @@
       "relative_path": "library/reporting/example-usage/SKILL.md",
       "source": "Masriyan/Claude-Code-CyberSecurity-Skill/skills/22-purple-team/examples/example_usage.md",
       "sha256": "d52a56d1ff6e888afaca22b62f432de9decc030c089738aea1028d4226ac5804",
-      "updated_at": "2026-10-30T10:52:00.961541+00:00"
+      "updated_at": "2026-10-31T10:19:03.017343+00:00"
     },
     "vulnerability-scanning-assessment": {
       "name": "vulnerability-scanning-assessment",
@@ -497,7 +497,7 @@
       "relative_path": "library/general/api-reference/SKILL.md",
       "source": "mukul975/Anthropic-Cybersecurity-Skills/skills/exploiting-nosql-injection-vulnerabilities/references/api-reference.md",
       "sha256": "b64fb56536148231c161ca61ef7f9741f74a591988a7251c30bb3d7c2d2d71d6",
-      "updated_at": "2026-10-30T10:54:59.323426+00:00"
+      "updated_at": "2026-10-31T10:20:50.648058+00:00"
     },
     "standards": {
       "name": "standards",
@@ -506,7 +506,7 @@
       "relative_path": "library/general/standards/SKILL.md",
       "source": "mukul975/Anthropic-Cybersecurity-Skills/skills/exploiting-nosql-injection-vulnerabilities/references/standards.md",
       "sha256": "57b6dfcc5ec60be2f868c33dccab8b9bd4aee5ba2be94b5b12354fce23ed805c",
-      "updated_at": "2026-10-30T10:54:59.504119+00:00"
+      "updated_at": "2026-10-31T10:20:50.764151+00:00"
     },
     "inspector": {
       "name": "inspector",
@@ -560,7 +560,7 @@
       "relative_path": "library/cloud/cloud-iam-deep/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/cloud-iam-deep/SKILL.md",
       "sha256": "d495d06f40392ac410fadd40e35b0a3acbe921aba99a0a9946ed5b26abc64ea9",
-      "updated_at": "2026-10-30T10:50:08.973380+00:00"
+      "updated_at": "2026-10-31T10:18:12.969079+00:00"
     },
     "enterprise-vpn-attack": {
       "name": "enterprise-vpn-attack",
@@ -569,7 +569,7 @@
       "relative_path": "library/network/enterprise-vpn-attack/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/enterprise-vpn-attack/SKILL.md",
       "sha256": "3efcc1022cf260a396dc3eba60808a6035ff5756fa2628a4dbfbe939eec5ead5",
-      "updated_at": "2026-10-30T10:50:09.201040+00:00"
+      "updated_at": "2026-10-31T10:18:13.070434+00:00"
     },
     "evidence-hygiene": {
       "name": "evidence-hygiene",
@@ -578,7 +578,7 @@
       "relative_path": "library/reporting/evidence-hygiene/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/evidence-hygiene/SKILL.md",
       "sha256": "1200f715875c0d773e4d2e00691b92f06deb676e8ca7dafac0b8be19c168380c",
-      "updated_at": "2026-10-30T10:50:09.353059+00:00"
+      "updated_at": "2026-10-31T10:18:13.177551+00:00"
     },
     "hunt-api-misconfig": {
       "name": "hunt-api-misconfig",
@@ -587,7 +587,7 @@
       "relative_path": "library/api/hunt-api-misconfig/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/hunt-api-misconfig/SKILL.md",
       "sha256": "d27a00337ac1c708ddd7540e8425d6131c61af27cc964f4de3bf845372b6a8cd",
-      "updated_at": "2026-10-30T10:50:09.511514+00:00"
+      "updated_at": "2026-10-31T10:18:13.293938+00:00"
     },
     "hunt-aspnet": {
       "name": "hunt-aspnet",
@@ -605,7 +605,7 @@
       "relative_path": "library/recon/hunt-ato/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/hunt-ato/SKILL.md",
       "sha256": "f2afcab5682c117c77259b1ead3eb746aeefaa70c07c019b581b79ede09c7596",
-      "updated_at": "2026-10-30T10:50:09.792019+00:00"
+      "updated_at": "2026-10-31T10:18:13.442887+00:00"
     },
     "hunt-auth-bypass": {
       "name": "hunt-auth-bypass",
@@ -614,7 +614,7 @@
       "relative_path": "library/api/hunt-auth-bypass/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/hunt-auth-bypass/SKILL.md",
       "sha256": "7d8c2a013969817ceb337ecdb6afd04564727cfb0d9f2c2c86d5141020638e14",
-      "updated_at": "2026-10-30T10:50:09.975234+00:00"
+      "updated_at": "2026-10-31T10:18:13.544060+00:00"
     },
     "hunt-business-logic": {
       "name": "hunt-business-logic",
@@ -623,7 +623,7 @@
       "relative_path": "library/logic/hunt-business-logic/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/hunt-business-logic/SKILL.md",
       "sha256": "c498fee1e663deeebed2332ba9248cadee782b7f65e2b61089623b02fca1ce89",
-      "updated_at": "2026-10-30T10:50:10.302243+00:00"
+      "updated_at": "2026-10-31T10:18:13.700640+00:00"
     },
     "hunt-cache-poison": {
       "name": "hunt-cache-poison",
@@ -632,7 +632,7 @@
       "relative_path": "library/web/hunt-cache-poison/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/hunt-cache-poison/SKILL.md",
       "sha256": "a64dea2f7b69bcfbc6d03c21ca8fa0ddf78bc481ecc6531c9f6064737879f25d",
-      "updated_at": "2026-10-30T10:50:10.453796+00:00"
+      "updated_at": "2026-10-31T10:18:13.802072+00:00"
     },
     "hunt-cloud-misconfig": {
       "name": "hunt-cloud-misconfig",
@@ -641,7 +641,7 @@
       "relative_path": "library/cloud/hunt-cloud-misconfig/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/hunt-cloud-misconfig/SKILL.md",
       "sha256": "dff86dce91a6b5fa95b404cd025a16a5f5d94a1c992bfc275122530cb3b1b54e",
-      "updated_at": "2026-10-30T10:50:11.042648+00:00"
+      "updated_at": "2026-10-31T10:18:14.069030+00:00"
     },
     "hunt-csrf": {
       "name": "hunt-csrf",
@@ -650,7 +650,7 @@
       "relative_path": "library/web/hunt-csrf/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/hunt-csrf/SKILL.md",
       "sha256": "d311dce06a0715587abb25f7a28d946111b55d8439697d75e047f8a5a3cd3e79",
-      "updated_at": "2026-10-30T10:50:11.334475+00:00"
+      "updated_at": "2026-10-31T10:18:14.221307+00:00"
     },
     "hunt-dispatch": {
       "name": "hunt-dispatch",
@@ -659,7 +659,7 @@
       "relative_path": "library/general/hunt-dispatch/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/hunt-dispatch/SKILL.md",
       "sha256": "b582c50d9f36d78d97a5d7eda3d70134e8c03ebfa968afd7119eb4ea476ae5c1",
-      "updated_at": "2026-10-30T10:50:11.683715+00:00"
+      "updated_at": "2026-10-31T10:18:14.395669+00:00"
     },
     "hunt-file-upload": {
       "name": "hunt-file-upload",
@@ -668,7 +668,7 @@
       "relative_path": "library/web/hunt-file-upload/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/hunt-file-upload/SKILL.md",
       "sha256": "2ce6b6bd65376b22d9145997c4639edcc8b8033f646957e3e2c4b915e42eb52c",
-      "updated_at": "2026-10-30T10:50:12.112558+00:00"
+      "updated_at": "2026-10-31T10:18:14.616729+00:00"
     },
     "hunt-graphql": {
       "name": "hunt-graphql",
@@ -677,7 +677,7 @@
       "relative_path": "library/api/hunt-graphql/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/hunt-graphql/SKILL.md",
       "sha256": "5a2d5080566449b85f3e4e7d5a73d9a7465f126ae688ed7dafe9186cb30cb5ca",
-      "updated_at": "2026-10-30T10:50:12.564067+00:00"
+      "updated_at": "2026-10-31T10:18:14.834560+00:00"
     },
     "hunt-http-smuggling": {
       "name": "hunt-http-smuggling",
@@ -686,7 +686,7 @@
       "relative_path": "library/web/hunt-http-smuggling/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/hunt-http-smuggling/SKILL.md",
       "sha256": "9ebd33dbdd534d08df689a4b7fd8a8dcef770d6d0358c0cf22252d2a8cf2da45",
-      "updated_at": "2026-10-30T10:50:13.085346+00:00"
+      "updated_at": "2026-10-31T10:18:15.108054+00:00"
     },
     "hunt-idor": {
       "name": "hunt-idor",
@@ -695,7 +695,7 @@
       "relative_path": "library/api/hunt-idor/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/hunt-idor/SKILL.md",
       "sha256": "c264f8d251a21c88b127bfa831acd819e7363ec1b138bcecbf226dc98b74ed3e",
-      "updated_at": "2026-10-30T10:50:13.241082+00:00"
+      "updated_at": "2026-10-31T10:18:15.211608+00:00"
     },
     "hunt-llm-ai": {
       "name": "hunt-llm-ai",
@@ -704,7 +704,7 @@
       "relative_path": "library/api/hunt-llm-ai/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/hunt-llm-ai/SKILL.md",
       "sha256": "44968fc1b2ff3210e481aafbdf7f160d9a1fcbcce995df1edf0329cbff9b7658",
-      "updated_at": "2026-10-30T10:50:14.028013+00:00"
+      "updated_at": "2026-10-31T10:18:15.589151+00:00"
     },
     "hunt-mfa-bypass": {
       "name": "hunt-mfa-bypass",
@@ -713,7 +713,7 @@
       "relative_path": "library/api/hunt-mfa-bypass/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/hunt-mfa-bypass/SKILL.md",
       "sha256": "453126b12df075d941f5a39552d4b17b623aaa692fe3d87442dae104384aafed",
-      "updated_at": "2026-10-30T10:50:14.191260+00:00"
+      "updated_at": "2026-10-31T10:18:15.694299+00:00"
     },
     "hunt-misc": {
       "name": "hunt-misc",
@@ -722,7 +722,7 @@
       "relative_path": "library/recon/hunt-misc/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/hunt-misc/SKILL.md",
       "sha256": "1da165c46da0cb8c2ef9d4e110cb6b876081619b7d96acad43ff96850d2a029e",
-      "updated_at": "2026-10-30T10:50:14.347597+00:00"
+      "updated_at": "2026-10-31T10:18:15.810756+00:00"
     },
     "hunt-ntlm-info": {
       "name": "hunt-ntlm-info",
@@ -731,7 +731,7 @@
       "relative_path": "library/network/hunt-ntlm-info/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/hunt-ntlm-info/SKILL.md",
       "sha256": "2ebe0e8acfc301a4986ac508cc5e032727e01f0246dff1df8b2073dcae2ea86f",
-      "updated_at": "2026-10-30T10:50:14.877528+00:00"
+      "updated_at": "2026-10-31T10:18:16.057462+00:00"
     },
     "hunt-oauth": {
       "name": "hunt-oauth",
@@ -740,7 +740,7 @@
       "relative_path": "library/api/hunt-oauth/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/hunt-oauth/SKILL.md",
       "sha256": "05ef8cb632293ab8e0ae0399a7e5b08587e2645e778eb51377573cb4023de685",
-      "updated_at": "2026-10-30T10:50:15.035990+00:00"
+      "updated_at": "2026-10-31T10:18:16.160096+00:00"
     },
     "hunt-race-condition": {
       "name": "hunt-race-condition",
@@ -749,7 +749,7 @@
       "relative_path": "library/logic/hunt-race-condition/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/hunt-race-condition/SKILL.md",
       "sha256": "783248a920928a4aaa981c268be436af91a7d6251a29730d729a4f678f83c768",
-      "updated_at": "2026-10-30T10:50:15.357682+00:00"
+      "updated_at": "2026-10-31T10:18:16.325746+00:00"
     },
     "hunt-rce": {
       "name": "hunt-rce",
@@ -758,7 +758,7 @@
       "relative_path": "library/web/hunt-rce/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/hunt-rce/SKILL.md",
       "sha256": "86246654cdbafbadf622e3d3a387f587512412df6e83f13a16db443223601140",
-      "updated_at": "2026-10-30T10:50:15.652579+00:00"
+      "updated_at": "2026-10-31T10:18:16.483185+00:00"
     },
     "hunt-saml": {
       "name": "hunt-saml",
@@ -767,7 +767,7 @@
       "relative_path": "library/api/hunt-saml/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/hunt-saml/SKILL.md",
       "sha256": "37070e08eb1d451408420c76a35cec184b4e9387a404dd512a8a0b7557641f32",
-      "updated_at": "2026-10-30T10:50:15.818598+00:00"
+      "updated_at": "2026-10-31T10:18:16.573811+00:00"
     },
     "hunt-sharepoint": {
       "name": "hunt-sharepoint",
@@ -776,7 +776,7 @@
       "relative_path": "library/web/hunt-sharepoint/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/hunt-sharepoint/SKILL.md",
       "sha256": "6c9a1741da8b328176c42c5673dc54e7dd2ae61dc414dbb40eb7ebad7b253a98",
-      "updated_at": "2026-10-30T10:50:16.240617+00:00"
+      "updated_at": "2026-10-31T10:18:16.784717+00:00"
     },
     "hunt-sqli": {
       "name": "hunt-sqli",
@@ -785,7 +785,7 @@
       "relative_path": "library/web/hunt-sqli/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/hunt-sqli/SKILL.md",
       "sha256": "fc5627c37b1028172413285c322c76d1105ebffbbb5af4e0ca0eaa81811fd7c0",
-      "updated_at": "2026-10-30T10:50:16.776080+00:00"
+      "updated_at": "2026-10-31T10:18:17.064269+00:00"
     },
     "hunt-ssrf": {
       "name": "hunt-ssrf",
@@ -794,7 +794,7 @@
       "relative_path": "library/web/hunt-ssrf/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/hunt-ssrf/SKILL.md",
       "sha256": "e9723e4a78a3a2113efd88b0d49df02f9dded113569964d5b1b6aa2f592df058",
-      "updated_at": "2026-10-30T10:50:16.966764+00:00"
+      "updated_at": "2026-10-31T10:18:17.162788+00:00"
     },
     "hunt-ssti": {
       "name": "hunt-ssti",
@@ -803,7 +803,7 @@
       "relative_path": "library/web/hunt-ssti/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/hunt-ssti/SKILL.md",
       "sha256": "edab65afe43abcd2d0d19f7dde29c91f54fbd8720f66e9161a58a4552f1092af",
-      "updated_at": "2026-10-30T10:50:17.125812+00:00"
+      "updated_at": "2026-10-31T10:18:17.265030+00:00"
     },
     "hunt-subdomain": {
       "name": "hunt-subdomain",
@@ -812,7 +812,7 @@
       "relative_path": "library/recon/hunt-subdomain/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/hunt-subdomain/SKILL.md",
       "sha256": "aac68521ad4a90fa5a21777f2c1c3ac05a1dfc080e066e88b0ce42571f174ca3",
-      "updated_at": "2026-10-30T10:50:17.286793+00:00"
+      "updated_at": "2026-10-31T10:18:17.365223+00:00"
     },
     "hunt-xss": {
       "name": "hunt-xss",
@@ -821,7 +821,7 @@
       "relative_path": "library/web/hunt-xss/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/hunt-xss/SKILL.md",
       "sha256": "fad790ac05164299eff8f2206160d23b79d2508ac930721e3d8835d746443714",
-      "updated_at": "2026-10-30T10:50:17.702040+00:00"
+      "updated_at": "2026-10-31T10:18:17.579836+00:00"
     },
     "hunt-xxe": {
       "name": "hunt-xxe",
@@ -830,7 +830,7 @@
       "relative_path": "library/web/hunt-xxe/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/hunt-xxe/SKILL.md",
       "sha256": "a74b466dfb2220787cd61c65860fa50c914b77c30151f04e63284a565c269069",
-      "updated_at": "2026-10-30T10:50:17.871456+00:00"
+      "updated_at": "2026-10-31T10:18:17.696802+00:00"
     },
     "m365-entra-attack": {
       "name": "m365-entra-attack",
@@ -839,7 +839,7 @@
       "relative_path": "library/cloud/m365-entra-attack/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/m365-entra-attack/SKILL.md",
       "sha256": "8b76a543adc6972925639cda19699f7c5b0c2f1d5d03411aaf81115df6d759ce",
-      "updated_at": "2026-10-30T10:50:18.185427+00:00"
+      "updated_at": "2026-10-31T10:18:17.845686+00:00"
     },
     "meme-coin-audit": {
       "name": "meme-coin-audit",
@@ -848,7 +848,7 @@
       "relative_path": "library/general/meme-coin-audit/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/meme-coin-audit/SKILL.md",
       "sha256": "e73eeb86751ac4578456e2058373cd02e812adcbbaec745c6733c78c2e147055",
-      "updated_at": "2026-10-30T10:50:18.342680+00:00"
+      "updated_at": "2026-10-31T10:18:17.956627+00:00"
     },
     "mid-engagement-ir-detection": {
       "name": "mid-engagement-ir-detection",
@@ -857,7 +857,7 @@
       "relative_path": "library/web/mid-engagement-ir-detection/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/mid-engagement-ir-detection/SKILL.md",
       "sha256": "50179c536601c05b98979e19c9b84132f85930820f77bc600991889f0db9b9f4",
-      "updated_at": "2026-10-30T10:50:18.513005+00:00"
+      "updated_at": "2026-10-31T10:18:18.062435+00:00"
     },
     "offensive-osint": {
       "name": "offensive-osint",
@@ -866,7 +866,7 @@
       "relative_path": "library/recon/offensive-osint/SKILL.md",
       "source": "elementalsouls/Claude-OSINT/skills/offensive-osint/SKILL.md",
       "sha256": "8fd578f585dff8dd53a46ccf3762243ad7cfd99fd9067fb2a13378bd0ec4e920",
-      "updated_at": "2026-10-30T10:50:57.489797+00:00"
+      "updated_at": "2026-10-31T10:18:36.910123+00:00"
     },
     "okta-attack": {
       "name": "okta-attack",
@@ -875,7 +875,7 @@
       "relative_path": "library/recon/okta-attack/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/okta-attack/SKILL.md",
       "sha256": "f52a55aca18604292d588fe5144bf1c5fed31e3c084c07cf9c15d90be3d3e589",
-      "updated_at": "2026-10-30T10:50:21.165236+00:00"
+      "updated_at": "2026-10-31T10:18:19.448284+00:00"
     },
     "osint-methodology": {
       "name": "osint-methodology",
@@ -884,7 +884,7 @@
       "relative_path": "library/recon/osint-methodology/SKILL.md",
       "source": "elementalsouls/Claude-OSINT/skills/osint-methodology/SKILL.md",
       "sha256": "4bdb54d71f53ed75ab2dd3dd4db83fd75744ca8dcba84a8e82520cf7a87e603f",
-      "updated_at": "2026-10-30T10:50:58.803264+00:00"
+      "updated_at": "2026-10-31T10:18:37.510581+00:00"
     },
     "redteam-mindset": {
       "name": "redteam-mindset",
@@ -893,7 +893,7 @@
       "relative_path": "library/reporting/redteam-mindset/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/redteam-mindset/SKILL.md",
       "sha256": "bbf42293aedfa03b65cb87d27ec16b811f7acf3d251191db0911e49a2f78dd45",
-      "updated_at": "2026-10-30T10:50:21.825427+00:00"
+      "updated_at": "2026-10-31T10:18:19.828408+00:00"
     },
     "redteam-report-template": {
       "name": "redteam-report-template",
@@ -911,7 +911,7 @@
       "relative_path": "library/reporting/report-writing/SKILL.md",
       "source": "Aetherdz/huntpack/skills/reporting/report-writing/SKILL.md",
       "sha256": "7a8595e5c26ded3f2c8be9f99c30fb4b10996db17c145d41263d5ba8411bb52c",
-      "updated_at": "2026-10-30T10:50:35.293479+00:00"
+      "updated_at": "2026-10-31T10:18:27.303036+00:00"
     },
     "security-arsenal": {
       "name": "security-arsenal",
@@ -920,7 +920,7 @@
       "relative_path": "library/reporting/security-arsenal/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/security-arsenal/SKILL.md",
       "sha256": "c33ecb1a5653501f532b714424aadb1cf8edc5759250b55a58a574b73cb9a0f0",
-      "updated_at": "2026-10-30T10:50:22.287497+00:00"
+      "updated_at": "2026-10-31T10:18:20.093727+00:00"
     },
     "supply-chain-attack-recon": {
       "name": "supply-chain-attack-recon",
@@ -929,7 +929,7 @@
       "relative_path": "library/recon/supply-chain-attack-recon/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/supply-chain-attack-recon/SKILL.md",
       "sha256": "4a63831cf5f775710682c38b7571ae806cd2ca8cd1cae2665359a180f2d8a73d",
-      "updated_at": "2026-10-30T10:50:22.439259+00:00"
+      "updated_at": "2026-10-31T10:18:20.193552+00:00"
     },
     "triage-validation": {
       "name": "triage-validation",
@@ -938,7 +938,7 @@
       "relative_path": "library/reporting/triage-validation/SKILL.md",
       "source": "Aetherdz/huntpack/skills/validation/triage-validation/SKILL.md",
       "sha256": "0882b0d5aad421556199bd6152e7f1ba6fa1a10c7157ae8159c4a02898f9091a",
-      "updated_at": "2026-10-30T10:50:40.970501+00:00"
+      "updated_at": "2026-10-31T10:18:29.970051+00:00"
     },
     "vmware-vcenter-attack": {
       "name": "vmware-vcenter-attack",
@@ -947,7 +947,7 @@
       "relative_path": "library/recon/vmware-vcenter-attack/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/vmware-vcenter-attack/SKILL.md",
       "sha256": "20a51bb02ad3ccf88fb565b367bd52059d2bc3837d2069432657b0aef1228042",
-      "updated_at": "2026-10-30T10:50:22.762474+00:00"
+      "updated_at": "2026-10-31T10:18:20.400266+00:00"
     },
     "web2-recon": {
       "name": "web2-recon",
@@ -956,7 +956,7 @@
       "relative_path": "library/recon/web2-recon/SKILL.md",
       "source": "Aetherdz/huntpack/skills/recon/web2-recon/SKILL.md",
       "sha256": "f007b9f761ebbdca4c47f27cee1cb5ac060be2dc1d8d95908aa812ba26363cc6",
-      "updated_at": "2026-10-30T10:50:32.428922+00:00"
+      "updated_at": "2026-10-31T10:18:25.853530+00:00"
     },
     "business-logic-hunter": {
       "name": "business-logic-hunter",
@@ -974,7 +974,7 @@
       "relative_path": "library/recon/web2-vuln-classes/SKILL.md",
       "source": "Aetherdz/huntpack/skills/hunting/web2-vuln-classes/SKILL.md",
       "sha256": "196e93431d268de7ebfc38779524e7035ff0396695609e188e80c8c8fd80060c",
-      "updated_at": "2026-10-30T10:50:28.697436+00:00"
+      "updated_at": "2026-10-31T10:18:23.844369+00:00"
     },
     "attack-path-builder": {
       "name": "attack-path-builder",
@@ -1091,7 +1091,7 @@
       "relative_path": "library/general/code-reviewer/SKILL.md",
       "source": "NVIDIA/SkillSpector/tests/fixtures/ssd/ssd_clean/SKILL.md",
       "sha256": "e532af5ebc3cde5097af8e455e52cd8df43c71feef3361655de7ea9ac01bb052",
-      "updated_at": "2026-10-30T10:55:04.675250+00:00"
+      "updated_at": "2026-10-31T10:20:53.124220+00:00"
     },
     "cpp-pro": {
       "name": "cpp-pro",
@@ -2621,7 +2621,7 @@
       "relative_path": "library/Web Vulnerabilities/graphql-introspection-abuse/SKILL.md",
       "source": "akashrpatil/awesome-offensive-security-skills/skills/bug-hunting/web-vulnerabilities/graphql-introspection-abuse/SKILL.md",
       "sha256": "9cf842d3640190a35562d5cfd47d87c26be3bbbb15564251dd6d30524dd6a812",
-      "updated_at": "2026-10-30T10:51:37.740109+00:00"
+      "updated_at": "2026-10-31T10:18:52.325864+00:00"
     },
     "jwt-algorithm-confusion": {
       "name": "jwt-algorithm-confusion",
@@ -3827,7 +3827,7 @@
       "relative_path": "library/Evasion/cobalt-strike-malleable-c2/SKILL.md",
       "source": "akashrpatil/awesome-offensive-security-skills/skills/red-teaming/evasion/cobalt-strike-malleable-c2/SKILL.md",
       "sha256": "9b8836b95bf5f950b55532eecce109f46e1d61701b2f27dea8e0dd36ae252096",
-      "updated_at": "2026-10-30T10:51:49.510554+00:00"
+      "updated_at": "2026-10-31T10:18:56.284168+00:00"
     },
     "active-directory-dcsync-attack": {
       "name": "active-directory-dcsync-attack",
@@ -8134,848 +8134,848 @@
     "agent-launcher-orchestrator": {
       "name": "agent-launcher-orchestrator",
       "category": "logic",
-      "description": "Use when a user wants to build, launch, grade, or schedule a Claude Managed Agent (CMA) in their own Anthropic account \u2014 \"build me an agent\", \"launch this as a managed agent\", \"run this on a schedule\", \"grade my agent against a rubric\", \"set up a nightly worker\". Reads the per-session goal (./my-age",
+      "description": "Use when someone wants to build, launch, grade or schedule a Claude Managed Agent in their own Anthropic account ('build me an agent', 'run this nightly'). Reads the session goal, routes with goalrouter.py and compiles the loop with loopcompiler.py.",
       "relative_path": "library/logic/agent-launcher-orchestrator/SKILL.md",
       "source": "S1N6H/Bug-Bounty-Skills/skills/alirezarezvani-claude-skills-agent-launcher-skills-agent-launcher-orchestrator.md",
-      "sha256": "71e0ad4a9ffff2b9eca96bde9495144e5c682e40780cf0ec58983e88c7e966ae",
-      "updated_at": "2026-10-22T09:19:40.389139+00:00"
+      "sha256": "5e7e096aa672a148442025526b2194c0b20343ce1acf5515f38d50ea777221a7",
+      "updated_at": "2026-10-31T10:17:19.577557+00:00"
     },
     "grade-iterate": {
       "name": "grade-iterate",
       "category": "logic",
-      "description": "Phase 3 of building a Claude Managed Agent \u2014 the bounded grade\u2192iterate loop. Define a CMA outcome (a required markdown rubric graded by an isolated grader), read each verdict, decide the next move (sharpen / re-run / promote to schedule), and once a version passes, run held-back eval cases in parall",
+      "description": "Use when a launched managed agent needs grading against a rubric and improving ('grade my agent', 'is it good enough'). Builds the outcome with outcomebuilder.py, reads verdicts with verdictreader.py and runs held-back evals from evalscaffold.py.",
       "relative_path": "library/logic/grade-iterate/SKILL.md",
       "source": "S1N6H/Bug-Bounty-Skills/skills/alirezarezvani-claude-skills-agent-launcher-skills-grade-iterate.md",
-      "sha256": "601c5e8d006179d4f0647019a99f8471164aaa955aab0302857a041400b09890",
-      "updated_at": "2026-10-22T09:19:40.594152+00:00"
+      "sha256": "8682a8b258adeefb79d3f0bb3590df10998adf52907deedf0ab2b6f7fc58b396",
+      "updated_at": "2026-10-31T10:17:19.698416+00:00"
     },
     "interview": {
       "name": "interview",
       "category": "reporting",
-      "description": "Phase 1 of building a Claude Managed Agent \u2014 interview the founder about the one job the agent should do, then produce a build sheet (CMA primitives table + v1/v2 deferrals + eval plan) WITHOUT needing their API key yet. Use when the user says \"help me scope an agent\", \"I have an idea for an agent\",",
+      "description": "Use when someone has an agent idea to scope before launch ('help me scope an agent'). Interviews them about the one job and writes a build sheet with buildsheetbuilder.py, checked by primitivesvalidator.py; no API key needed.",
       "relative_path": "library/reporting/interview/SKILL.md",
       "source": "S1N6H/Bug-Bounty-Skills/skills/alirezarezvani-claude-skills-agent-launcher-skills-interview.md",
-      "sha256": "426cf6fb6502a136e2a35c36a0288de3e7b3241df0fc5172d95c5c15ce35ee36",
-      "updated_at": "2026-10-22T09:19:40.761827+00:00"
+      "sha256": "71ea2bf93c9effe1b68fad728b747a1d09f76d83bafde98e6bfe8931833c6ab9",
+      "updated_at": "2026-10-31T10:17:19.824873+00:00"
     },
     "run-without-you": {
       "name": "run-without-you",
       "category": "logic",
-      "description": "Phase 4 of building a Claude Managed Agent \u2014 make it run without you. Turn a graded agent into a recurring scheduled deployment (POSIX-cron), an event-driven curl trigger, or confirmed on-demand use, then finalize the versioned roadmap. Use when the user says \"run it every morning\", \"put it on a sch",
+      "description": "Use when a graded managed agent should run on a schedule, on an event trigger or on demand ('run it every morning'). Validates cron with cronvalidator.py and builds the deployment with deploymentbuilder.py.",
       "relative_path": "library/logic/run-without-you/SKILL.md",
       "source": "S1N6H/Bug-Bounty-Skills/skills/alirezarezvani-claude-skills-agent-launcher-skills-run-without-you.md",
-      "sha256": "af80d4b6c6215353df3d50fbe85f765699c44a0447b4416d58d2850f4301f82e",
-      "updated_at": "2026-10-22T09:19:40.998037+00:00"
+      "sha256": "34ad233b38e51fc6d2b913f971c19d27cefd68020f01a8c36ca4e10c2064a30d",
+      "updated_at": "2026-10-31T10:17:19.947960+00:00"
     },
     "stage-launch": {
       "name": "stage-launch",
       "category": "network",
-      "description": "Phase 2 of building a Claude Managed Agent \u2014 turn a validated build sheet into exact API payloads and a resumable BYOK curl launch script, then launch (environment \u2192 agent \u2192 session \u2192 kickoff) using the founder's OWN Anthropic key. Use when the user says \"launch it\", \"deploy the agent\", \"create the ",
+      "description": "Use when a managed-agent build sheet is ready to launch ('launch it', 'deploy the agent'). Generates and validates API payloads with payloadgenerator.py and payloadvalidator.py and writes a resumable curl script with launchscriptwriter.py that uses the user's own key.",
       "relative_path": "library/network/stage-launch/SKILL.md",
       "source": "S1N6H/Bug-Bounty-Skills/skills/alirezarezvani-claude-skills-agent-launcher-skills-stage-launch.md",
-      "sha256": "0477f94db524e7580568eb8acb4fa8c728cdba57159a155b00410aafcfb3bf2b",
-      "updated_at": "2026-10-22T09:19:41.192573+00:00"
+      "sha256": "4e6e60dc5ad36dfdb84ccaa3f1b26ef4780fd6ebc2b1366b8bfbe411a6499f42",
+      "updated_at": "2026-10-31T10:17:20.066790+00:00"
     },
     "wrap-up": {
       "name": "wrap-up",
       "category": "logic",
-      "description": "Close out a launched Claude Managed Agent \u2014 recap every primitive the founder now owns, regenerate the single-file overview page, and suggest the next 1-2 upgrades. Use when the user says \"wrap up\", \"close this out\", \"what do I own now\", \"give me the summary\", \"recap the agent\", or when the orchestr",
+      "description": "Use when closing out a launched managed agent ('wrap up', 'what do I own now'). Inventories primitives with primitivesinventory.py, regenerates the overview with overviewpage.py and suggests next upgrades with upgradesuggester.py.",
       "relative_path": "library/logic/wrap-up/SKILL.md",
       "source": "S1N6H/Bug-Bounty-Skills/skills/alirezarezvani-claude-skills-agent-launcher-skills-wrap-up.md",
-      "sha256": "77089d2d96ff5972478ddc71ebe078b53d60d7764c43fa6f71ce589a2ded5e2f",
-      "updated_at": "2026-10-22T09:19:41.391392+00:00"
+      "sha256": "ac2cdf861712f1bc2f7327c33022499a266adf04789b594ced43d67c0832f687",
+      "updated_at": "2026-10-31T10:17:20.190919+00:00"
     },
     "business-growth-skills": {
       "name": "business-growth-skills",
       "category": "logic",
-      "description": "Router/index for the 4 business & growth skills bundled in this plugin: customer-success-manager (health scoring, churn risk, expansion), sales-engineer (RFP analysis, competitive matrices, PoC planning), revenue-operations (pipeline, forecast accuracy, GTM efficiency), and contract-and-proposal-wri",
+      "description": "Use when a growth request needs routing between customer-success-manager, sales-engineer, revenue-operations and contract-and-proposal-writer.",
       "relative_path": "library/logic/business-growth-skills/SKILL.md",
       "source": "S1N6H/Bug-Bounty-Skills/skills/alirezarezvani-claude-skills-business-growth-skills-business-growth-skills.md",
-      "sha256": "c408c2309cb6b2a4b8717146fd1eca4b74a58ffcef972a80a4281c6a67de349c",
-      "updated_at": "2026-10-22T09:19:41.589863+00:00"
+      "sha256": "999b0c7c018cfd4d80445e57e3fbc3ce5d084b38f50d381d02ead0e007d27482",
+      "updated_at": "2026-10-31T10:17:20.306462+00:00"
     },
     "contract-and-proposal-writer": {
       "name": "contract-and-proposal-writer",
       "category": "logic",
-      "description": "Generate professional, jurisdiction-aware business documents: freelance contracts, project proposals, SOWs, NDAs, and MSAs. Structured Markdown output with docx conversion instructions. Covers US (Delaware), EU (GDPR), UK, and DACH (German law) jurisdictions. Not a substitute for legal counsel \u2014 use",
+      "description": "Use when drafting a freelance contract, proposal, SOW, NDA or MSA for US, EU, UK or DACH jurisdictions. Writes structured Markdown with docx conversion steps; not legal advice.",
       "relative_path": "library/logic/contract-and-proposal-writer/SKILL.md",
       "source": "S1N6H/Bug-Bounty-Skills/skills/alirezarezvani-claude-skills-business-growth-skills-contract-and-proposal-writer.md",
-      "sha256": "a92cdbb79c691731dc017b5cbc18370a88f081cb6e54872282678c00cae4a097",
-      "updated_at": "2026-09-12T08:33:39.326967+00:00"
+      "sha256": "c6796e25995d3c27ea1cf00f9fc1592af2eacdde177c9104347ef2043ec8b4e9",
+      "updated_at": "2026-10-31T10:17:20.424623+00:00"
     },
     "customer-success-manager": {
       "name": "customer-success-manager",
       "category": "business-growth",
-      "description": "Monitors customer health, predicts churn risk, and identifies expansion opportunities using weighted scoring models for SaaS customer success. Use when analyzing customer accounts, reviewing retention metrics, scoring at-risk customers, or when the user mentions churn, customer health scores, upsell",
+      "description": "Use when reviewing customer accounts for health, churn risk or expansion. Scores health with healthscorecalculator.py, churn with churnriskanalyzer.py and upsell with expansionopportunityscorer.py.",
       "relative_path": "library/business-growth/customer-success-manager/SKILL.md",
       "source": "S1N6H/Bug-Bounty-Skills/skills/alirezarezvani-claude-skills-business-growth-skills-customer-success-manager.md",
-      "sha256": "ea53629ec26895fc84229d817f91512879be54331122521b180df3a568826546",
-      "updated_at": "2026-09-12T08:33:39.440725+00:00"
+      "sha256": "54b13f595cfa511aa2aefb02605d6f828e3228ca359e8c2b17ffb0be23e8f167",
+      "updated_at": "2026-10-31T10:17:20.532402+00:00"
     },
     "revenue-operations": {
       "name": "revenue-operations",
       "category": "general",
-      "description": "Analyzes sales pipeline health, revenue forecasting accuracy, and go-to-market efficiency metrics for SaaS revenue optimization. Use when analyzing sales pipeline coverage, forecasting revenue, evaluating go-to-market performance, reviewing sales metrics, assessing pipeline analysis, tracking foreca",
+      "description": "Use for pipeline coverage, forecast accuracy or GTM efficiency (magic number, CAC payback). Runs pipelineanalyzer.py, forecastaccuracytracker.py and gtmefficiencycalculator.py.",
       "relative_path": "library/general/revenue-operations/SKILL.md",
       "source": "S1N6H/Bug-Bounty-Skills/skills/alirezarezvani-claude-skills-business-growth-skills-revenue-operations.md",
-      "sha256": "9ba340d0b1f3ff05eef9b8beef9de35a9f9082fef6cbc8cedd09022e4735c9b0",
-      "updated_at": "2026-09-12T08:33:39.565236+00:00"
+      "sha256": "6012c0159fd467b45e46b6587fa4f69fef835fd3b9506ea6c3c46007193eb3b1",
+      "updated_at": "2026-10-31T10:17:20.655981+00:00"
     },
     "sales-engineer": {
       "name": "sales-engineer",
-      "category": "web",
-      "description": "Analyzes RFP/RFI responses for coverage gaps, builds competitive feature comparison matrices, and plans proof-of-concept (POC) engagements for pre-sales engineering. Use when responding to RFPs, bids, or proposal requests; comparing product features against competitors; planning or scoring a custome",
-      "relative_path": "library/web/sales-engineer/SKILL.md",
+      "category": "logic",
+      "description": "Use for pre-sales work: RFP coverage gaps, competitive feature matrices or planning and scoring a proof of concept. Runs rfpresponseanalyzer.py, competitivematrixbuilder.py and pocplanner.py.",
+      "relative_path": "library/logic/sales-engineer/SKILL.md",
       "source": "S1N6H/Bug-Bounty-Skills/skills/alirezarezvani-claude-skills-business-growth-skills-sales-engineer.md",
-      "sha256": "7081cae4383df30c2e4908b522ae5bbf54497bc9e7a3f4472d81c5343ea8f93e",
-      "updated_at": "2026-09-12T08:33:39.681385+00:00"
+      "sha256": "294c61483db810d0ac197315ca4cfb4a12086b9b99b7398497f6170dc4a17526",
+      "updated_at": "2026-10-31T10:17:20.770515+00:00"
     },
     "business-operations-skills": {
       "name": "business-operations-skills",
       "category": "logic",
-      "description": "Use when running, diagnosing, or designing internal business operations \u2014 process documentation, vendor SLAs, capacity planning, internal comms, SOP/runbook authoring, procurement spend. Triggers on \"BizOps review\", \"where's the bottleneck\", \"vendor health\", \"internal SOP\", \"all-hands deck\", \"spend ",
+      "description": "Use when an internal operations request needs routing (process, vendors, capacity, internal comms, SOPs, procurement): 'where's the bottleneck', 'vendor health'. Lists the BizOps skills and routes to one.",
       "relative_path": "library/logic/business-operations-skills/SKILL.md",
       "source": "S1N6H/Bug-Bounty-Skills/skills/alirezarezvani-claude-skills-business-operations-skills-business-operations-skills.md",
-      "sha256": "524d5804111d7aa1a3cd8e578e1a8f1f03d761c60fb53825d8ca06c6f20be0c7",
-      "updated_at": "2026-10-22T09:19:42.350417+00:00"
+      "sha256": "4c63fd7aca42bea7ffd1fc53a46e8ba1e0b1836b8147a357dc1bfb35159bf3f5",
+      "updated_at": "2026-10-31T10:17:20.899080+00:00"
     },
     "capacity-planner": {
       "name": "capacity-planner",
       "category": "general",
-      "description": "Use when an ops leader (Director of CX, Head of Support, VP Ops, Head of BizOps, Head of IT ops, Head of Finance ops) is sizing ops capacity, building a headcount plan, modeling utilization risk, planning Q3 capacity or annual support capacity, or designing CS coverage \u2014 and needs Erlang-C queueing ",
+      "description": "Use when sizing an ops or support team, building a headcount plan or checking utilization risk. Models queues with Erlang C in capacitymodeler.py, analyzes utilization with utilizationanalyzer.py and orders hires with hiringsequencer.py.",
       "relative_path": "library/general/capacity-planner/SKILL.md",
       "source": "S1N6H/Bug-Bounty-Skills/skills/alirezarezvani-claude-skills-business-operations-skills-capacity-planner.md",
-      "sha256": "13edfdca1aac86fc4faa092e2581a11cb54eb5b54be030e6bf10de0b37152124",
-      "updated_at": "2026-10-22T09:19:42.565388+00:00"
+      "sha256": "178cd8d2c68ea680b2b612f43c84ce4050e5a4014766c1ba024c4f93b3173a3b",
+      "updated_at": "2026-10-31T10:17:21.017635+00:00"
     },
     "internal-comms": {
       "name": "internal-comms",
       "category": "reporting",
-      "description": "Use when a Head of People Ops, BizOps lead, or Internal Communications owner needs to draft and sequence an internal-only change-management communication \u2014 a re-org announcement, a tool rollout, a policy change, a leadership transition, a layoff, an acquisition close, or an internal product launch \u2014",
+      "description": "Use when announcing a reorg, tool rollout, policy change, leadership change, layoff or acquisition internally. Builds the announcement with changeannouncementbuilder.py and sequences it with commscalendarbuilder.py.",
       "relative_path": "library/reporting/internal-comms/SKILL.md",
       "source": "S1N6H/Bug-Bounty-Skills/skills/alirezarezvani-claude-skills-business-operations-skills-internal-comms.md",
-      "sha256": "b5beb36da4d111184487dc7bc6f7fa0ab61fdb69577ee52b7ffee3181fa69766",
-      "updated_at": "2026-10-22T09:19:42.833908+00:00"
+      "sha256": "24df7c5393d61d36a7baf122a6d543063951245abe25eced11f7ca6740f2e40e",
+      "updated_at": "2026-10-31T10:17:21.137830+00:00"
     },
     "knowledge-ops": {
       "name": "knowledge-ops",
       "category": "reporting",
-      "description": "Use when a Head of Ops, Knowledge Manager, or TPM-Internal needs to author, validate, or clean up company SOPs and internal runbooks (procurement intake, vendor offboarding, incident-comms cascade, employee onboarding) \u2014 including 5W2H completeness checks (Who-What-When-Where-Why-How-HowMuch), cross",
+      "description": "Use when writing, checking or cleaning up SOPs and runbooks. Generates them with sopgenerator.py, checks 5W2H completeness and links with runbookvalidator.py and ingests an existing knowledge base with kbingester.py.",
       "relative_path": "library/reporting/knowledge-ops/SKILL.md",
       "source": "S1N6H/Bug-Bounty-Skills/skills/alirezarezvani-claude-skills-business-operations-skills-knowledge-ops.md",
-      "sha256": "30b8adda1797f9b39c554982374abb36b86a317a7e4839a27299cc2c554221ef",
-      "updated_at": "2026-10-22T09:19:43.118194+00:00"
+      "sha256": "219052a419506699ac72da7761ce8c95448df431f28084db04109b5202d33546",
+      "updated_at": "2026-10-31T10:17:21.254332+00:00"
     },
     "process-mapper": {
       "name": "process-mapper",
       "category": "logic",
-      "description": "Use when a BizOps lead, COO, or process-improvement owner needs to document an end-to-end business process (procurement, employee onboarding, incident handoff, customer-onboarding, claims adjudication) in BPMN-style notation, measure cycle times by stage, surface where work spends most of its time w",
+      "description": "Use when documenting an end-to-end business process (procurement, onboarding, handoffs) and finding where work waits. Maps it with processdocumenter.py, measures stages with cycletimeanalyzer.py and finds bottlenecks with bottleneckdetector.py.",
       "relative_path": "library/logic/process-mapper/SKILL.md",
       "source": "S1N6H/Bug-Bounty-Skills/skills/alirezarezvani-claude-skills-business-operations-skills-process-mapper.md",
-      "sha256": "834d55830ceb83c75688c1688fbfa1686e9ee030e926be967b1d487dc0b3d4a1",
-      "updated_at": "2026-10-22T09:19:43.318641+00:00"
+      "sha256": "72d9cf4b24f2e1af07569b37d7dbe622120aa542a35b82d43b0dbb34fb9e0f1c",
+      "updated_at": "2026-10-31T10:17:21.366918+00:00"
     },
     "procurement-optimizer": {
       "name": "procurement-optimizer",
       "category": "general",
-      "description": "Use when running an annual SaaS audit, doing category-level spend review, or rationalizing the supplier base \u2014 when the user needs a spend audit, spend categorization (UNSPSC-aligned with Pareto breakdown and industry profiles), purchasing-cycle analysis (bottleneck categories per Goldratt's Theory ",
+      "description": "Use for a SaaS audit, category spend review or supplier consolidation. Categorizes spend with spendcategorizer.py, finds slow purchasing with purchasingcycleanalyzer.py and sizes consolidation with supplierconsolidation.py.",
       "relative_path": "library/general/procurement-optimizer/SKILL.md",
       "source": "S1N6H/Bug-Bounty-Skills/skills/alirezarezvani-claude-skills-business-operations-skills-procurement-optimizer.md",
-      "sha256": "778455909a434fec102e1ba43db2455e5e866a26167c5cb535b0714a6d716a84",
-      "updated_at": "2026-10-22T09:19:43.503695+00:00"
+      "sha256": "8dc297f448758c408e57c389b313770f362fe302bdceae1d361930a66d4c01ce",
+      "updated_at": "2026-10-31T10:17:21.483777+00:00"
     },
     "vendor-management": {
       "name": "vendor-management",
       "category": "general",
-      "description": "Use when reviewing, scoring, or auditing third-party SaaS / vendor relationships \u2014 running a vendor scorecard with industry tuning, tracking SLA compliance with credit-claim flags, classifying third-party risk across 4 risk vectors, preparing a tier-1 vendor review, or auditing the SaaS portfolio. F",
+      "description": "Use when scoring or auditing vendors: scorecards, SLA compliance and service credits, third-party risk tier or a tier-1 vendor review. Runs vendorscorer.py, slacompliancetracker.py and vendorriskclassifier.py.",
       "relative_path": "library/general/vendor-management/SKILL.md",
       "source": "S1N6H/Bug-Bounty-Skills/skills/alirezarezvani-claude-skills-business-operations-skills-vendor-management.md",
-      "sha256": "9f4458f1fc25a214c88df71555777763cfbbb5460c1bdfe93bcf61becb94d7f4",
-      "updated_at": "2026-10-22T09:19:43.685183+00:00"
+      "sha256": "51bf1d769beb96e240a5a5f6860f171edf8646487c9388fef25fe8c464cd11ff",
+      "updated_at": "2026-10-31T10:17:21.609309+00:00"
     },
     "arquiteto-de-empresa": {
       "name": "arquiteto-de-empresa",
       "category": "c-level",
-      "description": "Company Architect: builds a business from scratch as an OKF (Open Knowledge Format) bundle \u2014 a tree of version-controllable .md files with frontmatter type, links forming a graph, and reserved index.md/log.md, readable by humans and agents. Guides the founder through a 12-phase interview (foundation",
+      "description": "Use when a founder wants to document or design a whole company as version-controlled markdown (company as code, a company wiki agents can read, an OKF bundle). Runs a 12-phase interview, scaffolds with scaffoldbundle.py and checks it with okflinter.py.",
       "relative_path": "library/c-level/arquiteto-de-empresa/SKILL.md",
       "source": "S1N6H/Bug-Bounty-Skills/skills/alirezarezvani-claude-skills-c-level-advisor-arquiteto-de-empresa-skills-arquiteto-de-empresa.md",
-      "sha256": "a04aeacb1b74531e84569aa01b947185d106f567a8a550817e61fcf6e642a322",
-      "updated_at": "2026-09-12T08:33:40.739934+00:00"
+      "sha256": "5cf8afae84f00691daefdd368a1bc44497219d3a1ff1d7a7b839825b36ada2e0",
+      "updated_at": "2026-10-31T10:17:21.729013+00:00"
     },
     "chief-ai-officer-advisor": {
       "name": "chief-ai-officer-advisor",
       "category": "c-level",
-      "description": "Chief AI Officer advisory for startups: model build-vs-buy decisions (API vs fine-tune vs in-house), AI risk classification under EU AI Act + US state patchwork, AI cost economics (API-to-self-hosted breakeven), and AI team org evolution. Use when deciding whether to call an API or fine-tune, classi",
+      "description": "Use for AI strategy decisions: API vs fine-tune vs build, EU AI Act or US state risk classification, when self-hosting pays off, or AI hiring order. Runs modelbuildvsbuycalculator.py, airiskclassifier.py and aicosteconomics.py.",
       "relative_path": "library/c-level/chief-ai-officer-advisor/SKILL.md",
       "source": "S1N6H/Bug-Bounty-Skills/skills/alirezarezvani-claude-skills-c-level-advisor-chief-ai-officer-advisor-skills-chief-ai-officer-advisor.md",
-      "sha256": "4d183b3ff5db42796cb87ec032ab280255134553ca83dfe32375e44b6108a4af",
-      "updated_at": "2026-10-22T09:19:43.971783+00:00"
+      "sha256": "f4cbd0bd5bcf2440d86a74d757bcc646729db6c7207d93dc287310e22a9c32e4",
+      "updated_at": "2026-10-31T10:17:21.839594+00:00"
     },
     "chief-customer-officer-advisor": {
       "name": "chief-customer-officer-advisor",
       "category": "c-level",
-      "description": "Chief Customer Officer advisory for startups: retention decomposition (gross retention vs NRR honesty, churn root-cause taxonomy), customer segmentation strategy (differential investment across tiers + ICP fit scoring), CS team coverage model (pooled vs named CSM thresholds + ratio math), and CS tea",
+      "description": "Use for retention strategy, customer segmentation or CS team sizing decisions (GRR vs NRR, churn causes, pooled vs named CSMs). Runs retentiondecompositionanalyzer.py, customersegmentationdesigner.py and cscoveragecalculator.py.",
       "relative_path": "library/c-level/chief-customer-officer-advisor/SKILL.md",
       "source": "S1N6H/Bug-Bounty-Skills/skills/alirezarezvani-claude-skills-c-level-advisor-chief-customer-officer-advisor-skills-chief-customer-officer-advisor.md",
-      "sha256": "8a985a538ffdf5a31325ea757fe25fc35aba2af187763f6f6d7dd50932fc7465",
-      "updated_at": "2026-09-12T08:33:41.007222+00:00"
+      "sha256": "9ba16478d64e858e71031e47cff8720d88d21cceda6f3d9f37862373d687b7a4",
+      "updated_at": "2026-10-31T10:17:21.970038+00:00"
     },
     "chief-data-officer-advisor": {
       "name": "chief-data-officer-advisor",
       "category": "c-level",
-      "description": "Chief Data Officer advisory for startups: AI training data rights and consent provenance, data product strategy (warehouse vs lakehouse vs mesh, build-vs-buy), B2B customer-data-as-asset valuation and M&A readiness, data team org evolution. Use when deciding whether to train models on customer data,",
+      "description": "Use for data strategy decisions: training models on customer data, warehouse vs lakehouse vs mesh, valuing data for a raise or M&A, or data hiring order. Runs aitrainingdataaudit.py, dataproductstrategypicker.py and dataassetvaluator.py.",
       "relative_path": "library/c-level/chief-data-officer-advisor/SKILL.md",
       "source": "S1N6H/Bug-Bounty-Skills/skills/alirezarezvani-claude-skills-c-level-advisor-chief-data-officer-advisor-skills-chief-data-officer-advisor.md",
-      "sha256": "53ac5dd4a6a9687f675b7759565410da054c914e4d8d594962957a5afa6f96f7",
-      "updated_at": "2026-10-22T09:19:44.309400+00:00"
+      "sha256": "e51a3772673a0dbd62ca9c52854cebdb55bef48ae9d336a17bb60aaa069f7f2f",
+      "updated_at": "2026-10-31T10:17:22.084401+00:00"
     },
     "board-prep": {
       "name": "board-prep",
       "category": "ai-security",
-      "description": "Board meeting preparation for the adversarial scenario, not the friendly one. Forces numbers-cold mastery, anticipates hard questions, builds a narrative that acknowledges weakness without losing the room. Use when preparing for a board meeting, an investor update, fundraising presentation, or any h",
+      "description": "Use before a board meeting, investor update or fundraising pitch where the numbers will be challenged. Drills numbers cold, anticipates the hard questions and builds a narrative that admits weakness without losing the room.",
       "relative_path": "library/ai-security/board-prep/SKILL.md",
       "source": "S1N6H/Bug-Bounty-Skills/skills/alirezarezvani-claude-skills-c-level-advisor-executive-mentor-skills-board-prep.md",
-      "sha256": "7c1d19e1114b41fee8a27b8a575c5744e613484a3067a396c743245f21ed3352",
-      "updated_at": "2026-09-12T08:33:41.238471+00:00"
+      "sha256": "651287a6ac0545f35c4a924f9b1f1185ed520f9c743c6559b993da9c9aef7bdc",
+      "updated_at": "2026-10-31T10:17:22.196798+00:00"
     },
     "challenge": {
       "name": "challenge",
       "category": "general",
-      "description": "Pre-mortem plan analysis. Imagine the plan failed 12 months from now and work backwards to find the weaknesses. Surfaces assumptions, dependencies, and execution risks before committing resources. Use when before significant resource commitment, before presenting to a board or investors, when feedba",
+      "description": "Use before committing serious resources to a plan, or when feedback has been suspiciously positive. Runs a pre-mortem: assume it failed in 12 months and work back to the assumptions, dependencies and execution risks.",
       "relative_path": "library/general/challenge/SKILL.md",
       "source": "S1N6H/Bug-Bounty-Skills/skills/alirezarezvani-claude-skills-c-level-advisor-executive-mentor-skills-challenge.md",
-      "sha256": "eb04f1e49bae8a81681ad5b84c262a15798637b67aeff686f3a6da5a98f86904",
-      "updated_at": "2026-09-12T08:33:41.351567+00:00"
+      "sha256": "6fa580dcaa64e4f47d0ad9aa1b76fbf035eaede5521edb60f17b37f2d8665127",
+      "updated_at": "2026-10-31T10:17:22.312417+00:00"
     },
     "executive-mentor": {
       "name": "executive-mentor",
       "category": "c-level",
-      "description": "Adversarial thinking partner for founders and executives. Stress-tests plans, prepares for brutal board meetings, dissects decisions with no good options, and forces honest post-mortems. Use when you need someone to find the holes before the board does, make a decision you've been avoiding, or under",
+      "description": "Use when a founder or executive needs a plan stress-tested, a dreaded decision made, a hard board meeting prepared or an honest post-mortem. Adversarial thinking partner; scores options with decisionmatrixscorer.py and maps stakeholders with stakeholdermapper.py.",
       "relative_path": "library/c-level/executive-mentor/SKILL.md",
       "source": "S1N6H/Bug-Bounty-Skills/skills/alirezarezvani-claude-skills-c-level-advisor-executive-mentor-skills-executive-mentor.md",
-      "sha256": "8c4f6b85b37e348f0e969cf03fad1c0b7b6afaf66a2331e384e9f0d34119542a",
-      "updated_at": "2026-09-12T08:33:41.467913+00:00"
+      "sha256": "a87caa68205c59287e876d6f536a905a8701ca442cbd247b1e5e7cdebd71ba85",
+      "updated_at": "2026-10-31T10:17:22.427381+00:00"
     },
     "hard-call": {
       "name": "hard-call",
       "category": "network",
-      "description": "/em:hard-call \u2014 Framework for decisions with no good options. Use when every option is painful and a structured 10/10/10 + regret-minimization pass is needed \u2014 e.g. choosing between a layoff and a down round, or killing a beloved product line.",
+      "description": "Use for a decision where every option hurts (layoff vs down round, killing a loved product). Runs 10/10/10 and regret minimization.",
       "relative_path": "library/network/hard-call/SKILL.md",
       "source": "S1N6H/Bug-Bounty-Skills/skills/alirezarezvani-claude-skills-c-level-advisor-executive-mentor-skills-hard-call.md",
-      "sha256": "39aaad9cd0c148de43890ac71532a39df8139beeed191b7fe261fe948670e232",
-      "updated_at": "2026-09-12T08:33:41.598815+00:00"
+      "sha256": "6f838fbe3432b2d9d57a3ec96ff00cdd392e43009754c0655d6da804eb454b51",
+      "updated_at": "2026-10-31T10:17:22.547285+00:00"
     },
     "postmortem": {
       "name": "postmortem",
       "category": "general",
-      "description": "/em:postmortem \u2014 Honest analysis of what went wrong. Use after a failed launch, missed quarter, or bad hire to run a blameless 5-Whys retrospective with a change register \u2014 e.g. dissecting why the Q3 release slipped six weeks.",
+      "description": "Use after a failed launch, missed quarter or bad hire. Runs a blameless 5-Whys with a change register.",
       "relative_path": "library/general/postmortem/SKILL.md",
       "source": "S1N6H/Bug-Bounty-Skills/skills/alirezarezvani-claude-skills-c-level-advisor-executive-mentor-skills-postmortem.md",
-      "sha256": "ca1b7ab332c72f523beefdf5d2be7399f475582a09fee4e36daffab51394a78e",
-      "updated_at": "2026-09-12T08:33:41.712166+00:00"
+      "sha256": "5d4072ed68a3a793636c45dacd78c012813115a08260e5fc903c0f9ffc43d6a6",
+      "updated_at": "2026-10-31T10:17:22.674258+00:00"
     },
     "stress-test": {
       "name": "stress-test",
       "category": "general",
-      "description": "/em:stress-test \u2014 Business assumption stress testing. Use before betting on a plan whose core assumptions are unvalidated \u2014 e.g. stress-testing 'enterprise buyers will tolerate a 6-month pilot' or a hockey-stick revenue model.",
+      "description": "Use before betting on a plan whose core assumptions are unvalidated (a hockey-stick model, a long enterprise pilot).",
       "relative_path": "library/general/stress-test/SKILL.md",
       "source": "S1N6H/Bug-Bounty-Skills/skills/alirezarezvani-claude-skills-c-level-advisor-executive-mentor-skills-stress-test.md",
-      "sha256": "bfa5b78f085c2b7b6f72f6993b4dde409e0fd2f2b0d4183a304326c0b01646c6",
-      "updated_at": "2026-09-12T08:33:41.827967+00:00"
+      "sha256": "a8026eef3acdfa83ac134c930a2092799cb83c9cf17c5afcaf3690c045393309",
+      "updated_at": "2026-10-31T10:17:22.806576+00:00"
     },
     "general-counsel-advisor": {
       "name": "general-counsel-advisor",
       "category": "c-level",
-      "description": "General Counsel advisory for startups: contract review (MSA, SaaS, NDA, DPA, employment), IP strategy, term sheet decoding, and regulatory landscape mapping. Use when reviewing any contract or term sheet, deciding when to engage outside counsel, defining IP strategy, evaluating regulatory exposure (",
+      "description": "Use when reviewing a contract or term sheet (MSA, SaaS, NDA, DPA, employment), setting IP strategy or mapping regulatory exposure (HIPAA, GDPR, FDA, fintech). Scans with contractriskscanner.py and termsheetanalyzer.py; not a substitute for licensed counsel.",
       "relative_path": "library/c-level/general-counsel-advisor/SKILL.md",
       "source": "S1N6H/Bug-Bounty-Skills/skills/alirezarezvani-claude-skills-c-level-advisor-general-counsel-advisor-skills-general-counsel-advisor.md",
-      "sha256": "d2c9bc2970c3eab62937f4325169dee6f4b8d15f4152152e67a418f70001a188",
-      "updated_at": "2026-10-22T09:19:45.325851+00:00"
+      "sha256": "ae86ee2d511c914664c1516688c3a8209ca81330ad7b0e352f0f8d86cae529f5",
+      "updated_at": "2026-10-31T10:17:27.613582+00:00"
     },
     "agent-protocol": {
       "name": "agent-protocol",
       "category": "c-level",
-      "description": "Inter-agent communication protocol for C-suite agent teams. Defines invocation syntax, loop prevention, isolation rules, and response formats. Use when C-suite agents need to query each other, coordinate cross-functional analysis, or run board meetings with multiple agent roles.",
+      "description": "Use when C-suite advisor agents need to call each other or run a multi-role meeting. Defines invocation syntax, loop prevention, isolation and response formats.",
       "relative_path": "library/c-level/agent-protocol/SKILL.md",
       "source": "S1N6H/Bug-Bounty-Skills/skills/alirezarezvani-claude-skills-c-level-advisor-skills-agent-protocol.md",
-      "sha256": "05c7bd77f01c04983585e33a3b54c32e8c9684d5bd6c9dcf6cb8a735586aba87",
-      "updated_at": "2026-10-22T09:19:45.496427+00:00"
+      "sha256": "f8e469de4abfcae66b71013f2607b4a25f509ecba4813bf3f6f9a1b92bb4d5af",
+      "updated_at": "2026-10-31T10:17:27.728113+00:00"
     },
     "board-deck-builder": {
       "name": "board-deck-builder",
       "category": "c-level",
-      "description": "Assembles comprehensive board and investor update decks by pulling perspectives from all C-suite roles. Use when preparing board meetings, investor updates, quarterly business reviews, or fundraising narratives. Covers structure, narrative framework, bad news delivery, and common mistakes.",
+      "description": "Use when building a board deck, investor update or QBR from all C-suite perspectives. Structures the narrative and how to deliver bad news.",
       "relative_path": "library/c-level/board-deck-builder/SKILL.md",
       "source": "S1N6H/Bug-Bounty-Skills/skills/alirezarezvani-claude-skills-c-level-advisor-skills-board-deck-builder.md",
-      "sha256": "73ca16546887edd28fe97e9c40647034f4b09dae692530d738d24b7d5bfc60a0",
-      "updated_at": "2026-09-12T08:33:42.158987+00:00"
+      "sha256": "2b21bb532a8acb9db1bf16e408612c8ce305daaeb0242045ff5d9da8d64faa5d",
+      "updated_at": "2026-10-31T10:17:27.843584+00:00"
     },
     "board-meeting": {
       "name": "board-meeting",
       "category": "c-level",
-      "description": "Multi-agent board meeting protocol for strategic decisions. Runs a structured 6-phase deliberation: context loading, independent C-suite contributions (isolated, no cross-pollination), critic analysis, synthesis, founder review, and decision extraction. Use when the user invokes /c-level-agents:boar",
+      "description": "Use for /c-level-agents:boardroom or a strategic question that needs a structured multi-executive deliberation. Runs six phases: context, isolated C-suite views, critic, synthesis, founder review and decision.",
       "relative_path": "library/c-level/board-meeting/SKILL.md",
       "source": "S1N6H/Bug-Bounty-Skills/skills/alirezarezvani-claude-skills-c-level-advisor-skills-board-meeting.md",
-      "sha256": "0e79947665096683816bcae3451561840b8bc834e70da583f41cbe68caf05ed6",
-      "updated_at": "2026-10-22T09:19:45.985910+00:00"
+      "sha256": "083812af2020919859326a6fc75bf1fb2883582dcc9b48a1cd210a385790564b",
+      "updated_at": "2026-10-31T10:17:27.966668+00:00"
     },
     "c-level-skills": {
       "name": "c-level-skills",
       "category": "c-level",
-      "description": "Index and router for the C-level advisory bundle: 33 skills covering 14 C-suite roles, orchestration, cross-cutting capabilities, and culture. Use when exploring what the c-level-advisor bundle contains, deciding which advisor skill fits a question, or finding the entry points (cs-onboard interview,",
+      "description": "Use when looking for which C-level advisor skill fits a question (14 C-suite roles, board meetings, culture, M&A). Lists them and routes to one.",
       "relative_path": "library/c-level/c-level-skills/SKILL.md",
       "source": "S1N6H/Bug-Bounty-Skills/skills/alirezarezvani-claude-skills-c-level-advisor-skills-c-level-skills.md",
-      "sha256": "744f9beb251defd6f88e930a74d1d97c264f17a4e5df58983a7fbdfc74d8a997",
-      "updated_at": "2026-10-22T09:19:46.158652+00:00"
+      "sha256": "2d237dd7df7e1d1ba36d0ce15e2df17d27d08301c9f46da679114fa2b3c255db",
+      "updated_at": "2026-10-31T10:17:28.121812+00:00"
     },
     "ceo-advisor": {
       "name": "ceo-advisor",
       "category": "c-level",
-      "description": "Executive leadership guidance for strategic decision-making, organizational development, and stakeholder management. Use when planning strategy, preparing board presentations, managing investors, developing organizational culture, making executive decisions, fundraising, or when user mentions CEO, s",
+      "description": "Use for CEO-level questions: company strategy, board and investor management, fundraising, org design or culture. Models scenarios with financialscenarioanalyzer.py and strategy with strategyanalyzer.py.",
       "relative_path": "library/c-level/ceo-advisor/SKILL.md",
       "source": "S1N6H/Bug-Bounty-Skills/skills/alirezarezvani-claude-skills-c-level-advisor-skills-ceo-advisor.md",
-      "sha256": "df3063c65e85400d2aa877f74aedecf561a5e3b78e8b6dd316860f2c31337c4c",
-      "updated_at": "2026-09-12T08:33:42.500994+00:00"
+      "sha256": "95d51a86bffc3b3ee8ace9d842ae80ac3d87984dd3e27cdc7cb88d834b79b020",
+      "updated_at": "2026-10-31T10:17:28.240637+00:00"
     },
     "cfo-advisor": {
       "name": "cfo-advisor",
       "category": "c-level",
-      "description": "Financial leadership for startups and scaling companies. Financial modeling, unit economics, fundraising strategy, cash management, and board financial packages. Use when building financial models, analyzing unit economics, planning fundraising, managing cash runway, preparing board materials, or wh",
+      "description": "Use for startup finance decisions: unit economics (LTV, CAC), burn and runway, fundraising and dilution, or board financials. Runs uniteconomicsanalyzer.py, burnratecalculator.py and fundraisingmodel.py.",
       "relative_path": "library/c-level/cfo-advisor/SKILL.md",
       "source": "S1N6H/Bug-Bounty-Skills/skills/alirezarezvani-claude-skills-c-level-advisor-skills-cfo-advisor.md",
-      "sha256": "9fcae3f3683725337b96fae510ef0c659ffc3551fca5838c2e94c576696f91f2",
-      "updated_at": "2026-09-12T08:33:42.612116+00:00"
+      "sha256": "9ab289ae987cb278967e06e48a65c9f4761ceec54c7c18d81603e113d8df7fa8",
+      "updated_at": "2026-10-31T10:17:28.374131+00:00"
     },
     "change-management": {
       "name": "change-management",
       "category": "c-level",
-      "description": "Framework for rolling out organizational changes without chaos. Covers the ADKAR model adapted for startups, communication templates, resistance patterns, and change fatigue management. Handles process changes, org restructures, strategy pivots, and culture changes. Use when announcing a reorg, swit",
+      "description": "Use when rolling out a reorg, pivot, tool switch, leadership change or product kill. Plans it with ADKAR, communication templates and resistance patterns.",
       "relative_path": "library/c-level/change-management/SKILL.md",
       "source": "S1N6H/Bug-Bounty-Skills/skills/alirezarezvani-claude-skills-c-level-advisor-skills-change-management.md",
-      "sha256": "309d1563533a38d84bc13c0e32c46dcda4c9fade3ee1fad22997ed3ff0af30f6",
-      "updated_at": "2026-09-12T08:33:42.724363+00:00"
+      "sha256": "7320d1f32a197fb5628b6f9654b9259de347bc2a7d24703bce75c2bb35d91833",
+      "updated_at": "2026-10-31T10:17:28.512643+00:00"
     },
     "chief-of-staff": {
       "name": "chief-of-staff",
       "category": "c-level",
-      "description": "C-suite orchestration layer. Routes founder questions to the right advisor role(s), triggers multi-role board meetings for complex decisions, synthesizes outputs, and tracks decisions. Every C-suite interaction starts here. Loads company context automatically. Use when a founder question needs routi",
+      "description": "Use when a founder question needs routing to the right C-suite advisor, or a cross-functional decision needs a board meeting convened. Loads company context, synthesizes the answers and tracks decisions.",
       "relative_path": "library/c-level/chief-of-staff/SKILL.md",
       "source": "S1N6H/Bug-Bounty-Skills/skills/alirezarezvani-claude-skills-c-level-advisor-skills-chief-of-staff.md",
-      "sha256": "bc217ed8a294363fb61c895c54fcc70f55221f92aab16841df25c8ed8a05e9a5",
-      "updated_at": "2026-09-12T08:33:42.841009+00:00"
+      "sha256": "78a81bc8a25d73155da2aa7de71e1afa4a416e5a02d6c097e838217c82c98a04",
+      "updated_at": "2026-10-31T10:17:28.646780+00:00"
     },
     "chro-advisor": {
       "name": "chro-advisor",
       "category": "c-level",
-      "description": "People leadership for scaling companies. Hiring strategy, compensation design, org structure, culture, and retention. Use when building hiring plans, designing comp frameworks, restructuring teams, managing performance, building culture, or when user mentions CHRO, HR, people strategy, talent, headc",
+      "description": "Use for people strategy: hiring plans, comp bands, org structure, performance or retention. Models hiring with hiringplanmodeler.py and benchmarks pay with compbenchmarker.py.",
       "relative_path": "library/c-level/chro-advisor/SKILL.md",
       "source": "S1N6H/Bug-Bounty-Skills/skills/alirezarezvani-claude-skills-c-level-advisor-skills-chro-advisor.md",
-      "sha256": "efd98eaba78e41b3399006a48536df2e146c1638dd758155f46886f07070d70d",
-      "updated_at": "2026-09-12T08:33:42.958782+00:00"
+      "sha256": "78156dccf49fda61de3ebe847df2fa6bc8c84eb57a9dda19e08771f58d9037d1",
+      "updated_at": "2026-10-31T10:17:28.766016+00:00"
     },
     "ciso-advisor": {
       "name": "ciso-advisor",
       "category": "c-level",
-      "description": "Security leadership for growth-stage companies. Risk quantification in dollars, compliance roadmap (SOC 2/ISO 27001/HIPAA/GDPR), security architecture strategy, incident response leadership, and board-level security reporting. Use when building security programs, justifying security budget, selectin",
+      "description": "Use for security leadership decisions: a security program, budget justification in dollars, SOC 2 vs ISO 27001 vs HIPAA roadmap, or board security reporting. Quantifies risk with riskquantifier.py and tracks compliance with compliancetracker.py.",
       "relative_path": "library/c-level/ciso-advisor/SKILL.md",
       "source": "S1N6H/Bug-Bounty-Skills/skills/alirezarezvani-claude-skills-c-level-advisor-skills-ciso-advisor.md",
-      "sha256": "ca2c14e65ff74b576e2d40ac39d0b26b00cca206488254ba525b78cbdb7c2b37",
-      "updated_at": "2026-09-12T08:33:43.066071+00:00"
+      "sha256": "f77100133fef73f6f8eb7f01ae31701054064e70536b45d3f7ed676d8bde1cab",
+      "updated_at": "2026-10-31T10:17:28.887944+00:00"
     },
     "cmo-advisor": {
       "name": "cmo-advisor",
       "category": "c-level",
-      "description": "Marketing leadership for scaling companies. Brand positioning, growth model design, marketing budget allocation, and marketing org design. Use when designing brand strategy, selecting growth models (PLG vs sales-led vs community-led), allocating marketing budgets, building marketing teams, or when u",
+      "description": "Use for marketing leadership decisions: positioning, PLG vs sales-led vs community-led, budget allocation or marketing team design. Simulates growth with growthmodelsimulator.py and budgets with marketingbudgetmodeler.py.",
       "relative_path": "library/c-level/cmo-advisor/SKILL.md",
       "source": "S1N6H/Bug-Bounty-Skills/skills/alirezarezvani-claude-skills-c-level-advisor-skills-cmo-advisor.md",
-      "sha256": "aa76f8740b2384e18066e4f02950bec552e0a8b5ff17a526a51b724163592cc7",
-      "updated_at": "2026-09-12T08:33:43.188038+00:00"
+      "sha256": "8124ce567037aa883c167c8e0095fa7f867d8a563d78362f473cd449dad5f68c",
+      "updated_at": "2026-10-31T10:17:29.015730+00:00"
     },
     "company-os": {
       "name": "company-os",
       "category": "c-level",
-      "description": "The meta-framework for how a company runs \u2014 the connective tissue between all C-suite roles. Covers operating system selection (EOS, Scaling Up, OKR-native, hybrid), accountability charts, scorecards, meeting pulse, issue resolution, and 90-day rocks. Use when setting up company operations, selectin",
+      "description": "Use when choosing or setting up how the company runs: EOS, Scaling Up or OKRs, accountability chart, scorecard, meeting rhythm, quarterly rocks.",
       "relative_path": "library/c-level/company-os/SKILL.md",
       "source": "S1N6H/Bug-Bounty-Skills/skills/alirezarezvani-claude-skills-c-level-advisor-skills-company-os.md",
-      "sha256": "beb4f6dac3dc1380548230bd278664e850af7bd8930142be2e2051f97bd85b6f",
-      "updated_at": "2026-09-12T08:33:43.298594+00:00"
+      "sha256": "6e14f2c265b2548a27254ca6e835dc35f9fdcf481b6b46eb09670b9b1ad28ede",
+      "updated_at": "2026-10-31T10:17:29.137702+00:00"
     },
     "competitive-intel": {
       "name": "competitive-intel",
       "category": "c-level",
-      "description": "Systematic competitor tracking that feeds CMO positioning, CRO battlecards, and CPO roadmap decisions. Use when analyzing competitors, building sales battlecards, tracking market moves, positioning against alternatives, or when user mentions competitive intelligence, competitive analysis, competitor",
+      "description": "Use for competitor analysis, battlecards, win/loss review or positioning against alternatives. Builds a tracking system that feeds positioning, sales and roadmap.",
       "relative_path": "library/c-level/competitive-intel/SKILL.md",
       "source": "S1N6H/Bug-Bounty-Skills/skills/alirezarezvani-claude-skills-c-level-advisor-skills-competitive-intel.md",
-      "sha256": "647c53414f51372dabe8323f98e65be06db5fb900d3dd30ffb783f2a977b9831",
-      "updated_at": "2026-09-12T08:33:43.411967+00:00"
+      "sha256": "89df3548222ba2dbce95de5a7f9929c4e23f820ca089c1a15e5f9cf3fd8d9025",
+      "updated_at": "2026-10-31T10:17:29.262224+00:00"
     },
     "context-engine": {
       "name": "context-engine",
       "category": "c-level",
-      "description": "Loads and manages company context for all C-suite advisor skills. Reads ~/.claude/company-context.md, detects stale context (older than 90 days), enriches context during conversations, and enforces privacy/anonymization rules before external API calls. Use when starting any C-suite advisor session, ",
+      "description": "Use when starting a C-suite advisor session, when company context is missing or older than 90 days, or before company data goes to an external service. Loads and enriches ~/.claude/company-context.md and applies anonymization rules.",
       "relative_path": "library/c-level/context-engine/SKILL.md",
       "source": "S1N6H/Bug-Bounty-Skills/skills/alirezarezvani-claude-skills-c-level-advisor-skills-context-engine.md",
-      "sha256": "747e58b4d06d1354e593a296c32cdc605a2e3af22dd125c4b2bc807ac4b63b77",
-      "updated_at": "2026-10-22T09:19:47.702663+00:00"
+      "sha256": "ea962c08bdf12f9505310abf38f5fe26bca4189abe37dbdc0f02b4c91a288a36",
+      "updated_at": "2026-10-31T10:17:29.382943+00:00"
     },
     "coo-advisor": {
       "name": "coo-advisor",
       "category": "c-level",
-      "description": "Operations leadership for scaling companies. Process design, OKR execution, operational cadence, and scaling playbooks. Use when designing operations, setting up OKRs, building processes, scaling teams, analyzing bottlenecks, planning operational cadence, or when user mentions COO, operations, proce",
+      "description": "Use for operations leadership: process design, OKR execution, operating cadence, bottlenecks or scaling playbooks. Tracks OKRs with okrtracker.py and analyzes efficiency with opsefficiencyanalyzer.py.",
       "relative_path": "library/c-level/coo-advisor/SKILL.md",
       "source": "S1N6H/Bug-Bounty-Skills/skills/alirezarezvani-claude-skills-c-level-advisor-skills-coo-advisor.md",
-      "sha256": "f7f47376610ef7a280be4af34a3816adb9225a24d6af52e148a4808b13c6df64",
-      "updated_at": "2026-09-12T08:33:43.655197+00:00"
+      "sha256": "444e71f634600621943b804f7a3afd63e4fbe0bb42253b6fd16e055d58ed696d",
+      "updated_at": "2026-10-31T10:17:29.503618+00:00"
     },
     "cpo-advisor": {
       "name": "cpo-advisor",
       "category": "c-level",
-      "description": "Product leadership for scaling companies. Product vision, portfolio strategy, product-market fit, and product org design. Use when setting product vision, managing a product portfolio, measuring PMF, designing product teams, prioritizing at the portfolio level, reporting to the board on product, or ",
+      "description": "Use for product leadership: product vision, PMF measurement, portfolio prioritization, product org design or board product reporting. Scores PMF with pmfscorer.py and the portfolio with portfolioanalyzer.py.",
       "relative_path": "library/c-level/cpo-advisor/SKILL.md",
       "source": "S1N6H/Bug-Bounty-Skills/skills/alirezarezvani-claude-skills-c-level-advisor-skills-cpo-advisor.md",
-      "sha256": "aa60b2c210f1b0ae1b6668f285ee1dd85b21c607f236f57a7b9bb0e9417a4225",
-      "updated_at": "2026-09-12T08:33:43.765635+00:00"
+      "sha256": "27c5c83c4e43e9f1ec16c8d1669c51efd4875726808475b0532150ad99b37994",
+      "updated_at": "2026-10-31T10:17:29.623247+00:00"
     },
     "cro-advisor": {
       "name": "cro-advisor",
       "category": "c-level",
-      "description": "Revenue leadership for B2B SaaS companies. Revenue forecasting, sales model design, pricing strategy, net revenue retention, and sales team scaling. Use when designing the revenue engine, setting quotas, modeling NRR, evaluating pricing, building board forecasts, or when user mentions CRO, chief rev",
+      "description": "Use for B2B revenue leadership: forecasting, quotas, sales model, NRR and churn, pricing or sales capacity. Forecasts with revenueforecastmodel.py and analyzes churn with churnanalyzer.py.",
       "relative_path": "library/c-level/cro-advisor/SKILL.md",
       "source": "S1N6H/Bug-Bounty-Skills/skills/alirezarezvani-claude-skills-c-level-advisor-skills-cro-advisor.md",
-      "sha256": "cd712605d907badd29df29bd8c9cd8cb638bb845be285f3c5ecbd03c51a6bbd0",
-      "updated_at": "2026-09-12T08:33:43.891253+00:00"
+      "sha256": "781d04708656eda013c09fb95e2c8a15d619fb4570bb2e122591baa1518de637",
+      "updated_at": "2026-10-31T10:17:29.753695+00:00"
     },
     "cs-onboard": {
       "name": "cs-onboard",
       "category": "c-level",
-      "description": "Founder onboarding interview that captures company context across 7 dimensions. Invoke with /cs-onboard setup for initial interview or /cs-onboard update for quarterly refresh. Generates ~/.claude/company-context.md used by all C-suite advisor skills. Use when setting up the C-suite advisors for the",
+      "description": "Use when setting up the C-suite advisors for the first time, or when company context is missing or stale after a raise or pivot. Interviews the founder across 7 dimensions and writes ~/.claude/company-context.md.",
       "relative_path": "library/c-level/cs-onboard/SKILL.md",
       "source": "S1N6H/Bug-Bounty-Skills/skills/alirezarezvani-claude-skills-c-level-advisor-skills-cs-onboard.md",
-      "sha256": "640f544eafac5a4448ae4a6ea8f8fb1c23bc7f2388d74a31a95d21f06f818778",
-      "updated_at": "2026-10-22T09:19:48.337773+00:00"
+      "sha256": "374edfe1e8bf5facabf7a8a02c3d85406b5ba6695aa1189eb7ca2f14b4d3b21d",
+      "updated_at": "2026-10-31T10:17:29.876534+00:00"
     },
     "cto-advisor": {
       "name": "cto-advisor",
       "category": "c-level",
-      "description": "Technical leadership guidance for engineering teams, architecture decisions, and technology strategy. Use when assessing technical debt, scaling engineering teams, evaluating technologies, making architecture decisions, establishing engineering metrics, or when user mentions CTO, tech debt, technica",
+      "description": "Use for CTO-level decisions: tech debt, architecture direction, engineering team scaling, technology evaluation or DORA metrics. Analyzes debt with techdebtanalyzer.py and team growth with teamscalingcalculator.py.",
       "relative_path": "library/c-level/cto-advisor/SKILL.md",
       "source": "S1N6H/Bug-Bounty-Skills/skills/alirezarezvani-claude-skills-c-level-advisor-skills-cto-advisor.md",
-      "sha256": "163188fbfa003cfe593f460f814aadcfa4228c85d6de96fe7589442afbee8adb",
-      "updated_at": "2026-09-12T08:33:44.124399+00:00"
+      "sha256": "a138e84d6b2e5d3c1aeded60380c0b26814d89bf19a6916d549bfaf85dfaaddd",
+      "updated_at": "2026-10-31T10:17:29.988123+00:00"
     },
     "culture-architect": {
       "name": "culture-architect",
       "category": "c-level",
-      "description": "Build, measure, and evolve company culture as operational behavior \u2014 not wall posters. Covers mission/vision/values workshops, values-to-behaviors translation, culture code creation, culture health assessment, and cultural rituals by stage. Use when building company values, assessing culture health,",
+      "description": "Use when defining company values, turning them into behaviors, assessing culture health or designing rituals. Treats culture as operating behavior, not posters.",
       "relative_path": "library/c-level/culture-architect/SKILL.md",
       "source": "S1N6H/Bug-Bounty-Skills/skills/alirezarezvani-claude-skills-c-level-advisor-skills-culture-architect.md",
-      "sha256": "7d057648e470951de883cc00c8078640fadc0dfc38cdaaac4e26435d2caec2a0",
-      "updated_at": "2026-09-12T08:33:44.248485+00:00"
+      "sha256": "ba12704699147477d81f881df782a9be18f6f6cf534e3391fb924a6bdabd1d06",
+      "updated_at": "2026-10-31T10:17:30.107258+00:00"
     },
     "decision-logger": {
       "name": "decision-logger",
       "category": "c-level",
-      "description": "Two-layer memory architecture for board meeting decisions. Manages raw transcripts (Layer 1) and approved decisions (Layer 2). Use when logging decisions after a board meeting, reviewing past decisions with /decision-logger decisions, or checking overdue action items with /decision-logger review. In",
+      "description": "Use when logging a decision after a board meeting, reviewing past decisions or checking overdue actions. Keeps raw transcripts and approved decisions separately with decisiontracker.py.",
       "relative_path": "library/c-level/decision-logger/SKILL.md",
       "source": "S1N6H/Bug-Bounty-Skills/skills/alirezarezvani-claude-skills-c-level-advisor-skills-decision-logger.md",
-      "sha256": "a38a14f8400e8bfb9f6567dcfc47d9456d1907e8185d92c8f0294c9aa812906e",
-      "updated_at": "2026-10-22T09:19:48.798448+00:00"
+      "sha256": "66a4eb231ec4aba255cbc86fd8fa32aebb46a212de12c276aec168ccb1111a66",
+      "updated_at": "2026-10-31T10:17:30.229255+00:00"
     },
     "founder-coach": {
       "name": "founder-coach",
       "category": "c-level",
-      "description": "Personal leadership development for founders and first-time CEOs. Covers founder archetype identification, delegation frameworks, energy management, CEO calendar audits, leadership style evolution, blind spot identification, imposter syndrome, founder mental health, and succession planning. Use when",
+      "description": "Use when a founder is the bottleneck, can't delegate, is burning out or is moving from IC to CEO. Covers delegation, energy and calendar audits, blind spots and succession.",
       "relative_path": "library/c-level/founder-coach/SKILL.md",
       "source": "S1N6H/Bug-Bounty-Skills/skills/alirezarezvani-claude-skills-c-level-advisor-skills-founder-coach.md",
-      "sha256": "5dddb18187c7bbbcb91bcbed07eff1bf739ffa20b91668e09f89743c4255a230",
-      "updated_at": "2026-09-12T08:33:44.474036+00:00"
+      "sha256": "5f5362010ee08b11424049f7911a0d2c42bc4c41b27819ddc7d14f2a88229d71",
+      "updated_at": "2026-10-31T10:17:30.358235+00:00"
     },
     "internal-narrative": {
       "name": "internal-narrative",
       "category": "c-level",
-      "description": "Build and maintain one coherent company story across all audiences \u2014 employees, investors, customers, candidates, and partners. Detects narrative contradictions and ensures the same truth is framed for each audience's needs. Use when preparing investor updates, all-hands presentations, board communi",
+      "description": "Use when preparing an all-hands, investor update, recruiting pitch or crisis message, or when stories told to different audiences drift apart. Keeps one company story and flags contradictions.",
       "relative_path": "library/c-level/internal-narrative/SKILL.md",
       "source": "S1N6H/Bug-Bounty-Skills/skills/alirezarezvani-claude-skills-c-level-advisor-skills-internal-narrative.md",
-      "sha256": "1c3558eddccc7547fea27a6f25875c9861e32d5899db5f027b71d3c2036d922e",
-      "updated_at": "2026-09-12T08:33:44.602239+00:00"
+      "sha256": "d683bffb65e92fe9ad484a8d6460229a0e67cb8aa26825a52055ac380d894cef",
+      "updated_at": "2026-10-31T10:17:30.483390+00:00"
     },
     "intl-expansion": {
       "name": "intl-expansion",
       "category": "c-level",
-      "description": "International market expansion strategy. Market selection, entry modes, localization, regulatory compliance, and go-to-market by region. Use when expanding to new countries, evaluating international markets, planning localization, or building regional teams.",
+      "description": "Use when expanding to a new country: market selection, entry mode, localization, regulation and regional go-to-market.",
       "relative_path": "library/c-level/intl-expansion/SKILL.md",
       "source": "S1N6H/Bug-Bounty-Skills/skills/alirezarezvani-claude-skills-c-level-advisor-skills-intl-expansion.md",
-      "sha256": "4ff404139d02174ca6151c3e0ee7f65b199fce7cf2afb16fe567709381ad390c",
-      "updated_at": "2026-09-12T08:33:44.717939+00:00"
+      "sha256": "51c02c77b1dabfbc1953f3647cbd93ee4a13f1bf5258b94631a0211c12f14980",
+      "updated_at": "2026-10-31T10:17:30.601431+00:00"
     },
     "ma-playbook": {
       "name": "ma-playbook",
       "category": "c-level",
-      "description": "M&A strategy for acquiring companies or being acquired. Due diligence, valuation, integration, and deal structure. Use when evaluating acquisitions, preparing for acquisition, M&A due diligence, integration planning, or deal negotiation.",
+      "description": "Use when buying a company or preparing to be bought: due diligence, valuation, deal structure and integration.",
       "relative_path": "library/c-level/ma-playbook/SKILL.md",
       "source": "S1N6H/Bug-Bounty-Skills/skills/alirezarezvani-claude-skills-c-level-advisor-skills-ma-playbook.md",
-      "sha256": "e27101055e873209979459047b94f2228e82a46240fb1da59735d54752e7f7c5",
-      "updated_at": "2026-09-12T08:33:46.482366+00:00"
+      "sha256": "dab5cfaf28f4e96f240df0658cb3771209063bdbaa2094caf5941358980e48b0",
+      "updated_at": "2026-10-31T10:17:30.717175+00:00"
     },
     "org-health-diagnostic": {
       "name": "org-health-diagnostic",
       "category": "c-level",
-      "description": "Cross-functional organizational health check combining signals from all C-suite roles. Scores 8 dimensions on a traffic-light scale with drill-down recommendations. Use when assessing overall company health, preparing for board reviews, identifying at-risk functions, or when user mentions org health",
+      "description": "Use for a whole-company health check before a board review or when functions seem at risk. Scores 8 dimensions on a traffic light with healthscorer.py.",
       "relative_path": "library/c-level/org-health-diagnostic/SKILL.md",
       "source": "S1N6H/Bug-Bounty-Skills/skills/alirezarezvani-claude-skills-c-level-advisor-skills-org-health-diagnostic.md",
-      "sha256": "935fbe7470247d6740dccb1619bbd6c1365a8e9ff3d7b5d5239f92933da0f84c",
-      "updated_at": "2026-09-12T08:33:46.596632+00:00"
+      "sha256": "286773d7ef7016420cf5426d1ecd16c5d48ca1c2c7152ed68c5ce88a1a4d4fff",
+      "updated_at": "2026-10-31T10:17:30.852454+00:00"
     },
     "scenario-war-room": {
       "name": "scenario-war-room",
       "category": "c-level",
-      "description": "Cross-functional what-if modeling for cascading multi-variable scenarios. Unlike single-assumption stress testing, this models compound adversity across all business functions simultaneously. Use when facing complex risk scenarios, strategic decisions with major downside, or when the user asks 'what",
+      "description": "Use for compound what-if questions ('what if X and Y both happen?') with major downside across functions. Models cascading scenarios with scenariomodeler.py.",
       "relative_path": "library/c-level/scenario-war-room/SKILL.md",
       "source": "S1N6H/Bug-Bounty-Skills/skills/alirezarezvani-claude-skills-c-level-advisor-skills-scenario-war-room.md",
-      "sha256": "bbc259eb11e8ba20e3eee2c5a531ef43994685c7274514a4e3709dba2dd6bf3a",
-      "updated_at": "2026-09-12T08:33:46.702490+00:00"
+      "sha256": "5bb3b2a159e0c329041cc280af152cc4dd76481d28e82b7122f1a196aaa38a0e",
+      "updated_at": "2026-10-31T10:17:30.989332+00:00"
     },
     "strategic-alignment": {
       "name": "strategic-alignment",
       "category": "c-level",
-      "description": "Cascades strategy from boardroom to individual contributor. Detects and fixes misalignment between company goals and team execution. Covers strategy articulation, cascade mapping, orphan goal detection, silo identification, communication gap analysis, and realignment protocols. Use when teams are pu",
+      "description": "Use when teams pull in different directions, OKRs don't connect or departments optimize locally. Maps the strategy cascade and finds orphan goals and silos with alignmentchecker.py.",
       "relative_path": "library/c-level/strategic-alignment/SKILL.md",
       "source": "S1N6H/Bug-Bounty-Skills/skills/alirezarezvani-claude-skills-c-level-advisor-skills-strategic-alignment.md",
-      "sha256": "b6c7a58907851b103de7c46c2b9063362fc61d7d1e450fc612710f4fc04ea6ab",
-      "updated_at": "2026-09-12T08:33:46.821493+00:00"
+      "sha256": "2425bcf314ebda3013ac8abbff2c4ce7265dc41b495b55a7c1cbc87a6cb45d7d",
+      "updated_at": "2026-10-31T10:17:31.110633+00:00"
     },
     "vpe-advisor": {
       "name": "vpe-advisor",
       "category": "c-level",
-      "description": "VP of Engineering advisory for startups: delivery throughput (DORA 4 metrics + bottleneck identification), engineering hiring funnel (sourcing \u2192 screen \u2192 onsite \u2192 offer conversion + time-to-fill + pipeline gap), engineering team structure (squad/tribe/chapter design + tech-lead manager-trigger thres",
+      "description": "Use when delivery is slowing, eng hiring is broken, team structure is unclear or you need to decide when to add an eng manager. Runs deliverythroughputanalyzer.py (DORA), enghiringfunnelcalculator.py and engteamstructuredesigner.py.",
       "relative_path": "library/c-level/vpe-advisor/SKILL.md",
       "source": "S1N6H/Bug-Bounty-Skills/skills/alirezarezvani-claude-skills-c-level-advisor-skills-vpe-advisor.md",
-      "sha256": "48398cc729dd4f45cbe6e98d4d84d3c211ff5e4d7deb74d604277c08c94d55bd",
-      "updated_at": "2026-10-22T09:19:49.937677+00:00"
+      "sha256": "d6138f968002abdd3322578c4198b973d8ac8a0d5dbf89a583b5f0025c01bb6e",
+      "updated_at": "2026-10-31T10:17:31.236117+00:00"
     },
     "boardroom": {
       "name": "boardroom",
       "category": "general",
-      "description": "/c-level-agents:boardroom [brief] \u2014 6-phase multi-role deliberation across the C-suite with Phase 2 isolation, critic pre-screen, and synthesis. Outputs a board memo. Use when a decision spans multiple executive domains \u2014 e.g. a pricing change touching finance, positioning, and product, or a raise-v",
+      "description": "Use for /c-level-agents:boardroom, or a decision spanning several executive domains (a pricing change, raise vs cut). Runs a 6-phase C-suite deliberation and writes a board memo.",
       "relative_path": "library/general/boardroom/SKILL.md",
       "source": "S1N6H/Bug-Bounty-Skills/skills/alirezarezvani-claude-skills-c-level-agents-skills-boardroom.md",
-      "sha256": "aa3d2418dfe04baf259d35bc75a7692bb7237ab68a151fa6cfdc9b9fe376b034",
-      "updated_at": "2026-10-22T09:19:50.133204+00:00"
+      "sha256": "446799ba40c8545f810a72bdde8df32f877a4f68f3cbdc787c9cbb78b84c041f",
+      "updated_at": "2026-10-31T10:17:31.356420+00:00"
     },
     "brief": {
       "name": "brief",
       "category": "general",
-      "description": "/c-level-agents:brief [topic] \u2014 Generate a one-page strategy brief from an office-hours intake. First step in the strategic sprint pipeline. Use when a strategic question needs to be framed before boardroom deliberation \u2014 e.g. locking options, assumptions, and success criteria for a pricing change o",
+      "description": "Use for /c-level-agents:brief, or to frame a strategic question (options, assumptions, success criteria) as a one-page brief before deliberation.",
       "relative_path": "library/general/brief/SKILL.md",
       "source": "S1N6H/Bug-Bounty-Skills/skills/alirezarezvani-claude-skills-c-level-agents-skills-brief.md",
-      "sha256": "a4b8078065194c6c35c205dee0194f1caa88ffa979f3791763209ba11a56fdcd",
-      "updated_at": "2026-10-22T09:19:50.313129+00:00"
+      "sha256": "6e830cb87eb7b6296dae03cb690a0cb5a657b843dbc3e920ca89c3609a7099bd",
+      "updated_at": "2026-10-31T10:17:31.474698+00:00"
     },
     "c-level-agents": {
       "name": "c-level-agents",
       "category": "c-level",
-      "description": "Founder-mode executive team. 13 cs- C-suite agents (CFO, CMO, CRO, CPO, COO, CHRO, CISO, GC, CDO, CAIO, CCO, VPE, Chief of Staff) and 21 /c-level-agents: slash commands for forcing-question office hours, multi-role boardroom deliberation, strategic sprint pipeline, and meta routing. Use when the fou",
+      "description": "Use when the founder wants a virtual executive team or a /c-level-agents command. Lists the 13 C-suite agents and 21 commands and routes multi-role decisions.",
       "relative_path": "library/c-level/c-level-agents/SKILL.md",
       "source": "S1N6H/Bug-Bounty-Skills/skills/alirezarezvani-claude-skills-c-level-agents-skills-c-level-agents.md",
-      "sha256": "f7d56fe2e8319969d5fac5e3554f80720ae11c3e4192138cb5d22c480caafd4b",
-      "updated_at": "2026-10-22T09:19:50.508922+00:00"
+      "sha256": "9a7156e89a7413c564c803ea1987563cc052c19c110516bd556697bbef53c850",
+      "updated_at": "2026-10-31T10:17:31.598022+00:00"
     },
     "caio-review": {
       "name": "caio-review",
       "category": "ai-security",
-      "description": "/c-level-agents:caio-review [plan] \u2014 Eval-demanding Chief AI Officer interrogation of any plan that involves AI: model selection, risk classification, cost economics, or AI hiring. Use when shipping an AI feature without an eval set, choosing between API, fine-tune, and self-hosted, or classifying a",
+      "description": "Use for /c-level-agents:caio-review, or to challenge a plan involving AI (no eval set, API vs fine-tune vs self-host, EU AI Act class).",
       "relative_path": "library/ai-security/caio-review/SKILL.md",
       "source": "S1N6H/Bug-Bounty-Skills/skills/alirezarezvani-claude-skills-c-level-agents-skills-caio-review.md",
-      "sha256": "5cfb63657713e835093d4ad9485c8358cae6f6eff984d1ffe3ae3082d6bd79c7",
-      "updated_at": "2026-10-22T09:19:50.707593+00:00"
+      "sha256": "de405fe9e368abd529d4c2eb24d3c71177d3f06b721de21d120cbfc28fbbeef5",
+      "updated_at": "2026-10-31T10:17:31.711687+00:00"
     },
     "cco-review": {
       "name": "cco-review",
       "category": "cloud",
-      "description": "/c-level-agents:cco-review [plan] \u2014 Retention-obsessed Chief Customer Officer interrogation of any plan that touches customer retention, segmentation, CS team sizing, or CS team hiring. Use when gross retention is slipping, before approving CSM headcount, or when deciding which customer segments to ",
+      "description": "Use for /c-level-agents:cco-review, or to challenge a plan touching retention, segmentation or CS headcount.",
       "relative_path": "library/cloud/cco-review/SKILL.md",
       "source": "S1N6H/Bug-Bounty-Skills/skills/alirezarezvani-claude-skills-c-level-agents-skills-cco-review.md",
-      "sha256": "659713757ca431cc764e85d45368235265265cb7c6bf8af15742666680367d77",
-      "updated_at": "2026-10-22T09:19:50.916470+00:00"
+      "sha256": "8a769741e9eeeb784a02b538d229d4006136d25c8205baaf5a68dea9fb9e46bf",
+      "updated_at": "2026-10-31T10:17:31.842355+00:00"
     },
     "cdo-review": {
       "name": "cdo-review",
       "category": "reporting",
-      "description": "/c-level-agents:cdo-review [plan] \u2014 Decision-driven Chief Data Officer interrogation of any plan that touches training data, data architecture, data productization, or data team hiring. Use when validating training-data rights before model work, choosing warehouse vs lakehouse vs mesh, or valuing da",
+      "description": "Use for /c-level-agents:cdo-review, or to challenge a plan touching training-data rights, data architecture or data monetization.",
       "relative_path": "library/reporting/cdo-review/SKILL.md",
       "source": "S1N6H/Bug-Bounty-Skills/skills/alirezarezvani-claude-skills-c-level-agents-skills-cdo-review.md",
-      "sha256": "529bdf2cc070ae4f1d2d616b8df4cf758c3bcf53b4a3549474425b5dd08d6522",
-      "updated_at": "2026-10-22T09:19:51.087849+00:00"
+      "sha256": "86d0433c8f5feccbf33b4dd9a336b53396c2fa42f893ef7ca8c8af1034265545",
+      "updated_at": "2026-10-31T10:17:31.955289+00:00"
     },
     "cfo-review": {
       "name": "cfo-review",
       "category": "general",
-      "description": "/c-level-agents:cfo-review [plan] \u2014 Numerate-skeptic interrogation of any plan that touches money. Unit economics, runway, dilution, capital allocation. Use when a plan commits meaningful spend \u2014 e.g. a hiring wave, a fundraise decision, or a new channel budget.",
+      "description": "Use for /c-level-agents:cfo-review, or to challenge a plan that commits real money (a hiring wave, a raise, a channel budget).",
       "relative_path": "library/general/cfo-review/SKILL.md",
       "source": "S1N6H/Bug-Bounty-Skills/skills/alirezarezvani-claude-skills-c-level-agents-skills-cfo-review.md",
-      "sha256": "156ef0a8d4a72097bec6879bd9f44424d822e2ff9adcccf7abe5e80413b051a9",
-      "updated_at": "2026-10-22T09:19:51.290801+00:00"
+      "sha256": "2b0903a4b296db93d890c1d530822b10899868a696301c20808b985419b765b4",
+      "updated_at": "2026-10-31T10:17:32.092040+00:00"
     },
     "ciso-review": {
       "name": "ciso-review",
       "category": "general",
-      "description": "/c-level-agents:ciso-review [plan] \u2014 Risk-paranoid interrogation of any plan that touches data, compliance, or production access. Use when launching features that handle customer data, before a SOC 2 / ISO audit, or after any incident or near-miss.",
+      "description": "Use for /c-level-agents:ciso-review, or to challenge a plan touching customer data, compliance or production access.",
       "relative_path": "library/general/ciso-review/SKILL.md",
       "source": "S1N6H/Bug-Bounty-Skills/skills/alirezarezvani-claude-skills-c-level-agents-skills-ciso-review.md",
-      "sha256": "acd826bfdcd5a5c3ab174c5b574b2e4b384515e68dd6075e7cb391f9d68bade2",
-      "updated_at": "2026-10-22T09:19:51.509015+00:00"
+      "sha256": "c8cb93bdcb18fe971d5cc0f9da0e8e8c898665e9d7f9d3b03ff9ae0807772461",
+      "updated_at": "2026-10-31T10:17:32.221774+00:00"
     },
     "cmo-review": {
       "name": "cmo-review",
       "category": "general",
-      "description": "/c-level-agents:cmo-review [plan] \u2014 Narrative-first interrogation of positioning, ICP, message house, and channel mix. Use when launching a campaign or repositioning, or when CAC is rising and the one-sentence positioning test fails.",
+      "description": "Use for /c-level-agents:cmo-review, or to challenge positioning, ICP, messaging or channel mix before a launch.",
       "relative_path": "library/general/cmo-review/SKILL.md",
       "source": "S1N6H/Bug-Bounty-Skills/skills/alirezarezvani-claude-skills-c-level-agents-skills-cmo-review.md",
-      "sha256": "2b51d56bea812463ebd8d700dc3b6c0cd9f9e2c0811af2000cc6de088b455b7c",
-      "updated_at": "2026-10-22T09:19:51.686423+00:00"
+      "sha256": "6451f330984a008032417e76e1d5dd0c10a13a4bf425c5c420ce79cea50d5ff1",
+      "updated_at": "2026-10-31T10:17:32.348976+00:00"
     },
     "cpo-review": {
       "name": "cpo-review",
       "category": "general",
-      "description": "/c-level-agents:cpo-review [plan] \u2014 JTBD-driven interrogation of product roadmap, PMF signal, and portfolio focus. Use when committing a quarter's roadmap, deciding whether to kill a feature, or claiming PMF without a retention curve.",
+      "description": "Use for /c-level-agents:cpo-review, or to challenge a roadmap, a PMF claim or a feature-kill decision.",
       "relative_path": "library/general/cpo-review/SKILL.md",
       "source": "S1N6H/Bug-Bounty-Skills/skills/alirezarezvani-claude-skills-c-level-agents-skills-cpo-review.md",
-      "sha256": "07ca92d47dcb846c736a659b1f69fc54d8f307d82525415eeafabf28e54073f1",
-      "updated_at": "2026-10-22T09:19:51.860256+00:00"
+      "sha256": "7dfd20f2c3f772d376f585b3c0fc6e4962292e11a2319126973e7d2911f1c8ab",
+      "updated_at": "2026-10-31T10:17:32.477217+00:00"
     },
     "cro-review": {
       "name": "cro-review",
       "category": "general",
-      "description": "/c-level-agents:cro-review [plan] \u2014 Pipeline-paranoid interrogation of revenue, win rate, NRR, and ramp time. Use when the forecast misses pipeline coverage, win rates drop, or before scaling the sales team.",
+      "description": "Use for /c-level-agents:cro-review, or to challenge a forecast, win-rate drop or sales-team scale-up.",
       "relative_path": "library/general/cro-review/SKILL.md",
       "source": "S1N6H/Bug-Bounty-Skills/skills/alirezarezvani-claude-skills-c-level-agents-skills-cro-review.md",
-      "sha256": "a1522052b6602a79ac42c1872877309fc4de021ff83be9dfa696b59190c1c063",
-      "updated_at": "2026-10-22T09:19:52.049316+00:00"
+      "sha256": "d36c5d913c0464d2cbdc4b8d4b5a607a71c486af0e0c3132168e5b62243609cc",
+      "updated_at": "2026-10-31T10:17:32.604646+00:00"
     },
     "cross-eval": {
       "name": "cross-eval",
       "category": "ai-security",
-      "description": "/c-level-agents:cross-eval [memo] \u2014 Multi-model consensus on a board memo or strategy brief. Claude + Codex + Gemini cross-review with graceful degradation. Use when a high-stakes memo needs an independent sanity check before the boardroom \u2014 e.g. a bet-the-company pivot or fundraise terms.",
+      "description": "Use for /c-level-agents:cross-eval, or when a high-stakes memo needs independent review by several models before the boardroom.",
       "relative_path": "library/ai-security/cross-eval/SKILL.md",
       "source": "S1N6H/Bug-Bounty-Skills/skills/alirezarezvani-claude-skills-c-level-agents-skills-cross-eval.md",
-      "sha256": "6b2ea7f53cc153b3af357e33ea17ebad182621de8e503ea9a51caae00aae7a7c",
-      "updated_at": "2026-10-22T09:19:52.237271+00:00"
+      "sha256": "40dcb9ab9eb8d9cce161adbd22af6582f3f1a39c853e594b062954c4145b77d1",
+      "updated_at": "2026-10-31T10:17:32.722983+00:00"
     },
     "cto-review": {
       "name": "cto-review",
       "category": "general",
-      "description": "/c-level-agents:cto-review [plan] \u2014 Architecture and scaling interrogation. Tech debt, scaling cliffs, team scaling, build-vs-buy. Use when committing to an architecture, planning for 10x load, or weighing a rebuild against a vendor.",
+      "description": "Use for /c-level-agents:cto-review, or to challenge an architecture commitment, a 10x scaling plan or rebuild vs buy.",
       "relative_path": "library/general/cto-review/SKILL.md",
       "source": "S1N6H/Bug-Bounty-Skills/skills/alirezarezvani-claude-skills-c-level-agents-skills-cto-review.md",
-      "sha256": "25cc059e1f98df41dd131ecd39787526af0509f72d10c99ee788916765ce8949",
-      "updated_at": "2026-10-22T09:19:52.399513+00:00"
+      "sha256": "5bb33084a415b2aa85ec125fa30fa11ca8158fe609b0b4eaea7d4d7b8aee5b8f",
+      "updated_at": "2026-10-31T10:17:32.839500+00:00"
     },
     "decide": {
       "name": "decide",
       "category": "logic",
-      "description": "/c-level-agents:decide [memo] \u2014 Log a decision to two-layer memory via decision-logger. Approved memo becomes durable; raw transcripts kept for reference. Use when the founder has approved a boardroom memo and the decision must become durable company memory \u2014 e.g. right after /c-level-agents:boardro",
+      "description": "Use for /c-level-agents:decide, or right after the founder approves a boardroom memo, to log it as a durable decision.",
       "relative_path": "library/logic/decide/SKILL.md",
       "source": "S1N6H/Bug-Bounty-Skills/skills/alirezarezvani-claude-skills-c-level-agents-skills-decide.md",
-      "sha256": "97be3af96f436f76ac891319fb5ff2e35419fe1fd0504594401289fd29e71648",
-      "updated_at": "2026-10-22T09:19:52.579138+00:00"
+      "sha256": "5d98cf78d6a2c925c523ead5a4723053685286d0bcdaa3fdac20b27cab34b20d",
+      "updated_at": "2026-10-31T10:17:32.974205+00:00"
     },
     "execute": {
       "name": "execute",
       "category": "general",
-      "description": "/c-level-agents:execute [decision] \u2014 Generate a 90-day execution plan with weekly milestones, DRIs, and check-in cadence from an approved decision. Use when a logged decision needs to become an operating plan \u2014 e.g. turning an approved market-entry call into weekly milestones with DRIs.",
+      "description": "Use for /c-level-agents:execute, or to turn an approved decision into a 90-day plan with weekly milestones and owners.",
       "relative_path": "library/general/execute/SKILL.md",
       "source": "S1N6H/Bug-Bounty-Skills/skills/alirezarezvani-claude-skills-c-level-agents-skills-execute.md",
-      "sha256": "74dd2e2569a8da75506d43b3a78910995a1bdcf4c80599f041bf6a34fe1e7496",
-      "updated_at": "2026-10-22T09:19:52.793101+00:00"
+      "sha256": "842d56ffc6b9ea6d4cd83221d8af5cb7af87369fbf1c7b1d4e70cf9f25ff4a67",
+      "updated_at": "2026-10-31T10:17:33.099970+00:00"
     },
     "founder-mode": {
       "name": "founder-mode",
       "category": "general",
-      "description": "/c-level-agents:founder-mode [question] \u2014 Auto-routes any founder question to the right C-role advisor or to /c-level-agents:boardroom for multi-role topics. The single-command entry point. Use when a founder asks any strategic question without knowing which advisor or command fits \u2014 e.g. 'runway pr",
+      "description": "Use for /c-level-agents:founder-mode, or any founder strategy question that hasn't been routed yet. Sends it to the right C-suite advisor or the boardroom.",
       "relative_path": "library/general/founder-mode/SKILL.md",
       "source": "S1N6H/Bug-Bounty-Skills/skills/alirezarezvani-claude-skills-c-level-agents-skills-founder-mode.md",
-      "sha256": "4642b5d1f558534525df63b5d7deed8294f9650dae0bdeff9490461d397afcf4",
-      "updated_at": "2026-10-22T09:19:52.991503+00:00"
+      "sha256": "be37503d8d66962bf0f4dc505929fec3420daec6d80b7d2697d5f7c3ad95b1ae",
+      "updated_at": "2026-10-31T10:17:33.224811+00:00"
     },
     "freeze": {
       "name": "freeze",
       "category": "logic",
-      "description": "/c-level-agents:freeze [decision] [days] \u2014 Lock a strategic decision for a cooldown period to prevent impulse reversal. Mirrors gstack's safety primitives for the business layer. Use when an irreversible decision was made under pressure \u2014 e.g. a layoff plan or multi-year contract \u2014 and deserves a co",
+      "description": "Use for /c-level-agents:freeze, or to put a cooling-off lock on an irreversible decision made under pressure.",
       "relative_path": "library/logic/freeze/SKILL.md",
       "source": "S1N6H/Bug-Bounty-Skills/skills/alirezarezvani-claude-skills-c-level-agents-skills-freeze.md",
-      "sha256": "7c5e5d3e5957e7eda02e92e19518df079450504a038675e87d479387c1727db8",
-      "updated_at": "2026-10-22T09:19:53.167972+00:00"
+      "sha256": "a39dafda94ab0a93a38236307163efb8414301cb510ff073e917887fa97bb4dd",
+      "updated_at": "2026-10-31T10:17:33.358062+00:00"
     },
     "gc-review": {
       "name": "gc-review",
       "category": "general",
-      "description": "/c-level-agents:gc-review [plan] \u2014 General Counsel interrogation of contracts, IP, regulatory, term sheets, and employment-law surface. Use when reviewing a term sheet before signing, redlining a customer MSA, or checking IP assignment and regulatory exposure on a new product.",
+      "description": "Use for /c-level-agents:gc-review, or to challenge a term sheet, customer MSA, IP assignment or regulatory exposure before signing.",
       "relative_path": "library/general/gc-review/SKILL.md",
       "source": "S1N6H/Bug-Bounty-Skills/skills/alirezarezvani-claude-skills-c-level-agents-skills-gc-review.md",
-      "sha256": "79fd99af1001e2cb2769ce9d565bcc4bfdfc11654bfa6b97d92d4160bd85a00a",
-      "updated_at": "2026-10-22T09:19:53.364358+00:00"
+      "sha256": "ce72512d5a0fad78ecae5d3c500fc719796f9f8c6c0cda11ec0531e08911230d",
+      "updated_at": "2026-10-31T10:17:33.490684+00:00"
     },
     "office-hours": {
       "name": "office-hours",
       "category": "network",
-      "description": "/c-level-agents:office-hours [topic] \u2014 YC-style 6-question founder interrogation before any advice. Forces clarity on problem, customer, distribution, defensibility, capital, and founder fit. Use when a founder question is too vague to route \u2014 e.g. 'should we grow faster?' \u2014 or before drafting a str",
+      "description": "Use for /c-level-agents:office-hours, or when a founder question is too vague to route. Asks six YC-style questions before any advice.",
       "relative_path": "library/network/office-hours/SKILL.md",
       "source": "S1N6H/Bug-Bounty-Skills/skills/alirezarezvani-claude-skills-c-level-agents-skills-office-hours.md",
-      "sha256": "b4598a15c8cfb2433fe318e8f6c36180b28ba3841c3922c1da7329a3add49b8a",
-      "updated_at": "2026-10-22T09:19:53.550901+00:00"
+      "sha256": "2df28eb48677ea6e25aa122b6abf530254920a50a3d5f07b02645e203da65c80",
+      "updated_at": "2026-10-31T10:17:33.618093+00:00"
     },
     "onboard": {
       "name": "onboard",
       "category": "general",
-      "description": "/cs-onboard \u2014 Founder interview that populates ~/.claude/company-context.md using the canonical 7-dimension cs-onboard schema. The first command to run when starting with c-level-agents. Use when setting up the virtual C-suite for a new company, or when advisors lack company context \u2014 e.g. before a ",
+      "description": "Use for /cs-onboard, or when the virtual C-suite lacks company context. Interviews the founder and writes ~/.claude/company-context.md.",
       "relative_path": "library/general/onboard/SKILL.md",
       "source": "S1N6H/Bug-Bounty-Skills/skills/alirezarezvani-claude-skills-c-level-agents-skills-onboard.md",
-      "sha256": "6c6555653c4b0fc15619db8e34931bb937dc1014176e1a6bc4c1bf4562b651ed",
-      "updated_at": "2026-10-22T09:19:53.753308+00:00"
+      "sha256": "87dc9a8799cd4e4ecb1824c87cef470abcc79c3af5b95ec6e2cfd30174403d57",
+      "updated_at": "2026-10-31T10:17:33.743188+00:00"
     },
     "post-mortem": {
       "name": "post-mortem",
       "category": "general",
-      "description": "/c-level-agents:post-mortem [decision] \u2014 Honest retrospective on an executed decision, scored against original assumptions and dissent. Closes the strategic sprint loop. Use when a decision hits its 90-day review checkpoint or its kill criteria trigger \u2014 e.g. scoring last quarter's pricing change ag",
+      "description": "Use for /c-level-agents:post-mortem, or when a decision hits its 90-day review or kill criteria. Scores it against the original assumptions and dissent.",
       "relative_path": "library/general/post-mortem/SKILL.md",
       "source": "S1N6H/Bug-Bounty-Skills/skills/alirezarezvani-claude-skills-c-level-agents-skills-post-mortem.md",
-      "sha256": "b47df1e2442322d90d11b79e91b4cc45343cb94445b84267e72f03b8390b9bdb",
-      "updated_at": "2026-10-22T09:19:53.916855+00:00"
+      "sha256": "344523c05e5fc57174e265b1ee75a43bf4e123e58a33c2cb57bda9f4cd42e907",
+      "updated_at": "2026-10-31T10:17:33.875481+00:00"
     },
     "vpe-review": {
       "name": "vpe-review",
       "category": "general",
-      "description": "/c-level-agents:vpe-review [plan] \u2014 Throughput-first VP of Engineering interrogation of any plan that touches delivery, eng hiring, team structure, or production discipline. Use when cycle time balloons, DORA metrics slide, or before committing to an eng hiring wave or a reorg.",
+      "description": "Use for /c-level-agents:vpe-review, or to challenge a plan touching delivery speed, eng hiring, team structure or on-call.",
       "relative_path": "library/general/vpe-review/SKILL.md",
       "source": "S1N6H/Bug-Bounty-Skills/skills/alirezarezvani-claude-skills-c-level-agents-skills-vpe-review.md",
-      "sha256": "18b98949a01c9af5ee9432dab300109eca3e4dc80495233aee5b0d231449e3ef",
-      "updated_at": "2026-10-22T09:19:54.078923+00:00"
+      "sha256": "94695691bb44db343844b257bd2f834120858f57059ae859464b30760e53f346",
+      "updated_at": "2026-10-31T10:17:34.005552+00:00"
     },
     "channel-economics": {
       "name": "channel-economics",
       "category": "general",
-      "description": "Use when reviewing or rebalancing direct vs. partner-led channel economics \u2014 computing fully-loaded cost-to-serve per channel, channel ROI with cash / LTV / marginal lenses, and optimal channel mix subject to constraints. For Head of Commercial, RevOps, and VP Sales doing quarterly channel review wh",
+      "description": "Use for a direct vs partner channel review: fully loaded cost to serve, channel ROI and the best channel mix under constraints. Runs costtoservecalculator.py, channelroianalyzer.py and channelmixoptimizer.py.",
       "relative_path": "library/general/channel-economics/SKILL.md",
       "source": "S1N6H/Bug-Bounty-Skills/skills/alirezarezvani-claude-skills-commercial-skills-channel-economics.md",
-      "sha256": "25577987c9bd19057e9c79db8d41e5ffee4b47b777236790c5a3b70ad7e5825b",
-      "updated_at": "2026-10-22T09:19:54.275400+00:00"
+      "sha256": "17b93c34f590d0b13805eaccecf291ce88e1d6519b80604c0c89e26855d23f86",
+      "updated_at": "2026-10-31T10:17:34.129139+00:00"
     },
     "commercial-forecaster": {
       "name": "commercial-forecaster",
       "category": "reporting",
-      "description": "Use when building a quarterly bookings forecast, ARR projection, pipeline forecast, NRR projection, or commit/best-case/pipe-only board number \u2014 especially when the CRO needs to walk the board through funnel math + cohort ARR + per-stage conversion assumptions without the theatre of a single undefen",
+      "description": "Use when building a bookings, ARR, pipeline or NRR forecast, or a commit, best-case and pipeline board number. Forecasts with bookingsforecaster.py, projects cohorts with cohortarrprojector.py and scores stage confidence with funnelconfidencescorer.py, showing every conversion assumption.",
       "relative_path": "library/reporting/commercial-forecaster/SKILL.md",
       "source": "S1N6H/Bug-Bounty-Skills/skills/alirezarezvani-claude-skills-commercial-skills-commercial-forecaster.md",
-      "sha256": "f0983bc33a0c9da66b71e2bf94b6da1f02d83b69153fe3761914087d44674d0e",
-      "updated_at": "2026-10-22T09:19:54.462109+00:00"
+      "sha256": "7f5c6d47a1eaf79e578f280b8242ec87ef1c6bb8d20bef0caef9dcc7ff1f4b94",
+      "updated_at": "2026-10-31T10:17:34.265489+00:00"
     },
     "commercial-policy": {
       "name": "commercial-policy",
-      "category": "logic",
-      "description": "Use when designing or revising a company's commercial policy \u2014 the rules of engagement governing discounts off list price, approver thresholds, exception flows, and the deal framework that Deal Desk and AEs operate under. Covers discount matrix design (ARR band x term length x payment terms x strate",
-      "relative_path": "library/logic/commercial-policy/SKILL.md",
+      "category": "reporting",
+      "description": "Use when writing or revising discount rules: discount matrix, approver thresholds, exception flows and the deal framework sales works under. Builds the matrix with discountmatrixbuilder.py, routes exceptions with exceptionrouter.py and checks the policy with policylinter.py.",
+      "relative_path": "library/reporting/commercial-policy/SKILL.md",
       "source": "S1N6H/Bug-Bounty-Skills/skills/alirezarezvani-claude-skills-commercial-skills-commercial-policy.md",
-      "sha256": "2b1120f7bbae886ea8555b5b3f1d46fe66e2edd4afc6a6b4a1b6ed74e93b67d8",
-      "updated_at": "2026-10-22T09:19:54.638830+00:00"
+      "sha256": "30748ee0b904901872d139d38677fff1476101324b826348e8b10500283d7ca4",
+      "updated_at": "2026-10-31T10:17:34.391604+00:00"
     },
     "commercial-skills": {
       "name": "commercial-skills",
-      "category": "web",
-      "description": "Use when reviewing, approving, or designing commercial motion \u2014 pricing models, deal review, discount approval, partnership economics, channel mix, commercial policy, RFP/RFI response, bookings forecast. Triggers on \"review this deal\", \"should we discount\", \"pricing model\", \"partner economics\", \"RFP",
-      "relative_path": "library/web/commercial-skills/SKILL.md",
+      "category": "general",
+      "description": "Use when a commercial request needs routing (pricing, deal review, discounts, partners, channels, policy, RFPs, forecasts): 'review this deal', 'should we discount'. Lists the commercial skills and routes to one.",
+      "relative_path": "library/general/commercial-skills/SKILL.md",
       "source": "S1N6H/Bug-Bounty-Skills/skills/alirezarezvani-claude-skills-commercial-skills-commercial-skills.md",
-      "sha256": "5610b9b7921147650362d1bdb97868a4ddaf2e3f87bd9e9524bf122107255333",
-      "updated_at": "2026-10-22T09:19:54.795480+00:00"
+      "sha256": "01a7e15829d37a7c70f9f1c84b0618adcd7ef6454581b6228d512971e63127b3",
+      "updated_at": "2026-10-31T10:17:34.519825+00:00"
     },
     "deal-desk": {
       "name": "deal-desk",
       "category": "reporting",
-      "description": "Use when reviewing a specific inbound deal before close \u2014 when sales has asked for a discount that exceeds AE authority, when the customer has redlined the MSA, when per-deal economics (margin after discount, multi-year payment shape, indemnity exposure) need to be quantified, or when discount appro",
+      "description": "Use before closing a deal that needs a discount beyond AE authority, has a redlined MSA or unclear per-deal economics. Scores it with dealscorer.py, names approvers with discountapprovalrouter.py and flags risky terms with termsredliner.py. Never auto-approves.",
       "relative_path": "library/reporting/deal-desk/SKILL.md",
       "source": "S1N6H/Bug-Bounty-Skills/skills/alirezarezvani-claude-skills-commercial-skills-deal-desk.md",
-      "sha256": "48f08d09b32734a69676a46995a25840d86ccf9e5c37e724508ead5aa658dbdf",
-      "updated_at": "2026-10-22T09:19:54.980737+00:00"
+      "sha256": "d8ff6f5c501f230428134cefded66f035f999e3f9f99eefd1c9edb9fd1f79b7c",
+      "updated_at": "2026-10-31T10:17:34.645313+00:00"
     },
     "partnerships-architect": {
       "name": "partnerships-architect",
-      "category": "reporting",
-      "description": "Use when a startup is approached by a prospective partner and someone has to decide should we sign this partner, at what partner tier (referral / reseller / OEM / SI-consulting / strategic alliance), with what joint GTM commitment, and at what revshare. Classifies partner tier from independent-deman",
-      "relative_path": "library/reporting/partnerships-architect/SKILL.md",
+      "category": "general",
+      "description": "Use when deciding whether to sign a partner, at which tier (referral, reseller, OEM, SI, alliance), with what joint GTM and revshare. Runs partnertierclassifier.py, revsharemodeler.py and jointgtmplanner.py.",
+      "relative_path": "library/general/partnerships-architect/SKILL.md",
       "source": "S1N6H/Bug-Bounty-Skills/skills/alirezarezvani-claude-skills-commercial-skills-partnerships-architect.md",
-      "sha256": "3b7ca162010efbaabf313f86f64aeda8edf35be7b2b6b88e7eac775287ad1a72",
-      "updated_at": "2026-10-22T09:19:55.170008+00:00"
+      "sha256": "70c85d49d9708267929b61f8b2412b562178426d29e51732eb27d1d8ec7dd6f9",
+      "updated_at": "2026-10-31T10:17:34.772572+00:00"
     },
     "pricing-strategist": {
       "name": "pricing-strategist",
       "category": "logic",
-      "description": "Use when designing or revisiting product pricing \u2014 selecting a pricing model (subscription seat-based, usage-based, value-based, freemium, or hybrid), running Van Westendorp Price Sensitivity Meter analysis on WTP survey data, or designing Good/Better/Best packaging tiers. Recommends a model and a p",
+      "description": "Use when choosing or revisiting pricing: seat, usage, value-based, freemium or hybrid, Van Westendorp willingness-to-pay analysis, or Good/Better/Best tiers. Runs pricingmodelpicker.py, wtpanalyzer.py and packagingdesigner.py and returns a range, not one number.",
       "relative_path": "library/logic/pricing-strategist/SKILL.md",
       "source": "S1N6H/Bug-Bounty-Skills/skills/alirezarezvani-claude-skills-commercial-skills-pricing-strategist.md",
-      "sha256": "a72cb5ece93a9f377909ae3c02d612478ed8474bc5577ad5b1da6f1e5a991c09",
-      "updated_at": "2026-10-22T09:19:55.363606+00:00"
+      "sha256": "661e17f9cf887ee438fcadd468c4e12a51ddc27bca8f73377bf02f97cd629a89",
+      "updated_at": "2026-10-31T10:17:34.903345+00:00"
     },
     "rfp-responder": {
       "name": "rfp-responder",
       "category": "web",
-      "description": "Use when an RFP, RFI, RFQ, security questionnaire, vendor questionnaire, or proposal request arrives and the team needs a structured response \u2014 parsing multi-section buyer-dictated requirements (MANDATORY vs WEIGHTED vs NICE-TO-HAVE), building a Shipley-method proof-point matrix mapping each require",
+      "description": "Use when an RFP, RFI, RFQ or security or vendor questionnaire arrives. Parses mandatory vs weighted requirements with rfpparser.py, drafts proof-point answers with responsedrafter.py and estimates win chance with winratepredictor.py.",
       "relative_path": "library/web/rfp-responder/SKILL.md",
       "source": "S1N6H/Bug-Bounty-Skills/skills/alirezarezvani-claude-skills-commercial-skills-rfp-responder.md",
-      "sha256": "c27d3249c7251bbfd8d2dc624b2c3b31120ffdc173fc937c12373ce8caad86dd",
-      "updated_at": "2026-10-22T09:19:55.528234+00:00"
+      "sha256": "7eaaf958a00abbb7cdf13ab53236e3dbe0c246798adc7355b4113ef9011123bc",
+      "updated_at": "2026-10-31T10:17:35.025839+00:00"
     },
     "ai-act-readiness": {
       "name": "ai-act-readiness",
       "category": "general",
-      "description": "/compliance-os:ai-act-readiness [system] \u2014 EU AI Act 6-question forcing interrogation. Use during AI-system intake, before EU deployment, or during annual compliance refresh as Article 113 obligations phase in (2025-02-02 / 2025-08-02 / 2026-08-02 / 2027-08-02).",
+      "description": "Use for /compliance-os:ai-act-readiness, or EU AI Act readiness questions during AI-system intake or before EU deployment.",
       "relative_path": "library/general/ai-act-readiness/SKILL.md",
       "source": "S1N6H/Bug-Bounty-Skills/skills/alirezarezvani-claude-skills-compliance-os-skills-ai-act-readiness.md",
-      "sha256": "1109bab853ac7678ad9deeebf4513d1e2fa0facae6328d6abc27d55f165e696a",
-      "updated_at": "2026-10-22T09:19:55.697197+00:00"
+      "sha256": "fabf63af835231099b9b6c8eb74153eea9a21a1004dd6890ddc9b765ad134900",
+      "updated_at": "2026-10-31T10:17:35.150240+00:00"
     },
     "aims-audit": {
       "name": "aims-audit",
       "category": "reporting",
-      "description": "/compliance-os:aims-audit [scope] \u2014 ISO/IEC 42001 AIMS internal-audit 6-question forcing interrogation. Use before certification stage 1, before annual internal audit cycles, or when onboarding a new AI system into an existing AIMS.",
+      "description": "Use for /compliance-os:aims-audit, or ISO 42001 readiness before stage 1 or an internal audit cycle.",
       "relative_path": "library/reporting/aims-audit/SKILL.md",
       "source": "S1N6H/Bug-Bounty-Skills/skills/alirezarezvani-claude-skills-compliance-os-skills-aims-audit.md",
-      "sha256": "0e71b51d9764881cee067421101357186447e8f8a10eec9e1bdf336b9abc8152",
-      "updated_at": "2026-10-22T09:19:55.904006+00:00"
+      "sha256": "b6daf31faa8971e9c3de509b6ec05e542a7bf349f0a7c20c73ad471958fd6f9b",
+      "updated_at": "2026-10-31T10:17:35.277300+00:00"
     },
     "compliance-os": {
       "name": "compliance-os",
       "category": "compliance-os",
-      "description": "Compliance OS \u2014 meta-orchestrator that lets compliance teams CONFIGURE which frameworks apply, COMPUTE cross-framework control overlap, SIMULATE internal audits, and CONSOLIDATE evidence across multiple frameworks. Four decisions: (1) Given a company profile, which of the 12 supported frameworks app",
+      "description": "Use when running several compliance frameworks at once: which apply, where controls overlap, a mock audit or one evidence checklist. Runs frameworkselector.py, crossframeworkmapper.py, auditsimulator.py and evidencepoolgenerator.py.",
       "relative_path": "library/compliance-os/compliance-os/SKILL.md",
       "source": "S1N6H/Bug-Bounty-Skills/skills/alirezarezvani-claude-skills-compliance-os-skills-compliance-os.md",
-      "sha256": "2a0a8ce7e21b075bf058a4f5212857c522ed52b8f034d93f66dfc93e8c2695cb",
-      "updated_at": "2026-10-22T09:19:56.086396+00:00"
+      "sha256": "63233cc3ceb3acd4a5b1b8424e1c0ccc4f19ed2b4018dc8b03fd1ecd9020e796",
+      "updated_at": "2026-10-31T10:17:35.459490+00:00"
     },
     "compliance-readiness": {
       "name": "compliance-readiness",
       "category": "reporting",
-      "description": "/compliance-os:compliance-readiness [program] \u2014 Multi-framework compliance officer 6-question forcing interrogation of any compliance program. Use before starting a new framework, planning the annual audit calendar, or preparing for certification stage 1.",
+      "description": "Use for /compliance-os:compliance-readiness, or before adding a framework or planning the annual audit calendar.",
       "relative_path": "library/reporting/compliance-readiness/SKILL.md",
       "source": "S1N6H/Bug-Bounty-Skills/skills/alirezarezvani-claude-skills-compliance-os-skills-compliance-readiness.md",
-      "sha256": "ef5f00d97669350618456b17d76bbe1a3ee38ab49edea9dc0bde6687ec4a76d2",
-      "updated_at": "2026-10-22T09:19:56.273729+00:00"
+      "sha256": "ab9d2793a84076cb44d3b8551c5a948bc5ad824790a58faed2bdba21538500f0",
+      "updated_at": "2026-10-31T10:17:35.608026+00:00"
     },
     "fda-qsr-audit-prep": {
       "name": "fda-qsr-audit-prep",
       "category": "reporting",
-      "description": "/compliance-os:fda-qsr-audit-prep [scope] \u2014 FDA 21 CFR 820 (QSR / QMSR) audit 6-question forcing interrogation. Post-Feb 2026 substantially harmonized with ISO 13485. Use before annual internal QSR audit, pre-FDA-inspection readiness, or Form 483 response.",
+      "description": "Use for /compliance-os:fda-qsr-audit-prep, or before an FDA inspection, QMSR internal audit or Form 483 response.",
       "relative_path": "library/reporting/fda-qsr-audit-prep/SKILL.md",
       "source": "S1N6H/Bug-Bounty-Skills/skills/alirezarezvani-claude-skills-compliance-os-skills-fda-qsr-audit-prep.md",
-      "sha256": "d0fc093538f3486ba1471f9674789ec0930bc2c235059378b8ec8b061c519486",
-      "updated_at": "2026-10-22T09:19:56.479214+00:00"
+      "sha256": "216e9e27a1cea6043e922d70f107ed6a7c662e1bc8a70245d41532e51b99de12",
+      "updated_at": "2026-10-31T10:17:35.719593+00:00"
     },
     "gdpr-audit-prep": {
       "name": "gdpr-audit-prep",
       "category": "general",
-      "description": "/compliance-os:gdpr-audit-prep [scope] \u2014 GDPR audit 6-question Article-cited forcing interrogation. Use before annual internal GDPR review, post-breach internal audit, DPA investigation readiness, or acquisition due diligence.",
+      "description": "Use for /compliance-os:gdpr-audit-prep, or before a GDPR review, post-breach audit or DPA investigation.",
       "relative_path": "library/general/gdpr-audit-prep/SKILL.md",
       "source": "S1N6H/Bug-Bounty-Skills/skills/alirezarezvani-claude-skills-compliance-os-skills-gdpr-audit-prep.md",
-      "sha256": "5c3b97bcb844318b949eca2b03d0e89c71e6693e134dd2968d8ae46865c73c80",
-      "updated_at": "2026-10-22T09:19:56.684801+00:00"
+      "sha256": "b061644c3cd94c4b18ea02b68749212f8e751d18b1745f1a29e732ff562d9de3",
+      "updated_at": "2026-10-31T10:17:35.842620+00:00"
     },
     "iso13485-audit-prep": {
       "name": "iso13485-audit-prep",
@@ -9785,7 +9785,7 @@
       "relative_path": "library/reporting/web3-audit/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/web3-audit/SKILL.md",
       "sha256": "6f29b97b4fc944b8a8b258f73890ab17d5672d85ceedae2a955a825c98c8a06b",
-      "updated_at": "2026-10-30T10:50:23.082547+00:00"
+      "updated_at": "2026-10-31T10:18:20.590924+00:00"
     },
     "bola": {
       "name": "bola",
@@ -9830,7 +9830,7 @@
       "relative_path": "library/general/mass-assignment/SKILL.md",
       "source": "Aetherdz/huntpack/skills/hunting/business-logic-hunter/reference/mass-assignment.md",
       "sha256": "607cfb907e975990385cbc99745767ff04fd0df8283372e1709a9e4c7fdff792",
-      "updated_at": "2026-10-30T10:50:26.860527+00:00"
+      "updated_at": "2026-10-31T10:18:22.830055+00:00"
     },
     "method-override": {
       "name": "method-override",
@@ -12593,7 +12593,7 @@
       "relative_path": "library/reporting/template/SKILL.md",
       "source": "mukul975/Anthropic-Cybersecurity-Skills/skills/exploiting-nosql-injection-vulnerabilities/assets/template.md",
       "sha256": "48cc9b0727608869ec849c15d11e9a671762b79712f34d8c5965eb14586adfbb",
-      "updated_at": "2026-10-30T10:54:59.138466+00:00"
+      "updated_at": "2026-10-31T10:20:50.509463+00:00"
     },
     "acquiring-disk-image-with-dd-and-dcfldd": {
       "name": "acquiring-disk-image-with-dd-and-dcfldd",
@@ -12674,7 +12674,7 @@
       "relative_path": "library/ad/workflows/SKILL.md",
       "source": "mukul975/Anthropic-Cybersecurity-Skills/skills/exploiting-nopac-cve-2021-42278-42287/references/workflows.md",
       "sha256": "9393cf8522354f3f3c15ba618b1ce1c8831d0965662c368bdeff383f8492012e",
-      "updated_at": "2026-10-30T10:54:58.790826+00:00"
+      "updated_at": "2026-10-31T10:20:50.306972+00:00"
     },
     "analyzing-campaign-attribution-evidence": {
       "name": "analyzing-campaign-attribution-evidence",
@@ -12692,7 +12692,7 @@
       "relative_path": "library/recon/phishing/SKILL.md",
       "source": "mukul975/Anthropic-Cybersecurity-Skills/skills/analyzing-typosquatting-domains-with-dnstwist/SKILL.md",
       "sha256": "90c5c1a48f8437bda7244c2c22f4c5e7b41ca22d389d7a0a6b18a50909f69896",
-      "updated_at": "2026-10-30T10:52:34.707606+00:00"
+      "updated_at": "2026-10-31T10:19:22.777914+00:00"
     },
     "analyzing-cloud-storage-access-patterns": {
       "name": "analyzing-cloud-storage-access-patterns",
@@ -12773,7 +12773,7 @@
       "relative_path": "library/general/create-fake-materials-fake-website/SKILL.md",
       "source": "mukul975/Anthropic-Cybersecurity-Skills/skills/detecting-spearphishing-with-email-gateway/SKILL.md",
       "sha256": "3015374924723812858995f549396019c607837a16d22f32115a41323529ca58",
-      "updated_at": "2026-10-30T10:54:33.552177+00:00"
+      "updated_at": "2026-10-31T10:20:35.342358+00:00"
     },
     "analyzing-ethereum-smart-contract-vulnerabilities": {
       "name": "analyzing-ethereum-smart-contract-vulnerabilities",
@@ -12836,7 +12836,7 @@
       "relative_path": "library/network/transfer-of-funds/SKILL.md",
       "source": "mukul975/Anthropic-Cybersecurity-Skills/skills/building-soc-playbook-for-ransomware/SKILL.md",
       "sha256": "06729ad404d2adb5ae856758b1a9c25248c1ddb8236505aa59b52f5a5d99bc26",
-      "updated_at": "2026-10-30T10:53:00.059637+00:00"
+      "updated_at": "2026-10-31T10:19:39.044892+00:00"
     },
     "analyzing-linux-kernel-rootkits": {
       "name": "analyzing-linux-kernel-rootkits",
@@ -13097,7 +13097,7 @@
       "relative_path": "library/reporting/electronic-funds-transfer-wire-transfer/SKILL.md",
       "source": "mukul975/Anthropic-Cybersecurity-Skills/skills/detecting-deepfake-audio-in-vishing-attacks/SKILL.md",
       "sha256": "e8ce6d9cc41ef12caa0f0738f45ccdc24c00012ed3cfdd993f161b6be6367d58",
-      "updated_at": "2026-10-30T10:54:02.806450+00:00"
+      "updated_at": "2026-10-31T10:20:17.524681+00:00"
     },
     "structuring": {
       "name": "structuring",
@@ -13520,7 +13520,7 @@
       "relative_path": "library/reporting/access-with-stolen-session-cookie/SKILL.md",
       "source": "mukul975/Anthropic-Cybersecurity-Skills/skills/executing-phishing-simulation-campaign/SKILL.md",
       "sha256": "b0c885c88def8221a226619ef4a52d02d9500e95865cb8fc9aa6cd62652ca6c8",
-      "updated_at": "2026-10-30T10:54:45.143511+00:00"
+      "updated_at": "2026-10-31T10:20:42.220589+00:00"
     },
     "account-takeover": {
       "name": "account-takeover",
@@ -13538,7 +13538,7 @@
       "relative_path": "library/reporting/building-incident-response-dashboard/SKILL.md",
       "source": "mukul975/Anthropic-Cybersecurity-Skills/skills/building-incident-response-dashboard/SKILL.md",
       "sha256": "0af0957e9bf6fc313fe475849bccab88ac1ddedae19cd9dc57aee0d1cda899b0",
-      "updated_at": "2026-10-30T10:52:51.327578+00:00"
+      "updated_at": "2026-10-31T10:19:33.506493+00:00"
     },
     "building-incident-response-playbook": {
       "name": "building-incident-response-playbook",
@@ -13952,7 +13952,7 @@
       "relative_path": "library/ad/account-takeover-exposed-login-credential/SKILL.md",
       "source": "mukul975/Anthropic-Cybersecurity-Skills/skills/detecting-t1003-credential-dumping-with-edr/SKILL.md",
       "sha256": "8459c9972ba2cac6d747c67fcda8cc687105180a560f1697db75a5f61aaba9af",
-      "updated_at": "2026-10-30T10:54:37.069745+00:00"
+      "updated_at": "2026-10-31T10:20:37.388982+00:00"
     },
     "conducting-post-incident-lessons-learned": {
       "name": "conducting-post-incident-lessons-learned",
@@ -14033,7 +14033,7 @@
       "relative_path": "library/cloud/steal-web-session-cookie/SKILL.md",
       "source": "mukul975/Anthropic-Cybersecurity-Skills/skills/detecting-anomalous-authentication-patterns/SKILL.md",
       "sha256": "9a97dad02e90f0ba15b6b090673d763820e7d4160a50898093a2b8c6d7bd5cbc",
-      "updated_at": "2026-10-30T10:53:49.179453+00:00"
+      "updated_at": "2026-10-31T10:20:08.557935+00:00"
     },
     "adversary-in-the-middle": {
       "name": "adversary-in-the-middle",
@@ -14096,7 +14096,7 @@
       "relative_path": "library/network/configuring-suricata-for-network-monitoring/SKILL.md",
       "source": "mukul975/Anthropic-Cybersecurity-Skills/skills/configuring-suricata-for-network-monitoring/SKILL.md",
       "sha256": "1fbbfe83f93dfabb405cb2e04409b5d8dafad0dfb8b741ab664c8ee059e3c8e4",
-      "updated_at": "2026-10-30T10:53:34.352634+00:00"
+      "updated_at": "2026-10-31T10:19:59.038029+00:00"
     },
     "configuring-tls-1-3-for-secure-communications": {
       "name": "configuring-tls-1-3-for-secure-communications",
@@ -14231,7 +14231,7 @@
       "relative_path": "library/logic/indicator-removal/SKILL.md",
       "source": "mukul975/Anthropic-Cybersecurity-Skills/skills/detecting-ransomware-encryption-behavior/SKILL.md",
       "sha256": "b15452fb51b28cf49053812f8cdd80ee360b1c4b0cd7296a1cbf854cd194aa23",
-      "updated_at": "2026-10-30T10:54:28.206718+00:00"
+      "updated_at": "2026-10-31T10:20:32.330146+00:00"
     },
     "deploying-edr-agent-with-crowdstrike": {
       "name": "deploying-edr-agent-with-crowdstrike",
@@ -14537,7 +14537,7 @@
       "relative_path": "library/network/convert-to-cryptocurrency/SKILL.md",
       "source": "mukul975/Anthropic-Cybersecurity-Skills/skills/detecting-ransomware-precursors-in-network/SKILL.md",
       "sha256": "29925505b82958f5d2b7feac8b6a481c263a93e1ccdbf421019c4d26fe5b8711",
-      "updated_at": "2026-10-30T10:54:28.617981+00:00"
+      "updated_at": "2026-10-31T10:20:32.589837+00:00"
     },
     "detecting-data-and-model-poisoning": {
       "name": "detecting-data-and-model-poisoning",
@@ -16760,7 +16760,7 @@
       "relative_path": "library/general/amm-dex/SKILL.md",
       "source": "Gabson0x/bountyforge/skills/smart-contract-audit/reference/ton/protocols/amm-dex.md",
       "sha256": "32f34667e4d596f8179018b7d85eb168f35fba7c750c08568ec3c580bc44d89e",
-      "updated_at": "2026-10-30T10:49:59.672373+00:00"
+      "updated_at": "2026-10-31T10:18:07.922725+00:00"
     },
     "governance": {
       "name": "governance",
@@ -16769,7 +16769,7 @@
       "relative_path": "library/general/governance/SKILL.md",
       "source": "Gabson0x/bountyforge/skills/smart-contract-audit/reference/solidity/protocols/governance.md",
       "sha256": "9cd512d3858e36074b3f33b5615fe56c294de240dc4f41a0280fde283f43a061",
-      "updated_at": "2026-10-30T10:49:51.760990+00:00"
+      "updated_at": "2026-10-31T10:18:03.612823+00:00"
     },
     "lending": {
       "name": "lending",
@@ -16778,7 +16778,7 @@
       "relative_path": "library/general/lending/SKILL.md",
       "source": "Gabson0x/bountyforge/skills/smart-contract-audit/reference/ton/protocols/lending.md",
       "sha256": "edc9424bba49a11dde309d623a1d7f88510f27977f8f20c90fd7199269bca76d",
-      "updated_at": "2026-10-30T10:49:59.985043+00:00"
+      "updated_at": "2026-10-31T10:18:08.112091+00:00"
     },
     "oracle": {
       "name": "oracle",
@@ -16787,7 +16787,7 @@
       "relative_path": "library/network/oracle/SKILL.md",
       "source": "Gabson0x/bountyforge/skills/smart-contract-audit/reference/ton/protocols/oracle.md",
       "sha256": "7a7ef032609ca1252bb65573d6858d250d3bada5ee73ca0c8c65821851cbf43b",
-      "updated_at": "2026-10-30T10:50:00.160813+00:00"
+      "updated_at": "2026-10-31T10:18:08.229807+00:00"
     },
     "staking": {
       "name": "staking",
@@ -16796,7 +16796,7 @@
       "relative_path": "library/general/staking/SKILL.md",
       "source": "Gabson0x/bountyforge/skills/smart-contract-audit/reference/ton/protocols/staking.md",
       "sha256": "bbc08dfff33c0652b74d572bf733367ef7dfd2b3cda2f2a17e0b777eaed81745",
-      "updated_at": "2026-10-30T10:50:00.381108+00:00"
+      "updated_at": "2026-10-31T10:18:08.350126+00:00"
     },
     "fv-mov-1-cl1-copy-ability-duplication": {
       "name": "fv-mov-1-cl1-copy-ability-duplication",
@@ -18443,7 +18443,7 @@
       "relative_path": "library/logic/order-lookup/SKILL.md",
       "source": "NVIDIA/SkillSpector/tests/fixtures/sqp/sqp2_tool_instructed/SKILL.md",
       "sha256": "d69b65af2416be8993117a52514485d346c9c82cf5ac720e92c31b534574f3c1",
-      "updated_at": "2026-10-30T10:55:03.136366+00:00"
+      "updated_at": "2026-10-31T10:20:52.461221+00:00"
     },
     "error-explainer": {
       "name": "error-explainer",
@@ -18452,7 +18452,7 @@
       "relative_path": "library/general/error-explainer/SKILL.md",
       "source": "NVIDIA/SkillSpector/tests/fixtures/sqp/sqp3_plain_english_override/SKILL.md",
       "sha256": "e5d29dc2e9341ecb679306ac7afa01f40646a7ccc71e594a97211c1d9ec493be",
-      "updated_at": "2026-10-30T10:55:04.039827+00:00"
+      "updated_at": "2026-10-31T10:20:52.844230+00:00"
     },
     "01-recon-osint": {
       "name": "01-recon-osint",

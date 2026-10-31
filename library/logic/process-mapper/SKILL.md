@@ -1,6 +1,6 @@
 ---
 name: process-mapper
-description: Use when a BizOps lead, COO, or process-improvement owner needs to document an end-to-end business process (procurement, employee onboarding, incident handoff, customer-onboarding, claims adjudication) in BPMN-style notation, measure cyc...
+description: Use when documenting an end-to-end business process (procurement, onboarding, handoffs) and finding where work waits. Maps it with processdocumenter.py, measures stages with cycletimeanalyzer.py and finds bottlenecks with bottleneckdetec...
 category: logic
 ---
 

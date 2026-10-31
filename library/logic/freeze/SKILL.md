@@ -1,6 +1,6 @@
 ---
 name: freeze
-description: /c-level-agents:freeze [decision] [days] — Lock a strategic decision for a cooldown period to prevent impulse reversal. Mirrors gstack's safety primitives for the business layer. Use when an irreversible decision was made under pressure ...
+description: Use for /c-level-agents:freeze, or to put a cooling-off lock on an irreversible decision made under pressure.
 category: logic
 ---
 

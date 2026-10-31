@@ -1,6 +1,6 @@
 ---
 name: chief-data-officer-advisor
-description: Chief Data Officer advisory for startups: AI training data rights and consent provenance, data product strategy (warehouse vs lakehouse vs mesh, build-vs-buy), B2B customer-data-as-asset valuation and M&A readiness, data team org evoluti...
+description: Use for data strategy decisions: training models on customer data, warehouse vs lakehouse vs mesh, valuing data for a raise or M&A, or data hiring order. Runs aitrainingdataaudit.py, dataproductstrategypicker.py and dataassetvaluator.py.
 category: c-level
 ---
 

@@ -1,6 +1,6 @@
 ---
 name: compliance-os
-description: Compliance OS — meta-orchestrator that lets compliance teams CONFIGURE which frameworks apply, COMPUTE cross-framework control overlap, SIMULATE internal audits, and CONSOLIDATE evidence across multiple frameworks. Four decisions: (1) Gi...
+description: Use when running several compliance frameworks at once: which apply, where controls overlap, a mock audit or one evidence checklist. Runs frameworkselector.py, crossframeworkmapper.py, auditsimulator.py and evidencepoolgenerator.py.
 category: compliance-os
 ---
 

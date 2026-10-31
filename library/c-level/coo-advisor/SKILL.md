@@ -1,6 +1,6 @@
 ---
 name: coo-advisor
-description: Operations leadership for scaling companies. Process design, OKR execution, operational cadence, and scaling playbooks. Use when designing operations, setting up OKRs, building processes, scaling teams, analyzing bottlenecks, planning op...
+description: Use for operations leadership: process design, OKR execution, operating cadence, bottlenecks or scaling playbooks. Tracks OKRs with okrtracker.py and analyzes efficiency with opsefficiencyanalyzer.py.
 category: c-level
 ---
 

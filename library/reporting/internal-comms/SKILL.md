@@ -1,6 +1,6 @@
 ---
 name: internal-comms
-description: Use when a Head of People Ops, BizOps lead, or Internal Communications owner needs to draft and sequence an internal-only change-management communication — a re-org announcement, a tool rollout, a policy change, a leadership transition, ...
+description: Use when announcing a reorg, tool rollout, policy change, leadership change, layoff or acquisition internally. Builds the announcement with changeannouncementbuilder.py and sequences it with commscalendarbuilder.py.
 category: reporting
 ---
 

@@ -1,6 +1,6 @@
 ---
 name: grade-iterate
-description: Phase 3 of building a Claude Managed Agent — the bounded grade→iterate loop. Define a CMA outcome (a required markdown rubric graded by an isolated grader), read each verdict, decide the next move (sharpen / re-run / promote to schedule)...
+description: Use when a launched managed agent needs grading against a rubric and improving ('grade my agent', 'is it good enough'). Builds the outcome with outcomebuilder.py, reads verdicts with verdictreader.py and runs held-back evals from evalsca...
 category: logic
 ---
 

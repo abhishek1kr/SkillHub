@@ -1,6 +1,6 @@
 ---
 name: internal-narrative
-description: Build and maintain one coherent company story across all audiences — employees, investors, customers, candidates, and partners. Detects narrative contradictions and ensures the same truth is framed for each audience's needs. Use when pre...
+description: Use when preparing an all-hands, investor update, recruiting pitch or crisis message, or when stories told to different audiences drift apart. Keeps one company story and flags contradictions.
 category: c-level
 ---
 

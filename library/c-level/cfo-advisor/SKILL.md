@@ -1,6 +1,6 @@
 ---
 name: cfo-advisor
-description: Financial leadership for startups and scaling companies. Financial modeling, unit economics, fundraising strategy, cash management, and board financial packages. Use when building financial models, analyzing unit economics, planning fund...
+description: Use for startup finance decisions: unit economics (LTV, CAC), burn and runway, fundraising and dilution, or board financials. Runs uniteconomicsanalyzer.py, burnratecalculator.py and fundraisingmodel.py.
 category: c-level
 ---
 

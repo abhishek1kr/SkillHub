@@ -1,6 +1,6 @@
 ---
 name: cs-onboard
-description: Founder onboarding interview that captures company context across 7 dimensions. Invoke with /cs-onboard setup for initial interview or /cs-onboard update for quarterly refresh. Generates ~/.claude/company-context.md used by all C-suite a...
+description: Use when setting up the C-suite advisors for the first time, or when company context is missing or stale after a raise or pivot. Interviews the founder across 7 dimensions and writes ~/.claude/company-context.md.
 category: c-level
 ---
 

@@ -1,6 +1,6 @@
 ---
 name: execute
-description: /c-level-agents:execute [decision] — Generate a 90-day execution plan with weekly milestones, DRIs, and check-in cadence from an approved decision. Use when a logged decision needs to become an operating plan — e.g. turning an approved m...
+description: Use for /c-level-agents:execute, or to turn an approved decision into a 90-day plan with weekly milestones and owners.
 category: general
 ---
 

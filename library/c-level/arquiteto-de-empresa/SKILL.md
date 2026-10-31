@@ -1,6 +1,6 @@
 ---
 name: arquiteto-de-empresa
-description: Company Architect: builds a business from scratch as an OKF (Open Knowledge Format) bundle — a tree of version-controllable .md files with frontmatter type, links forming a graph, and reserved index.md/log.md, readable by humans and agen...
+description: Use when a founder wants to document or design a whole company as version-controlled markdown (company as code, a company wiki agents can read, an OKF bundle). Runs a 12-phase interview, scaffolds with scaffoldbundle.py and checks it wit...
 category: c-level
 ---
 

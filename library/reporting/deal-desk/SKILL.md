@@ -1,6 +1,6 @@
 ---
 name: deal-desk
-description: Use when reviewing a specific inbound deal before close — when sales has asked for a discount that exceeds AE authority, when the customer has redlined the MSA, when per-deal economics (margin after discount, multi-year payment shape, in...
+description: Use before closing a deal that needs a discount beyond AE authority, has a redlined MSA or unclear per-deal economics. Scores it with dealscorer.py, names approvers with discountapprovalrouter.py and flags risky terms with termsredliner....
 category: reporting
 ---
 

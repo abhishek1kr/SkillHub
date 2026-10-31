@@ -1,6 +1,6 @@
 ---
 name: channel-economics
-description: Use when reviewing or rebalancing direct vs. partner-led channel economics — computing fully-loaded cost-to-serve per channel, channel ROI with cash / LTV / marginal lenses, and optimal channel mix subject to constraints. For Head of Com...
+description: Use for a direct vs partner channel review: fully loaded cost to serve, channel ROI and the best channel mix under constraints. Runs costtoservecalculator.py, channelroianalyzer.py and channelmixoptimizer.py.
 category: general
 ---
 

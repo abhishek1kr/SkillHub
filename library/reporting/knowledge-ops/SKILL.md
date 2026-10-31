@@ -1,6 +1,6 @@
 ---
 name: knowledge-ops
-description: Use when a Head of Ops, Knowledge Manager, or TPM-Internal needs to author, validate, or clean up company SOPs and internal runbooks (procurement intake, vendor offboarding, incident-comms cascade, employee onboarding) — including 5W2H c...
+description: Use when writing, checking or cleaning up SOPs and runbooks. Generates them with sopgenerator.py, checks 5W2H completeness and links with runbookvalidator.py and ingests an existing knowledge base with kbingester.py.
 category: reporting
 ---
 

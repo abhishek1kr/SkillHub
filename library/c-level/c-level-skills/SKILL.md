@@ -1,6 +1,6 @@
 ---
 name: c-level-skills
-description: Index and router for the C-level advisory bundle: 33 skills covering 14 C-suite roles, orchestration, cross-cutting capabilities, and culture. Use when exploring what the c-level-advisor bundle contains, deciding which advisor skill fits...
+description: Use when looking for which C-level advisor skill fits a question (14 C-suite roles, board meetings, culture, M&A). Lists them and routes to one.
 category: c-level
 ---
 
@@ -34,5 +34,5 @@ Full matrix in `../chief-of-staff/SKILL.md` and `../chief-of-staff/references/ro
 ## Related Layers
 
 - `../../../c-level-agents/` — 13 cs-* persona agents + 21 `/cs-*` slash commands on top of these skills
-- `../../executive-mentor/` — adversarial `/em:*` critic commands
+- `../../executive-mentor/` — adversarial `/executive-mentor:*` critic commands
 - `../../CLAUDE.md` — full architecture diagram and integration guide

@@ -1,6 +1,6 @@
 ---
 name: commercial-forecaster
-description: Use when building a quarterly bookings forecast, ARR projection, pipeline forecast, NRR projection, or commit/best-case/pipe-only board number — especially when the CRO needs to walk the board through funnel math + cohort ARR + per-stage...
+description: Use when building a bookings, ARR, pipeline or NRR forecast, or a commit, best-case and pipeline board number. Forecasts with bookingsforecaster.py, projects cohorts with cohortarrprojector.py and scores stage confidence with funnelconfi...
 category: reporting
 ---
 

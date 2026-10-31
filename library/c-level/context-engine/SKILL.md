@@ -1,6 +1,6 @@
 ---
 name: context-engine
-description: Loads and manages company context for all C-suite advisor skills. Reads ~/.claude/company-context.md, detects stale context (older than 90 days), enriches context during conversations, and enforces privacy/anonymization rules before exte...
+description: Use when starting a C-suite advisor session, when company context is missing or older than 90 days, or before company data goes to an external service. Loads and enriches ~/.claude/company-context.md and applies anonymization rules.
 category: c-level
 ---
 

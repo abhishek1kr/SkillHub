@@ -1,6 +1,6 @@
 ---
 name: procurement-optimizer
-description: Use when running an annual SaaS audit, doing category-level spend review, or rationalizing the supplier base — when the user needs a spend audit, spend categorization (UNSPSC-aligned with Pareto breakdown and industry profiles), purchasi...
+description: Use for a SaaS audit, category spend review or supplier consolidation. Categorizes spend with spendcategorizer.py, finds slow purchasing with purchasingcycleanalyzer.py and sizes consolidation with supplierconsolidation.py.
 category: general
 ---
 

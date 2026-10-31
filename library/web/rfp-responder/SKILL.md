@@ -1,6 +1,6 @@
 ---
 name: rfp-responder
-description: Use when an RFP, RFI, RFQ, security questionnaire, vendor questionnaire, or proposal request arrives and the team needs a structured response — parsing multi-section buyer-dictated requirements (MANDATORY vs WEIGHTED vs NICE-TO-HAVE), bu...
+description: Use when an RFP, RFI, RFQ or security or vendor questionnaire arrives. Parses mandatory vs weighted requirements with rfpparser.py, drafts proof-point answers with responsedrafter.py and estimates win chance with winratepredictor.py.
 category: web
 ---
 

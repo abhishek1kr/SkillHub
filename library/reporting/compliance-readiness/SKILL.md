@@ -1,6 +1,6 @@
 ---
 name: compliance-readiness
-description: /compliance-os:compliance-readiness [program] — Multi-framework compliance officer 6-question forcing interrogation of any compliance program. Use before starting a new framework, planning the annual audit calendar, or preparing for cert...
+description: Use for /compliance-os:compliance-readiness, or before adding a framework or planning the annual audit calendar.
 category: reporting
 ---
 

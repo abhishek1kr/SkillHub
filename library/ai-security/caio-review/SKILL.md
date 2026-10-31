@@ -1,6 +1,6 @@
 ---
 name: caio-review
-description: /c-level-agents:caio-review [plan] — Eval-demanding Chief AI Officer interrogation of any plan that involves AI: model selection, risk classification, cost economics, or AI hiring. Use when shipping an AI feature without an eval set, cho...
+description: Use for /c-level-agents:caio-review, or to challenge a plan involving AI (no eval set, API vs fine-tune vs self-host, EU AI Act class).
 category: ai-security
 ---
 

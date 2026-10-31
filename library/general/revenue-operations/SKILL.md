@@ -1,6 +1,6 @@
 ---
 name: revenue-operations
-description: Analyzes sales pipeline health, revenue forecasting accuracy, and go-to-market efficiency metrics for SaaS revenue optimization. Use when analyzing sales pipeline coverage, forecasting revenue, evaluating go-to-market performance, review...
+description: Use for pipeline coverage, forecast accuracy or GTM efficiency (magic number, CAC payback). Runs pipelineanalyzer.py, forecastaccuracytracker.py and gtmefficiencycalculator.py.
 category: general
 ---
 

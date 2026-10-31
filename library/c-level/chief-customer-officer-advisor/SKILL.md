@@ -1,6 +1,6 @@
 ---
 name: chief-customer-officer-advisor
-description: Chief Customer Officer advisory for startups: retention decomposition (gross retention vs NRR honesty, churn root-cause taxonomy), customer segmentation strategy (differential investment across tiers + ICP fit scoring), CS team coverage ...
+description: Use for retention strategy, customer segmentation or CS team sizing decisions (GRR vs NRR, churn causes, pooled vs named CSMs). Runs retentiondecompositionanalyzer.py, customersegmentationdesigner.py and cscoveragecalculator.py.
 category: c-level
 ---
 

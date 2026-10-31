@@ -1,6 +1,6 @@
 ---
 name: ciso-advisor
-description: Security leadership for growth-stage companies. Risk quantification in dollars, compliance roadmap (SOC 2/ISO 27001/HIPAA/GDPR), security architecture strategy, incident response leadership, and board-level security reporting. Use when b...
+description: Use for security leadership decisions: a security program, budget justification in dollars, SOC 2 vs ISO 27001 vs HIPAA roadmap, or board security reporting. Quantifies risk with riskquantifier.py and tracks compliance with compliancetra...
 category: c-level
 ---
 
