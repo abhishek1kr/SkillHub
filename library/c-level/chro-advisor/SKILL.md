@@ -1,6 +1,6 @@
 ---
 name: chro-advisor
-description: Use for people strategy: hiring plans, comp bands, org structure, performance or retention. Models hiring with hiringplanmodeler.py and benchmarks pay with compbenchmarker.py.
+description: People strategy: hiring plans, comp bands, org structure, performance, retention. Use whenever the user asks who to hire, what to pay, how to structure teams or why staff leave.
 category: c-level
 ---
 

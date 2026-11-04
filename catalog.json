@@ -1,5 +1,5 @@
 {
-  "last_synced": "2026-11-03T11:53:22.133459+00:00",
+  "last_synced": "2026-11-04T12:06:25.872270+00:00",
   "total_skills": 2077,
   "categories": {
     "mobile": 23,
@@ -101,7 +101,7 @@
       "relative_path": "library/recon/bb-local-toolkit/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/bb-local-toolkit/SKILL.md",
       "sha256": "f85ddbd6ddca6e4e884a3dc923c7f2eda215659bc19e0793c75da9f20f14c7fe",
-      "updated_at": "2026-11-03T11:48:54.809565+00:00"
+      "updated_at": "2026-11-04T12:01:10.259462+00:00"
     },
     "bb-methodology": {
       "name": "bb-methodology",
@@ -110,7 +110,7 @@
       "relative_path": "library/logic/bb-methodology/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/bb-methodology/SKILL.md",
       "sha256": "687af8873d8300652b7563320f45f7337138b5359eb77318f2031a0cbcce138c",
-      "updated_at": "2026-11-03T11:48:54.965717+00:00"
+      "updated_at": "2026-11-04T12:01:10.447918+00:00"
     },
     "bountyforge": {
       "name": "bountyforge",
@@ -164,7 +164,7 @@
       "relative_path": "library/ad/readme/SKILL.md",
       "source": "akashrpatil/awesome-offensive-security-skills/skills/red-teaming/README.md",
       "sha256": "8f587022e170da99c873d459d5ad296cc0600f27b40e13aa6fce9f117a8f741e",
-      "updated_at": "2026-11-03T11:50:29.470543+00:00"
+      "updated_at": "2026-11-04T12:02:53.967965+00:00"
     },
     "cloud-saas-exposure": {
       "name": "cloud-saas-exposure",
@@ -281,7 +281,7 @@
       "relative_path": "library/recon/bug-bounty/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/bug-bounty/SKILL.md",
       "sha256": "585e1f621a21bf003a7547959c5979ecaead357558b36f6c1407fd1215b2a140",
-      "updated_at": "2026-11-03T11:48:55.127418+00:00"
+      "updated_at": "2026-11-04T12:01:10.636592+00:00"
     },
     "bugcrowd-reporting": {
       "name": "bugcrowd-reporting",
@@ -290,7 +290,7 @@
       "relative_path": "library/reporting/bugcrowd-reporting/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/bugcrowd-reporting/SKILL.md",
       "sha256": "4db20c5b8a67d97849207627c3f01919c74574121fec5be4edf205ed78e165a3",
-      "updated_at": "2026-11-03T11:48:55.303528+00:00"
+      "updated_at": "2026-11-04T12:01:10.800245+00:00"
     },
     "api-security": {
       "name": "api-security",
@@ -443,7 +443,7 @@
       "relative_path": "library/reporting/example-usage/SKILL.md",
       "source": "Masriyan/Claude-Code-CyberSecurity-Skill/skills/22-purple-team/examples/example_usage.md",
       "sha256": "d52a56d1ff6e888afaca22b62f432de9decc030c089738aea1028d4226ac5804",
-      "updated_at": "2026-11-03T11:50:42.138631+00:00"
+      "updated_at": "2026-11-04T12:03:08.607831+00:00"
     },
     "vulnerability-scanning-assessment": {
       "name": "vulnerability-scanning-assessment",
@@ -497,7 +497,7 @@
       "relative_path": "library/general/api-reference/SKILL.md",
       "source": "mukul975/Anthropic-Cybersecurity-Skills/skills/exploiting-nosql-injection-vulnerabilities/references/api-reference.md",
       "sha256": "b64fb56536148231c161ca61ef7f9741f74a591988a7251c30bb3d7c2d2d71d6",
-      "updated_at": "2026-11-03T11:53:16.277856+00:00"
+      "updated_at": "2026-11-04T12:06:19.301697+00:00"
     },
     "standards": {
       "name": "standards",
@@ -506,7 +506,7 @@
       "relative_path": "library/general/standards/SKILL.md",
       "source": "mukul975/Anthropic-Cybersecurity-Skills/skills/exploiting-nosql-injection-vulnerabilities/references/standards.md",
       "sha256": "57b6dfcc5ec60be2f868c33dccab8b9bd4aee5ba2be94b5b12354fce23ed805c",
-      "updated_at": "2026-11-03T11:53:16.508845+00:00"
+      "updated_at": "2026-11-04T12:06:19.500926+00:00"
     },
     "inspector": {
       "name": "inspector",
@@ -560,7 +560,7 @@
       "relative_path": "library/cloud/cloud-iam-deep/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/cloud-iam-deep/SKILL.md",
       "sha256": "d495d06f40392ac410fadd40e35b0a3acbe921aba99a0a9946ed5b26abc64ea9",
-      "updated_at": "2026-11-03T11:48:55.479787+00:00"
+      "updated_at": "2026-11-04T12:01:10.999127+00:00"
     },
     "enterprise-vpn-attack": {
       "name": "enterprise-vpn-attack",
@@ -569,7 +569,7 @@
       "relative_path": "library/network/enterprise-vpn-attack/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/enterprise-vpn-attack/SKILL.md",
       "sha256": "3efcc1022cf260a396dc3eba60808a6035ff5756fa2628a4dbfbe939eec5ead5",
-      "updated_at": "2026-11-03T11:48:55.634632+00:00"
+      "updated_at": "2026-11-04T12:01:11.439995+00:00"
     },
     "evidence-hygiene": {
       "name": "evidence-hygiene",
@@ -578,7 +578,7 @@
       "relative_path": "library/reporting/evidence-hygiene/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/evidence-hygiene/SKILL.md",
       "sha256": "1200f715875c0d773e4d2e00691b92f06deb676e8ca7dafac0b8be19c168380c",
-      "updated_at": "2026-11-03T11:48:55.789876+00:00"
+      "updated_at": "2026-11-04T12:01:12.006845+00:00"
     },
     "hunt-api-misconfig": {
       "name": "hunt-api-misconfig",
@@ -587,7 +587,7 @@
       "relative_path": "library/api/hunt-api-misconfig/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/hunt-api-misconfig/SKILL.md",
       "sha256": "d27a00337ac1c708ddd7540e8425d6131c61af27cc964f4de3bf845372b6a8cd",
-      "updated_at": "2026-11-03T11:48:55.946015+00:00"
+      "updated_at": "2026-11-04T12:01:12.200997+00:00"
     },
     "hunt-aspnet": {
       "name": "hunt-aspnet",
@@ -605,7 +605,7 @@
       "relative_path": "library/recon/hunt-ato/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/hunt-ato/SKILL.md",
       "sha256": "f2afcab5682c117c77259b1ead3eb746aeefaa70c07c019b581b79ede09c7596",
-      "updated_at": "2026-11-03T11:48:56.234900+00:00"
+      "updated_at": "2026-11-04T12:01:12.518479+00:00"
     },
     "hunt-auth-bypass": {
       "name": "hunt-auth-bypass",
@@ -614,7 +614,7 @@
       "relative_path": "library/api/hunt-auth-bypass/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/hunt-auth-bypass/SKILL.md",
       "sha256": "7d8c2a013969817ceb337ecdb6afd04564727cfb0d9f2c2c86d5141020638e14",
-      "updated_at": "2026-11-03T11:48:56.397884+00:00"
+      "updated_at": "2026-11-04T12:01:12.681970+00:00"
     },
     "hunt-business-logic": {
       "name": "hunt-business-logic",
@@ -623,7 +623,7 @@
       "relative_path": "library/logic/hunt-business-logic/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/hunt-business-logic/SKILL.md",
       "sha256": "c498fee1e663deeebed2332ba9248cadee782b7f65e2b61089623b02fca1ce89",
-      "updated_at": "2026-11-03T11:48:56.681347+00:00"
+      "updated_at": "2026-11-04T12:01:13.012359+00:00"
     },
     "hunt-cache-poison": {
       "name": "hunt-cache-poison",
@@ -632,7 +632,7 @@
       "relative_path": "library/web/hunt-cache-poison/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/hunt-cache-poison/SKILL.md",
       "sha256": "a64dea2f7b69bcfbc6d03c21ca8fa0ddf78bc481ecc6531c9f6064737879f25d",
-      "updated_at": "2026-11-03T11:48:56.832634+00:00"
+      "updated_at": "2026-11-04T12:01:13.196127+00:00"
     },
     "hunt-cloud-misconfig": {
       "name": "hunt-cloud-misconfig",
@@ -641,7 +641,7 @@
       "relative_path": "library/cloud/hunt-cloud-misconfig/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/hunt-cloud-misconfig/SKILL.md",
       "sha256": "dff86dce91a6b5fa95b404cd025a16a5f5d94a1c992bfc275122530cb3b1b54e",
-      "updated_at": "2026-11-03T11:48:57.341276+00:00"
+      "updated_at": "2026-11-04T12:01:13.734524+00:00"
     },
     "hunt-csrf": {
       "name": "hunt-csrf",
@@ -650,7 +650,7 @@
       "relative_path": "library/web/hunt-csrf/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/hunt-csrf/SKILL.md",
       "sha256": "d311dce06a0715587abb25f7a28d946111b55d8439697d75e047f8a5a3cd3e79",
-      "updated_at": "2026-11-03T11:48:57.622231+00:00"
+      "updated_at": "2026-11-04T12:01:14.037649+00:00"
     },
     "hunt-dispatch": {
       "name": "hunt-dispatch",
@@ -659,7 +659,7 @@
       "relative_path": "library/general/hunt-dispatch/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/hunt-dispatch/SKILL.md",
       "sha256": "b582c50d9f36d78d97a5d7eda3d70134e8c03ebfa968afd7119eb4ea476ae5c1",
-      "updated_at": "2026-11-03T11:48:57.901842+00:00"
+      "updated_at": "2026-11-04T12:01:14.344374+00:00"
     },
     "hunt-file-upload": {
       "name": "hunt-file-upload",
@@ -668,7 +668,7 @@
       "relative_path": "library/web/hunt-file-upload/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/hunt-file-upload/SKILL.md",
       "sha256": "2ce6b6bd65376b22d9145997c4639edcc8b8033f646957e3e2c4b915e42eb52c",
-      "updated_at": "2026-11-03T11:48:58.299106+00:00"
+      "updated_at": "2026-11-04T12:01:14.750192+00:00"
     },
     "hunt-graphql": {
       "name": "hunt-graphql",
@@ -677,7 +677,7 @@
       "relative_path": "library/api/hunt-graphql/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/hunt-graphql/SKILL.md",
       "sha256": "5a2d5080566449b85f3e4e7d5a73d9a7465f126ae688ed7dafe9186cb30cb5ca",
-      "updated_at": "2026-11-03T11:48:58.684827+00:00"
+      "updated_at": "2026-11-04T12:01:15.155144+00:00"
     },
     "hunt-http-smuggling": {
       "name": "hunt-http-smuggling",
@@ -686,7 +686,7 @@
       "relative_path": "library/web/hunt-http-smuggling/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/hunt-http-smuggling/SKILL.md",
       "sha256": "9ebd33dbdd534d08df689a4b7fd8a8dcef770d6d0358c0cf22252d2a8cf2da45",
-      "updated_at": "2026-11-03T11:48:59.154297+00:00"
+      "updated_at": "2026-11-04T12:01:15.708695+00:00"
     },
     "hunt-idor": {
       "name": "hunt-idor",
@@ -695,7 +695,7 @@
       "relative_path": "library/api/hunt-idor/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/hunt-idor/SKILL.md",
       "sha256": "c264f8d251a21c88b127bfa831acd819e7363ec1b138bcecbf226dc98b74ed3e",
-      "updated_at": "2026-11-03T11:48:59.333604+00:00"
+      "updated_at": "2026-11-04T12:01:15.886544+00:00"
     },
     "hunt-llm-ai": {
       "name": "hunt-llm-ai",
@@ -704,7 +704,7 @@
       "relative_path": "library/api/hunt-llm-ai/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/hunt-llm-ai/SKILL.md",
       "sha256": "44968fc1b2ff3210e481aafbdf7f160d9a1fcbcce995df1edf0329cbff9b7658",
-      "updated_at": "2026-11-03T11:49:00.069211+00:00"
+      "updated_at": "2026-11-04T12:01:16.727831+00:00"
     },
     "hunt-mfa-bypass": {
       "name": "hunt-mfa-bypass",
@@ -713,7 +713,7 @@
       "relative_path": "library/api/hunt-mfa-bypass/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/hunt-mfa-bypass/SKILL.md",
       "sha256": "453126b12df075d941f5a39552d4b17b623aaa692fe3d87442dae104384aafed",
-      "updated_at": "2026-11-03T11:49:00.239172+00:00"
+      "updated_at": "2026-11-04T12:01:16.887984+00:00"
     },
     "hunt-misc": {
       "name": "hunt-misc",
@@ -722,7 +722,7 @@
       "relative_path": "library/recon/hunt-misc/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/hunt-misc/SKILL.md",
       "sha256": "1da165c46da0cb8c2ef9d4e110cb6b876081619b7d96acad43ff96850d2a029e",
-      "updated_at": "2026-11-03T11:49:00.394584+00:00"
+      "updated_at": "2026-11-04T12:01:17.066823+00:00"
     },
     "hunt-ntlm-info": {
       "name": "hunt-ntlm-info",
@@ -731,7 +731,7 @@
       "relative_path": "library/network/hunt-ntlm-info/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/hunt-ntlm-info/SKILL.md",
       "sha256": "2ebe0e8acfc301a4986ac508cc5e032727e01f0246dff1df8b2073dcae2ea86f",
-      "updated_at": "2026-11-03T11:49:00.909523+00:00"
+      "updated_at": "2026-11-04T12:01:17.626337+00:00"
     },
     "hunt-oauth": {
       "name": "hunt-oauth",
@@ -740,7 +740,7 @@
       "relative_path": "library/api/hunt-oauth/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/hunt-oauth/SKILL.md",
       "sha256": "05ef8cb632293ab8e0ae0399a7e5b08587e2645e778eb51377573cb4023de685",
-      "updated_at": "2026-11-03T11:49:01.071897+00:00"
+      "updated_at": "2026-11-04T12:01:17.809765+00:00"
     },
     "hunt-race-condition": {
       "name": "hunt-race-condition",
@@ -749,7 +749,7 @@
       "relative_path": "library/logic/hunt-race-condition/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/hunt-race-condition/SKILL.md",
       "sha256": "783248a920928a4aaa981c268be436af91a7d6251a29730d729a4f678f83c768",
-      "updated_at": "2026-11-03T11:49:01.363843+00:00"
+      "updated_at": "2026-11-04T12:01:18.151414+00:00"
     },
     "hunt-rce": {
       "name": "hunt-rce",
@@ -758,7 +758,7 @@
       "relative_path": "library/web/hunt-rce/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/hunt-rce/SKILL.md",
       "sha256": "86246654cdbafbadf622e3d3a387f587512412df6e83f13a16db443223601140",
-      "updated_at": "2026-11-03T11:49:01.668776+00:00"
+      "updated_at": "2026-11-04T12:01:18.421700+00:00"
     },
     "hunt-saml": {
       "name": "hunt-saml",
@@ -767,7 +767,7 @@
       "relative_path": "library/api/hunt-saml/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/hunt-saml/SKILL.md",
       "sha256": "37070e08eb1d451408420c76a35cec184b4e9387a404dd512a8a0b7557641f32",
-      "updated_at": "2026-11-03T11:49:01.826393+00:00"
+      "updated_at": "2026-11-04T12:01:18.598538+00:00"
     },
     "hunt-sharepoint": {
       "name": "hunt-sharepoint",
@@ -776,7 +776,7 @@
       "relative_path": "library/web/hunt-sharepoint/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/hunt-sharepoint/SKILL.md",
       "sha256": "6c9a1741da8b328176c42c5673dc54e7dd2ae61dc414dbb40eb7ebad7b253a98",
-      "updated_at": "2026-11-03T11:49:02.248335+00:00"
+      "updated_at": "2026-11-04T12:01:19.017261+00:00"
     },
     "hunt-sqli": {
       "name": "hunt-sqli",
@@ -785,7 +785,7 @@
       "relative_path": "library/web/hunt-sqli/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/hunt-sqli/SKILL.md",
       "sha256": "fc5627c37b1028172413285c322c76d1105ebffbbb5af4e0ca0eaa81811fd7c0",
-      "updated_at": "2026-11-03T11:49:02.919792+00:00"
+      "updated_at": "2026-11-04T12:01:19.570284+00:00"
     },
     "hunt-ssrf": {
       "name": "hunt-ssrf",
@@ -794,7 +794,7 @@
       "relative_path": "library/web/hunt-ssrf/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/hunt-ssrf/SKILL.md",
       "sha256": "e9723e4a78a3a2113efd88b0d49df02f9dded113569964d5b1b6aa2f592df058",
-      "updated_at": "2026-11-03T11:49:03.189756+00:00"
+      "updated_at": "2026-11-04T12:01:19.738499+00:00"
     },
     "hunt-ssti": {
       "name": "hunt-ssti",
@@ -803,7 +803,7 @@
       "relative_path": "library/web/hunt-ssti/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/hunt-ssti/SKILL.md",
       "sha256": "edab65afe43abcd2d0d19f7dde29c91f54fbd8720f66e9161a58a4552f1092af",
-      "updated_at": "2026-11-03T11:49:03.419342+00:00"
+      "updated_at": "2026-11-04T12:01:19.910231+00:00"
     },
     "hunt-subdomain": {
       "name": "hunt-subdomain",
@@ -812,7 +812,7 @@
       "relative_path": "library/recon/hunt-subdomain/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/hunt-subdomain/SKILL.md",
       "sha256": "aac68521ad4a90fa5a21777f2c1c3ac05a1dfc080e066e88b0ce42571f174ca3",
-      "updated_at": "2026-11-03T11:49:03.600335+00:00"
+      "updated_at": "2026-11-04T12:01:20.089453+00:00"
     },
     "hunt-xss": {
       "name": "hunt-xss",
@@ -821,7 +821,7 @@
       "relative_path": "library/web/hunt-xss/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/hunt-xss/SKILL.md",
       "sha256": "fad790ac05164299eff8f2206160d23b79d2508ac930721e3d8835d746443714",
-      "updated_at": "2026-11-03T11:49:04.079068+00:00"
+      "updated_at": "2026-11-04T12:01:20.633681+00:00"
     },
     "hunt-xxe": {
       "name": "hunt-xxe",
@@ -830,7 +830,7 @@
       "relative_path": "library/web/hunt-xxe/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/hunt-xxe/SKILL.md",
       "sha256": "a74b466dfb2220787cd61c65860fa50c914b77c30151f04e63284a565c269069",
-      "updated_at": "2026-11-03T11:49:04.238029+00:00"
+      "updated_at": "2026-11-04T12:01:20.802501+00:00"
     },
     "m365-entra-attack": {
       "name": "m365-entra-attack",
@@ -839,7 +839,7 @@
       "relative_path": "library/cloud/m365-entra-attack/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/m365-entra-attack/SKILL.md",
       "sha256": "8b76a543adc6972925639cda19699f7c5b0c2f1d5d03411aaf81115df6d759ce",
-      "updated_at": "2026-11-03T11:49:04.508730+00:00"
+      "updated_at": "2026-11-04T12:01:21.101621+00:00"
     },
     "meme-coin-audit": {
       "name": "meme-coin-audit",
@@ -848,7 +848,7 @@
       "relative_path": "library/general/meme-coin-audit/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/meme-coin-audit/SKILL.md",
       "sha256": "e73eeb86751ac4578456e2058373cd02e812adcbbaec745c6733c78c2e147055",
-      "updated_at": "2026-11-03T11:49:04.691815+00:00"
+      "updated_at": "2026-11-04T12:01:21.269472+00:00"
     },
     "mid-engagement-ir-detection": {
       "name": "mid-engagement-ir-detection",
@@ -857,7 +857,7 @@
       "relative_path": "library/web/mid-engagement-ir-detection/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/mid-engagement-ir-detection/SKILL.md",
       "sha256": "50179c536601c05b98979e19c9b84132f85930820f77bc600991889f0db9b9f4",
-      "updated_at": "2026-11-03T11:49:04.868091+00:00"
+      "updated_at": "2026-11-04T12:01:21.429759+00:00"
     },
     "offensive-osint": {
       "name": "offensive-osint",
@@ -866,7 +866,7 @@
       "relative_path": "library/recon/offensive-osint/SKILL.md",
       "source": "elementalsouls/Claude-OSINT/skills/offensive-osint/SKILL.md",
       "sha256": "8fd578f585dff8dd53a46ccf3762243ad7cfd99fd9067fb2a13378bd0ec4e920",
-      "updated_at": "2026-11-03T11:49:41.767162+00:00"
+      "updated_at": "2026-11-04T12:02:00.451054+00:00"
     },
     "okta-attack": {
       "name": "okta-attack",
@@ -875,7 +875,7 @@
       "relative_path": "library/recon/okta-attack/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/okta-attack/SKILL.md",
       "sha256": "f52a55aca18604292d588fe5144bf1c5fed31e3c084c07cf9c15d90be3d3e589",
-      "updated_at": "2026-11-03T11:49:07.459172+00:00"
+      "updated_at": "2026-11-04T12:01:24.433911+00:00"
     },
     "osint-methodology": {
       "name": "osint-methodology",
@@ -884,7 +884,7 @@
       "relative_path": "library/recon/osint-methodology/SKILL.md",
       "source": "elementalsouls/Claude-OSINT/skills/osint-methodology/SKILL.md",
       "sha256": "4bdb54d71f53ed75ab2dd3dd4db83fd75744ca8dcba84a8e82520cf7a87e603f",
-      "updated_at": "2026-11-03T11:49:42.815754+00:00"
+      "updated_at": "2026-11-04T12:02:01.452114+00:00"
     },
     "redteam-mindset": {
       "name": "redteam-mindset",
@@ -893,7 +893,7 @@
       "relative_path": "library/reporting/redteam-mindset/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/redteam-mindset/SKILL.md",
       "sha256": "bbf42293aedfa03b65cb87d27ec16b811f7acf3d251191db0911e49a2f78dd45",
-      "updated_at": "2026-11-03T11:49:08.100201+00:00"
+      "updated_at": "2026-11-04T12:01:25.139020+00:00"
     },
     "redteam-report-template": {
       "name": "redteam-report-template",
@@ -911,7 +911,7 @@
       "relative_path": "library/reporting/report-writing/SKILL.md",
       "source": "Aetherdz/huntpack/skills/reporting/report-writing/SKILL.md",
       "sha256": "7a8595e5c26ded3f2c8be9f99c30fb4b10996db17c145d41263d5ba8411bb52c",
-      "updated_at": "2026-11-03T11:49:21.344498+00:00"
+      "updated_at": "2026-11-04T12:01:39.560152+00:00"
     },
     "security-arsenal": {
       "name": "security-arsenal",
@@ -920,7 +920,7 @@
       "relative_path": "library/reporting/security-arsenal/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/security-arsenal/SKILL.md",
       "sha256": "c33ecb1a5653501f532b714424aadb1cf8edc5759250b55a58a574b73cb9a0f0",
-      "updated_at": "2026-11-03T11:49:08.548039+00:00"
+      "updated_at": "2026-11-04T12:01:25.623287+00:00"
     },
     "supply-chain-attack-recon": {
       "name": "supply-chain-attack-recon",
@@ -929,7 +929,7 @@
       "relative_path": "library/recon/supply-chain-attack-recon/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/supply-chain-attack-recon/SKILL.md",
       "sha256": "4a63831cf5f775710682c38b7571ae806cd2ca8cd1cae2665359a180f2d8a73d",
-      "updated_at": "2026-11-03T11:49:08.729272+00:00"
+      "updated_at": "2026-11-04T12:01:25.808742+00:00"
     },
     "triage-validation": {
       "name": "triage-validation",
@@ -938,7 +938,7 @@
       "relative_path": "library/reporting/triage-validation/SKILL.md",
       "source": "Aetherdz/huntpack/skills/validation/triage-validation/SKILL.md",
       "sha256": "0882b0d5aad421556199bd6152e7f1ba6fa1a10c7157ae8159c4a02898f9091a",
-      "updated_at": "2026-11-03T11:49:26.997987+00:00"
+      "updated_at": "2026-11-04T12:01:44.657474+00:00"
     },
     "vmware-vcenter-attack": {
       "name": "vmware-vcenter-attack",
@@ -947,7 +947,7 @@
       "relative_path": "library/recon/vmware-vcenter-attack/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/vmware-vcenter-attack/SKILL.md",
       "sha256": "20a51bb02ad3ccf88fb565b367bd52059d2bc3837d2069432657b0aef1228042",
-      "updated_at": "2026-11-03T11:49:09.065462+00:00"
+      "updated_at": "2026-11-04T12:01:26.156998+00:00"
     },
     "web2-recon": {
       "name": "web2-recon",
@@ -956,7 +956,7 @@
       "relative_path": "library/recon/web2-recon/SKILL.md",
       "source": "Aetherdz/huntpack/skills/recon/web2-recon/SKILL.md",
       "sha256": "f007b9f761ebbdca4c47f27cee1cb5ac060be2dc1d8d95908aa812ba26363cc6",
-      "updated_at": "2026-11-03T11:49:18.651187+00:00"
+      "updated_at": "2026-11-04T12:01:36.610922+00:00"
     },
     "business-logic-hunter": {
       "name": "business-logic-hunter",
@@ -974,7 +974,7 @@
       "relative_path": "library/recon/web2-vuln-classes/SKILL.md",
       "source": "Aetherdz/huntpack/skills/hunting/web2-vuln-classes/SKILL.md",
       "sha256": "196e93431d268de7ebfc38779524e7035ff0396695609e188e80c8c8fd80060c",
-      "updated_at": "2026-11-03T11:49:15.039211+00:00"
+      "updated_at": "2026-11-04T12:01:32.627899+00:00"
     },
     "attack-path-builder": {
       "name": "attack-path-builder",
@@ -1091,7 +1091,7 @@
       "relative_path": "library/general/code-reviewer/SKILL.md",
       "source": "NVIDIA/SkillSpector/tests/fixtures/ssd/ssd_clean/SKILL.md",
       "sha256": "e532af5ebc3cde5097af8e455e52cd8df43c71feef3361655de7ea9ac01bb052",
-      "updated_at": "2026-11-03T11:53:21.957291+00:00"
+      "updated_at": "2026-11-04T12:06:25.598984+00:00"
     },
     "cpp-pro": {
       "name": "cpp-pro",
@@ -2621,7 +2621,7 @@
       "relative_path": "library/Web Vulnerabilities/graphql-introspection-abuse/SKILL.md",
       "source": "akashrpatil/awesome-offensive-security-skills/skills/bug-hunting/web-vulnerabilities/graphql-introspection-abuse/SKILL.md",
       "sha256": "9cf842d3640190a35562d5cfd47d87c26be3bbbb15564251dd6d30524dd6a812",
-      "updated_at": "2026-11-03T11:50:19.188799+00:00"
+      "updated_at": "2026-11-04T12:02:41.841133+00:00"
     },
     "jwt-algorithm-confusion": {
       "name": "jwt-algorithm-confusion",
@@ -3827,7 +3827,7 @@
       "relative_path": "library/Evasion/cobalt-strike-malleable-c2/SKILL.md",
       "source": "akashrpatil/awesome-offensive-security-skills/skills/red-teaming/evasion/cobalt-strike-malleable-c2/SKILL.md",
       "sha256": "9b8836b95bf5f950b55532eecce109f46e1d61701b2f27dea8e0dd36ae252096",
-      "updated_at": "2026-11-03T11:50:30.518049+00:00"
+      "updated_at": "2026-11-04T12:02:55.379280+00:00"
     },
     "active-directory-dcsync-attack": {
       "name": "active-directory-dcsync-attack",
@@ -8215,11 +8215,11 @@
     "revenue-operations": {
       "name": "revenue-operations",
       "category": "general",
-      "description": "Use for pipeline coverage, forecast accuracy or GTM efficiency (magic number, CAC payback). Runs pipelineanalyzer.py, forecastaccuracytracker.py and gtmefficiencycalculator.py.",
+      "description": "Check sales pipeline and forecasts: pipeline coverage, forecast accuracy, magic number, CAC payback. Use whenever the user asks if pipeline is enough or how good forecasts are.",
       "relative_path": "library/general/revenue-operations/SKILL.md",
       "source": "S1N6H/Bug-Bounty-Skills/skills/alirezarezvani-claude-skills-business-growth-skills-revenue-operations.md",
-      "sha256": "6012c0159fd467b45e46b6587fa4f69fef835fd3b9506ea6c3c46007193eb3b1",
-      "updated_at": "2026-10-31T10:17:20.655981+00:00"
+      "sha256": "fe3e0ae8c10dda07b764d7e15278ace034d3912a834a983bdcc2c23bce726b21",
+      "updated_at": "2026-11-04T11:59:37.692193+00:00"
     },
     "sales-engineer": {
       "name": "sales-engineer",
@@ -8233,20 +8233,20 @@
     "business-operations-skills": {
       "name": "business-operations-skills",
       "category": "logic",
-      "description": "Use when an internal operations request needs routing (process, vendors, capacity, internal comms, SOPs, procurement): 'where's the bottleneck', 'vendor health'. Lists the BizOps skills and routes to one.",
+      "description": "Route internal operations requests to the right BizOps skill: process, vendors, capacity, internal comms, SOPs, procurement. Use whenever the user asks where the bottleneck is or about vendor health.",
       "relative_path": "library/logic/business-operations-skills/SKILL.md",
       "source": "S1N6H/Bug-Bounty-Skills/skills/alirezarezvani-claude-skills-business-operations-skills-business-operations-skills.md",
-      "sha256": "4c63fd7aca42bea7ffd1fc53a46e8ba1e0b1836b8147a357dc1bfb35159bf3f5",
-      "updated_at": "2026-10-31T10:17:20.899080+00:00"
+      "sha256": "30180e2a2e72e3ac4d217a231c9427a6deef343e1effcca970b86af734831436",
+      "updated_at": "2026-11-04T11:59:38.009431+00:00"
     },
     "capacity-planner": {
       "name": "capacity-planner",
       "category": "general",
-      "description": "Use when sizing an ops or support team, building a headcount plan or checking utilization risk. Models queues with Erlang C in capacitymodeler.py, analyzes utilization with utilizationanalyzer.py and orders hires with hiringsequencer.py.",
+      "description": "Size an ops or support team and plan headcount: Erlang C queue models, utilization risk, hiring order. Use whenever the user asks how many agents or staff they need, if the team is overloaded, or who to hire first.",
       "relative_path": "library/general/capacity-planner/SKILL.md",
       "source": "S1N6H/Bug-Bounty-Skills/skills/alirezarezvani-claude-skills-business-operations-skills-capacity-planner.md",
-      "sha256": "178cd8d2c68ea680b2b612f43c84ce4050e5a4014766c1ba024c4f93b3173a3b",
-      "updated_at": "2026-10-31T10:17:21.017635+00:00"
+      "sha256": "ffc941c0274d9e1b32f6b7701c99330e5395c13a4dd9dc76143ec32803c5116d",
+      "updated_at": "2026-11-04T11:59:38.206337+00:00"
     },
     "internal-comms": {
       "name": "internal-comms",
@@ -8278,11 +8278,11 @@
     "procurement-optimizer": {
       "name": "procurement-optimizer",
       "category": "general",
-      "description": "Use for a SaaS audit, category spend review or supplier consolidation. Categorizes spend with spendcategorizer.py, finds slow purchasing with purchasingcycleanalyzer.py and sizes consolidation with supplierconsolidation.py.",
+      "description": "Cut spend on software and suppliers: SaaS audit, category spend review, slow purchasing cycles, supplier consolidation. Use whenever the user asks which tools or vendors to cut, where money goes, or why buying takes so long.",
       "relative_path": "library/general/procurement-optimizer/SKILL.md",
       "source": "S1N6H/Bug-Bounty-Skills/skills/alirezarezvani-claude-skills-business-operations-skills-procurement-optimizer.md",
-      "sha256": "8dc297f448758c408e57c389b313770f362fe302bdceae1d361930a66d4c01ce",
-      "updated_at": "2026-10-31T10:17:21.483777+00:00"
+      "sha256": "fd528725f6c20ba2e5428358facd8caa3e64eb972997cdbc068e6aa5754ed401",
+      "updated_at": "2026-11-04T11:59:38.883163+00:00"
     },
     "vendor-management": {
       "name": "vendor-management",
@@ -8341,11 +8341,11 @@
     "challenge": {
       "name": "challenge",
       "category": "general",
-      "description": "Use before committing serious resources to a plan, or when feedback has been suspiciously positive. Runs a pre-mortem: assume it failed in 12 months and work back to the assumptions, dependencies and execution risks.",
+      "description": "Pre-mortem a plan: assume it failed in 12 months and work back to the assumptions, dependencies and execution risks. Use whenever the user will commit serious resources or feedback seems too positive.",
       "relative_path": "library/general/challenge/SKILL.md",
       "source": "S1N6H/Bug-Bounty-Skills/skills/alirezarezvani-claude-skills-c-level-advisor-executive-mentor-skills-challenge.md",
-      "sha256": "6fa580dcaa64e4f47d0ad9aa1b76fbf035eaede5521edb60f17b37f2d8665127",
-      "updated_at": "2026-10-31T10:17:22.312417+00:00"
+      "sha256": "b9cd3d0de58cc45320de7737bd77cfa95d84b4e124a244021135e0c87f407884",
+      "updated_at": "2026-11-04T11:59:39.918798+00:00"
     },
     "executive-mentor": {
       "name": "executive-mentor",
@@ -8377,20 +8377,20 @@
     "stress-test": {
       "name": "stress-test",
       "category": "general",
-      "description": "Use before betting on a plan whose core assumptions are unvalidated (a hockey-stick model, a long enterprise pilot).",
+      "description": "Stress-test a plan built on untested assumptions. Use whenever the user bets on a hockey-stick model or long pilot.",
       "relative_path": "library/general/stress-test/SKILL.md",
       "source": "S1N6H/Bug-Bounty-Skills/skills/alirezarezvani-claude-skills-c-level-advisor-executive-mentor-skills-stress-test.md",
-      "sha256": "a8026eef3acdfa83ac134c930a2092799cb83c9cf17c5afcaf3690c045393309",
-      "updated_at": "2026-10-31T10:17:22.806576+00:00"
+      "sha256": "bf680a92fc5717310e2d76b3cc0755ea167c3f9b049cc391d7478ffb4a864285",
+      "updated_at": "2026-11-04T11:59:40.557240+00:00"
     },
     "general-counsel-advisor": {
       "name": "general-counsel-advisor",
       "category": "c-level",
-      "description": "Use when reviewing a contract or term sheet (MSA, SaaS, NDA, DPA, employment), setting IP strategy or mapping regulatory exposure (HIPAA, GDPR, FDA, fintech). Scans with contractriskscanner.py and termsheetanalyzer.py; not a substitute for licensed counsel.",
+      "description": "Legal review of contracts and term sheets (MSA, SaaS, NDA, DPA, employment), IP strategy and regulatory exposure (HIPAA, GDPR, FDA, fintech). Use whenever the user asks if a contract is risky or what to watch in a deal; not a substitute for licensed counsel.",
       "relative_path": "library/c-level/general-counsel-advisor/SKILL.md",
       "source": "S1N6H/Bug-Bounty-Skills/skills/alirezarezvani-claude-skills-c-level-advisor-general-counsel-advisor-skills-general-counsel-advisor.md",
-      "sha256": "ae86ee2d511c914664c1516688c3a8209ca81330ad7b0e352f0f8d86cae529f5",
-      "updated_at": "2026-10-31T10:17:27.613582+00:00"
+      "sha256": "acbc9f4403124cae7bb97f5f43171c0a9f044056a6b32e0df5234c72fc88a4d2",
+      "updated_at": "2026-11-04T11:59:40.749014+00:00"
     },
     "agent-protocol": {
       "name": "agent-protocol",
@@ -8422,29 +8422,29 @@
     "c-level-skills": {
       "name": "c-level-skills",
       "category": "c-level",
-      "description": "Use when looking for which C-level advisor skill fits a question (14 C-suite roles, board meetings, culture, M&A). Lists them and routes to one.",
+      "description": "Find which C-level advisor fits a question: 14 C-suite roles, board meetings, culture, M&A. Use whenever the user asks which advisor to use.",
       "relative_path": "library/c-level/c-level-skills/SKILL.md",
       "source": "S1N6H/Bug-Bounty-Skills/skills/alirezarezvani-claude-skills-c-level-advisor-skills-c-level-skills.md",
-      "sha256": "2d237dd7df7e1d1ba36d0ce15e2df17d27d08301c9f46da679114fa2b3c255db",
-      "updated_at": "2026-10-31T10:17:28.121812+00:00"
+      "sha256": "f20bd3daa5c9b40e977bc3e4497cda02b20db83826041b4f747c83f772f67e07",
+      "updated_at": "2026-11-04T11:59:41.359813+00:00"
     },
     "ceo-advisor": {
       "name": "ceo-advisor",
       "category": "c-level",
-      "description": "Use for CEO-level questions: company strategy, board and investor management, fundraising, org design or culture. Models scenarios with financialscenarioanalyzer.py and strategy with strategyanalyzer.py.",
+      "description": "CEO and founder advice: company strategy, board and investor management, fundraising, org design, culture. Use whenever a CEO asks how to run the company, handle investors or board, or make a big bet.",
       "relative_path": "library/c-level/ceo-advisor/SKILL.md",
       "source": "S1N6H/Bug-Bounty-Skills/skills/alirezarezvani-claude-skills-c-level-advisor-skills-ceo-advisor.md",
-      "sha256": "95d51a86bffc3b3ee8ace9d842ae80ac3d87984dd3e27cdc7cb88d834b79b020",
-      "updated_at": "2026-10-31T10:17:28.240637+00:00"
+      "sha256": "118609e2fa0c720063ee70ba6783dc63e934eb24ac2e569b005b96597088fcb5",
+      "updated_at": "2026-11-04T11:59:41.552784+00:00"
     },
     "cfo-advisor": {
       "name": "cfo-advisor",
       "category": "c-level",
-      "description": "Use for startup finance decisions: unit economics (LTV, CAC), burn and runway, fundraising and dilution, or board financials. Runs uniteconomicsanalyzer.py, burnratecalculator.py and fundraisingmodel.py.",
+      "description": "Startup finance: runway and burn, unit economics (LTV, CAC, payback), fundraising and dilution, board financials. Use whenever the user shares burn, cash, ARR or CAC numbers or asks if they can raise.",
       "relative_path": "library/c-level/cfo-advisor/SKILL.md",
       "source": "S1N6H/Bug-Bounty-Skills/skills/alirezarezvani-claude-skills-c-level-advisor-skills-cfo-advisor.md",
-      "sha256": "9ab289ae987cb278967e06e48a65c9f4761ceec54c7c18d81603e113d8df7fa8",
-      "updated_at": "2026-10-31T10:17:28.374131+00:00"
+      "sha256": "9ec19eb6cfd1664d4790710188eed5a2425d4c833584411eb2beed70363c814f",
+      "updated_at": "2026-11-04T11:59:41.746917+00:00"
     },
     "change-management": {
       "name": "change-management",
@@ -8467,11 +8467,11 @@
     "chro-advisor": {
       "name": "chro-advisor",
       "category": "c-level",
-      "description": "Use for people strategy: hiring plans, comp bands, org structure, performance or retention. Models hiring with hiringplanmodeler.py and benchmarks pay with compbenchmarker.py.",
+      "description": "People strategy: hiring plans, comp bands, org structure, performance, retention. Use whenever the user asks who to hire, what to pay, how to structure teams or why staff leave.",
       "relative_path": "library/c-level/chro-advisor/SKILL.md",
       "source": "S1N6H/Bug-Bounty-Skills/skills/alirezarezvani-claude-skills-c-level-advisor-skills-chro-advisor.md",
-      "sha256": "78156dccf49fda61de3ebe847df2fa6bc8c84eb57a9dda19e08771f58d9037d1",
-      "updated_at": "2026-10-31T10:17:28.766016+00:00"
+      "sha256": "24fc00cedc9f114eaae8697411786ce796d1edc5d0f4dab8ef69c36a1ccf5155",
+      "updated_at": "2026-11-04T11:59:42.224801+00:00"
     },
     "ciso-advisor": {
       "name": "ciso-advisor",
@@ -8485,11 +8485,11 @@
     "cmo-advisor": {
       "name": "cmo-advisor",
       "category": "c-level",
-      "description": "Use for marketing leadership decisions: positioning, PLG vs sales-led vs community-led, budget allocation or marketing team design. Simulates growth with growthmodelsimulator.py and budgets with marketingbudgetmodeler.py.",
+      "description": "Marketing leadership: positioning, product-led vs sales-led vs community-led growth, budget split across channels, marketing team design. Use whenever the user asks how to grow, which go-to-market fits or where to spend.",
       "relative_path": "library/c-level/cmo-advisor/SKILL.md",
       "source": "S1N6H/Bug-Bounty-Skills/skills/alirezarezvani-claude-skills-c-level-advisor-skills-cmo-advisor.md",
-      "sha256": "8124ce567037aa883c167c8e0095fa7f867d8a563d78362f473cd449dad5f68c",
-      "updated_at": "2026-10-31T10:17:29.015730+00:00"
+      "sha256": "b7fcee76f0a9ecdeff65217c5597a91ca163a43269707fc0c9cd4e89863360a5",
+      "updated_at": "2026-11-04T11:59:42.586289+00:00"
     },
     "company-os": {
       "name": "company-os",
@@ -8530,11 +8530,11 @@
     "cpo-advisor": {
       "name": "cpo-advisor",
       "category": "c-level",
-      "description": "Use for product leadership: product vision, PMF measurement, portfolio prioritization, product org design or board product reporting. Scores PMF with pmfscorer.py and the portfolio with portfolioanalyzer.py.",
+      "description": "Product leadership: PMF measurement, product vision, portfolio investment, product org design, board product reporting. Use whenever the user asks if they have PMF or how to split investment across products.",
       "relative_path": "library/c-level/cpo-advisor/SKILL.md",
       "source": "S1N6H/Bug-Bounty-Skills/skills/alirezarezvani-claude-skills-c-level-advisor-skills-cpo-advisor.md",
-      "sha256": "27c5c83c4e43e9f1ec16c8d1669c51efd4875726808475b0532150ad99b37994",
-      "updated_at": "2026-10-31T10:17:29.623247+00:00"
+      "sha256": "c292d0e79330ed170557b1191ebfc4975f7fe03f3ae56bb6c49e71f07ffae04c",
+      "updated_at": "2026-11-04T11:59:43.329302+00:00"
     },
     "cro-advisor": {
       "name": "cro-advisor",
@@ -8557,11 +8557,11 @@
     "cto-advisor": {
       "name": "cto-advisor",
       "category": "c-level",
-      "description": "Use for CTO-level decisions: tech debt, architecture direction, engineering team scaling, technology evaluation or DORA metrics. Analyzes debt with techdebtanalyzer.py and team growth with teamscalingcalculator.py.",
+      "description": "CTO decisions: tech debt, architecture direction, scaling the engineering team, technology evaluation, DORA metrics. Use whenever the user asks whether to rewrite, how to grow the eng team or which tech to bet on.",
       "relative_path": "library/c-level/cto-advisor/SKILL.md",
       "source": "S1N6H/Bug-Bounty-Skills/skills/alirezarezvani-claude-skills-c-level-advisor-skills-cto-advisor.md",
-      "sha256": "a138e84d6b2e5d3c1aeded60380c0b26814d89bf19a6916d549bfaf85dfaaddd",
-      "updated_at": "2026-10-31T10:17:29.988123+00:00"
+      "sha256": "e911e04778e76ba65c7a29286ae522655f6be59f630d6a4c570a70e4e46cc983",
+      "updated_at": "2026-11-04T11:59:43.805002+00:00"
     },
     "culture-architect": {
       "name": "culture-architect",
@@ -8611,11 +8611,11 @@
     "ma-playbook": {
       "name": "ma-playbook",
       "category": "c-level",
-      "description": "Use when buying a company or preparing to be bought: due diligence, valuation, deal structure and integration.",
+      "description": "Buy a company or sell yours: diligence, valuation, terms, integration. Use whenever M&A or an exit comes up.",
       "relative_path": "library/c-level/ma-playbook/SKILL.md",
       "source": "S1N6H/Bug-Bounty-Skills/skills/alirezarezvani-claude-skills-c-level-advisor-skills-ma-playbook.md",
-      "sha256": "dab5cfaf28f4e96f240df0658cb3771209063bdbaa2094caf5941358980e48b0",
-      "updated_at": "2026-10-31T10:17:30.717175+00:00"
+      "sha256": "8a3b3fb1fbe87000aaec4fe78e3a923cb5df22b74f1472354aa1e41009ad1575",
+      "updated_at": "2026-11-04T11:59:44.687089+00:00"
     },
     "org-health-diagnostic": {
       "name": "org-health-diagnostic",
@@ -8692,11 +8692,11 @@
     "cco-review": {
       "name": "cco-review",
       "category": "cloud",
-      "description": "Use for /c-level-agents:cco-review, or to challenge a plan touching retention, segmentation or CS headcount.",
+      "description": "Challenge a churn, retention, segment or CS hiring plan. Use whenever asked or /c-level-agents:cco-review.",
       "relative_path": "library/cloud/cco-review/SKILL.md",
       "source": "S1N6H/Bug-Bounty-Skills/skills/alirezarezvani-claude-skills-c-level-agents-skills-cco-review.md",
-      "sha256": "8a769741e9eeeb784a02b538d229d4006136d25c8205baaf5a68dea9fb9e46bf",
-      "updated_at": "2026-10-31T10:17:31.842355+00:00"
+      "sha256": "6f87ef7e6c16275e061a231c4cd584a8b3802b125f4d822331e9b1f735a438fa",
+      "updated_at": "2026-11-04T11:59:46.043357+00:00"
     },
     "cdo-review": {
       "name": "cdo-review",
@@ -8710,20 +8710,20 @@
     "cfo-review": {
       "name": "cfo-review",
       "category": "general",
-      "description": "Use for /c-level-agents:cfo-review, or to challenge a plan that commits real money (a hiring wave, a raise, a channel budget).",
+      "description": "Challenge a plan that spends real money: hiring wave, raise, channel budget. Use whenever asked or /c-level-agents:cfo-review.",
       "relative_path": "library/general/cfo-review/SKILL.md",
       "source": "S1N6H/Bug-Bounty-Skills/skills/alirezarezvani-claude-skills-c-level-agents-skills-cfo-review.md",
-      "sha256": "2b0903a4b296db93d890c1d530822b10899868a696301c20808b985419b765b4",
-      "updated_at": "2026-10-31T10:17:32.092040+00:00"
+      "sha256": "7b2d6418df891324dc4d254b8c6c1681a8081f8a7851e729e8fb00584dff2117",
+      "updated_at": "2026-11-04T11:59:46.409730+00:00"
     },
     "ciso-review": {
       "name": "ciso-review",
       "category": "general",
-      "description": "Use for /c-level-agents:ciso-review, or to challenge a plan touching customer data, compliance or production access.",
+      "description": "Challenge a plan touching customer data, compliance or prod access. Use when asked or /c-level-agents:ciso-review.",
       "relative_path": "library/general/ciso-review/SKILL.md",
       "source": "S1N6H/Bug-Bounty-Skills/skills/alirezarezvani-claude-skills-c-level-agents-skills-ciso-review.md",
-      "sha256": "c8cb93bdcb18fe971d5cc0f9da0e8e8c898665e9d7f9d3b03ff9ae0807772461",
-      "updated_at": "2026-10-31T10:17:32.221774+00:00"
+      "sha256": "cc9c9fee7ecab9f82066f33509fddd3c0f6827164f38e6abb3c3f451a01d8011",
+      "updated_at": "2026-11-04T11:59:46.611083+00:00"
     },
     "cmo-review": {
       "name": "cmo-review",
@@ -8737,20 +8737,20 @@
     "cpo-review": {
       "name": "cpo-review",
       "category": "general",
-      "description": "Use for /c-level-agents:cpo-review, or to challenge a roadmap, a PMF claim or a feature-kill decision.",
+      "description": "Challenge a roadmap, PMF claim or feature kill. Use whenever asked or /c-level-agents:cpo-review.",
       "relative_path": "library/general/cpo-review/SKILL.md",
       "source": "S1N6H/Bug-Bounty-Skills/skills/alirezarezvani-claude-skills-c-level-agents-skills-cpo-review.md",
-      "sha256": "7dfd20f2c3f772d376f585b3c0fc6e4962292e11a2319126973e7d2911f1c8ab",
-      "updated_at": "2026-10-31T10:17:32.477217+00:00"
+      "sha256": "011640b2e40b0eb87f89e17e2d4d7b4448c9964795f28abb17b11be93268c2ca",
+      "updated_at": "2026-11-04T11:59:46.944893+00:00"
     },
     "cro-review": {
       "name": "cro-review",
       "category": "general",
-      "description": "Use for /c-level-agents:cro-review, or to challenge a forecast, win-rate drop or sales-team scale-up.",
+      "description": "Challenge a forecast, win-rate drop or sales hires. Use whenever asked or /c-level-agents:cro-review.",
       "relative_path": "library/general/cro-review/SKILL.md",
       "source": "S1N6H/Bug-Bounty-Skills/skills/alirezarezvani-claude-skills-c-level-agents-skills-cro-review.md",
-      "sha256": "d36c5d913c0464d2cbdc4b8d4b5a607a71c486af0e0c3132168e5b62243609cc",
-      "updated_at": "2026-10-31T10:17:32.604646+00:00"
+      "sha256": "f5970b38767dd0322f89e51334b3b5ddadbca7abdb2c00cc0ba277026a0bbc01",
+      "updated_at": "2026-11-04T11:59:47.153082+00:00"
     },
     "cross-eval": {
       "name": "cross-eval",
@@ -8764,11 +8764,11 @@
     "cto-review": {
       "name": "cto-review",
       "category": "general",
-      "description": "Use for /c-level-agents:cto-review, or to challenge an architecture commitment, a 10x scaling plan or rebuild vs buy.",
+      "description": "Challenge an architecture bet, 10x scaling plan or rebuild vs buy. Use whenever asked or /c-level-agents:cto-review.",
       "relative_path": "library/general/cto-review/SKILL.md",
       "source": "S1N6H/Bug-Bounty-Skills/skills/alirezarezvani-claude-skills-c-level-agents-skills-cto-review.md",
-      "sha256": "5bb33084a415b2aa85ec125fa30fa11ca8158fe609b0b4eaea7d4d7b8aee5b8f",
-      "updated_at": "2026-10-31T10:17:32.839500+00:00"
+      "sha256": "6a9f8953f0e119494ec91acb16c59abdd042dcae0fd18d14ed2733de698c8df2",
+      "updated_at": "2026-11-04T11:59:47.545097+00:00"
     },
     "decide": {
       "name": "decide",
@@ -8818,11 +8818,11 @@
     "office-hours": {
       "name": "office-hours",
       "category": "network",
-      "description": "Use for /c-level-agents:office-hours, or when a founder question is too vague to route. Asks six YC-style questions before any advice.",
+      "description": "Founder advice after six YC-style questions. Use whenever a founder is stuck or unsure what to ask, or /c-level-agents:office-hours.",
       "relative_path": "library/network/office-hours/SKILL.md",
       "source": "S1N6H/Bug-Bounty-Skills/skills/alirezarezvani-claude-skills-c-level-agents-skills-office-hours.md",
-      "sha256": "2df28eb48677ea6e25aa122b6abf530254920a50a3d5f07b02645e203da65c80",
-      "updated_at": "2026-10-31T10:17:33.618093+00:00"
+      "sha256": "1f46e8e18118448b2b21d533e21e63dab3a8449e76adfe00e993153d29345ed0",
+      "updated_at": "2026-11-04T11:59:48.469352+00:00"
     },
     "onboard": {
       "name": "onboard",
@@ -8845,11 +8845,11 @@
     "vpe-review": {
       "name": "vpe-review",
       "category": "general",
-      "description": "Use for /c-level-agents:vpe-review, or to challenge a plan touching delivery speed, eng hiring, team structure or on-call.",
+      "description": "Challenge a plan on delivery speed, eng hiring, team structure or on-call. Use when asked or /c-level-agents:vpe-review.",
       "relative_path": "library/general/vpe-review/SKILL.md",
       "source": "S1N6H/Bug-Bounty-Skills/skills/alirezarezvani-claude-skills-c-level-agents-skills-vpe-review.md",
-      "sha256": "94695691bb44db343844b257bd2f834120858f57059ae859464b30760e53f346",
-      "updated_at": "2026-10-31T10:17:34.005552+00:00"
+      "sha256": "360e543f91157fa793c8ebd0d2bf2a4b0119edc50a06d53f25de31b2ca963c79",
+      "updated_at": "2026-11-04T11:59:48.980493+00:00"
     },
     "channel-economics": {
       "name": "channel-economics",
@@ -8926,20 +8926,20 @@
     "ai-act-readiness": {
       "name": "ai-act-readiness",
       "category": "general",
-      "description": "Use for /compliance-os:ai-act-readiness, or EU AI Act readiness questions during AI-system intake or before EU deployment.",
+      "description": "EU AI Act readiness for an AI system. Use when launching AI in the EU, at AI intake, or /compliance-os:ai-act-readiness.",
       "relative_path": "library/general/ai-act-readiness/SKILL.md",
       "source": "S1N6H/Bug-Bounty-Skills/skills/alirezarezvani-claude-skills-compliance-os-skills-ai-act-readiness.md",
-      "sha256": "fabf63af835231099b9b6c8eb74153eea9a21a1004dd6890ddc9b765ad134900",
-      "updated_at": "2026-10-31T10:17:35.150240+00:00"
+      "sha256": "d48f3bda3d4ee982ced3f5cadcaefb26280720605c542868f0c8423624b8b723",
+      "updated_at": "2026-11-04T11:59:50.458269+00:00"
     },
     "aims-audit": {
       "name": "aims-audit",
       "category": "reporting",
-      "description": "Use for /compliance-os:aims-audit, or ISO 42001 readiness before stage 1 or an internal audit cycle.",
+      "description": "ISO 42001 AI readiness check. Use before a stage 1 or internal audit, or /compliance-os:aims-audit.",
       "relative_path": "library/reporting/aims-audit/SKILL.md",
       "source": "S1N6H/Bug-Bounty-Skills/skills/alirezarezvani-claude-skills-compliance-os-skills-aims-audit.md",
-      "sha256": "b6daf31faa8971e9c3de509b6ec05e542a7bf349f0a7c20c73ad471958fd6f9b",
-      "updated_at": "2026-10-31T10:17:35.277300+00:00"
+      "sha256": "3d8e1b89918eb706b950ff0a7f84df8f9e7be1a7fa672aae15b6473b079b4b16",
+      "updated_at": "2026-11-04T11:59:50.671419+00:00"
     },
     "compliance-os": {
       "name": "compliance-os",
@@ -9785,7 +9785,7 @@
       "relative_path": "library/reporting/web3-audit/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/web3-audit/SKILL.md",
       "sha256": "6f29b97b4fc944b8a8b258f73890ab17d5672d85ceedae2a955a825c98c8a06b",
-      "updated_at": "2026-11-03T11:49:09.406647+00:00"
+      "updated_at": "2026-11-04T12:01:26.528639+00:00"
     },
     "bola": {
       "name": "bola",
@@ -9830,7 +9830,7 @@
       "relative_path": "library/general/mass-assignment/SKILL.md",
       "source": "Aetherdz/huntpack/skills/hunting/business-logic-hunter/reference/mass-assignment.md",
       "sha256": "607cfb907e975990385cbc99745767ff04fd0df8283372e1709a9e4c7fdff792",
-      "updated_at": "2026-11-03T11:49:13.297410+00:00"
+      "updated_at": "2026-11-04T12:01:30.638252+00:00"
     },
     "method-override": {
       "name": "method-override",
@@ -12593,7 +12593,7 @@
       "relative_path": "library/reporting/template/SKILL.md",
       "source": "mukul975/Anthropic-Cybersecurity-Skills/skills/exploiting-nosql-injection-vulnerabilities/assets/template.md",
       "sha256": "48cc9b0727608869ec849c15d11e9a671762b79712f34d8c5965eb14586adfbb",
-      "updated_at": "2026-11-03T11:53:16.043220+00:00"
+      "updated_at": "2026-11-04T12:06:19.099224+00:00"
     },
     "acquiring-disk-image-with-dd-and-dcfldd": {
       "name": "acquiring-disk-image-with-dd-and-dcfldd",
@@ -12674,7 +12674,7 @@
       "relative_path": "library/ad/workflows/SKILL.md",
       "source": "mukul975/Anthropic-Cybersecurity-Skills/skills/exploiting-nopac-cve-2021-42278-42287/references/workflows.md",
       "sha256": "9393cf8522354f3f3c15ba618b1ce1c8831d0965662c368bdeff383f8492012e",
-      "updated_at": "2026-11-03T11:53:15.739274+00:00"
+      "updated_at": "2026-11-04T12:06:18.778152+00:00"
     },
     "analyzing-campaign-attribution-evidence": {
       "name": "analyzing-campaign-attribution-evidence",
@@ -12692,7 +12692,7 @@
       "relative_path": "library/recon/phishing/SKILL.md",
       "source": "mukul975/Anthropic-Cybersecurity-Skills/skills/analyzing-typosquatting-domains-with-dnstwist/SKILL.md",
       "sha256": "90c5c1a48f8437bda7244c2c22f4c5e7b41ca22d389d7a0a6b18a50909f69896",
-      "updated_at": "2026-11-03T11:51:10.734405+00:00"
+      "updated_at": "2026-11-04T12:03:46.559408+00:00"
     },
     "analyzing-cloud-storage-access-patterns": {
       "name": "analyzing-cloud-storage-access-patterns",
@@ -12773,7 +12773,7 @@
       "relative_path": "library/general/create-fake-materials-fake-website/SKILL.md",
       "source": "mukul975/Anthropic-Cybersecurity-Skills/skills/detecting-spearphishing-with-email-gateway/SKILL.md",
       "sha256": "3015374924723812858995f549396019c607837a16d22f32115a41323529ca58",
-      "updated_at": "2026-11-03T11:52:53.021334+00:00"
+      "updated_at": "2026-11-04T12:05:51.962105+00:00"
     },
     "analyzing-ethereum-smart-contract-vulnerabilities": {
       "name": "analyzing-ethereum-smart-contract-vulnerabilities",
@@ -12836,7 +12836,7 @@
       "relative_path": "library/network/transfer-of-funds/SKILL.md",
       "source": "mukul975/Anthropic-Cybersecurity-Skills/skills/building-soc-playbook-for-ransomware/SKILL.md",
       "sha256": "06729ad404d2adb5ae856758b1a9c25248c1ddb8236505aa59b52f5a5d99bc26",
-      "updated_at": "2026-11-03T11:51:33.174719+00:00"
+      "updated_at": "2026-11-04T12:04:13.996810+00:00"
     },
     "analyzing-linux-kernel-rootkits": {
       "name": "analyzing-linux-kernel-rootkits",
@@ -13097,7 +13097,7 @@
       "relative_path": "library/reporting/electronic-funds-transfer-wire-transfer/SKILL.md",
       "source": "mukul975/Anthropic-Cybersecurity-Skills/skills/detecting-deepfake-audio-in-vishing-attacks/SKILL.md",
       "sha256": "e8ce6d9cc41ef12caa0f0738f45ccdc24c00012ed3cfdd993f161b6be6367d58",
-      "updated_at": "2026-11-03T11:52:27.765793+00:00"
+      "updated_at": "2026-11-04T12:05:19.741437+00:00"
     },
     "structuring": {
       "name": "structuring",
@@ -13520,7 +13520,7 @@
       "relative_path": "library/reporting/access-with-stolen-session-cookie/SKILL.md",
       "source": "mukul975/Anthropic-Cybersecurity-Skills/skills/executing-phishing-simulation-campaign/SKILL.md",
       "sha256": "b0c885c88def8221a226619ef4a52d02d9500e95865cb8fc9aa6cd62652ca6c8",
-      "updated_at": "2026-11-03T11:53:02.646511+00:00"
+      "updated_at": "2026-11-04T12:06:04.414976+00:00"
     },
     "account-takeover": {
       "name": "account-takeover",
@@ -13538,7 +13538,7 @@
       "relative_path": "library/reporting/building-incident-response-dashboard/SKILL.md",
       "source": "mukul975/Anthropic-Cybersecurity-Skills/skills/building-incident-response-dashboard/SKILL.md",
       "sha256": "0af0957e9bf6fc313fe475849bccab88ac1ddedae19cd9dc57aee0d1cda899b0",
-      "updated_at": "2026-11-03T11:51:25.580093+00:00"
+      "updated_at": "2026-11-04T12:04:04.854889+00:00"
     },
     "building-incident-response-playbook": {
       "name": "building-incident-response-playbook",
@@ -13952,7 +13952,7 @@
       "relative_path": "library/ad/account-takeover-exposed-login-credential/SKILL.md",
       "source": "mukul975/Anthropic-Cybersecurity-Skills/skills/detecting-t1003-credential-dumping-with-edr/SKILL.md",
       "sha256": "8459c9972ba2cac6d747c67fcda8cc687105180a560f1697db75a5f61aaba9af",
-      "updated_at": "2026-11-03T11:52:55.788629+00:00"
+      "updated_at": "2026-11-04T12:05:55.838163+00:00"
     },
     "conducting-post-incident-lessons-learned": {
       "name": "conducting-post-incident-lessons-learned",
@@ -14033,7 +14033,7 @@
       "relative_path": "library/cloud/steal-web-session-cookie/SKILL.md",
       "source": "mukul975/Anthropic-Cybersecurity-Skills/skills/detecting-anomalous-authentication-patterns/SKILL.md",
       "sha256": "9a97dad02e90f0ba15b6b090673d763820e7d4160a50898093a2b8c6d7bd5cbc",
-      "updated_at": "2026-11-03T11:52:15.439361+00:00"
+      "updated_at": "2026-11-04T12:05:05.009649+00:00"
     },
     "adversary-in-the-middle": {
       "name": "adversary-in-the-middle",
@@ -14096,7 +14096,7 @@
       "relative_path": "library/network/configuring-suricata-for-network-monitoring/SKILL.md",
       "source": "mukul975/Anthropic-Cybersecurity-Skills/skills/configuring-suricata-for-network-monitoring/SKILL.md",
       "sha256": "1fbbfe83f93dfabb405cb2e04409b5d8dafad0dfb8b741ab664c8ee059e3c8e4",
-      "updated_at": "2026-11-03T11:52:02.009506+00:00"
+      "updated_at": "2026-11-04T12:04:48.558922+00:00"
     },
     "configuring-tls-1-3-for-secure-communications": {
       "name": "configuring-tls-1-3-for-secure-communications",
@@ -14231,7 +14231,7 @@
       "relative_path": "library/logic/indicator-removal/SKILL.md",
       "source": "mukul975/Anthropic-Cybersecurity-Skills/skills/detecting-ransomware-encryption-behavior/SKILL.md",
       "sha256": "b15452fb51b28cf49053812f8cdd80ee360b1c4b0cd7296a1cbf854cd194aa23",
-      "updated_at": "2026-11-03T11:52:48.685326+00:00"
+      "updated_at": "2026-11-04T12:05:46.736990+00:00"
     },
     "deploying-edr-agent-with-crowdstrike": {
       "name": "deploying-edr-agent-with-crowdstrike",
@@ -14537,7 +14537,7 @@
       "relative_path": "library/network/convert-to-cryptocurrency/SKILL.md",
       "source": "mukul975/Anthropic-Cybersecurity-Skills/skills/detecting-ransomware-precursors-in-network/SKILL.md",
       "sha256": "29925505b82958f5d2b7feac8b6a481c263a93e1ccdbf421019c4d26fe5b8711",
-      "updated_at": "2026-11-03T11:52:49.291181+00:00"
+      "updated_at": "2026-11-04T12:05:47.135616+00:00"
     },
     "detecting-data-and-model-poisoning": {
       "name": "detecting-data-and-model-poisoning",
@@ -16760,7 +16760,7 @@
       "relative_path": "library/general/amm-dex/SKILL.md",
       "source": "Gabson0x/bountyforge/skills/smart-contract-audit/reference/ton/protocols/amm-dex.md",
       "sha256": "32f34667e4d596f8179018b7d85eb168f35fba7c750c08568ec3c580bc44d89e",
-      "updated_at": "2026-11-03T11:48:45.107397+00:00"
+      "updated_at": "2026-11-04T12:00:59.629154+00:00"
     },
     "governance": {
       "name": "governance",
@@ -16769,7 +16769,7 @@
       "relative_path": "library/general/governance/SKILL.md",
       "source": "Gabson0x/bountyforge/skills/smart-contract-audit/reference/solidity/protocols/governance.md",
       "sha256": "9cd512d3858e36074b3f33b5615fe56c294de240dc4f41a0280fde283f43a061",
-      "updated_at": "2026-11-03T11:48:36.039571+00:00"
+      "updated_at": "2026-11-04T12:00:50.933044+00:00"
     },
     "lending": {
       "name": "lending",
@@ -16778,7 +16778,7 @@
       "relative_path": "library/general/lending/SKILL.md",
       "source": "Gabson0x/bountyforge/skills/smart-contract-audit/reference/ton/protocols/lending.md",
       "sha256": "edc9424bba49a11dde309d623a1d7f88510f27977f8f20c90fd7199269bca76d",
-      "updated_at": "2026-11-03T11:48:45.480711+00:00"
+      "updated_at": "2026-11-04T12:00:59.952627+00:00"
     },
     "oracle": {
       "name": "oracle",
@@ -16787,7 +16787,7 @@
       "relative_path": "library/network/oracle/SKILL.md",
       "source": "Gabson0x/bountyforge/skills/smart-contract-audit/reference/ton/protocols/oracle.md",
       "sha256": "7a7ef032609ca1252bb65573d6858d250d3bada5ee73ca0c8c65821851cbf43b",
-      "updated_at": "2026-11-03T11:48:45.695937+00:00"
+      "updated_at": "2026-11-04T12:01:00.146359+00:00"
     },
     "staking": {
       "name": "staking",
@@ -16796,7 +16796,7 @@
       "relative_path": "library/general/staking/SKILL.md",
       "source": "Gabson0x/bountyforge/skills/smart-contract-audit/reference/ton/protocols/staking.md",
       "sha256": "bbc08dfff33c0652b74d572bf733367ef7dfd2b3cda2f2a17e0b777eaed81745",
-      "updated_at": "2026-11-03T11:48:45.877046+00:00"
+      "updated_at": "2026-11-04T12:01:00.383671+00:00"
     },
     "fv-mov-1-cl1-copy-ability-duplication": {
       "name": "fv-mov-1-cl1-copy-ability-duplication",
@@ -18443,7 +18443,7 @@
       "relative_path": "library/logic/order-lookup/SKILL.md",
       "source": "NVIDIA/SkillSpector/tests/fixtures/sqp/sqp2_tool_instructed/SKILL.md",
       "sha256": "d69b65af2416be8993117a52514485d346c9c82cf5ac720e92c31b534574f3c1",
-      "updated_at": "2026-11-03T11:53:20.131745+00:00"
+      "updated_at": "2026-11-04T12:06:23.914657+00:00"
     },
     "error-explainer": {
       "name": "error-explainer",
@@ -18452,7 +18452,7 @@
       "relative_path": "library/general/error-explainer/SKILL.md",
       "source": "NVIDIA/SkillSpector/tests/fixtures/sqp/sqp3_plain_english_override/SKILL.md",
       "sha256": "e5d29dc2e9341ecb679306ac7afa01f40646a7ccc71e594a97211c1d9ec493be",
-      "updated_at": "2026-11-03T11:53:21.232648+00:00"
+      "updated_at": "2026-11-04T12:06:24.795303+00:00"
     },
     "01-recon-osint": {
       "name": "01-recon-osint",

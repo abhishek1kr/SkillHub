@@ -1,6 +1,6 @@
 ---
 name: revenue-operations
-description: Use for pipeline coverage, forecast accuracy or GTM efficiency (magic number, CAC payback). Runs pipelineanalyzer.py, forecastaccuracytracker.py and gtmefficiencycalculator.py.
+description: Check sales pipeline and forecasts: pipeline coverage, forecast accuracy, magic number, CAC payback. Use whenever the user asks if pipeline is enough or how good forecasts are.
 category: general
 ---
 

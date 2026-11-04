@@ -1,6 +1,6 @@
 ---
 name: general-counsel-advisor
-description: Use when reviewing a contract or term sheet (MSA, SaaS, NDA, DPA, employment), setting IP strategy or mapping regulatory exposure (HIPAA, GDPR, FDA, fintech). Scans with contractriskscanner.py and termsheetanalyzer.py; not a substitute f...
+description: Legal review of contracts and term sheets (MSA, SaaS, NDA, DPA, employment), IP strategy and regulatory exposure (HIPAA, GDPR, FDA, fintech). Use whenever the user asks if a contract is risky or what to watch in a deal; not a substitute ...
 category: c-level
 ---
 

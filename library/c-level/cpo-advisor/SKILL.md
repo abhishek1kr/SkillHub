@@ -1,6 +1,6 @@
 ---
 name: cpo-advisor
-description: Use for product leadership: product vision, PMF measurement, portfolio prioritization, product org design or board product reporting. Scores PMF with pmfscorer.py and the portfolio with portfolioanalyzer.py.
+description: Product leadership: PMF measurement, product vision, portfolio investment, product org design, board product reporting. Use whenever the user asks if they have PMF or how to split investment across products.
 category: c-level
 ---
 
