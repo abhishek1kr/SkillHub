@@ -1,6 +1,6 @@
 ---
 name: bug-bounty
-description: Complete bug bounty workflow — recon (subdomain enumeration, asset discovery, fingerprinting, HackerOne scope, source code audit), pre-hunt learning (disclosed reports, tech stack research, mind maps, threat modeling), vulnerability hunt...
+description: Guide a bug bounty task from recon and HackerOne scope through research, vulnerability testing, finding validation, and reporting. Use for subdomain and asset discovery, fingerprinting, disclosed report research, threat modeling, source ...
 category: recon
 ---
 

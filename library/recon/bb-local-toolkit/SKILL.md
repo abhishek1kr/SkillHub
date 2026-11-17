@@ -1,6 +1,6 @@
 ---
 name: bb-local-toolkit
-description: Local-tooling companion to the bug-bounty orchestrator — carries the SAME complete bug-bounty workflow, but reach for THIS variant when you also need to resolve where tools, wordlists, and clones are installed on the local machine (jhadd...
+description: Use the full bug bounty workflow when you also need the local path of a tool, wordlist, or clone (SecLists, jhaddix, ffuf, dalfox, ghauri, trufflehog). Covers recon, pre-hunt research, source code audit, web and API vulnerability testing...
 category: recon
 ---
 
