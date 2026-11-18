@@ -1,6 +1,6 @@
 ---
 name: offensive-crash-analysis
-description: When this skill is active: 1. Load and apply the full methodology below as your operational checklist 2. Follow steps in order unless the user specifies otherwise 3. For each technique, consider applicability to the current target/contex...
+description: Week 4 exploit development curriculum. Crash triage and analysis methodology: WinDbg/GDB analysis, ASAN/MSAN output interpretation, exploitability assessment, register/stack trace reading, root cause identification. Use when analyzing cr...
 category: reporting
 ---
 

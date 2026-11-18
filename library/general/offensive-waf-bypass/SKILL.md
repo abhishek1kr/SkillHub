@@ -1,6 +1,6 @@
 ---
 name: offensive-waf-bypass
-description: When this skill is active: 1. Load and apply the full methodology below as your operational checklist 2. Follow steps in order unless the user specifies otherwise 3. For each technique, consider applicability to the current target/contex...
+description: WAF bypass techniques checklist: encoding bypass (URL/HTML/Unicode/double encoding), case variation, comment injection, HTTP header manipulation, chunked encoding, IP rotation, timing attacks, and payload obfuscation per WAF vendor. Use ...
 category: general
 ---
 

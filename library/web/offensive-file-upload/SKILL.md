@@ -1,6 +1,6 @@
 ---
 name: offensive-file-upload
-description: When this skill is active: 1. Load and apply the full methodology below as your operational checklist 2. Follow steps in order unless the user specifies otherwise 3. For each technique, consider applicability to the current target/contex...
+description: File upload vulnerability checklist: MIME type bypass, extension bypass, magic byte manipulation, path traversal in filenames, stored XSS via SVG/HTML upload, server-side processing attacks, and race conditions. Use for assessing file up...
 category: web
 ---
 

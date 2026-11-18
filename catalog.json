@@ -1,5 +1,5 @@
 {
-  "last_synced": "2026-11-17T13:04:25.385118+00:00",
+  "last_synced": "2026-11-18T12:56:11.425508+00:00",
   "total_skills": 2079,
   "categories": {
     "mobile": 23,
@@ -101,7 +101,7 @@
       "relative_path": "library/recon/bb-local-toolkit/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/bb-local-toolkit/SKILL.md",
       "sha256": "aca24c6f20b0646d2eb09fb3a9fb047a874783b56bbf1052c27a358c450e796f",
-      "updated_at": "2026-11-17T13:00:07.224987+00:00"
+      "updated_at": "2026-11-18T12:52:49.911803+00:00"
     },
     "bb-methodology": {
       "name": "bb-methodology",
@@ -110,7 +110,7 @@
       "relative_path": "library/logic/bb-methodology/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/bb-methodology/SKILL.md",
       "sha256": "687af8873d8300652b7563320f45f7337138b5359eb77318f2031a0cbcce138c",
-      "updated_at": "2026-11-17T13:00:07.378058+00:00"
+      "updated_at": "2026-11-18T12:52:50.032453+00:00"
     },
     "bountyforge": {
       "name": "bountyforge",
@@ -133,11 +133,11 @@
     "offensive-ai-security": {
       "name": "offensive-ai-security",
       "category": "ai-security",
-      "description": "When this skill is active: 1. Load and apply the full methodology below as your operational checklist 2. Follow steps in order unless the user specifies otherwise 3. For each technique, consider applicability to the current target/context 4. Track which checklist items have been completed 5. Suggest",
+      "description": "AI/LLM security offensive checklist: prompt injection, jailbreaking, model extraction, training data poisoning, adversarial inputs, LLM-assisted attack automation, and AI system reconnaissance. Use when assessing AI/ML systems, red-teaming LLMs, or researching AI attack vectors.",
       "relative_path": "library/ai-security/offensive-ai-security/SKILL.md",
-      "source": "SnailSploit/Claude-Red/Skills/ai/offensive-ai-security/SKILL.md",
-      "sha256": "345b920695dabd22392ee623512df78a8862dd30cde507a02c2d31f9139f2595",
-      "updated_at": "2026-09-11T18:58:06.446491+00:00"
+      "source": "S1N6H/Bug-Bounty-Skills/skills/SnailSploit-Claude-Red-Skills-ai-offensive-ai-security.md",
+      "sha256": "5152d09751b2d036b6562ca0e063d6d414a012357c5357da676f5636a7138165",
+      "updated_at": "2026-11-18T12:50:38.848289+00:00"
     },
     "offensive-api-abuse": {
       "name": "offensive-api-abuse",
@@ -164,7 +164,7 @@
       "relative_path": "library/ad/readme/SKILL.md",
       "source": "akashrpatil/awesome-offensive-security-skills/skills/red-teaming/README.md",
       "sha256": "8f587022e170da99c873d459d5ad296cc0600f27b40e13aa6fce9f117a8f741e",
-      "updated_at": "2026-11-17T13:01:30.147601+00:00"
+      "updated_at": "2026-11-18T12:53:51.864627+00:00"
     },
     "cloud-saas-exposure": {
       "name": "cloud-saas-exposure",
@@ -281,7 +281,7 @@
       "relative_path": "library/recon/bug-bounty/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/bug-bounty/SKILL.md",
       "sha256": "af193e75fe9204a3536ea5bda9cb1942cc5858240b94e70ab892b685cf1e5b44",
-      "updated_at": "2026-11-17T13:00:07.559331+00:00"
+      "updated_at": "2026-11-18T12:52:50.157890+00:00"
     },
     "bugcrowd-reporting": {
       "name": "bugcrowd-reporting",
@@ -290,7 +290,7 @@
       "relative_path": "library/reporting/bugcrowd-reporting/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/bugcrowd-reporting/SKILL.md",
       "sha256": "4db20c5b8a67d97849207627c3f01919c74574121fec5be4edf205ed78e165a3",
-      "updated_at": "2026-11-17T13:00:07.713498+00:00"
+      "updated_at": "2026-11-18T12:52:50.273050+00:00"
     },
     "api-security": {
       "name": "api-security",
@@ -443,7 +443,7 @@
       "relative_path": "library/reporting/example-usage/SKILL.md",
       "source": "Masriyan/Claude-Code-CyberSecurity-Skill/skills/22-purple-team/examples/example_usage.md",
       "sha256": "d52a56d1ff6e888afaca22b62f432de9decc030c089738aea1028d4226ac5804",
-      "updated_at": "2026-11-17T13:01:41.931960+00:00"
+      "updated_at": "2026-11-18T12:54:00.822468+00:00"
     },
     "vulnerability-scanning-assessment": {
       "name": "vulnerability-scanning-assessment",
@@ -497,7 +497,7 @@
       "relative_path": "library/general/api-reference/SKILL.md",
       "source": "mukul975/Anthropic-Cybersecurity-Skills/skills/exploiting-nosql-injection-vulnerabilities/references/api-reference.md",
       "sha256": "b64fb56536148231c161ca61ef7f9741f74a591988a7251c30bb3d7c2d2d71d6",
-      "updated_at": "2026-11-17T13:04:20.489490+00:00"
+      "updated_at": "2026-11-18T12:56:07.615806+00:00"
     },
     "standards": {
       "name": "standards",
@@ -506,7 +506,7 @@
       "relative_path": "library/general/standards/SKILL.md",
       "source": "mukul975/Anthropic-Cybersecurity-Skills/skills/exploiting-nosql-injection-vulnerabilities/references/standards.md",
       "sha256": "57b6dfcc5ec60be2f868c33dccab8b9bd4aee5ba2be94b5b12354fce23ed805c",
-      "updated_at": "2026-11-17T13:04:20.665180+00:00"
+      "updated_at": "2026-11-18T12:56:07.764029+00:00"
     },
     "inspector": {
       "name": "inspector",
@@ -560,7 +560,7 @@
       "relative_path": "library/cloud/cloud-iam-deep/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/cloud-iam-deep/SKILL.md",
       "sha256": "d495d06f40392ac410fadd40e35b0a3acbe921aba99a0a9946ed5b26abc64ea9",
-      "updated_at": "2026-11-17T13:00:07.884569+00:00"
+      "updated_at": "2026-11-18T12:52:50.388045+00:00"
     },
     "enterprise-vpn-attack": {
       "name": "enterprise-vpn-attack",
@@ -569,7 +569,7 @@
       "relative_path": "library/network/enterprise-vpn-attack/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/enterprise-vpn-attack/SKILL.md",
       "sha256": "3efcc1022cf260a396dc3eba60808a6035ff5756fa2628a4dbfbe939eec5ead5",
-      "updated_at": "2026-11-17T13:00:08.043443+00:00"
+      "updated_at": "2026-11-18T12:52:50.528059+00:00"
     },
     "evidence-hygiene": {
       "name": "evidence-hygiene",
@@ -578,7 +578,7 @@
       "relative_path": "library/reporting/evidence-hygiene/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/evidence-hygiene/SKILL.md",
       "sha256": "1200f715875c0d773e4d2e00691b92f06deb676e8ca7dafac0b8be19c168380c",
-      "updated_at": "2026-11-17T13:00:08.207180+00:00"
+      "updated_at": "2026-11-18T12:52:50.647603+00:00"
     },
     "hunt-api-misconfig": {
       "name": "hunt-api-misconfig",
@@ -587,7 +587,7 @@
       "relative_path": "library/api/hunt-api-misconfig/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/hunt-api-misconfig/SKILL.md",
       "sha256": "d27a00337ac1c708ddd7540e8425d6131c61af27cc964f4de3bf845372b6a8cd",
-      "updated_at": "2026-11-17T13:00:08.357146+00:00"
+      "updated_at": "2026-11-18T12:52:50.762915+00:00"
     },
     "hunt-aspnet": {
       "name": "hunt-aspnet",
@@ -605,7 +605,7 @@
       "relative_path": "library/recon/hunt-ato/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/hunt-ato/SKILL.md",
       "sha256": "f2afcab5682c117c77259b1ead3eb746aeefaa70c07c019b581b79ede09c7596",
-      "updated_at": "2026-11-17T13:00:08.607253+00:00"
+      "updated_at": "2026-11-18T12:52:50.948467+00:00"
     },
     "hunt-auth-bypass": {
       "name": "hunt-auth-bypass",
@@ -614,7 +614,7 @@
       "relative_path": "library/api/hunt-auth-bypass/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/hunt-auth-bypass/SKILL.md",
       "sha256": "bfd90637ddc4299c41c5fc4edc628c0fcc13e06ac9b0e3b0245e4d4fbf17e1cf",
-      "updated_at": "2026-11-17T13:00:08.777999+00:00"
+      "updated_at": "2026-11-18T12:52:51.070200+00:00"
     },
     "hunt-business-logic": {
       "name": "hunt-business-logic",
@@ -623,7 +623,7 @@
       "relative_path": "library/logic/hunt-business-logic/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/hunt-business-logic/SKILL.md",
       "sha256": "c498fee1e663deeebed2332ba9248cadee782b7f65e2b61089623b02fca1ce89",
-      "updated_at": "2026-11-17T13:00:09.045881+00:00"
+      "updated_at": "2026-11-18T12:52:51.254764+00:00"
     },
     "hunt-cache-poison": {
       "name": "hunt-cache-poison",
@@ -632,7 +632,7 @@
       "relative_path": "library/web/hunt-cache-poison/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/hunt-cache-poison/SKILL.md",
       "sha256": "a64dea2f7b69bcfbc6d03c21ca8fa0ddf78bc481ecc6531c9f6064737879f25d",
-      "updated_at": "2026-11-17T13:00:09.211136+00:00"
+      "updated_at": "2026-11-18T12:52:51.394595+00:00"
     },
     "hunt-cloud-misconfig": {
       "name": "hunt-cloud-misconfig",
@@ -641,7 +641,7 @@
       "relative_path": "library/cloud/hunt-cloud-misconfig/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/hunt-cloud-misconfig/SKILL.md",
       "sha256": "dff86dce91a6b5fa95b404cd025a16a5f5d94a1c992bfc275122530cb3b1b54e",
-      "updated_at": "2026-11-17T13:00:09.710530+00:00"
+      "updated_at": "2026-11-18T12:52:51.702518+00:00"
     },
     "hunt-csrf": {
       "name": "hunt-csrf",
@@ -650,7 +650,7 @@
       "relative_path": "library/web/hunt-csrf/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/hunt-csrf/SKILL.md",
       "sha256": "d311dce06a0715587abb25f7a28d946111b55d8439697d75e047f8a5a3cd3e79",
-      "updated_at": "2026-11-17T13:00:09.963917+00:00"
+      "updated_at": "2026-11-18T12:52:51.911889+00:00"
     },
     "hunt-dispatch": {
       "name": "hunt-dispatch",
@@ -659,7 +659,7 @@
       "relative_path": "library/general/hunt-dispatch/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/hunt-dispatch/SKILL.md",
       "sha256": "b582c50d9f36d78d97a5d7eda3d70134e8c03ebfa968afd7119eb4ea476ae5c1",
-      "updated_at": "2026-11-17T13:00:10.231116+00:00"
+      "updated_at": "2026-11-18T12:52:52.111517+00:00"
     },
     "hunt-file-upload": {
       "name": "hunt-file-upload",
@@ -668,7 +668,7 @@
       "relative_path": "library/web/hunt-file-upload/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/hunt-file-upload/SKILL.md",
       "sha256": "2ce6b6bd65376b22d9145997c4639edcc8b8033f646957e3e2c4b915e42eb52c",
-      "updated_at": "2026-11-17T13:00:10.627377+00:00"
+      "updated_at": "2026-11-18T12:52:52.365809+00:00"
     },
     "hunt-graphql": {
       "name": "hunt-graphql",
@@ -677,7 +677,7 @@
       "relative_path": "library/api/hunt-graphql/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/hunt-graphql/SKILL.md",
       "sha256": "5a2d5080566449b85f3e4e7d5a73d9a7465f126ae688ed7dafe9186cb30cb5ca",
-      "updated_at": "2026-11-17T13:00:10.993083+00:00"
+      "updated_at": "2026-11-18T12:52:52.617633+00:00"
     },
     "hunt-http-smuggling": {
       "name": "hunt-http-smuggling",
@@ -686,7 +686,7 @@
       "relative_path": "library/web/hunt-http-smuggling/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/hunt-http-smuggling/SKILL.md",
       "sha256": "9ebd33dbdd534d08df689a4b7fd8a8dcef770d6d0358c0cf22252d2a8cf2da45",
-      "updated_at": "2026-11-17T13:00:11.466573+00:00"
+      "updated_at": "2026-11-18T12:52:52.944007+00:00"
     },
     "hunt-idor": {
       "name": "hunt-idor",
@@ -695,7 +695,7 @@
       "relative_path": "library/api/hunt-idor/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/hunt-idor/SKILL.md",
       "sha256": "c264f8d251a21c88b127bfa831acd819e7363ec1b138bcecbf226dc98b74ed3e",
-      "updated_at": "2026-11-17T13:00:11.635528+00:00"
+      "updated_at": "2026-11-18T12:52:53.056909+00:00"
     },
     "hunt-llm-ai": {
       "name": "hunt-llm-ai",
@@ -704,7 +704,7 @@
       "relative_path": "library/api/hunt-llm-ai/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/hunt-llm-ai/SKILL.md",
       "sha256": "44968fc1b2ff3210e481aafbdf7f160d9a1fcbcce995df1edf0329cbff9b7658",
-      "updated_at": "2026-11-17T13:00:12.304618+00:00"
+      "updated_at": "2026-11-18T12:52:53.497460+00:00"
     },
     "hunt-mfa-bypass": {
       "name": "hunt-mfa-bypass",
@@ -713,7 +713,7 @@
       "relative_path": "library/api/hunt-mfa-bypass/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/hunt-mfa-bypass/SKILL.md",
       "sha256": "453126b12df075d941f5a39552d4b17b623aaa692fe3d87442dae104384aafed",
-      "updated_at": "2026-11-17T13:00:12.479985+00:00"
+      "updated_at": "2026-11-18T12:52:53.625435+00:00"
     },
     "hunt-misc": {
       "name": "hunt-misc",
@@ -722,7 +722,7 @@
       "relative_path": "library/recon/hunt-misc/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/hunt-misc/SKILL.md",
       "sha256": "1da165c46da0cb8c2ef9d4e110cb6b876081619b7d96acad43ff96850d2a029e",
-      "updated_at": "2026-11-17T13:00:12.623589+00:00"
+      "updated_at": "2026-11-18T12:52:53.746721+00:00"
     },
     "hunt-ntlm-info": {
       "name": "hunt-ntlm-info",
@@ -731,7 +731,7 @@
       "relative_path": "library/network/hunt-ntlm-info/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/hunt-ntlm-info/SKILL.md",
       "sha256": "2ebe0e8acfc301a4986ac508cc5e032727e01f0246dff1df8b2073dcae2ea86f",
-      "updated_at": "2026-11-17T13:00:13.096275+00:00"
+      "updated_at": "2026-11-18T12:52:54.047739+00:00"
     },
     "hunt-oauth": {
       "name": "hunt-oauth",
@@ -740,7 +740,7 @@
       "relative_path": "library/api/hunt-oauth/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/hunt-oauth/SKILL.md",
       "sha256": "05ef8cb632293ab8e0ae0399a7e5b08587e2645e778eb51377573cb4023de685",
-      "updated_at": "2026-11-17T13:00:13.255903+00:00"
+      "updated_at": "2026-11-18T12:52:54.162963+00:00"
     },
     "hunt-race-condition": {
       "name": "hunt-race-condition",
@@ -749,7 +749,7 @@
       "relative_path": "library/logic/hunt-race-condition/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/hunt-race-condition/SKILL.md",
       "sha256": "783248a920928a4aaa981c268be436af91a7d6251a29730d729a4f678f83c768",
-      "updated_at": "2026-11-17T13:00:13.636810+00:00"
+      "updated_at": "2026-11-18T12:52:54.337647+00:00"
     },
     "hunt-rce": {
       "name": "hunt-rce",
@@ -758,7 +758,7 @@
       "relative_path": "library/web/hunt-rce/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/hunt-rce/SKILL.md",
       "sha256": "86246654cdbafbadf622e3d3a387f587512412df6e83f13a16db443223601140",
-      "updated_at": "2026-11-17T13:00:13.980432+00:00"
+      "updated_at": "2026-11-18T12:52:54.544809+00:00"
     },
     "hunt-saml": {
       "name": "hunt-saml",
@@ -767,7 +767,7 @@
       "relative_path": "library/api/hunt-saml/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/hunt-saml/SKILL.md",
       "sha256": "37070e08eb1d451408420c76a35cec184b4e9387a404dd512a8a0b7557641f32",
-      "updated_at": "2026-11-17T13:00:14.203917+00:00"
+      "updated_at": "2026-11-18T12:52:54.665640+00:00"
     },
     "hunt-sharepoint": {
       "name": "hunt-sharepoint",
@@ -776,7 +776,7 @@
       "relative_path": "library/web/hunt-sharepoint/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/hunt-sharepoint/SKILL.md",
       "sha256": "6c9a1741da8b328176c42c5673dc54e7dd2ae61dc414dbb40eb7ebad7b253a98",
-      "updated_at": "2026-11-17T13:00:14.712914+00:00"
+      "updated_at": "2026-11-18T12:52:54.909024+00:00"
     },
     "hunt-sqli": {
       "name": "hunt-sqli",
@@ -785,7 +785,7 @@
       "relative_path": "library/web/hunt-sqli/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/hunt-sqli/SKILL.md",
       "sha256": "fc5627c37b1028172413285c322c76d1105ebffbbb5af4e0ca0eaa81811fd7c0",
-      "updated_at": "2026-11-17T13:00:15.277970+00:00"
+      "updated_at": "2026-11-18T12:52:55.222564+00:00"
     },
     "hunt-ssrf": {
       "name": "hunt-ssrf",
@@ -794,7 +794,7 @@
       "relative_path": "library/web/hunt-ssrf/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/hunt-ssrf/SKILL.md",
       "sha256": "e9723e4a78a3a2113efd88b0d49df02f9dded113569964d5b1b6aa2f592df058",
-      "updated_at": "2026-11-17T13:00:15.531785+00:00"
+      "updated_at": "2026-11-18T12:52:55.330989+00:00"
     },
     "hunt-ssti": {
       "name": "hunt-ssti",
@@ -803,7 +803,7 @@
       "relative_path": "library/web/hunt-ssti/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/hunt-ssti/SKILL.md",
       "sha256": "edab65afe43abcd2d0d19f7dde29c91f54fbd8720f66e9161a58a4552f1092af",
-      "updated_at": "2026-11-17T13:00:15.700064+00:00"
+      "updated_at": "2026-11-18T12:52:55.457228+00:00"
     },
     "hunt-subdomain": {
       "name": "hunt-subdomain",
@@ -812,7 +812,7 @@
       "relative_path": "library/recon/hunt-subdomain/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/hunt-subdomain/SKILL.md",
       "sha256": "aac68521ad4a90fa5a21777f2c1c3ac05a1dfc080e066e88b0ce42571f174ca3",
-      "updated_at": "2026-11-17T13:00:15.872579+00:00"
+      "updated_at": "2026-11-18T12:52:55.594013+00:00"
     },
     "hunt-xss": {
       "name": "hunt-xss",
@@ -821,7 +821,7 @@
       "relative_path": "library/web/hunt-xss/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/hunt-xss/SKILL.md",
       "sha256": "fad790ac05164299eff8f2206160d23b79d2508ac930721e3d8835d746443714",
-      "updated_at": "2026-11-17T13:00:16.265684+00:00"
+      "updated_at": "2026-11-18T12:52:55.822009+00:00"
     },
     "hunt-xxe": {
       "name": "hunt-xxe",
@@ -830,7 +830,7 @@
       "relative_path": "library/web/hunt-xxe/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/hunt-xxe/SKILL.md",
       "sha256": "a74b466dfb2220787cd61c65860fa50c914b77c30151f04e63284a565c269069",
-      "updated_at": "2026-11-17T13:00:16.437409+00:00"
+      "updated_at": "2026-11-18T12:52:55.934438+00:00"
     },
     "m365-entra-attack": {
       "name": "m365-entra-attack",
@@ -839,7 +839,7 @@
       "relative_path": "library/cloud/m365-entra-attack/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/m365-entra-attack/SKILL.md",
       "sha256": "8b76a543adc6972925639cda19699f7c5b0c2f1d5d03411aaf81115df6d759ce",
-      "updated_at": "2026-11-17T13:00:16.823098+00:00"
+      "updated_at": "2026-11-18T12:52:56.111298+00:00"
     },
     "meme-coin-audit": {
       "name": "meme-coin-audit",
@@ -848,7 +848,7 @@
       "relative_path": "library/general/meme-coin-audit/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/meme-coin-audit/SKILL.md",
       "sha256": "e73eeb86751ac4578456e2058373cd02e812adcbbaec745c6733c78c2e147055",
-      "updated_at": "2026-11-17T13:00:17.034161+00:00"
+      "updated_at": "2026-11-18T12:52:56.231448+00:00"
     },
     "mid-engagement-ir-detection": {
       "name": "mid-engagement-ir-detection",
@@ -857,7 +857,7 @@
       "relative_path": "library/web/mid-engagement-ir-detection/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/mid-engagement-ir-detection/SKILL.md",
       "sha256": "50179c536601c05b98979e19c9b84132f85930820f77bc600991889f0db9b9f4",
-      "updated_at": "2026-11-17T13:00:17.199557+00:00"
+      "updated_at": "2026-11-18T12:52:56.346611+00:00"
     },
     "offensive-osint": {
       "name": "offensive-osint",
@@ -866,7 +866,7 @@
       "relative_path": "library/recon/offensive-osint/SKILL.md",
       "source": "elementalsouls/Claude-OSINT/skills/offensive-osint/SKILL.md",
       "sha256": "8fd578f585dff8dd53a46ccf3762243ad7cfd99fd9067fb2a13378bd0ec4e920",
-      "updated_at": "2026-11-17T13:00:52.288747+00:00"
+      "updated_at": "2026-11-18T12:53:23.542849+00:00"
     },
     "okta-attack": {
       "name": "okta-attack",
@@ -875,7 +875,7 @@
       "relative_path": "library/recon/okta-attack/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/okta-attack/SKILL.md",
       "sha256": "f52a55aca18604292d588fe5144bf1c5fed31e3c084c07cf9c15d90be3d3e589",
-      "updated_at": "2026-11-17T13:00:19.584658+00:00"
+      "updated_at": "2026-11-18T12:52:58.032918+00:00"
     },
     "osint-methodology": {
       "name": "osint-methodology",
@@ -884,7 +884,7 @@
       "relative_path": "library/recon/osint-methodology/SKILL.md",
       "source": "elementalsouls/Claude-OSINT/skills/osint-methodology/SKILL.md",
       "sha256": "4bdb54d71f53ed75ab2dd3dd4db83fd75744ca8dcba84a8e82520cf7a87e603f",
-      "updated_at": "2026-11-17T13:00:53.161387+00:00"
+      "updated_at": "2026-11-18T12:53:24.296628+00:00"
     },
     "redteam-mindset": {
       "name": "redteam-mindset",
@@ -893,7 +893,7 @@
       "relative_path": "library/reporting/redteam-mindset/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/redteam-mindset/SKILL.md",
       "sha256": "bbf42293aedfa03b65cb87d27ec16b811f7acf3d251191db0911e49a2f78dd45",
-      "updated_at": "2026-11-17T13:00:20.248048+00:00"
+      "updated_at": "2026-11-18T12:52:58.696814+00:00"
     },
     "redteam-report-template": {
       "name": "redteam-report-template",
@@ -911,7 +911,7 @@
       "relative_path": "library/reporting/report-writing/SKILL.md",
       "source": "Aetherdz/huntpack/skills/reporting/report-writing/SKILL.md",
       "sha256": "7a8595e5c26ded3f2c8be9f99c30fb4b10996db17c145d41263d5ba8411bb52c",
-      "updated_at": "2026-11-17T13:00:32.886380+00:00"
+      "updated_at": "2026-11-18T12:53:09.040141+00:00"
     },
     "security-arsenal": {
       "name": "security-arsenal",
@@ -920,7 +920,7 @@
       "relative_path": "library/reporting/security-arsenal/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/security-arsenal/SKILL.md",
       "sha256": "c33ecb1a5653501f532b714424aadb1cf8edc5759250b55a58a574b73cb9a0f0",
-      "updated_at": "2026-11-17T13:00:20.618189+00:00"
+      "updated_at": "2026-11-18T12:52:59.002252+00:00"
     },
     "supply-chain-attack-recon": {
       "name": "supply-chain-attack-recon",
@@ -929,7 +929,7 @@
       "relative_path": "library/recon/supply-chain-attack-recon/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/supply-chain-attack-recon/SKILL.md",
       "sha256": "4a63831cf5f775710682c38b7571ae806cd2ca8cd1cae2665359a180f2d8a73d",
-      "updated_at": "2026-11-17T13:00:20.812083+00:00"
+      "updated_at": "2026-11-18T12:52:59.223508+00:00"
     },
     "triage-validation": {
       "name": "triage-validation",
@@ -938,7 +938,7 @@
       "relative_path": "library/reporting/triage-validation/SKILL.md",
       "source": "Aetherdz/huntpack/skills/validation/triage-validation/SKILL.md",
       "sha256": "0882b0d5aad421556199bd6152e7f1ba6fa1a10c7157ae8159c4a02898f9091a",
-      "updated_at": "2026-11-17T13:00:37.230024+00:00"
+      "updated_at": "2026-11-18T12:53:12.260369+00:00"
     },
     "vmware-vcenter-attack": {
       "name": "vmware-vcenter-attack",
@@ -947,7 +947,7 @@
       "relative_path": "library/recon/vmware-vcenter-attack/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/vmware-vcenter-attack/SKILL.md",
       "sha256": "20a51bb02ad3ccf88fb565b367bd52059d2bc3837d2069432657b0aef1228042",
-      "updated_at": "2026-11-17T13:00:21.130758+00:00"
+      "updated_at": "2026-11-18T12:52:59.574429+00:00"
     },
     "web2-recon": {
       "name": "web2-recon",
@@ -956,7 +956,7 @@
       "relative_path": "library/recon/web2-recon/SKILL.md",
       "source": "Aetherdz/huntpack/skills/recon/web2-recon/SKILL.md",
       "sha256": "f007b9f761ebbdca4c47f27cee1cb5ac060be2dc1d8d95908aa812ba26363cc6",
-      "updated_at": "2026-11-17T13:00:30.365511+00:00"
+      "updated_at": "2026-11-18T12:53:07.057215+00:00"
     },
     "business-logic-hunter": {
       "name": "business-logic-hunter",
@@ -974,7 +974,7 @@
       "relative_path": "library/recon/web2-vuln-classes/SKILL.md",
       "source": "Aetherdz/huntpack/skills/hunting/web2-vuln-classes/SKILL.md",
       "sha256": "196e93431d268de7ebfc38779524e7035ff0396695609e188e80c8c8fd80060c",
-      "updated_at": "2026-11-17T13:00:27.038547+00:00"
+      "updated_at": "2026-11-18T12:53:04.575653+00:00"
     },
     "attack-path-builder": {
       "name": "attack-path-builder",
@@ -1091,7 +1091,7 @@
       "relative_path": "library/general/code-reviewer/SKILL.md",
       "source": "NVIDIA/SkillSpector/tests/fixtures/ssd/ssd_clean/SKILL.md",
       "sha256": "e532af5ebc3cde5097af8e455e52cd8df43c71feef3361655de7ea9ac01bb052",
-      "updated_at": "2026-11-17T13:04:25.224736+00:00"
+      "updated_at": "2026-11-18T12:56:11.299711+00:00"
     },
     "cpp-pro": {
       "name": "cpp-pro",
@@ -2621,7 +2621,7 @@
       "relative_path": "library/Web Vulnerabilities/graphql-introspection-abuse/SKILL.md",
       "source": "akashrpatil/awesome-offensive-security-skills/skills/bug-hunting/web-vulnerabilities/graphql-introspection-abuse/SKILL.md",
       "sha256": "9cf842d3640190a35562d5cfd47d87c26be3bbbb15564251dd6d30524dd6a812",
-      "updated_at": "2026-11-17T13:01:22.261211+00:00"
+      "updated_at": "2026-11-18T12:53:46.238957+00:00"
     },
     "jwt-algorithm-confusion": {
       "name": "jwt-algorithm-confusion",
@@ -3827,7 +3827,7 @@
       "relative_path": "library/Evasion/cobalt-strike-malleable-c2/SKILL.md",
       "source": "akashrpatil/awesome-offensive-security-skills/skills/red-teaming/evasion/cobalt-strike-malleable-c2/SKILL.md",
       "sha256": "9b8836b95bf5f950b55532eecce109f46e1d61701b2f27dea8e0dd36ae252096",
-      "updated_at": "2026-11-17T13:01:31.055981+00:00"
+      "updated_at": "2026-11-18T12:53:52.451590+00:00"
     },
     "active-directory-dcsync-attack": {
       "name": "active-directory-dcsync-attack",
@@ -9785,7 +9785,7 @@
       "relative_path": "library/reporting/web3-audit/SKILL.md",
       "source": "elementalsouls/Claude-BugHunter/skills/web3-audit/SKILL.md",
       "sha256": "6f29b97b4fc944b8a8b258f73890ab17d5672d85ceedae2a955a825c98c8a06b",
-      "updated_at": "2026-11-17T13:00:21.464632+00:00"
+      "updated_at": "2026-11-18T12:52:59.806655+00:00"
     },
     "bola": {
       "name": "bola",
@@ -9830,7 +9830,7 @@
       "relative_path": "library/general/mass-assignment/SKILL.md",
       "source": "Aetherdz/huntpack/skills/hunting/business-logic-hunter/reference/mass-assignment.md",
       "sha256": "607cfb907e975990385cbc99745767ff04fd0df8283372e1709a9e4c7fdff792",
-      "updated_at": "2026-11-17T13:00:25.332708+00:00"
+      "updated_at": "2026-11-18T12:53:03.225405+00:00"
     },
     "method-override": {
       "name": "method-override",
@@ -10744,245 +10744,245 @@
     "offensive-oauth": {
       "name": "offensive-oauth",
       "category": "api",
-      "description": "When this skill is active: 1. Load and apply the full methodology below as your operational checklist 2. Follow steps in order unless the user specifies otherwise 3. For each technique, consider applicability to the current target/context 4. Track which checklist items have been completed 5. Suggest",
+      "description": "OAuth 2.0 attack checklist: authorization code interception, redirecturi bypass, CSRF on OAuth flow, state parameter abuse, open redirector chaining, token leakage via Referer, PKCE bypass, and scope escalation. Use when testing OAuth implementations in web apps or bug bounty.",
       "relative_path": "library/api/offensive-oauth/SKILL.md",
-      "source": "SnailSploit/Claude-Red/Skills/auth/offensive-oauth/SKILL.md",
-      "sha256": "1202b700fac05d63cc78c959c084cbcf9c8cb4f3b00be6cec52c7ebc98f0ec52",
-      "updated_at": "2026-09-12T08:34:35.121414+00:00"
+      "source": "S1N6H/Bug-Bounty-Skills/skills/SnailSploit-Claude-Red-Skills-auth-offensive-oauth.md",
+      "sha256": "6a8d13649365f25c14d275717c7e1b83abe04ac04f3b874024b202e887d9bbb7",
+      "updated_at": "2026-11-18T12:50:39.280123+00:00"
     },
     "offensive-basic-exploitation": {
       "name": "offensive-basic-exploitation",
       "category": "general",
-      "description": "When this skill is active: 1. Load and apply the full methodology below as your operational checklist 2. Follow steps in order unless the user specifies otherwise 3. For each technique, consider applicability to the current target/context 4. Track which checklist items have been completed 5. Suggest",
+      "description": "Week 5 exploit development curriculum. Foundational exploitation techniques: controlling EIP/RIP, ROP chain construction, ret2libc, shellcode injection, heap spraying, bypass techniques for ASLR/NX/stack canaries. Use when building initial PoCs or understanding classic exploitation primitives.",
       "relative_path": "library/general/offensive-basic-exploitation/SKILL.md",
-      "source": "SnailSploit/Claude-Red/Skills/exploit-dev/offensive-basic-exploitation/SKILL.md",
-      "sha256": "92508b7739895c04e4cdb9b671d6c06f678f9d490b2a1bb23fd1ee5dc14ad028",
-      "updated_at": "2026-09-12T08:34:35.580030+00:00"
+      "source": "S1N6H/Bug-Bounty-Skills/skills/SnailSploit-Claude-Red-Skills-exploit-dev-offensive-basic-exploitation.md",
+      "sha256": "ce0b3342507b5261ca903b0df4bed60c82f2edcca5cd3811a3396de8122bcccc",
+      "updated_at": "2026-11-18T12:50:40.220690+00:00"
     },
     "offensive-crash-analysis": {
       "name": "offensive-crash-analysis",
       "category": "reporting",
-      "description": "When this skill is active: 1. Load and apply the full methodology below as your operational checklist 2. Follow steps in order unless the user specifies otherwise 3. For each technique, consider applicability to the current target/context 4. Track which checklist items have been completed 5. Suggest",
+      "description": "Week 4 exploit development curriculum. Crash triage and analysis methodology: WinDbg/GDB analysis, ASAN/MSAN output interpretation, exploitability assessment, register/stack trace reading, root cause identification. Use when analyzing crash dumps, assessing exploitability, or understanding fuzzer-ge",
       "relative_path": "library/reporting/offensive-crash-analysis/SKILL.md",
-      "source": "SnailSploit/Claude-Red/Skills/exploit-dev/offensive-crash-analysis/SKILL.md",
-      "sha256": "43212963900033f563cb23ad323d5a56d507142d2caeebba55b8c50605681a32",
-      "updated_at": "2026-09-12T08:34:35.688541+00:00"
+      "source": "S1N6H/Bug-Bounty-Skills/skills/SnailSploit-Claude-Red-Skills-exploit-dev-offensive-crash-analysis.md",
+      "sha256": "78d268096d1b5dbf2b7dae836c04780e8829798569e79d8a087769e089421615",
+      "updated_at": "2026-11-18T12:50:40.423859+00:00"
     },
     "offensive-exploit-dev-course": {
       "name": "offensive-exploit-dev-course",
       "category": "general",
-      "description": "When this skill is active: 1. Load and apply the full methodology below as your operational checklist 2. Follow steps in order unless the user specifies otherwise 3. For each technique, consider applicability to the current target/context 4. Track which checklist items have been completed 5. Suggest",
+      "description": "Full exploit development course roadmap and syllabus: weekly topics, recommended reading, lab setup, and learning path from vulnerability classes through advanced exploitation. Use to structure exploit dev training or onboard new researchers.",
       "relative_path": "library/general/offensive-exploit-dev-course/SKILL.md",
-      "source": "SnailSploit/Claude-Red/Skills/exploit-dev/offensive-exploit-dev-course/SKILL.md",
-      "sha256": "b3b87666645d63b80a5ba071dc1d7136b677073a40f5cabfd2fb578d2b0b7fa0",
-      "updated_at": "2026-09-12T08:34:35.808052+00:00"
+      "source": "S1N6H/Bug-Bounty-Skills/skills/SnailSploit-Claude-Red-Skills-exploit-dev-offensive-exploit-dev-course.md",
+      "sha256": "7a27302dc3de887248fba81e4f6bfa487cea558c51eaa22509718f1a3e195862",
+      "updated_at": "2026-11-18T12:50:40.566431+00:00"
     },
     "offensive-exploit-development": {
       "name": "offensive-exploit-development",
       "category": "logic",
-      "description": "When this skill is active: 1. Load and apply the full methodology below as your operational checklist 2. Follow steps in order unless the user specifies otherwise 3. For each technique, consider applicability to the current target/context 4. Track which checklist items have been completed 5. Suggest",
+      "description": "Exploit development operational guide: environment setup, debugging workflow, PoC development lifecycle, writing reliable exploits, using pwntools/pwndbg, heap exploitation techniques, and weaponization considerations. Use when actively developing exploits or setting up an exploit dev environment.",
       "relative_path": "library/logic/offensive-exploit-development/SKILL.md",
-      "source": "SnailSploit/Claude-Red/Skills/exploit-dev/offensive-exploit-development/SKILL.md",
-      "sha256": "22ae77955883399b00bfd4b10909f403869efc4c4b49e81ba065f1e477b83cce",
-      "updated_at": "2026-09-12T08:34:35.908795+00:00"
+      "source": "S1N6H/Bug-Bounty-Skills/skills/SnailSploit-Claude-Red-Skills-exploit-dev-offensive-exploit-development.md",
+      "sha256": "47e6070895fc59aaaf9680167c145a18370bc86f72c97fbb2e7c8b2e664efed6",
+      "updated_at": "2026-11-18T12:50:40.733466+00:00"
     },
     "offensive-mitigations": {
       "name": "offensive-mitigations",
       "category": "general",
-      "description": "When this skill is active: 1. Load and apply the full methodology below as your operational checklist 2. Follow steps in order unless the user specifies otherwise 3. For each technique, consider applicability to the current target/context 4. Track which checklist items have been completed 5. Suggest",
+      "description": "Security mitigation reference and bypass catalog: ASLR, DEP/NX, RELRO, stack canaries, CFI, sandboxing, seccomp. Covers both detection of enabled mitigations and known bypass techniques. Use when assessing target hardening or planning exploit mitigation bypasses.",
       "relative_path": "library/general/offensive-mitigations/SKILL.md",
-      "source": "SnailSploit/Claude-Red/Skills/exploit-dev/offensive-mitigations/SKILL.md",
-      "sha256": "cbd789c1bf8fd8110c511150169fc5b98e097a9419aa41647e35ced477b3a388",
-      "updated_at": "2026-09-12T08:34:36.011174+00:00"
+      "source": "S1N6H/Bug-Bounty-Skills/skills/SnailSploit-Claude-Red-Skills-exploit-dev-offensive-mitigations.md",
+      "sha256": "c8575fe630dae0bb5e473940950ad852f874c81c88c05efb7e82199400e2862d",
+      "updated_at": "2026-11-18T12:50:40.901914+00:00"
     },
     "offensive-bug-identification": {
       "name": "offensive-bug-identification",
       "category": "reporting",
-      "description": "When this skill is active: 1. Load and apply the full methodology below as your operational checklist 2. Follow steps in order unless the user specifies otherwise 3. For each technique, consider applicability to the current target/context 4. Track which checklist items have been completed 5. Suggest",
+      "description": "Systematic bug identification methodology: source code review patterns, black-box testing strategies, taint analysis, dangerous function hunting, data flow tracing, and automated scanning setup. Use for code audits, bug bounty triage, or building vulnerability identification pipelines.",
       "relative_path": "library/reporting/offensive-bug-identification/SKILL.md",
-      "source": "SnailSploit/Claude-Red/Skills/fuzzing/offensive-bug-identification/SKILL.md",
-      "sha256": "b80715679fc455a96585cbe25005b107963daa0c10e08df743b2ddbc017bc272",
-      "updated_at": "2026-09-12T08:34:36.258783+00:00"
+      "source": "S1N6H/Bug-Bounty-Skills/skills/SnailSploit-Claude-Red-Skills-fuzzing-offensive-bug-identification.md",
+      "sha256": "d456ccdcbe5033b94c76c972459a965dee841c6880419fe62cd608b1a5a5d932",
+      "updated_at": "2026-11-18T12:50:41.367172+00:00"
     },
     "offensive-fuzzing-course": {
       "name": "offensive-fuzzing-course",
       "category": "reporting",
-      "description": "When this skill is active: 1. Load and apply the full methodology below as your operational checklist 2. Follow steps in order unless the user specifies otherwise 3. For each technique, consider applicability to the current target/context 4. Track which checklist items have been completed 5. Suggest",
+      "description": "Week 2 of the exploit development curriculum. Covers fuzzing methodology: target selection, corpus generation, coverage-guided fuzzing with AFL++/libFuzzer, structured fuzzing, and triage/deduplication. Use when setting up fuzz campaigns, selecting harness strategies, or triaging fuzzer output.",
       "relative_path": "library/reporting/offensive-fuzzing-course/SKILL.md",
-      "source": "SnailSploit/Claude-Red/Skills/fuzzing/offensive-fuzzing-course/SKILL.md",
-      "sha256": "1094410fb2a89843e9f8d8447d1d28602fc5fd36b29481cdd45b47b5c768acdd",
-      "updated_at": "2026-09-12T08:34:36.369990+00:00"
+      "source": "S1N6H/Bug-Bounty-Skills/skills/SnailSploit-Claude-Red-Skills-fuzzing-offensive-fuzzing-course.md",
+      "sha256": "b880863d27c452b28ed6ba29f43308fed7edd767d4141d25ffe0a09164e4a9b0",
+      "updated_at": "2026-11-18T12:50:41.511476+00:00"
     },
     "offensive-vuln-classes": {
       "name": "offensive-vuln-classes",
       "category": "general",
-      "description": "When this skill is active: 1. Load and apply the full methodology below as your operational checklist 2. Follow steps in order unless the user specifies otherwise 3. For each technique, consider applicability to the current target/context 4. Track which checklist items have been completed 5. Suggest",
+      "description": "Exploit development curriculum covering core vulnerability classes with real-world CVE case studies: stack/heap buffer overflows, use-after-free, integer overflows, format strings, type confusion, and race conditions. Use when learning or teaching vuln classes, researching specific CVE patterns, or ",
       "relative_path": "library/general/offensive-vuln-classes/SKILL.md",
-      "source": "SnailSploit/Claude-Red/Skills/fuzzing/offensive-vuln-classes/SKILL.md",
-      "sha256": "85b7eeeded746de0962b27ed14984f483cb21d1444843e21bc531aba221985e0",
-      "updated_at": "2026-09-12T08:34:36.537786+00:00"
+      "source": "S1N6H/Bug-Bounty-Skills/skills/SnailSploit-Claude-Red-Skills-fuzzing-offensive-vuln-classes.md",
+      "sha256": "38dda84c76624755a2966619373659fc0d7fb93400f8ac8e6038c51c428ff78a",
+      "updated_at": "2026-11-18T12:50:41.791230+00:00"
     },
     "offensive-edr-evasion": {
       "name": "offensive-edr-evasion",
       "category": "general",
-      "description": "When this skill is active: 1. Load and apply the full methodology below as your operational checklist 2. Follow steps in order unless the user specifies otherwise 3. For each technique, consider applicability to the current target/context 4. Track which checklist items have been completed 5. Suggest",
+      "description": "EDR evasion offensive checklist: hook unhooking (user/kernel), direct syscalls, PPID spoofing, process injection variants, AMSI bypass, ETW patching, memory encryption, and behavior-based evasion. Use when planning EDR bypass during red team engagements or researching AV/EDR evasion techniques.",
       "relative_path": "library/general/offensive-edr-evasion/SKILL.md",
-      "source": "SnailSploit/Claude-Red/Skills/infrastructure/offensive-edr-evasion/SKILL.md",
-      "sha256": "e0131dc7f57fc7bd93bf17ec9e0eac4a228b07cb7afff35a7c45abb8a4c2958c",
-      "updated_at": "2026-09-12T08:34:36.679792+00:00"
+      "source": "S1N6H/Bug-Bounty-Skills/skills/SnailSploit-Claude-Red-Skills-infrastructure-offensive-edr-evasion.md",
+      "sha256": "ded0a7ccc07a309466450b24265e67f021c7a43be5df744980bb8c5823df6d3b",
+      "updated_at": "2026-11-18T12:50:42.039040+00:00"
     },
     "offensive-initial-access": {
       "name": "offensive-initial-access",
       "category": "network",
-      "description": "When this skill is active: 1. Load and apply the full methodology below as your operational checklist 2. Follow steps in order unless the user specifies otherwise 3. For each technique, consider applicability to the current target/context 4. Track which checklist items have been completed 5. Suggest",
+      "description": "Initial access techniques checklist: phishing (spear/smishing), credential stuffing, exposed service exploitation, supply chain attacks, watering hole, VPN/RDP brute force, public-facing application exploitation. Maps to MITRE ATT&CK TA0001. Use when planning initial access phases of red team engage",
       "relative_path": "library/network/offensive-initial-access/SKILL.md",
-      "source": "SnailSploit/Claude-Red/Skills/infrastructure/offensive-initial-access/SKILL.md",
-      "sha256": "f7752f0940b2f985aeb4a352f6a77d9ef8bc268fd22c1faa6b40e22ce00cf965",
-      "updated_at": "2026-09-12T08:34:36.805281+00:00"
+      "source": "S1N6H/Bug-Bounty-Skills/skills/SnailSploit-Claude-Red-Skills-infrastructure-offensive-initial-access.md",
+      "sha256": "d426f66b402c2142f0dfab1313c5bffaa329ac90fb5e6d15325c9df47ab7fcf6",
+      "updated_at": "2026-11-18T12:50:42.184512+00:00"
     },
     "offensive-keylogger-arch": {
       "name": "offensive-keylogger-arch",
       "category": "general",
-      "description": "When this skill is active: 1. Load and apply the full methodology below as your operational checklist 2. Follow steps in order unless the user specifies otherwise 3. For each technique, consider applicability to the current target/context 4. Track which checklist items have been completed 5. Suggest",
+      "description": "Low-level keylogger architecture design: kernel driver hooks (WHKEYBOARDLL, SetWindowsHookEx), ETW-based input capture, user-mode vs kernel-mode approaches, stealth techniques, and data exfiltration. Use for understanding input capture mechanisms, EDR evasion research, or malware architecture analys",
       "relative_path": "library/general/offensive-keylogger-arch/SKILL.md",
-      "source": "SnailSploit/Claude-Red/Skills/infrastructure/offensive-keylogger-arch/SKILL.md",
-      "sha256": "856f21f14f6645cd2c566f2504fe1ac42d23be51d21be80e966ed6b36509449c",
-      "updated_at": "2026-09-12T08:34:36.905529+00:00"
+      "source": "S1N6H/Bug-Bounty-Skills/skills/SnailSploit-Claude-Red-Skills-infrastructure-offensive-keylogger-arch.md",
+      "sha256": "dd35cdf6b31e1d959ac381ff1306321b74dff53232fd23090ff648abf3cef082",
+      "updated_at": "2026-11-18T12:50:42.335522+00:00"
     },
     "offensive-windows-boundaries": {
       "name": "offensive-windows-boundaries",
       "category": "general",
-      "description": "When this skill is active: 1. Load and apply the full methodology below as your operational checklist 2. Follow steps in order unless the user specifies otherwise 3. For each technique, consider applicability to the current target/context 4. Track which checklist items have been completed 5. Suggest",
+      "description": "Windows security boundary taxonomy and attack surface enumeration: kernel/user boundary, sandbox boundaries (LPAC, AppContainer), COM/RPC boundaries, hypervisor boundary, trust level transitions. Use when planning privilege escalation paths, sandbox escapes, or understanding Windows security archite",
       "relative_path": "library/general/offensive-windows-boundaries/SKILL.md",
-      "source": "SnailSploit/Claude-Red/Skills/infrastructure/offensive-windows-boundaries/SKILL.md",
-      "sha256": "a31cb44295c46284a3742f923f6a55175fb3d9a6f4f90e69fa3cab70bd4983c2",
-      "updated_at": "2026-09-12T08:34:37.078385+00:00"
+      "source": "S1N6H/Bug-Bounty-Skills/skills/SnailSploit-Claude-Red-Skills-infrastructure-offensive-windows-boundaries.md",
+      "sha256": "e82e50e8bb0f3eb223dd09e14ff18a965a7cd27731f952a731bb05becaf1947f",
+      "updated_at": "2026-11-18T12:50:42.687960+00:00"
     },
     "offensive-windows-mitigations": {
       "name": "offensive-windows-mitigations",
       "category": "general",
-      "description": "When this skill is active: 1. Load and apply the full methodology below as your operational checklist 2. Follow steps in order unless the user specifies otherwise 3. For each technique, consider applicability to the current target/context 4. Track which checklist items have been completed 5. Suggest",
+      "description": "Deep-dive on Windows exploit mitigations: ASLR, DEP/NX, CFG, CET/Shadow Stack, SEHOP, Heap Guard, ACG, Arbitrary Code Guard. Covers both the protection mechanism and known bypass techniques. Use when researching Windows exploit mitigations, planning bypass strategies, or understanding protection dep",
       "relative_path": "library/general/offensive-windows-mitigations/SKILL.md",
-      "source": "SnailSploit/Claude-Red/Skills/infrastructure/offensive-windows-mitigations/SKILL.md",
-      "sha256": "de31c49a6ecaa77f9fb4c351aef94bf661de03a4cac24b58b63fb7c31cca3b8f",
-      "updated_at": "2026-09-12T08:34:37.199442+00:00"
+      "source": "S1N6H/Bug-Bounty-Skills/skills/SnailSploit-Claude-Red-Skills-infrastructure-offensive-windows-mitigations.md",
+      "sha256": "a310f20ac3d47fba853f9db9ebca699ed0a1bfe382b4c46d5b2fd2bd23c21be1",
+      "updated_at": "2026-11-18T12:50:43.036331+00:00"
     },
     "offensive-osint-methodology": {
       "name": "offensive-osint-methodology",
       "category": "recon",
-      "description": "When this skill is active: 1. Load and apply the full methodology below as your operational checklist 2. Follow steps in order unless the user specifies otherwise 3. For each technique, consider applicability to the current target/context 4. Track which checklist items have been completed 5. Suggest",
+      "description": "Structured OSINT methodology framework: target definition, source selection, collection workflows, data correlation, timeline reconstruction, and reporting. Use to guide systematic OSINT campaigns or teach OSINT methodology.",
       "relative_path": "library/recon/offensive-osint-methodology/SKILL.md",
-      "source": "SnailSploit/Claude-Red/Skills/recon/offensive-osint-methodology/SKILL.md",
-      "sha256": "18349b7c43f418f7983f9e0279b7c4971606e681560e38597c03ee2d8f5a2735",
-      "updated_at": "2026-11-12T12:26:43.232481+00:00"
+      "source": "S1N6H/Bug-Bounty-Skills/skills/SnailSploit-Claude-Red-Skills-recon-offensive-osint-methodology.md",
+      "sha256": "cfdba289f7e9decd932e48a154432090706765097bfc917a3b1884e3bcac9922",
+      "updated_at": "2026-11-18T12:50:44.006913+00:00"
     },
     "offensive-fast-checking": {
       "name": "offensive-fast-checking",
       "category": "recon",
-      "description": "When this skill is active: 1. Load and apply the full methodology below as your operational checklist 2. Follow steps in order unless the user specifies otherwise 3. For each technique, consider applicability to the current target/context 4. Track which checklist items have been completed 5. Suggest",
+      "description": "Speed-optimized offensive checklist for rapid assessment: quick-win vulnerability patterns, fast recon shortcuts, automated scanner configurations, and triage shortcuts. Use for time-boxed assessments, CTF-speed engagements, or initial rapid surface mapping.",
       "relative_path": "library/recon/offensive-fast-checking/SKILL.md",
-      "source": "SnailSploit/Claude-Red/Skills/utility/offensive-fast-checking/SKILL.md",
-      "sha256": "f25479fa99f60fa70471fedd40daad09be897b43b0ed6783c45327962bb32f12",
-      "updated_at": "2026-09-12T08:34:38.268876+00:00"
+      "source": "S1N6H/Bug-Bounty-Skills/skills/SnailSploit-Claude-Red-Skills-utility-offensive-fast-checking.md",
+      "sha256": "6f308fa53e6143c1ae6f0b246b140a5bf27410d6d2231bac0131797b6ab68a5c",
+      "updated_at": "2026-11-18T12:50:44.759918+00:00"
     },
     "offensive-file-upload": {
       "name": "offensive-file-upload",
       "category": "web",
-      "description": "When this skill is active: 1. Load and apply the full methodology below as your operational checklist 2. Follow steps in order unless the user specifies otherwise 3. For each technique, consider applicability to the current target/context 4. Track which checklist items have been completed 5. Suggest",
+      "description": "File upload vulnerability checklist: MIME type bypass, extension bypass, magic byte manipulation, path traversal in filenames, stored XSS via SVG/HTML upload, server-side processing attacks, and race conditions. Use for assessing file upload endpoints in web app pentests or bug bounty.",
       "relative_path": "library/web/offensive-file-upload/SKILL.md",
-      "source": "SnailSploit/Claude-Red/Skills/web/offensive-file-upload/SKILL.md",
-      "sha256": "afd9029b2171fc5ffa70e2dc1deeab62ff362a0006f28ba98f2be475ca666b64",
-      "updated_at": "2026-09-12T08:34:38.633418+00:00"
+      "source": "S1N6H/Bug-Bounty-Skills/skills/SnailSploit-Claude-Red-Skills-web-offensive-file-upload.md",
+      "sha256": "4037cfc1eaa8c8274a40d17f1a69c60f2c60e2759e8bee788784a0bc0ceaee0d",
+      "updated_at": "2026-11-18T12:50:45.202221+00:00"
     },
     "offensive-idor": {
       "name": "offensive-idor",
       "category": "api",
-      "description": "When this skill is active: 1. Load and apply the full methodology below as your operational checklist 2. Follow steps in order unless the user specifies otherwise 3. For each technique, consider applicability to the current target/context 4. Track which checklist items have been completed 5. Suggest",
+      "description": "IDOR (Insecure Direct Object Reference) testing checklist: object ID enumeration, horizontal/vertical privilege escalation, GUID predictability, indirect references via hashes, chained IDOR, and API endpoint IDOR. Use for web app pentests and bug bounty IDOR discovery.",
       "relative_path": "library/api/offensive-idor/SKILL.md",
-      "source": "SnailSploit/Claude-Red/Skills/web/offensive-idor/SKILL.md",
-      "sha256": "03a3002dd293907c507c27107d44368668d26dcfccf6d9a25197b871f58f528e",
-      "updated_at": "2026-09-12T08:34:38.772249+00:00"
+      "source": "S1N6H/Bug-Bounty-Skills/skills/SnailSploit-Claude-Red-Skills-web-offensive-idor.md",
+      "sha256": "c6bc9e8af8315ca3b98ebf5b4496ecf8e0520b18cfe9722e4f9136af7a18f009",
+      "updated_at": "2026-11-18T12:50:45.458180+00:00"
     },
     "offensive-open-redirect": {
       "name": "offensive-open-redirect",
       "category": "web",
-      "description": "When this skill is active: 1. Load and apply the full methodology below as your operational checklist 2. Follow steps in order unless the user specifies otherwise 3. For each technique, consider applicability to the current target/context 4. Track which checklist items have been completed 5. Suggest",
+      "description": "Open redirect vulnerability checklist: parameter identification, bypass techniques (URL encoding, double slashes, CRLF injection, protocol handlers), chaining with OAuth/SSRF, and impact escalation paths. Use for web app testing and bug bounty open redirect discovery.",
       "relative_path": "library/web/offensive-open-redirect/SKILL.md",
-      "source": "SnailSploit/Claude-Red/Skills/web/offensive-open-redirect/SKILL.md",
-      "sha256": "3d298ca267a20ad24e687ffc891fc0013bb0edffd223d5e92adb21637d814aeb",
-      "updated_at": "2026-09-12T08:34:38.863026+00:00"
+      "source": "S1N6H/Bug-Bounty-Skills/skills/SnailSploit-Claude-Red-Skills-web-offensive-open-redirect.md",
+      "sha256": "9ff3e66b554e2f147f713d366accde38e9dbe1c7c971a5fd629249b405dd0dcc",
+      "updated_at": "2026-11-18T12:50:45.685211+00:00"
     },
     "offensive-parameter-pollution": {
       "name": "offensive-parameter-pollution",
       "category": "logic",
-      "description": "When this skill is active: 1. Load and apply the full methodology below as your operational checklist 2. Follow steps in order unless the user specifies otherwise 3. For each technique, consider applicability to the current target/context 4. Track which checklist items have been completed 5. Suggest",
+      "description": "HTTP parameter pollution (HPP) checklist: duplicate parameter injection, backend vs frontend parsing differences, WAF bypass via HPP, server-side vs client-side HPP, and practical exploitation patterns. Use when testing web applications for parameter handling flaws.",
       "relative_path": "library/logic/offensive-parameter-pollution/SKILL.md",
-      "source": "SnailSploit/Claude-Red/Skills/web/offensive-parameter-pollution/SKILL.md",
-      "sha256": "2e592bd02971ea873d74fbb980063ef6ae4e48aa8c10ca69af2b6f5386e318b7",
-      "updated_at": "2026-09-12T08:34:38.959122+00:00"
+      "source": "S1N6H/Bug-Bounty-Skills/skills/SnailSploit-Claude-Red-Skills-web-offensive-parameter-pollution.md",
+      "sha256": "1390a78b4dbc06cbc0dbb9e16966902f1036f1ebc48416a90723ad3b999ec775",
+      "updated_at": "2026-11-18T12:50:45.830645+00:00"
     },
     "offensive-race-condition": {
       "name": "offensive-race-condition",
       "category": "logic",
-      "description": "When this skill is active: 1. Load and apply the full methodology below as your operational checklist 2. Follow steps in order unless the user specifies otherwise 3. For each technique, consider applicability to the current target/context 4. Track which checklist items have been completed 5. Suggest",
+      "description": "Race condition (TOCTOU) testing checklist: identifying timing windows, Burp Suite Turbo Intruder, Last-Byte sync technique, rate limit bypass, double-spend attacks, and concurrent request exploitation. Use for web app race condition testing or bug bounty time-of-check-to-time-of-use bugs.",
       "relative_path": "library/logic/offensive-race-condition/SKILL.md",
-      "source": "SnailSploit/Claude-Red/Skills/web/offensive-race-condition/SKILL.md",
-      "sha256": "802e2f87e90c0f43f910e3440c4e57fd732d3ac24622c9ca3211fea62d1c5d27",
-      "updated_at": "2026-09-12T08:34:39.054186+00:00"
+      "source": "S1N6H/Bug-Bounty-Skills/skills/SnailSploit-Claude-Red-Skills-web-offensive-race-condition.md",
+      "sha256": "89586a906eb98fb5f83ad73049c8c76308a085930cb557182c5bb0104fab3991",
+      "updated_at": "2026-11-18T12:50:46.000117+00:00"
     },
     "offensive-rce": {
       "name": "offensive-rce",
       "category": "web",
-      "description": "When this skill is active: 1. Load and apply the full methodology below as your operational checklist 2. Follow steps in order unless the user specifies otherwise 3. For each technique, consider applicability to the current target/context 4. Track which checklist items have been completed 5. Suggest",
+      "description": "Remote Code Execution testing checklist: OS command injection, SSTI-to-RCE, deserialization RCE, file upload RCE, XXE with SSRF to RCE, RCE via dependency confusion, and CVE-based RCE patterns. Use for web app pentests and bug bounty RCE discovery.",
       "relative_path": "library/web/offensive-rce/SKILL.md",
-      "source": "SnailSploit/Claude-Red/Skills/web/offensive-rce/SKILL.md",
-      "sha256": "0a4b1fb7c2ad469c56aa78ecd6ddc26dfd5c485666f31eb2b2db0153cda416ff",
-      "updated_at": "2026-09-12T08:34:39.156377+00:00"
+      "source": "S1N6H/Bug-Bounty-Skills/skills/SnailSploit-Claude-Red-Skills-web-offensive-rce.md",
+      "sha256": "8ee9b548488df6a8a96815aebbe60f93018e8efc48999c26979ffcbbd7825447",
+      "updated_at": "2026-11-18T12:50:46.151785+00:00"
     },
     "offensive-request-smuggling": {
       "name": "offensive-request-smuggling",
       "category": "general",
-      "description": "When this skill is active: 1. Load and apply the full methodology below as your operational checklist 2. Follow steps in order unless the user specifies otherwise 3. For each technique, consider applicability to the current target/context 4. Track which checklist items have been completed 5. Suggest",
+      "description": "HTTP request smuggling checklist: CL.TE, TE.CL, TE.TE variants, detection with timing and differential responses, WAF bypass, cache poisoning, credential hijacking, and request smuggling via HTTP/2. Use when testing reverse proxy/load balancer configurations.",
       "relative_path": "library/general/offensive-request-smuggling/SKILL.md",
-      "source": "SnailSploit/Claude-Red/Skills/web/offensive-request-smuggling/SKILL.md",
-      "sha256": "67c54307ca8760a7c3d270bc708a9675f2c8d474d3715b64567a2e9a32db1f9c",
-      "updated_at": "2026-09-12T08:34:39.253968+00:00"
+      "source": "S1N6H/Bug-Bounty-Skills/skills/SnailSploit-Claude-Red-Skills-web-offensive-request-smuggling.md",
+      "sha256": "21b850dfd72b92a68876d49881acd6f150fb7a37f125e8331c61b7eb5a7bba1c",
+      "updated_at": "2026-11-18T12:50:46.309201+00:00"
     },
     "offensive-ssrf": {
       "name": "offensive-ssrf",
       "category": "web",
-      "description": "When this skill is active: 1. Load and apply the full methodology below as your operational checklist 2. Follow steps in order unless the user specifies otherwise 3. For each technique, consider applicability to the current target/context 4. Track which checklist items have been completed 5. Suggest",
+      "description": "Server-Side Request Forgery testing checklist: SSRF discovery, blind SSRF with out-of-band, cloud metadata endpoints (AWS/GCP/Azure), SSRF filter bypass techniques (IP encoding, DNS rebinding, redirect chains), and SSRF to RCE escalation. Use for web app SSRF testing and bug bounty.",
       "relative_path": "library/web/offensive-ssrf/SKILL.md",
-      "source": "SnailSploit/Claude-Red/Skills/web/offensive-ssrf/SKILL.md",
-      "sha256": "44c7b71e1b18a33b9d0f4695d44f8dfa43f1bd6e052116ccab928f6e546daeb5",
-      "updated_at": "2026-09-12T08:34:39.400174+00:00"
+      "source": "S1N6H/Bug-Bounty-Skills/skills/SnailSploit-Claude-Red-Skills-web-offensive-ssrf.md",
+      "sha256": "26abbe1380e5df5106a45e94a359fafa11827f88480e855114c779c408768344",
+      "updated_at": "2026-11-18T12:50:46.534611+00:00"
     },
     "offensive-waf-bypass": {
       "name": "offensive-waf-bypass",
       "category": "general",
-      "description": "When this skill is active: 1. Load and apply the full methodology below as your operational checklist 2. Follow steps in order unless the user specifies otherwise 3. For each technique, consider applicability to the current target/context 4. Track which checklist items have been completed 5. Suggest",
+      "description": "WAF bypass techniques checklist: encoding bypass (URL/HTML/Unicode/double encoding), case variation, comment injection, HTTP header manipulation, chunked encoding, IP rotation, timing attacks, and payload obfuscation per WAF vendor. Use when WAF is blocking payloads during web app tests.",
       "relative_path": "library/general/offensive-waf-bypass/SKILL.md",
-      "source": "SnailSploit/Claude-Red/Skills/web/offensive-waf-bypass/SKILL.md",
-      "sha256": "3802a36a09239a5b4ac9f187417865db556c28c8ba9cd1e008423140b9e8a4f7",
-      "updated_at": "2026-11-12T12:26:44.536048+00:00"
+      "source": "S1N6H/Bug-Bounty-Skills/skills/SnailSploit-Claude-Red-Skills-web-offensive-waf-bypass.md",
+      "sha256": "58b7a40c27cf068c6aff967e14350fe5b3e0f08baff7e5f2231e3f42ddaf8d15",
+      "updated_at": "2026-11-18T12:50:46.779260+00:00"
     },
     "offensive-xss": {
       "name": "offensive-xss",
       "category": "web",
-      "description": "When this skill is active: 1. Load and apply the full methodology below as your operational checklist 2. Follow steps in order unless the user specifies otherwise 3. For each technique, consider applicability to the current target/context 4. Track which checklist items have been completed 5. Suggest",
+      "description": "Cross-Site Scripting testing checklist: stored/reflected/DOM/blind XSS discovery, polyglot payloads, CSP bypass, XSS filter bypass, event handler injection, DOM clobbering, mutation XSS, and impact escalation (session hijack, phishing, keylogging). Use for web app XSS testing and bug bounty.",
       "relative_path": "library/web/offensive-xss/SKILL.md",
-      "source": "SnailSploit/Claude-Red/Skills/web/offensive-xss/SKILL.md",
-      "sha256": "6c688051d7e82ebcf3da3ec53aa25f49bdb4e332895d49132e0117462fa3ffb4",
-      "updated_at": "2026-09-12T08:34:39.661091+00:00"
+      "source": "S1N6H/Bug-Bounty-Skills/skills/SnailSploit-Claude-Red-Skills-web-offensive-xss.md",
+      "sha256": "4098bddb8aab047a6465e15564fa79be7552a0574f11455e66f2b46e779bc7ac",
+      "updated_at": "2026-11-18T12:50:46.936255+00:00"
     },
     "offensive-xxe": {
       "name": "offensive-xxe",
       "category": "web",
-      "description": "When this skill is active: 1. Load and apply the full methodology below as your operational checklist 2. Follow steps in order unless the user specifies otherwise 3. For each technique, consider applicability to the current target/context 4. Track which checklist items have been completed 5. Suggest",
+      "description": "XML External Entity injection testing checklist: classic XXE, blind XXE (out-of-band), XXE via file upload (SVG/docx), XXE in SOAP/REST, error-based XXE, XInclude attacks, and XXE filter bypass. Use for web app XXE testing and bug bounty.",
       "relative_path": "library/web/offensive-xxe/SKILL.md",
-      "source": "SnailSploit/Claude-Red/Skills/web/offensive-xxe/SKILL.md",
-      "sha256": "b56c15801faa3f3046d86071cab344fdda55dd97de266b06ed0bbaae54659685",
-      "updated_at": "2026-09-12T08:34:39.776708+00:00"
+      "source": "S1N6H/Bug-Bounty-Skills/skills/SnailSploit-Claude-Red-Skills-web-offensive-xxe.md",
+      "sha256": "7abb31e8abbfac749aac820142605523cd8600d508f833b80583ddda298841ca",
+      "updated_at": "2026-11-18T12:50:47.078219+00:00"
     },
     "email-domain-security": {
       "name": "email-domain-security",
@@ -12593,7 +12593,7 @@
       "relative_path": "library/reporting/template/SKILL.md",
       "source": "mukul975/Anthropic-Cybersecurity-Skills/skills/exploiting-nosql-injection-vulnerabilities/assets/template.md",
       "sha256": "48cc9b0727608869ec849c15d11e9a671762b79712f34d8c5965eb14586adfbb",
-      "updated_at": "2026-11-17T13:04:20.322499+00:00"
+      "updated_at": "2026-11-18T12:56:07.471269+00:00"
     },
     "acquiring-disk-image-with-dd-and-dcfldd": {
       "name": "acquiring-disk-image-with-dd-and-dcfldd",
@@ -12674,7 +12674,7 @@
       "relative_path": "library/ad/workflows/SKILL.md",
       "source": "mukul975/Anthropic-Cybersecurity-Skills/skills/exploiting-nopac-cve-2021-42278-42287/references/workflows.md",
       "sha256": "9393cf8522354f3f3c15ba618b1ce1c8831d0965662c368bdeff383f8492012e",
-      "updated_at": "2026-11-17T13:04:20.044944+00:00"
+      "updated_at": "2026-11-18T12:56:07.261785+00:00"
     },
     "analyzing-campaign-attribution-evidence": {
       "name": "analyzing-campaign-attribution-evidence",
@@ -12692,7 +12692,7 @@
       "relative_path": "library/recon/phishing/SKILL.md",
       "source": "mukul975/Anthropic-Cybersecurity-Skills/skills/analyzing-typosquatting-domains-with-dnstwist/SKILL.md",
       "sha256": "90c5c1a48f8437bda7244c2c22f4c5e7b41ca22d389d7a0a6b18a50909f69896",
-      "updated_at": "2026-11-17T13:02:10.980017+00:00"
+      "updated_at": "2026-11-18T12:54:24.932199+00:00"
     },
     "analyzing-cloud-storage-access-patterns": {
       "name": "analyzing-cloud-storage-access-patterns",
@@ -12773,7 +12773,7 @@
       "relative_path": "library/general/create-fake-materials-fake-website/SKILL.md",
       "source": "mukul975/Anthropic-Cybersecurity-Skills/skills/detecting-spearphishing-with-email-gateway/SKILL.md",
       "sha256": "3015374924723812858995f549396019c607837a16d22f32115a41323529ca58",
-      "updated_at": "2026-11-17T13:03:58.174240+00:00"
+      "updated_at": "2026-11-18T12:55:50.453439+00:00"
     },
     "analyzing-ethereum-smart-contract-vulnerabilities": {
       "name": "analyzing-ethereum-smart-contract-vulnerabilities",
@@ -12836,7 +12836,7 @@
       "relative_path": "library/network/transfer-of-funds/SKILL.md",
       "source": "mukul975/Anthropic-Cybersecurity-Skills/skills/building-soc-playbook-for-ransomware/SKILL.md",
       "sha256": "06729ad404d2adb5ae856758b1a9c25248c1ddb8236505aa59b52f5a5d99bc26",
-      "updated_at": "2026-11-17T13:02:34.712367+00:00"
+      "updated_at": "2026-11-18T12:54:44.590215+00:00"
     },
     "analyzing-linux-kernel-rootkits": {
       "name": "analyzing-linux-kernel-rootkits",
@@ -13097,7 +13097,7 @@
       "relative_path": "library/reporting/electronic-funds-transfer-wire-transfer/SKILL.md",
       "source": "mukul975/Anthropic-Cybersecurity-Skills/skills/detecting-deepfake-audio-in-vishing-attacks/SKILL.md",
       "sha256": "e8ce6d9cc41ef12caa0f0738f45ccdc24c00012ed3cfdd993f161b6be6367d58",
-      "updated_at": "2026-11-17T13:03:31.894494+00:00"
+      "updated_at": "2026-11-18T12:55:29.883560+00:00"
     },
     "structuring": {
       "name": "structuring",
@@ -13520,7 +13520,7 @@
       "relative_path": "library/reporting/access-with-stolen-session-cookie/SKILL.md",
       "source": "mukul975/Anthropic-Cybersecurity-Skills/skills/executing-phishing-simulation-campaign/SKILL.md",
       "sha256": "b0c885c88def8221a226619ef4a52d02d9500e95865cb8fc9aa6cd62652ca6c8",
-      "updated_at": "2026-11-17T13:04:07.905926+00:00"
+      "updated_at": "2026-11-18T12:55:57.906451+00:00"
     },
     "account-takeover": {
       "name": "account-takeover",
@@ -13538,7 +13538,7 @@
       "relative_path": "library/reporting/building-incident-response-dashboard/SKILL.md",
       "source": "mukul975/Anthropic-Cybersecurity-Skills/skills/building-incident-response-dashboard/SKILL.md",
       "sha256": "0af0957e9bf6fc313fe475849bccab88ac1ddedae19cd9dc57aee0d1cda899b0",
-      "updated_at": "2026-11-17T13:02:26.632986+00:00"
+      "updated_at": "2026-11-18T12:54:37.723196+00:00"
     },
     "building-incident-response-playbook": {
       "name": "building-incident-response-playbook",
@@ -13952,7 +13952,7 @@
       "relative_path": "library/ad/account-takeover-exposed-login-credential/SKILL.md",
       "source": "mukul975/Anthropic-Cybersecurity-Skills/skills/detecting-t1003-credential-dumping-with-edr/SKILL.md",
       "sha256": "8459c9972ba2cac6d747c67fcda8cc687105180a560f1697db75a5f61aaba9af",
-      "updated_at": "2026-11-17T13:04:01.078810+00:00"
+      "updated_at": "2026-11-18T12:55:52.604702+00:00"
     },
     "conducting-post-incident-lessons-learned": {
       "name": "conducting-post-incident-lessons-learned",
@@ -14033,7 +14033,7 @@
       "relative_path": "library/cloud/steal-web-session-cookie/SKILL.md",
       "source": "mukul975/Anthropic-Cybersecurity-Skills/skills/detecting-anomalous-authentication-patterns/SKILL.md",
       "sha256": "9a97dad02e90f0ba15b6b090673d763820e7d4160a50898093a2b8c6d7bd5cbc",
-      "updated_at": "2026-11-17T13:03:19.167424+00:00"
+      "updated_at": "2026-11-18T12:55:19.610375+00:00"
     },
     "adversary-in-the-middle": {
       "name": "adversary-in-the-middle",
@@ -14096,7 +14096,7 @@
       "relative_path": "library/network/configuring-suricata-for-network-monitoring/SKILL.md",
       "source": "mukul975/Anthropic-Cybersecurity-Skills/skills/configuring-suricata-for-network-monitoring/SKILL.md",
       "sha256": "1fbbfe83f93dfabb405cb2e04409b5d8dafad0dfb8b741ab664c8ee059e3c8e4",
-      "updated_at": "2026-11-17T13:03:04.639404+00:00"
+      "updated_at": "2026-11-18T12:55:08.745987+00:00"
     },
     "configuring-tls-1-3-for-secure-communications": {
       "name": "configuring-tls-1-3-for-secure-communications",
@@ -14231,7 +14231,7 @@
       "relative_path": "library/logic/indicator-removal/SKILL.md",
       "source": "mukul975/Anthropic-Cybersecurity-Skills/skills/detecting-ransomware-encryption-behavior/SKILL.md",
       "sha256": "b15452fb51b28cf49053812f8cdd80ee360b1c4b0cd7296a1cbf854cd194aa23",
-      "updated_at": "2026-11-17T13:03:54.044174+00:00"
+      "updated_at": "2026-11-18T12:55:47.212026+00:00"
     },
     "deploying-edr-agent-with-crowdstrike": {
       "name": "deploying-edr-agent-with-crowdstrike",
@@ -14537,7 +14537,7 @@
       "relative_path": "library/network/convert-to-cryptocurrency/SKILL.md",
       "source": "mukul975/Anthropic-Cybersecurity-Skills/skills/detecting-ransomware-precursors-in-network/SKILL.md",
       "sha256": "29925505b82958f5d2b7feac8b6a481c263a93e1ccdbf421019c4d26fe5b8711",
-      "updated_at": "2026-11-17T13:03:54.374160+00:00"
+      "updated_at": "2026-11-18T12:55:47.491032+00:00"
     },
     "detecting-data-and-model-poisoning": {
       "name": "detecting-data-and-model-poisoning",
@@ -16760,7 +16760,7 @@
       "relative_path": "library/general/amm-dex/SKILL.md",
       "source": "Gabson0x/bountyforge/skills/smart-contract-audit/reference/ton/protocols/amm-dex.md",
       "sha256": "32f34667e4d596f8179018b7d85eb168f35fba7c750c08568ec3c580bc44d89e",
-      "updated_at": "2026-11-17T12:59:59.007618+00:00"
+      "updated_at": "2026-11-18T12:52:43.886404+00:00"
     },
     "governance": {
       "name": "governance",
@@ -16769,7 +16769,7 @@
       "relative_path": "library/general/governance/SKILL.md",
       "source": "Gabson0x/bountyforge/skills/smart-contract-audit/reference/solidity/protocols/governance.md",
       "sha256": "9cd512d3858e36074b3f33b5615fe56c294de240dc4f41a0280fde283f43a061",
-      "updated_at": "2026-11-17T12:59:51.629739+00:00"
+      "updated_at": "2026-11-18T12:52:38.679940+00:00"
     },
     "lending": {
       "name": "lending",
@@ -16778,7 +16778,7 @@
       "relative_path": "library/general/lending/SKILL.md",
       "source": "Gabson0x/bountyforge/skills/smart-contract-audit/reference/ton/protocols/lending.md",
       "sha256": "edc9424bba49a11dde309d623a1d7f88510f27977f8f20c90fd7199269bca76d",
-      "updated_at": "2026-11-17T12:59:59.326977+00:00"
+      "updated_at": "2026-11-18T12:52:44.113842+00:00"
     },
     "oracle": {
       "name": "oracle",
@@ -16787,7 +16787,7 @@
       "relative_path": "library/network/oracle/SKILL.md",
       "source": "Gabson0x/bountyforge/skills/smart-contract-audit/reference/ton/protocols/oracle.md",
       "sha256": "7a7ef032609ca1252bb65573d6858d250d3bada5ee73ca0c8c65821851cbf43b",
-      "updated_at": "2026-11-17T12:59:59.513175+00:00"
+      "updated_at": "2026-11-18T12:52:44.241754+00:00"
     },
     "staking": {
       "name": "staking",
@@ -16796,7 +16796,7 @@
       "relative_path": "library/general/staking/SKILL.md",
       "source": "Gabson0x/bountyforge/skills/smart-contract-audit/reference/ton/protocols/staking.md",
       "sha256": "bbc08dfff33c0652b74d572bf733367ef7dfd2b3cda2f2a17e0b777eaed81745",
-      "updated_at": "2026-11-17T12:59:59.696195+00:00"
+      "updated_at": "2026-11-18T12:52:44.373108+00:00"
     },
     "fv-mov-1-cl1-copy-ability-duplication": {
       "name": "fv-mov-1-cl1-copy-ability-duplication",
@@ -18443,7 +18443,7 @@
       "relative_path": "library/logic/order-lookup/SKILL.md",
       "source": "NVIDIA/SkillSpector/tests/fixtures/sqp/sqp2_tool_instructed/SKILL.md",
       "sha256": "d69b65af2416be8993117a52514485d346c9c82cf5ac720e92c31b534574f3c1",
-      "updated_at": "2026-11-17T13:04:24.001023+00:00"
+      "updated_at": "2026-11-18T12:56:10.370680+00:00"
     },
     "error-explainer": {
       "name": "error-explainer",
@@ -18452,7 +18452,7 @@
       "relative_path": "library/general/error-explainer/SKILL.md",
       "source": "NVIDIA/SkillSpector/tests/fixtures/sqp/sqp3_plain_english_override/SKILL.md",
       "sha256": "e5d29dc2e9341ecb679306ac7afa01f40646a7ccc71e594a97211c1d9ec493be",
-      "updated_at": "2026-11-17T13:04:24.652859+00:00"
+      "updated_at": "2026-11-18T12:56:10.873127+00:00"
     },
     "01-recon-osint": {
       "name": "01-recon-osint",

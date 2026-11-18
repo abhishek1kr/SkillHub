@@ -1,6 +1,6 @@
 ---
 name: offensive-oauth
-description: When this skill is active: 1. Load and apply the full methodology below as your operational checklist 2. Follow steps in order unless the user specifies otherwise 3. For each technique, consider applicability to the current target/contex...
+description: OAuth 2.0 attack checklist: authorization code interception, redirecturi bypass, CSRF on OAuth flow, state parameter abuse, open redirector chaining, token leakage via Referer, PKCE bypass, and scope escalation. Use when testing OAuth im...
 category: api
 ---
 
