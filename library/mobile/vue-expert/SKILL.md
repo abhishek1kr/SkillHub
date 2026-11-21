@@ -1,6 +1,6 @@
 ---
 name: vue-expert
-description: Builds Vue 3 components with Composition API patterns, configures Nuxt 3 SSR/SSG projects, sets up Pinia stores, scaffolds Quasar/Capacitor mobile apps, implements PWA features, and optimises Vite builds. Use when creating Vue 3 applicat...
+description: Builds Vue 3 components with Composition API patterns, renders Vue on the server without Nuxt, sets up Pinia stores, scaffolds Quasar/Capacitor mobile apps, implements PWA features, and optimises Vite builds. Use when creating Vue 3 appl...
 category: mobile
 ---
 
@@ -26,7 +26,7 @@ Load detailed guidance based on context:
 | Composition API | `references/composition-api.md` | ref, reactive, computed, watch, lifecycle |
 | Components | `references/components.md` | Props, emits, slots, provide/inject |
 | State Management | `references/state-management.md` | Pinia stores, actions, getters |
-| Nuxt 3 | `references/nuxt.md` | SSR, file-based routing, useFetch, Fastify, hydration |
+| Vue SSR (non-Nuxt) | `references/ssr.md` | Custom SSR with Fastify, hydration mismatches, lazy hydration; Nuxt apps use `nuxt-expert` |
 | TypeScript | `references/typescript.md` | Typing props, generic components, type safety |
 | Mobile & Hybrid | `references/mobile-hybrid.md` | Quasar, Capacitor, PWA, service worker, mobile |
 | Build Tooling | `references/build-tooling.md` | Vite config, sourcemaps, optimization, bundling |
@@ -86,7 +86,7 @@ When implementing Vue features, provide:
 
 ## Knowledge Reference
 
-Vue 3 Composition API, Pinia, Nuxt 3, Vue Router 4, Vite, VueUse, TypeScript, Vitest, Vue Test Utils, SSR/SSG, reactive programming, performance optimization
+Vue 3 Composition API, Pinia, Vue Router 4, Vite, VueUse, TypeScript, Vitest, Vue Test Utils, SSR/SSG, reactive programming, performance optimization
 
 Maintained by [@jeffallan](https://github.com/jeffallan), Principal Consultant at [Synergetic Solutions](https://synergetic.solutions)
 
